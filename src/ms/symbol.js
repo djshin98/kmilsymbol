@@ -125,7 +125,8 @@ Symbol.prototype.setOptions = setOptions;
 
 Symbol.prototype.toDataURL = function() {
   return (
-    "data:image/svg+xml;base64," + window.btoa(unescape(encodeURIComponent(this.asSVG())))
+    "data:image/svg+xml;base64," +
+    window.btoa(unescape(encodeURIComponent(this.asSVG())))
   );
 };
 
