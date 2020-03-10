@@ -75,6 +75,7 @@ ms.reset = function() {
     this._STD2525 = true;
     this._svgNS = "http://www.w3.org/2000/svg";
     this._symbolParts = [];
+
     ms.addSymbolPart(basegeometry);
     ms.addSymbolPart(icon);
     ms.addSymbolPart(modifier);

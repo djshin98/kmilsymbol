@@ -1,0 +1,58 @@
+<!doctype html>
+<html ng-app="symbolTestApp">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .symbol-table td {
+            vertical-align: top;
+        }
+        
+        .list-of-symbols img.symbol-sm {
+            vertical-align: middle;
+        }
+    </style>
+    <script src="../../dist/milsymbol.development.js"></script>
+    <script src="app.js"></script>
+</head>
+
+<body>
+
+
+    <p>Example:</p>
+    <code>
+<pre>
+    &lt;milsymbol sic="SFG-UCIZ---B" size="40"&gt;&lt;/milsymbol&gt;
+</pre>
+</code>
+
+    <h2>Two way bindings</h2>
+
+    <div ng-controller="SymbolController">
+        <table class="symbol-table">
+            <tr>
+                <td>
+                    <form>
+                        Size:
+                        <br>
+                        <input id="symbolSize" type="number" placeholder="Symbol size" />
+                        <br> SIDC:
+                        <br>
+                        <input id="symbolCode" type="text" nplaceholder="Symbol identification code" value="SFG-UCIZ---B">
+                        <br> Unique designation:
+                        <br>
+                        <input id="symbolLabel" type="text">
+                        <br>
+
+                    </form>
+                </td>
+                <td>
+                    <div id="symbolResult"></div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
