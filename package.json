@@ -21,14 +21,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/spatialillusions/milsymbol"
+        "url": "https://github.com/djshin98/kmilsymbol.git"
     },
-    "author": "Måns Beckman (http://www.spatialillusions.com)",
+    "author": "djshin",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/spatialillusions/milsymbol/issues"
+        "url": "https://github.com/djshin98/kmilsymbol/issues"
     },
-    "homepage": "https://github.com/spatialillusions/milsymbol",
+    "homepage": "https://github.com/djshin98/kmilsymbol",
     "devDependencies": {
         "eslint": "^5.16.0",
         "eslint-plugin-prettier": "^3.1.0",
