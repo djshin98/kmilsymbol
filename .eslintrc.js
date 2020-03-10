@@ -1,3 +1,5 @@
+/* rules 에서 "prettier/prettier": "error", 삭제 */
+
 module.exports = {
     extends: "eslint:recommended",
     env: {
@@ -5,12 +7,12 @@ module.exports = {
         commonjs: true
     },
     parserOptions: {
-        ecmaVersion: 6,
+        ecmaVersion: 5,
         sourceType: "module"
     },
     plugins: ["prettier"],
     rules: {
-        "prettier/prettier": "error",
+
         "linebreak-style": ["error", "windows"],
         "no-console": ["error", { allow: ["info", "warn", "error"] }],
         "no-unused-vars": ["error", { vars: "all", args: "none" }],

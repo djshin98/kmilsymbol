@@ -11,7 +11,7 @@
     "scripts": {
         "lint": "eslint src test --fix",
         "prebuild": "npm run lint && npm test",
-        "build": "npm run bundle && npm run minify",
+        "build": "npm run bundle",
         "build-amd": "npm run bundle-amd && npm run minify-amd",
         "bundle": "rollup -c",
         "bundle-amd": "rollup -c rollup.config.amd.js",

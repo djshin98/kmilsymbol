@@ -1,3 +1,4 @@
+/* eslint-disable */
 /* ***************************************************************************************
 Letter based SIDC
 *************************************************************************************** */
@@ -19,61 +20,61 @@ import tacticalpoints2525 from "./lettersidc/sidc/tactical-points-2525.js";
 import tacticalpointsapp6 from "./lettersidc/sidc/tactical-points-app6.js";
 
 var app6b = [
-  space,
-  air,
-  ground,
-  equipment,
-  installations,
-  sea,
-  subsurface,
-  sof,
-  tacticalpointsapp6
+    space,
+    air,
+    ground,
+    equipment,
+    installations,
+    sea,
+    subsurface,
+    sof,
+    tacticalpointsapp6
 ];
 var std2525b = [
-  space,
-  air,
-  ground,
-  equipment,
-  installations,
-  sea,
-  subsurface,
-  sof,
-  signalsIntelligence,
-  stabilityoperations,
-  std2525bextra,
-  tacticalpoints2525
+    space,
+    air,
+    ground,
+    equipment,
+    installations,
+    sea,
+    subsurface,
+    sof,
+    signalsIntelligence,
+    stabilityoperations,
+    std2525bextra,
+    tacticalpoints2525
 ];
 var std2525c = [
-  space,
-  air,
-  ground,
-  equipment,
-  installations,
-  sea,
-  subsurface,
-  sof,
-  signalsIntelligence,
-  stabilityoperations,
-  emergencymanagementsymbols,
-  tacticalpoints2525
+    space,
+    air,
+    ground,
+    equipment,
+    installations,
+    sea,
+    subsurface,
+    sof,
+    signalsIntelligence,
+    stabilityoperations,
+    emergencymanagementsymbols,
+    tacticalpoints2525
 ];
 
 export {
-  app6b,
-  std2525b,
-  std2525c,
-  space,
-  air,
-  ground,
-  equipment,
-  installations,
-  sea,
-  subsurface,
-  sof,
-  signalsIntelligence,
-  stabilityoperations,
-  emergencymanagementsymbols,
-  std2525bextra,
-  tacticalpoints2525,
-  tacticalpointsapp6
+    app6b,
+    std2525b,
+    std2525c,
+    space,
+    air,
+    ground,
+    equipment,
+    installations,
+    sea,
+    subsurface,
+    sof,
+    signalsIntelligence,
+    stabilityoperations,
+    emergencymanagementsymbols,
+    std2525bextra,
+    tacticalpoints2525,
+    tacticalpointsapp6
 };
