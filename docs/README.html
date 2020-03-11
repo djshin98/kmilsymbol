@@ -1,0 +1,82 @@
+<html><head></head><body><h1 id="milsymbol">Milsymbol</h1>
+<p><a href="https://travis-ci.org/spatialillusions/milsymbol"><img src="https://travis-ci.org/spatialillusions/milsymbol.svg?branch=master" alt="Build Status"></a></p>
+<p>Milsymbol is a small library in pure javascript that creates military unit symbols according to MIL-STD-2525 and STANAG APP-6.</p>
+<p><img src="https://github.com/spatialillusions/milsymbol/blob/master/docs/images/milsymbol.png?raw=true" alt="Figure 13"></p>
+<pre><code class="language-javascript">new ms.Symbol(&quot;sfgpewrh--mt&quot;, {
+  size: 35,
+  quantity: 200,
+  staffComments: &quot;for reinforcements&quot;.toUpperCase(),
+  additionalInformation: &quot;added support for JJ&quot;.toUpperCase(),
+  direction: (750 * 360) / 6400,
+  type: &quot;machine gun&quot;.toUpperCase(),
+  dtg: &quot;30140000ZSEP97&quot;,
+  location: &quot;0900000.0E570306.0N&quot;
+}).asSVG();</code></pre>
+<p>Compared to reference figure from MIL-STD-2525C:</p>
+<p><img src="https://github.com/spatialillusions/milsymbol/blob/master/docs/images/figure13.png?raw=true" alt="Figure 13"></p>
+<h2 id="milsymbol-summary">Milsymbol summary</h2>
+<p>Milsymbol supports a lot of different options:</p>
+<ul>
+<li>NATO or US standards (MIL-STD-2525C, MIL-STD-2525D, STANAG APP-6 B, STANAG APP-6 D)</li>
+<li>Filled/Unfilled symbols</li>
+<li>Framed/Unframed symbols</li>
+<li>Text fields</li>
+<li>Movement indicators</li>
+<li>SVG/Canvas output (using SVG or Canvas draw instructions)</li>
+<li>Outlines of symbols</li>
+<li>and much more...</li>
+</ul>
+<p>For detailed descriptions of what is possible with milsymbol, see the API documentation under /docs.</p>
+<p>Milsymbol can be integrated with most common javascript libraries, such as:</p>
+<ul>
+<li>Angular</li>
+<li>Cesium</li>
+<li>D3</li>
+<li>LeafLet</li>
+<li>Node.js</li>
+<li>Open Layers 3</li>
+<li>and also in ScriptEngine in Java, and QtJSEngine in C++...</li>
+</ul>
+<p>Examples of some of the integrations are included with milsymbol.</p>
+<p>You can find all documentaion and examples at:
+<a href="http://spatialillusions.com/milsymbol/">http://spatialillusions.com/milsymbol/</a></p>
+<h2 id="getting-started">Getting started</h2>
+<p>You can download <a href="https://github.com/spatialillusions/milsymbol" title="milsymbol">milsymbol from GitHub</a>, or install it using npm:
+<code>npm install milsymbol</code></p>
+<p>To create your first symbol you use the symbol method to create a symbol object:</p>
+<p><code>ms.Symbol(SIDC,{options})</code></p>
+<p>To make a symbol for an infantry platoon the syntax would be:</p>
+<p><code>var sym = new ms.Symbol(&quot;SFG-UCI----D&quot;);</code></p>
+<p>And <code>sym</code> will now be a symbol object containing information about the size and draw instructions.</p>
+<p>But you want something to put on your screen, and since milsymbol provides different ways to draw symbol, using SVG or Canvas, you will have to use the method that provides you with the output you want, so we use <code>asCanvas()</code> or <code>asSVG()</code> that returns a canvas element containing the symbol or a XML representation of the SVG:</p>
+<p><code>var canvasElement = sym.asCanvas();</code></p>
+<p>And if you don&#39;t want to make it step by step, you can chain it all together like this:</p>
+<p><code>var canvasElement = new ms.Symbol(&quot;SFG-UCI----D&quot;).asCanvas();</code></p>
+<p><img src="https://github.com/spatialillusions/milsymbol/blob/master/docs/images/infantry-platoon.png?raw=true" alt="Infantry Platoon"></p>
+<p>Options you provided to your symbol can change the size of the symbol, define if it should be filled/unfilled, add text information, and much more; you can read more about all properties and methods in the API documentation provided with milsymbol.</p>
+<p>The options can be set when you create your symbol:</p>
+<p><code>var sym = new ms.Symbol(&quot;SFG-UCI----D&quot;,{size:35}).asCanvas();</code></p>
+<p>Or they can be updated at any time using <code>setOptions(options)</code>:</p>
+<pre><code>var sym = new ms.Symbol(&quot;SFG-UCI----D&quot;);
+sym.setOptions({size:35});
+var canvasElement = sym.asCanvas();</code></pre><p>Your symbol object will also contain information about what offset that should be used to get a correct placement, this information can be retrieved with <code>getAnchor()</code> and it will return an object with the x and y offset, you will also have access to information about what size the created symbol have and detailed information about colors used.</p>
+<p>The library is built on the idea that everything used inside milsymbol should be accessable outside milsymbol so that it is easy to extend the library with custom functionallity.</p>
+<h2 id="technology">Technology</h2>
+<p>Milsymbol uses pure javascript to create SVG, Scalable Vector Graphics, and also has built in for native Canvas support.</p>
+<ul>
+<li>No external dependencies, just one javascript file required</li>
+<li>Super fast, can create 1000 symbols in less than 25 milliseconds (SVG output)</li>
+</ul>
+<p>The symbols are created using building blocks defined in the code and no images or fonts are used, this makes it possible to modify almost every aspect of the symbols, such as fill, frame, color, size, stroke width and easily switch between APP6 and 2525 symbology.</p>
+<p>To see what is possible with milsymbol use the unit test documents in the docs folder that lists all tabels and figures from the different standards using MilSymbol. (The documents use milsymbol to render every image that you see, look into the code if you want to see how it is done.)</p>
+<p>Milsymbol can easily be extended with new functionality and examples of this can be found at: <a href="https://github.com/spatialillusions/milsymbol-extensions">https://github.com/spatialillusions/milsymbol-extensions</a></p>
+<h2 id="contact">Contact</h2>
+<p>Milsymbol is created and maintained by Måns Beckman</p>
+<ul>
+<li><a href="http://www.spatialillusions.com">http://www.spatialillusions.com</a> to see more examples of what milsymbol can be used for</li>
+<li><a href="https://twitter.com/spatialillusion">https://twitter.com/spatialillusion</a> for milsymbol and mapping/military related information</li>
+</ul>
+<h2 id="licensing">Licensing</h2>
+<p>MIT, See <a href="LICENSE">LICENSE</a> for details.</p>
+<p>Even if I&#39;m giving it away for free, I don&#39;t mind if you would like to send me some cool company giveaways or unit badges. Just send me an email and and I will provide you with my address.</p>
+</body></html>

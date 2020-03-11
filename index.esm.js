@@ -1,44 +1,50 @@
 /* ***************************************************************************************
 ES6 version of milsymbol
 *************************************************************************************** */
-export { ms } from "./src/milsymbol.js";
-export { app6b, std2525b, std2525c } from "./src/lettersidc.js";
+export { ms }
+from "./src/milsymbol.js";
+export { app6b, std2525b, std2525c }
+from "./src/lettersidc.js";
 export {
-  space as letterspace,
-  air as letterair,
-  ground as letterground,
-  equipment as letterequipment,
-  installations as letterinstallations,
-  sea as lettersea,
-  subsurface as lettersubsurface,
-  sof as lettersof,
-  signalsIntelligence as lettersignalsIntelligence,
-  stabilityoperations as letterstabilityoperations,
-  emergencymanagementsymbols as letteremergencymanagementsymbols,
-  std2525bextra as letterstd2525bextra,
-  tacticalpoints2525 as lettertacticalpoints2525,
-  tacticalpointsapp6 as lettertacticalpointsapp6
-} from "./src/lettersidc.js";
-export { app6d, std2525d } from "./src/numbersidc.js";
+    space as letterspace,
+    air as letterair,
+    ground as letterground,
+    equipment as letterequipment,
+    installations as letterinstallations,
+    sea as lettersea,
+    subsurface as lettersubsurface,
+    sof as lettersof,
+    signalsIntelligence as lettersignalsIntelligence,
+    stabilityoperations as letterstabilityoperations,
+    emergencymanagementsymbols as letteremergencymanagementsymbols,
+    std2525bextra as letterstd2525bextra,
+    tacticalpoints2525 as lettertacticalpoints2525,
+    tacticalpointsapp6 as lettertacticalpointsapp6
+}
+from "./src/lettersidc.js";
+export { app6d, std2525d }
+from "./src/numbersidc.js";
 export {
-  air as numberair,
-  airmissile as numberairmissile,
-  space as numberspace,
-  spacemissile as numberspacemissile,
-  landunit as numberlandunit,
-  landcivilian as numberlandcivilian,
-  landequipment as numberlandequipment,
-  landinstallation as numberlandinstallation,
-  sea as numbersea,
-  subsurface as numbersubsurface,
-  minewarfare as numberminewarfare,
-  activites as numberactivites,
-  signalsintelligence as numbersignalsintelligence,
-  cyberspace as numbercyberspace,
-  dismountedindividual as numberdismountedindividual,
-  tacticalpoints as numbertacticalpoints
-} from "./src/numbersidc.js";
-export { default as path2d } from "./src/ms/path2d.js";
+    air as numberair,
+    airmissile as numberairmissile,
+    space as numberspace,
+    spacemissile as numberspacemissile,
+    landunit as numberlandunit,
+    landcivilian as numberlandcivilian,
+    landequipment as numberlandequipment,
+    landinstallation as numberlandinstallation,
+    sea as numbersea,
+    subsurface as numbersubsurface,
+    minewarfare as numberminewarfare,
+    activites as numberactivites,
+    signalsintelligence as numbersignalsintelligence,
+    cyberspace as numbercyberspace,
+    dismountedindividual as numberdismountedindividual,
+    tacticalpoints as numbertacticalpoints
+}
+from "./src/numbersidc.js";
+export { default as path2d }
+from "./src/ms/path2d.js";
 
 /* ***************************************************************************************
 ES6 version of milsymbol

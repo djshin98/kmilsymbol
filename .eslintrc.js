@@ -13,7 +13,7 @@ module.exports = {
     plugins: ["prettier"],
     rules: {
 
-        "linebreak-style": ["error", "windows"],
+        "linebreak-style": 0,
         "no-console": ["error", { allow: ["info", "warn", "error"] }],
         "no-unused-vars": ["error", { vars: "all", args: "none" }],
         semi: ["error", "always"]

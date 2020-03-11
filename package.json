@@ -30,8 +30,20 @@
     },
     "homepage": "https://github.com/djshin98/kmilsymbol",
     "devDependencies": {
+        "@babel/core": "^7.8.7",
+        "babelify": "^10.0.0",
+        "browserify": "^16.5.0",
+        "del": "^5.1.0",
         "eslint": "^5.16.0",
         "eslint-plugin-prettier": "^3.1.0",
+        "gulp": "^4.0.2",
+        "gulp-concat": "^2.6.1",
+        "gulp-imagemin": "^7.1.0",
+        "gulp-inject-string": "^1.1.2",
+        "gulp-markdown": "^5.0.1",
+        "gulp-sass": "^4.0.2",
+        "gulp-sourcemaps": "^2.6.5",
+        "gulp-uglify": "^3.0.2",
         "milstd": "^0.1.6",
         "milstd2525": "github:spatialillusions/mil-std-2525",
         "prettier": "^1.18.2",
@@ -39,7 +51,9 @@
         "rollup-plugin-copy": "^0.2.3",
         "stanagapp6": "github:spatialillusions/stanag-app6",
         "tead": "^0.5.2",
-        "uglify-js": "^3.6.0"
+        "uglify-js": "^3.6.0",
+        "vinyl-buffer": "^1.0.1",
+        "vinyl-source-stream": "^2.0.0"
     },
     "babel": {
         "presets": "env"
