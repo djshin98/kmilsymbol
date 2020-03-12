@@ -1,0 +1,464 @@
+AA 집결지
+    Assembly Area
+    AAM 공대공 미사일
+    Air-to-Air Missile
+    AAWC 대공전 지휘관
+    Antiair Warfare Commander
+    A/C 항공기
+    Aircraft
+    ACA 공역협조지역
+    Airspace Coordination Area
+    ACP 항공통제소
+    Air Control Point
+    ACV 기갑전투차량
+    Armored Combat Vehicle.
+    AD 방공
+    Air Defense
+    ADP 자동자료처리
+    Automated Data Processing
+    AEW 1.공중 전자전(Airborne Electronic Warfare)
+    2.공중조기경보(Airborne Early Warning)
+    AF 공군
+    Air Force
+    AGI 예비 그룹 정보
+    Auxiliary Group Intelligence
+    AGL 지표면
+    Above Ground Level
+    AMSL 평균해수면 위
+    Above Mean Sea Level
+    ANM 음향 소음 감시
+    Acoustic Noise Monitor
+    ANSI 미국 표준국
+    American National Standards Institute
+    AOU 불확정 구역
+    Area of uncertainty
+    APC 기갑병력수송차량
+    Armored Personnel Carrier
+    APOD 하역공항
+    Aerial Port of Debarkation
+    APOE 선적공항
+    Aerial Port of Embarkation
+    APP 연합규정간행물
+    Allied Procedures Publication
+    군대부호 표준 MND-STD-2525C
+    ASCII 미국 정보 교환 표준 부호
+    American Standard Code for Information Interchange
+    ASM 대함 유도탄
+    Antiship Missile
+    ASP 탄약보급소
+    Ammunition Support Point
+    ASR 예비보급로
+    Alternate Supply Route
+    ASUW 대수상전
+    Antisurface Warfare
+    ASW 대잠전
+    Antisubmarine Warfare
+    ATAC 공중전파가능 음향통신
+    Air Transportable Acoustic Communications
+    BMSL 평균해수면 아래
+    Below Mean Sea Level
+    BSA 여단지원지역
+    Brigade Support Area
+    BT 심해자기 온도계
+    Bathythermograph
+    C2 지휘 및 통제
+    Command and Control
+    C3I 지휘, 통제, 통신 및 정보
+    Command, Control, Communications, and Intelligence
+    C4I 지휘, 통제, 통신, 컴퓨터 및 정보
+    Command, Control, Communications, Computers, and Intelligence
+    C4IFTW 병사용 C4I
+    C4I for the Warrior
+    CAP 공중전투초계
+    Combat Air Patrol
+    CARP 계산된 공중폭탄 투하지점
+    Computed Air Release Point
+    CAS 근접항공지원
+    Close Air support
+    CASS 명령활성 소노부이시스템
+    Command Activated Sonobuoy System
+    CATK 반격
+    Counterattack
+    CBRN 화학, 생물학, 방사능, 핵
+    Chemical, Biological, Radiological, and Nuclear
+    CCDR 전투지휘관
+    Combatant Commander
+    CCP 통신확인점
+    Communication Check Point
+    군대부호 표준 MND-STD-2525C
+
+    CENOT 통신정보표시법
+    Communications Intelligence Notation
+    CFA 엄호부대지역
+    Covering Force Area
+    CFL 사격협조선
+    Coordinated Fire Line
+    CGM 컴퓨터 그래픽 메타파일
+    Computer Graphics Metafile
+    CID 범죄수사단
+    Criminal Investigation Division
+    CIE 밝기에 대한 국제규정
+    Commission Internationale de l’Eclairage
+    CINC 사령관
+    Commander in Chief
+    COLT 전투감시팀
+    Combat Observation and Lasing Team
+    COMMZ 작전의 후방(보급 및 후퇴)
+    Communications Zone
+    CP 확인점
+    Check Point
+    C/S/A 사령관 지원권한
+    CINCs, Services, and Agencies
+    CSAR 전투탐색 및 구조
+    Combat Search and Rescue
+    CWFS 공통 군대부호
+    Common Warfighting Symbology
+    DCA 방공방어
+    Defensive Counter Air
+    DGZ 지정된 핵폭발지점
+    Designated Ground Zero
+    DIA 미 국방성 정보국
+    Defense Intelligence Agency
+    DICASS 방향성명령 활성 소노부이 시스템
+    Directional Command Activated Sonobuoy System
+    DIFAR 방향성 주파수 분석기록
+    Directional Frequency Analysis and Recording
+    DISA 미 국방성 정보체계국
+    Defense Information Systems Agency
+    DLIC 후퇴시 유지병력
+    Detachment Left-in-Contact
+    DLRP 데이터링크 참조점
+    Data Link Reference Point
+    DOD 국방부
+    Department of Defense
+    군대부호 표준 MND-STD-2525C
+    
+    DODISS 설명서와 표준의 국방 색인
+    Department of Defense Index of Specifications and Standards
+    DR 추측 항법
+    Dead Reckoning
+    DTG 일시군
+    Date-Time Group
+    EA 전자 공격
+    Electronic Attack
+    EC 전자 전투
+    Electronic Combat
+    ECM 전파 교란
+    Electronic Countermeasures
+    ELNOT 전자정보표시법
+    Electronic Intelligence Notation
+    EO 전자광학
+    Electro-optical
+    EP 전자보호
+    Electronic Protection
+    EPW 전쟁 포로
+    Enemy Prisoner of War
+    ERP 공병통제소
+    Engineer Regulating Point
+    ES 전자전 지원
+    Electronic Warfare Support
+    EW 전자전
+    Electronic Warfare
+    EZ 투하지역(낮은 비행)
+    Extraction Zone
+    FAADEZ 전방 방공지대
+    Forward Area Air Defense Zone
+    FC 사격통제
+    Fire Control
+    FCZ 전방전투지역
+    Forward Combat Zone
+    FEBA 전투지역전단
+    Forward Edge of the Battle Area
+    FLB 전방보급기지
+    Forward Logistics Base
+    FLET 적부대진출선
+    Forward Line of Enemy Troops
+    FLOT 부대진출선
+    Forward Line of Own Troops
+    FM 야전교범
+    Field Manual
+    군대부호 표준 MND-STD-2525C
+    FO 외형선택사항
+    Frame Optional
+    FSCL 화력지원협조선
+    Fire Support Coordination Line
+    F/W 고정익
+    Fixed Wing
+    GI&S 지리정보서비스
+    Geospatial Information and Services
+    GL 지면
+    Ground Level
+    GPS 인공위성항법장치
+    Global Positioning System
+    GSD 상황 도식화
+    Graphical Situation Display
+    GZ 핵폭발지점
+    Ground Zero
+    HAE 지구타원체 기준 고도
+    Height Above Ellipsoid
+    HCI 인간-컴퓨터 인터페이스
+    Human Computer Interface
+    HFAC 인간정보
+    Human Factors
+    HIDACZ 고밀도공역통제구역
+    High-Density Airspace Control Zone
+    HL 저지선
+    Holding Line
+    H/MAD 중·고 고도 방공
+    High/Medium Altitude Air Defense
+    HSL 색도, 채도, 명도
+    Hue, Saturation, and Luminance
+    ICBM 대륙간 탄도유도탄
+    Intercontinental Ballistic Missile
+    IFF 피아식별
+    Identification, Friend or Foe
+    IFV 보병전투차량
+    Infantry Fighting Vehicle
+    INST 정보표준과 기술
+    Information Standards and Technology
+    IP 기점
+    Initial Point
+    IRBM 중거리 탄도유도탄
+    Intermediate Range Ballistic Missile
+    ISB 중간기지
+    Intermediate Staging Base
+    군대부호 표준 MND-STD-2525C
+    
+    ISO 국제 표준화 기구
+    International Organization for Standardization
+    JAG 법무부
+    Judge Advocate General
+    JPOTF 합동심리전 특수부대
+    Joint Psychological Operations Task Force
+    J-SEAD 합동 적 방공제압
+    Joint Suppression of Enemy Air Defenses
+    JSOTF 합동특수작전부대
+    Joint Special Operations Task Force
+    JTIDS 합동 전술 정보 배포 시스템
+    Joint Tactical Information Distribution System
+    LAB 전방보급기지
+    Logistics Assault Base
+    LC 접촉선
+    Line of Contact
+    LCCP 통신형성패키지(대)
+    Large Communication Configured Package
+    LD 공격개시선
+    Line of Departure
+    LLLTV 저광량 텔레비전
+    Low-Light Level Television
+    LLTR 저고도비행경로
+    Low-Level Transit Route
+    LOA 전진한계선
+    Limit of Advance
+    LOC 작전활동에 관계된 모든 경로
+    Lines of Communications
+    LOFAR 저주파 분석 및 기록
+    Low Frequency Analysis and Recording
+    LOTS 임시항구
+    Logistics Over-The-Shore
+    LP 연결점
+    Linkup Point
+    LRP 군수전달지점
+    Logistics Release Point
+    LRS 장거리 감시
+    Long Range Surveillance
+    MAGTF 해병기동부대
+    Marine Air-Ground Task Force
+    MBA 주 전투지역
+    Main Battle Area
+    MC&G 지도, 해도 및 측지
+    Mapping, Charting, and Geodesy
+    군대부호 표준 MND-STD-2525C
+    
+    MCM 대기뢰방책
+    Mine Countermeasures
+    MEDEVAC 의무후송
+    Medical Evacuation
+    METOC 기상 및 해양
+    Meteorological and Oceanographic
+    MEZ 유도탄 교전구역
+    Missile Engagement Zone
+    MICV 기계화 보병 전투차량
+    Mechanized Infantry Combat Vehicle
+    MIL-STD 군 표준
+    military standard
+    MP 헌병
+    Military Police
+    MPA 해상초계기
+    Maritime Patrol Aircraft
+    MRR 최소위험경로
+    Minimum-Risk Route
+    MSD 최소안전거리
+    Minimum Safe Distance
+    MSL 평균해수면
+    Mean Sea Level
+    MSR 주보급로
+    Main Supply Route
+    MTF 의료시설
+    Medical Treatment Facility
+    NAI 주요 관심지역
+    Named Area of Interest
+    NATO 북대서양조약기구
+    North Atlantic Treaty Organization
+    NBC 화생방
+    Nuclear, Biological, and Chemical
+    NFA 사격 금지구역
+    No-Fire Area
+    NFL 사격금지선
+    No-Fire Line
+    NGA 미국립지리원
+    National Geospatial-Intelligence Agency
+    NOTAM 노탐(비행사 주의사항)
+    Notice to Airmen
+    NTDS 해군 전술자료체계
+    Naval Tactical Data System
+    OBJ 목표
+    Objective
+    군대부호 표준 MND-STD-2525C
+    
+    O/O 계획된
+    On Order
+    OP 감시소
+    1. Observation Point 2. Observation Post
+    PAA 포대 진지 지역
+    Position Area for Artillery
+    PDF 주 사격 방향
+    Principal Direction of Fire
+    PIM 예정경로
+    Path of Intended Motion
+    PLD 예상 전개선
+    Probable Line of Deployment
+    POD 하역(공)항
+    Port of Debarkation
+    POE 선적(공)항
+    Port of Embarkation
+    PP 초월점
+    Passage Point
+    PS 인사 서비스
+    Personnel Services
+    PZ 픽업지대
+    Pickup Zone
+    QSTAG 4개국 표준화 협정
+    Quadripartite Standardization Agreement
+    R3P 재무장, 보급, 재보급 지점
+    Rearm, Refuel, and Resupply Point
+    RAA 후방 집결지
+    Rear Assembly Area
+    RAOC 후방지역 작전본부
+    Rear Area Operation Center
+    RCZ 후방 전투 지대
+    Rear Combat Zone
+    RES 예비군
+    Reserve
+    RFL 사격제한선
+    Restrictive Fire Line
+    RGB 빨강, 초록, 파랑
+    Red, Green, Blue
+    RL 보고 라인
+    Report Line
+    RO 반경만
+    Range Only
+    RO/RO 트레일러선
+    Roll-on/Roll-off
+    군대부호 표준 MND-STD-2525C
+    
+    ROZ 작전제한공역
+    Restricted Operations Zone
+    RP 분진점
+    Release Point
+    RPV 원격조정 무인항공기
+    Remotely Piloted Vehicle
+    RV 재돌입탄도탄
+    Reentry Vehicle
+    S/SSM 지대지유도탄
+    Surface-to-Subsurface Missile
+    SAAFR 전투기표준경로
+    Standard use Army Aircraft Flight Route
+    SAM 지대공 유도탄
+    Surface-to-Air Missile
+    SAR 탐색 및 구조
+    Search and Rescue
+    SFOB 특수(부대)작전기지
+    Special Forces Operations Base
+    SHORADEZ 단거리 공중 방어 교전 구역
+    short-range air defense engagement zone
+    SIDC 부호코드
+    Symbol Identification Code
+    SIF 선택식별장치
+    Selective Identification Feature
+    SIGINT 신호정보
+    Signals Intelligence
+    SL 시작점
+    Start Line
+    SLBM 해상발사 발사 탄도유도탄
+    Sea-Launched Ballistic Missile
+    SO 안정화 작전
+    Stability Operations
+    SOF 특수작전부대
+    Special Operations Forces
+    SP 1. 출발점(Starting Point)
+    2. 자주의(Self-Propelled)
+    3. 중요방어거점(Strong Point)
+    SPOD 하역항
+    Seaport of Debarkation
+    SPOE 선적항
+    Seaport of Embarkation
+    SSM 지대지유도탄
+    Surface-to-Surface Missile
+    SSMC 심벌표준관리협회
+    Symbology Standards Management Committee
+    군대부호 표준 MND-STD-2525C
+    
+    S/SSM 대잠유도탄
+    Surface-to-Subsurface Missile
+    STANAG 협정 표준화
+    Standardization Agreement(NATO)
+    SWG 1. 부호 작업 단체(Symbology Working Group)
+    2. 육지전 단체(Surface Warfare Group)
+    TAACOM 전구 육군지역사령부
+    Theater Army Area Command
+    TAI 관심타격지역
+    Target Area of Interest
+    TCP 교통통제점
+    Traffic Control Point
+    TDL 전술데이터링크
+    Tactical Data Link
+    TF 기동부대, 특수임무부대
+    Task Force
+    TGT 표적, 목표
+    Target
+    TOT 항공타격예정시간
+    Time on Target
+    TV 텔레비전
+    Television
+    TWS 동시 탐색 및 추적
+    Track While Scan
+    UA 무인기
+    Unmanned Aircraft
+    UAV 무인항공기
+    Unmanned Aerial Vehicle
+    UEI 부대, 장비, 시설
+    Units, Equipment, and Installations
+    UF 외형없는
+    Unframed
+    USA 미합중국 군
+    United States Army
+    USMTF 미 표준 전문양식
+    United States Message Text Format
+    UTM UTM 좌표
+    Universal Transverse Mercator
+    UWT 수중전화기
+    Under Water Telephone
+    UWTG 수중 예인함
+    Under Water Tug
+    VDC 가상 장치 좌표계
+    Virtual Device Coordinates
+    VLAD 수직열 방향성 주파수 분석 및 기록
+    Vertical Line Array Difar
+    VMF 다양한 메시지 포맷
+    Variable Message Format
+    V/STOL 수직 단거리 이착륙
+    Vertical/Short Take-Off and Landing
+    WFZ 사격자유지대
+    Weapons Free Zone
+    

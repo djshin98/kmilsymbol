@@ -76,7 +76,9 @@ function md_src() {
 function js_b() {
     return browserify({
             entries: paths.scripts.entries
-        }) //.transform(babelify)
+        }).transform(babelify({
+            presets: ["es2015"]
+        }))
         .bundle()
         .pipe(source(paths.scripts.output))
         .pipe(buffer())
@@ -146,9 +148,9 @@ function watchFiles() {
     watch(paths.css.src, css);
     watch(paths.html.src, html);
     watch(paths.libs.src, libs);
-    watch(paths.js.src, js_b);
+    // watch(paths.js.src, js_b);
 }
 
 exports.clean = series(clean);
 exports.scss = parallel(scss);
-exports.default = parallel(watchFiles, series(md, md_src, libs, scss, css, js_b, html));
+exports.default = parallel(watchFiles, series(md, md_src, libs, scss, css, html));

@@ -26,7 +26,7 @@ svg {
     text-align: center;
 }
 
-table {
+table.fullwidth {
     border-collapse: collapse;
     margin: auto;
     width: 100%;
@@ -54,6 +54,31 @@ table {
             td:nth-child(1) {
                 text-align: left;
             }
+        }
+    }
+}
+
+figure {
+    ul.remark {
+        font-size: 0.8em;
+        font-style: italic;
+        li {
+            list-style-type: none;
+            text-align: left;
+        }
+    }
+}
+
+table.terms {
+    border-collapse: collapse;
+    @include tableStyle;
+    tr {
+        td {
+            @include tableStyle;
+            text-align: left;
+        }
+        td:nth-child(1) {
+            text-align: center;
         }
     }
 }
