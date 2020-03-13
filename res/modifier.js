@@ -15,6 +15,7 @@ class Writable {
 class ModifierItem extends Writable {
     constructor(txt) {
         super();
+        this.stairs = 0;
         this.txt = txt;
         this.parentId;
         this.id;
@@ -46,28 +47,46 @@ class ModifierItem extends Writable {
     isRoot() {
         return this.parendId ? false : true;
     }
+    find(id){
+        let findObj;
+        if( this.id == id ) findObj= this;
+        else if( this.id.indexOf(id) == 0 && this.children ){
+            this.children.some((d)=>{
+                let findObj = d.find(id);
+                return findObj ? true : false;
+            });
+        }
+        return findObj;
+    }
     append(m) {
+        m.stairs = this.stairs+1;
         this.children.push(m);
     }
     save(fd) {
+        this.write(fd,this.preString());
         if (this.children && this.children.length > 0) {
-            this.children.forEach
+            this.children.forEach(d=>{
+                d.save(fd);
+            })
         }
-
-        let post = '" }';
+        this.write(fd,this.postString());
+    }
+    preString(){
+        return '\t'.repeat(this.stairs) + '{ id:"' + this.id + '", type:"' + this.codeType +
+            '", affiliation:"' + this.affiliation +
+            '", battlefield:"' + this.battlefield +
+            '", status:"' + this.status +
+            '", modifier:"' + this.modifier +
+            '", desc:"' + this.desc +'"';
+    }
+    postString(){
+        return '}';
     }
     toString() {
         if (this.children && this.children.length > 0) {
             this.children.reduce((prev, curr) => {})
         }
-        return '{ id:"' + this.id + '", type:"' + this.codeType +
-            '", affiliation:"' + this.affiliation +
-            '", battlefield:"' + this.battlefield +
-            '", status:"' + this.status +
-            '", modifier:"' + this.modifier +
-            '", desc:"' + this.desc +
-
-            '" }';
+        return this.preString() + this.postString();
     }
 }
 class Modifier extends Writable {
@@ -87,6 +106,14 @@ class Modifier extends Writable {
     appendCode(txt) {
         this.cachedBuffer += " " + txt;
     }
+    find(id){
+        let findObj;
+        this.rootModifier.some((d)=>{
+            findObj = d.find(id);
+            return ( findObj ) ? true : false;
+        });
+        return findObj;
+    }
     endRead() {
         if (this.cachedBuffer.length > 0) {
             this.hashCodes.push(this.cachedBuffer);
@@ -96,15 +123,13 @@ class Modifier extends Writable {
             if (m.isRoot()) {
                 this.rootModifier.push(m);
             } else {
-                let parent = findParent(m.parendId);
+                let parent = find(m.parendId);
                 if (parent) {
                     parent.append(m);
                 } else {
                     console.log("error: not found parent :" + m.toString());
                 }
             }
-            console.log(m.toString());
-
         });
     }
     save() {
@@ -122,7 +147,7 @@ class Modifier extends Writable {
     }
 }
 async function processLineByLine(parser) {
-    const fileStream = fs.createReadStream('./milsymbol/res/modifier.1.txt');
+    const fileStream = fs.createReadStream('./kmilsymbol/res/modifier.1.txt');
 
     const rl = readline.createInterface({
         input: fileStream,
@@ -144,7 +169,7 @@ async function processLineByLine(parser) {
     parser.save();
 }
 
-fs.open("./milsymbol/res/modifier.3.txt", 'w', (err, fd) => {
+fs.open("./kmilsymbol/res/modifier.3.txt", 'w', (err, fd) => {
     var s = new Modifier(fd);
     processLineByLine(s);
 
