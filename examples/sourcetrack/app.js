@@ -1,48 +1,82 @@
 /* eslint-disable */
+class ViewModelElement {
+    constructor(options) {
+        this.options = Object.assign({}, options);
+        let ele = document.querySelector("#" + this.options.id);
+
+        ele.onchange = symbolTest.try;
+        if (this.options.type == "input") {
+            ele.onkeyup = symbolTest.try;
+        }
+    }
+    dataKey() {
+        return this.options.dataKey;
+    }
+    val(v) {
+        if (v) {
+            let ele = document.querySelector("#" + this.options.id);
+            ele.value = v;
+        } else {
+            let val = undefined;
+            let ele = document.querySelector("#" + this.options.id);
+            if (["text", "string"].indexOf(this.options.dataType) >= 0) {
+                val = ele.value;
+            } else if (["bool", "boolean"].indexOf(this.options.dataType) >= 0) {
+                if (ele.value) {
+                    let bv = ele.value.toLowerCase();
+                    if (bv == "true") val = true;
+                    if (bv == "false") val = false;
+                }
+
+            } else if (["number"].indexOf(this.options.dataType) >= 0) {
+                val = parseFloat(ele.value);
+                if (isNaN(val)) val = undefined;
+            }
+
+            if (val == undefined && this.options.dataDefault != undefined) {
+
+                return this.options.dataDefault;
+            } else {
+                if (this.options.dataUndefined && this.options.dataUndefined == val) {
+                    return undefined;
+                }
+                return val;
+            }
+        }
+    }
+}
 var symbolTest = {
-    create: function(scope) {
-        var size = scope.size || 200;
-        var symbol = new ms.Symbol(scope.sic, {
-            size: size,
-            uniqueDesignation: scope.uniqueDesignation
-        });
-        scope.code = symbol.toDataURL();
-        return symbolTest.template(scope.code);
+    viewModels: [],
+    create: function() {
+        var sel = this.viewModels.filter(d => { let v = d.val(); return v != undefined ? true : false; });
+        var option = sel.reduce((prev, curr) => { prev[curr.dataKey()] = curr.val(); return prev }, {});
+        if (option.sic && option.sic.length > 0) {
+            var symbol = new ms.Symbol(option.sic, option);
+
+            option.code = symbol.toDataURL();
+            return symbolTest.template(option.code);
+        }
     },
     template: function(result) {
         return '<img class="symbol-sm" src="' + result + '"/>';
     },
     try: function() {
-        var size = document.querySelector("#symbolSize");
-        var code = document.querySelector("#symbolCode");
-        var desc = document.querySelector("#symbolLabel");
-        var scope = {
-            size: size.value,
-            sic: code.value,
-            uniqueDesignation: desc.value
-        };
-        if (scope.sic && scope.sic.length > 0) {
-            let output = symbolTest.create(scope);
+        let output = symbolTest.create();
+        if (output) {
             let div = document.querySelector("#symbolResult");
             div.innerHTML = output;
-
         }
     }
 };
 window.onload = function() {
-    var size = document.querySelector("#symbolSize");
-    size.onchange = symbolTest.try;
-    size.onkeyup = symbolTest.try;
-
-    var code = document.querySelector("#symbolCode");
-    code.onchange = symbolTest.try;
-    code.onkeyup = symbolTest.try;
-
-    var desc = document.querySelector("#symbolLabel");
-    desc.onchange = symbolTest.try;
-    desc.onkeyup = symbolTest.try;
+    symbolTest.viewModels.push(new ViewModelElement({ dataKey: "size", id: "symbolSize", type: "input", dataType: "number", dataDefault: 200 }));
+    symbolTest.viewModels.push(new ViewModelElement({ dataKey: "sic", id: "symbolCode", type: "input", dataType: "text" }));
+    symbolTest.viewModels.push(new ViewModelElement({ dataKey: "uniqueDesignation", id: "symbolLabel", type: "input", dataType: "text" }));
+    symbolTest.viewModels.push(new ViewModelElement({ dataKey: "fill", id: "symbolFill", type: "select", dataType: "bool" }));
+    symbolTest.viewModels.push(new ViewModelElement({ dataKey: "frame", id: "symbolFrame", type: "select", dataType: "bool" }));
+    symbolTest.viewModels.push(new ViewModelElement({ dataKey: "monoColor", id: "symbolMonoColor", type: "select", dataType: "text", dataUndefined: "none" }));
+    symbolTest.viewModels.push(new ViewModelElement({ dataKey: "icon", id: "symbolIcon", type: "select", dataType: "bool" }));
 }
-
 
 /*
 angular
