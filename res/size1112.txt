@@ -1,0 +1,297 @@
+&&-
+-- NULL -A TEAM / CREW
+조 / 병사
+-B SQURD
+분대 -C SECTION
+반
+-D PLATOON/DETACHMENT
+소대 / 분견대 -E COMPANY / BATTERY / TROOP
+중대 / 포대 / 기갑
+-F BATTALION/SQUADRON
+대대 / 비행대대 -G REGIMENT / GROUP
+연대 / 단
+-H BRIGADE
+여단 -I DIVISION
+사단
+-J CORPS / MEF
+군단 -K ARMY
+야전군
+-L ARMY GROUP / FRONT
+집단군 -M REGION
+지역군
+-N COMMAND
+사령부
+&&A
+A- HEADQUARTERS(HQ)
+지휘소 AA HQ TEAM / CREW
+조 / 병사 지휘소
+AB HQ SQUAD
+분대 지휘소 AC HQ SECTION
+반 지휘소
+AD HQ PLATOON/DETACHMENT
+소대/분견대 지휘소 AE HQ COMPANY / BATTERY / TROOP
+중대 / 포대 / 기갑 지휘소
+AF HQ BATTALION / SQUADRON
+대대/비행대대 지휘소 AG HQ REGIMENT / GROUP
+연대 / 단 지휘소
+AH HQ BRIGADE
+여단 지휘소 AI HQ DIVISION
+사단 지휘소
+AJ HQ CORPS / MEF
+군단 지휘소 AK HQ ARMY
+야전군 지휘소
+AL HQ ARMY GROUP / FRONT
+집단군 지휘소 AM HQ REGION
+지역군 지휘소
+AN HQ COMMAND
+사령부 지휘소
+&&B
+B- TASK FORCE(TF) HQ
+기동부대 BA TF HQ TEAM / CREW
+기동부대 조 / 병사 지휘소
+
+BB TF HQ SQUAD
+기동부대 분대 지휘소 BC TF HQ SECTION
+기동부대 반 지휘소
+BD
+TF HQ PLATOON /
+DETACHMENT
+기동부대 소대 / 분견대 지휘소
+BE
+TF HQ COMPANY / BATTERY /
+TROOP
+기동부대 중대 / 포대 / 기갑
+지휘소
+BF
+TF HQ BATTALION / SQUADRON
+기동부대 대대 /
+비행대대 지휘소
+BG TF HQ REGIMENT / GROUP
+기동부대 연대 / 단 지휘소
+BH TF HQ BRIGADE
+기동부대 여단 지휘소 BI TF HQ DIVISION
+기동부대 사단 지휘소
+BJ TF HQ CORPS/MEF
+기동부대 군단 지휘소 BIK TF HQ ARMY
+기동부대 야전군 지휘소
+BL TF HQ ARMY GROUP / FRONT
+기동부대 집단군 지휘소 BM TF HQ REGION
+기동부대 지역군 지휘소
+BN TF HQ COMMAND
+기동부대 사령부 지휘소
+&&C
+C- FEINT DUMMY(FD) HQ
+가장/가상 지휘소 CA FD HQ TEAM / CREW
+가장 / 가상 조 / 병사 지휘소
+CB FD HQ SQUAD
+가장 / 가상 분대 지휘소 CC FD HQ SECTION
+가장 / 가상 반 지휘소
+CD
+FD HQ PLATOON /
+DETACHMENT
+가장 / 가상 소대 / 분견대 지휘소
+CE
+FD HQ COMPANY / BATTERY /
+TROOP
+가장 / 가상 중대 / 포대 / 기갑 지휘소
+CF
+FD HQ BATTALION /
+SQUADRON
+가장 / 가상 대대 / 비행대대 지휘소
+CG FD HQ REGIMENT / GROUP
+가장 / 가상 연대 / 단 지휘소
+CH FD HQ BRIGADE
+가장 / 가상 여단 지휘소 CI FD HQ DIVISION
+가장 / 가상 사단 지휘소
+CJ FD HQ CORPS / MEF
+가상 / 가장 군단 지휘소 CK FD HQ ARMY
+가장 / 가상 야전군 지휘소
+CL FD HQ ARMY GROUP / FRONT
+가장 / 가상 집단군 지휘소 CM FD HQ REGION
+가장 / 가상 지역군 지휘소
+CN FD HQ COMMAND
+가장 / 가상 사령부 지휘소
+&&D
+D-
+FEINTDUMMY / TASK
+FORCE(FD / TF)HQ
+가장 / 가상 기동부대 지휘소
+DA
+FD / TF TEAM / CREW
+가장 / 가상 기동부대 조 / 병사
+지휘소
+DB FD / TF HQ SQUAD
+가장 / 가상 기동부대 분대 지휘소 DC FD/TF SECTION
+가장 / 가상 기동부대 반 지휘소
+DD
+FD / TF HQ PLATOON /
+DETACHMENT
+가장 / 가상 기동부대 소대 /
+분견대 지휘소
+DE
+FD / TF COMPANY / BATTERY
+/ TROOP
+가장 / 가상 기동부대 중대 /
+포대 / 기갑 지휘소
+DF
+FD/TF HQ BATTALION /
+SQUADRON
+가장 / 가상 기동부대 대대 /
+비행대대 지휘소
+DG
+FD / TF REGIMENT / GROUP
+가장 / 가상 기동부대 연대/단
+지휘소
+DH
+FD / TF HQ BRIGADE
+가장 / 가상 기동부대 여단
+지휘소
+DI
+FD / TF DIVISION
+가장 / 가상 기동부대 사단
+지휘소
+DJ
+FD/TF HQ CORPS / MEF
+가장 / 가상 기동부대 군단
+지휘소
+DK
+FD / TF ARMY
+가장 / 가상 기동부대 야전군
+지휘소
+DL
+FD / TF HQ ARMY GROUP /
+FRONT
+가장 / 가상 기동부대 집단군
+지휘소
+DM
+FD / TF REGION
+가장 / 가상 기동부대 지역군
+지휘소
+DN
+FD / TF HQ COMMAND
+가장 /가상 기동부대 사령부
+지휘소
+&&E
+E- TASK FORCE(TF)
+기동부대 EA TF TEAM / CREW
+기동부대 조 / 병사
+EB TF SQUAD
+기동부대 분대 EC TF SECTION
+기동부대 반
+ED TF PLATOON / DETACHMENT
+기동부대 소대 / 분견대 EE
+TF COMPANY / BATTERY /
+TROOP
+기동부대 중대 / 포대 / 기갑
+
+EF TF BATTALION / SQUADRON
+기동부대 대대 / 비행대대 EG TF REGIMENT / GROUP
+기동부대 연대 / 단
+EH TF BRIGADE
+기동부대 여단 EI TF DIVISION
+기동부대 사단
+
+EJ TF CORPS / MEF
+기동부대 군단 EK TF ARMY
+기동부대 야전군
+EL TF ARMY GROUP / FRONT
+기동부대 집단군 EM TF REGION
+기동부대 지역군
+EN TF COMMAND
+기동부대 사령부
+&&F
+F- FEINT DUMMY(FD)
+가장 / 가상 FA 'FD TEAM / CREW
+가장 / 가상 조 / 병사
+FB 'FD SQUAD
+가장 / 가상 분대 FC 'FD SECTION
+가장 / 가상 반
+FD FD PLATOON / DETACHMENT
+가장 / 가상 소대 / 분견대 FE
+FD COMPANY / BATTERY /
+TROOP
+가장 / 가상 중대 / 포대/기갑
+FF FD BATTALION / SQUADRON
+가장 / 가상 대대 / 비행대대 FG FD REGIMENT / GROUP
+가장 / 가상 연대 / 단
+FH FD BRIGADE
+가장 / 가상 여단 FI FD DIVISION
+가장 / 가상 사단
+FJ FD CPR[S/MEF
+가장 / 가상 군단 FK FD ARMY
+가장 / 가상 야전군
+FL FD ARMY GROUP / FRONT
+가장 / 가상 집단군 FM FD REGION
+가장 / 가상 지역군
+FN FD COMMAND
+가장 / 가상 사령부
+&&G
+G-
+FEINT DUMMY / TASK FORCE(FD
+/ TF)
+가장 / 가상 기동부대
+GA FD / TF TEAM / CREW
+가장 / 가상 기동부대 조 / 병사
+GB FD / TF SQUAD
+가장 / 가상 기동부대 분대 GC FD / TF SECTION
+가장 / 가상 기동부대 반
+GD
+FD / TF PLATOON /
+DETACHMENT
+가장 / 가상
+기동부대 소대 / 분견대
+GE
+FD/TF COMPANY / BATTERY /
+TROOP
+가장 / 가상
+기동부대 중대 / 포대 / 기갑
+GF
+FD / TF BATTALION /
+SQUADRON
+가장 / 가상
+기동부대 대대 / 비행대대
+GG FD / TF REGIMENT / GROUP
+가장 / 가상 기동부대 연대 / 단
+
+GH FD/TF BRIGADE
+가장/가상 기동부대 여단 GI FD / TF DIVISION
+가장 / 가상 기동부대 사단
+GJ FD / TF CORPS / MEF
+가장 / 가상 기동부대 군단 GK FD / TF ARMY
+가장 / 가상 기동부대 야전군
+GL FD/TF ARMY GROUP/FRONT
+가장/가상 기동부대 집단군 GM FD / TF REGION
+가장 / 가상 기동부대 지역군
+GN FD / TF COMMAND
+가장 / 가상 기동부대 사령부
+&&H
+H- INSTALLAION
+시설 HB FEINT DUMMY INSTALLATION
+가장 / 가상 시설
+&&M
+MO
+MOBILITY WHEELED / LIMITED
+CROSS COUNTRY
+차륜식
+MP MOBILITY CROSS COUNTRY
+야지횡단 차륜식
+MQ MOBILITY TRACKED
+궤도식 MR
+MOBILITY WHEELED AND
+TRACKED COMBINATION
+차륜 궤도식
+MS MOBILITY TOWED
+견인식 MT MOBILITY RAIL
+철도식
+MU BOBILITY OVER THE SNOW
+설상 이동식 MV MOBILITY SLED
+썰매이동식
+MW MOBILITY PACK ANIMALS
+동물견인식 MX MOBILITY BARGE
+선박이동식
+MY MOBILITY AMPHIBIOUS
+수륙양용식
+&&N
+NS TOWED ARRAY (SHORT)
+견인 소나 열 (단) NL TOWED ARRAY (LONG)
+견인 소나 열 (장)

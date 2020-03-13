@@ -1,0 +1,2099 @@
+0 S * Z * ------ ** ** * 미식별
+Unknown
+1 S - - - ------ ** ** * 기본군대부호
+Warfighting symbols
+1.1 S * P * ------ ** ** * 우주항적
+Space track
+1.1.1 S * P * S----- ** ** * 위성
+Satellite
+1.1.2 S * P * V----- ** ** * 우주비행선
+Crewed space vehicle
+1.1.3 S * P * T----- ** ** * 우주정거장
+Space station
+1.1.4 S * P * L----- ** ** * 우주로켓
+Space launch vehicle
+1.2 S * A * ------ ** ** * 공중항적
+Air track
+1.2.1 S * A * M----- ** ** * 공중항적(군용)
+Military
+1.2.1.1 S * A * MF---- ** ** * 고정익(군용)
+Fixed wing
+1.2.1.1.1 S * A * MFB--- ** ** * 폭격기
+Bomber
+1.2.1.1.2 S * A * MFF--- ** ** * 전투기
+Fighter
+1.2.1.1.2.1 S * A * MFFI-- ** ** * 요격기 Interceptor
+1.2.1.1.2.1 S * A * MFFA-- ** ** * 요격기 Interceptor
+1.2.1.1.3 S * A * MFT--- ** ** * 훈련기
+Trainer
+1.2.1.1.4 S * A * MFA--- ** ** * 공격기
+Attack/strike
+1.2.1.1.5 S * A * MFL--- ** ** * 수직이착륙기
+V/STOL
+1.2.1.1.6 S * A * MFK--- ** ** * 공중급유기
+Tanker
+1.2.1.1.6.1 S * A * MFKB-- ** ** * 공중급유기(Boom)
+Tanker boom-only
+1.2.1.1.6.2 S * A * MFKD-- ** ** * 공중급유기(Drogue)
+Tanker drogue-only
+1.2.1.1.7 S * A * MFC--- ** ** * 수송기
+Cargo airlift (transport)
+1.2.1.1.7.1 S * A * MFCL-- ** ** * 수송기(경)
+Cargo airlift (light)
+1.2.1.1.7.2 S * A * MFCM-- ** ** * 수송기(중)
+Cargo airlift (medium)
+1.2.1.1.7.3 S * A * MFCH-- ** ** * 수송기(대)
+Cargo airlift (heavy)
+1.2.1.1.8 S * A * MFJ--- ** ** * 전자전기
+Electronic countermeasures
+(ECM/jammer)
+1.2.1.1.9 S * A * MFO--- ** ** * 의무후송기
+Medical evacuation (MEDEVAC)
+1.2.1.1.10 S * A * MFR--- ** ** * 수색정찰기
+Reconnaissance
+1.2.1.1.10.1 S * A * MFRW-- ** ** * 수색정찰기(공중조기경보)
+Airborne early warning (AEW)
+1.2.1.1.10.2 S * A * MFRZ-- ** ** * 수색정찰기(전자감시)
+Electronic surveillance
+measures
+1.2.1.1.10.3 S * A * MFRX-- ** ** * 수색정찰기(사진)
+Photographic
+1.2.1.1.11 S * A * MFP--- ** ** * 초계기
+Patrol
+1.2.1.1.11.1 S * A * MFPN-- ** ** * 대함초계기
+Antisurface warfare (ASUW)
+1.2.1.1.11.2 S * A * MFPM-- ** ** * 대기뢰초계기
+Mine countermeasures
+1.2.1.1.11.3 S * A * MFPU-- ** ** * 대잠초계기
+Antisubmarine patrol
+1.2.1.1.12 S * A * MFU--- ** ** * 다목적기
+Utility
+1.2.1.1.12.1 S * A * MFUL-- ** ** * 다목적기(경)
+Utility (light)
+1.2.1.1.12.2 S * A * MFUM-- ** ** * 다목적기(중)
+Utility (medium)
+1.2.1.1.12.3 S * A * MFUH-- ** ** * 다목적기(대)
+Utility (heavy)
+1.2.1.1.13 S * A * MFY--- ** ** * 통신항공기
+Communications
+1.2.1.1.14 S * A * MFH--- ** ** * 탐색구조기
+Combat search and rescue (CSAR)
+1.2.1.1.15 S * A * MFD--- ** ** * 공중지휘기
+Airborne command post (C2)
+1.2.1.1.16 S * A * MFQ--- ** ** * 무인 항공기
+Drone (RPV/UAV)
+1.2.1.1.16.1 S * A * MFQA-- ** ** * 무인 공격기
+Attack
+1.2.1.1.16.2 S * A * MFQB-- ** ** * 무인 폭격기
+Bomber
+1.2.1.1.16.3 S * A * MFQC-- ** ** * 무인 수송기
+Cargo
+1.2.1.1.16.4 S * A * MFQD-- ** ** * 무인 공중 사령기
+Airborne command post
+1.2.1.1.16.5 S * A * MFQF-- ** ** * 무인 전투기
+Fighter
+1.2.1.1.16.6 S * A * MFQH-- ** ** * 무인 탐색구조기
+Search and rescue (CSAR)
+1.2.1.1.16.7 S * A * MFQJ-- ** ** * 무인 전파방해기
+Electronic countermeasures
+(jammer)
+11
+1.2.1.1.16.8 S * A * MFQK-- ** ** * 무인 공중급유기
+Tanker
+1.2.1.1.16.9 S * A * MFQL-- ** ** * 무인 수직 단거리 이착륙기
+V/STOL
+1.2.1.1.16.10 S * A * MFQM-- ** ** * 무인 특수작전기
+Special operations forces (SOF)
+1.2.1.1.16.11 S * A * MFQI-- ** ** * 무인 대기뢰기
+Mine countermeasures
+1.2.1.1.16.12 S * A * MFQN-- ** ** * 무인 대수상전 초계기
+Antisurface warfare (ASUW)
+1.2.1.1.16.13 S * A * MFQP-- ** ** * 무인 초계기
+Patrol
+1.2.1.1.16.14 S * A * MFQR-- ** ** * 무인 수색정찰기
+Reconnaissance
+1.2.1.1.16.14.1 S * A * MFQRW- ** ** * 무인 조기경보기
+Airborne early warning (AEW)
+1.2.1.1.16.14.2 S * A * MFQRZ- ** ** * 무인 전탐기
+Electronic surveillance
+measures
+1.2.1.1.16.14.3 S * A * MFQRX- ** ** * 무인 촬영기
+Photographic
+1.2.1.1.16.15 S * A * MFQS-- ** ** * 무인 대잠전 초계기
+Antisubmarine warfare (ASW)
+1.2.1.1.16.16 S * A * MFQT-- ** ** * 무인 훈련기
+Trainer
+1.2.1.1.16.17 S * A * MFQU-- ** ** * 무인 다목적기
+Utility
+1.2.1.1.16.18 S * A * MFQY-- ** ** * 무인 통신기
+Communications
+1.2.1.1.16.19 S * A * MFQO-- ** ** * 무인 의무후송기
+Medevac
+1.2.1.1.17 S * A * MFS--- ** ** * 대잠항공기(함재기)
+Antisubmarine warfare (ASW)
+carrier based
+1.2.1.1.18 S * A * MFM--- ** ** * 특수작전기
+Special operations forces (SOF)
+1.2.1.2 S * A * MH---- ** ** * 회전익
+Rotary wing
+1.2.1.2.1 S * A * MH-- ** ** * 공격헬기
+Attack
+1.2.1.2.2 S * A * MHS--- ** ** * 대잠헬기
+Antisubmarine warfare/MPA
+12
+1.2.1.2.3 S * A * MHU--- ** ** * 다목적헬기
+Utility
+1.2.1.2.3.1 S * A * MHUL-- ** ** * 다목적헬기(경)
+Utility (light)
+1.2.1.2.3.2 S * A * MHUM-- ** ** * 다목적헬기(중)
+Utility (medium)
+1.2.1.2.3.3 S * A * MHUH-- ** ** * 다목적헬기(대)
+Utility (heavy)
+1.2.1.2.4 S * A * MHI--- ** ** * 대기뢰헬기
+Mine countermeasures
+1.2.1.2.5 S * A * MHH--- ** ** * 탐색구조헬기
+Combat search and rescue (CSAR)
+1.2.1.2.6 S * A * MHR--- ** ** * 수색정찰헬기
+Reconnaissance
+1.2.1.2.7 S * A * MHQ--- ** ** * 무인조정헬기
+Drone (RPV/UA)
+1.2.1.2.8 S * A * MHC--- ** ** * 수송헬기
+Cargo airlift (transport)
+1.2.1.2.8.1 S * A * MHCL-- ** ** * 수송헬기(경)
+Cargo airlift (light)
+1.2.1.2.8.2 S * A * MHCM-- ** ** * 수송헬기(중)
+Cargo airlift (medium)
+1.2.1.2.8.3 S * A * MHCH-- ** ** * 수송헬기(대)
+Cargo airlift (heavy)
+1.2.1.2.9 S * A * MHT--- ** ** * 훈련헬기
+Trainer
+1.2.1.2.10 S * A * MHO--- ** ** * 의무후송헬기
+Medevac
+1.2.1.2.11 S * A * MHM--- ** ** * 기동부대헬기
+Special operations forces (SOF)
+1.2.1.2.12 S * A * MHD--- ** ** * 공수지휘헬기
+Airborne command post (C2)
+1.2.1.2.13 S * A * MHK--- ** ** * 공중급유헬기
+Tanker
+1.2.1.2.14 S * A * MHJ--- ** ** * 전파교란헬기
+Electronic countermeasures
+(ECM/jammer)
+1.2.1.3 S * A * ML---- ** ** * 풍선기구(군용)
+Lighter than air
+1.2.1.4 S * A * MV---- ** ** *
+VIP
+Very important person (VIP)
+13
+1.2.1.5 S * A * ME---- ** ** * 호위
+Escort
+1.2.2 S * A * W----- ** ** * 공중화기
+Weapon
+1.2.2.1 S * A * WM---- ** ** * 유도탄(공중)
+Missile in flight
+1.2.2.1.1 S * A * WMS--- ** ** * 지대(함)유도탄
+Surface launched missile
+1.2.2.1.1.1 S * A * WMSS-- ** ** * 지(함)대지(함)유도탄
+Surface-to-surface missile
+(SSM)
+1.2.2.1.1.2 S * A * WMS- ** ** * 지(함)대공유도탄
+Surface-to-air missile (SAM)
+1.2.2.1.1.3 S * A * WMSU-- ** ** * 대잠유도탄
+Surface-to-subsurface missile
+1.2.2.1.1.4 S * A * WMSB-- ** ** * 탄도탄 요격 유도탄
+Antiballistic missile (ABM)
+1.2.2.1.2 S * A * WM-- ** ** * 공대유도탄
+Air launched missile
+1.2.2.1.2.1 S * A * WMAS-- ** ** * 공대지(함)유도탄
+Air-to-surface missile (ASM)
+1.2.2.1.2.2 S * A * WMA- ** ** * 공대공유도탄
+Air-to-air missile (AAM)
+1.2.2.1.2.3 S * A * WMAP-- ** ** * 공대 우주 유도탄
+Air-to-space missile
+1.2.2.1.3 S * A * WMU--- ** ** * 잠대지(함) 유도탄
+Subsurface-to-surface missile
+(S/SSM)
+1.2.2.1.3.1 S * A * WMCM-- ** ** * 순항유도탄
+Cruise missile
+1.2.2.1.4 S * A * WMB--- ** ** * 탄도유도탄
+Ballistic missile
+1.2.2.1.5 S * A * WML--- ** ** * 지상공격유도탄
+Ground attack missile
+1.2.2.2 S * A * WD---- ** ** * 유인유도탄
+Decoy
+1.2.2.3 S * A * WB---- ** ** * 폭탄
+Bomb
+1.2.3 S * A * C----- ** ** * 공중항적(민간)
+Civil aircraft
+1.2.3.1 S * A * CF---- ** ** * 고정익(민간)
+Fixed wing
+1.2.3.2 S * A * CH---- ** ** * 회전익(민간)
+Rotary wing
+1.2.3.3 S * A * CL---- ** ** * 풍선기구(민간)
+Lighter than air
+1.3 S * G * ------ ** ** * 지상항적
+Ground track
+1.3.1 S * G * U----- ** ** * 부대
+Unit
+1.3.1.1 S * G * UC---- ** ** * 전투
+Combat
+1.3.1.1.1 S * G * UCD--- ** ** * 방공
+Air defense
+1.3.1.1.1.1 S * G * UCDS-- ** ** * 단거리방공
+Short range
+1.3.1.1.1.1.1 S * G * UCDSC- ** ** * 채퍼럴방공
+Chaparral
+1.3.1.1.1.1.2 S * G * UCDSS- ** ** * 스팅거방공
+Stinger
+1.3.1.1.1.1.3 S * G * UCDSV- ** ** * 발칸방공
+Vulcan
+1.3.1.1.1.2 S * G * UCDM-- ** ** * 방공유도탄
+Air defense missile
+1.3.1.1.1.2.1 S * G * UCDML- ** ** * 방공유도탄(경)
+Air defense missile light
+1.3.1.1.1.2.1.1 S * G * UCDMLA ** ** * 방공유도탄(경-차량화)
+Air defense missile motorized
+(Avenger)
+1.3.1.1.1.2.2 S * G * UCDMM- ** ** * 방공유도탄(중)
+Air defense missile medium
+1.3.1.1.1.2.3 S * G * UCDMH- ** ** * 방공유도탄(대)
+Air defense missile heavy
+1.3.1.1.1.2.4 S * G * UCDH-- ** ** * 방공(고고도)
+H/MAD
+1.3.1.1.1.2.4.1 S * G * UCDHH- ** ** * 호크방공
+Hawk
+1.3.1.1.1.2.4.2 S * G * UCDHP- ** ** * 패트리어트방공
+Patriot
+1.3.1.1.1.2.4.3 S * G * UCDHN- ** ** * 나이키방공
+Nike
+1.3.1.1.1.3 S * G * UCDG-- ** ** * 대공포
+Gun unit
+1.3.1.1.1.4 S * G * UCDC-- ** ** * 복합(포/유도탄)
+Composite
+1.3.1.1.1.5 S * G * UCDT-- ** ** * 방공표적획득
+Targeting unit
+1.3.1.1.1.6 S * G * UCDO-- ** ** * 전구유도탄방어
+Theater missile defense unit
+1.3.1.1.2 S * G * UC-- ** ** * 기갑
+Armor
+1.3.1.1.2.1 S * G * UCAT-- ** ** * 기갑(궤도)
+Armor track
+1.3.1.1.2.1.1 S * G * UCAT ** ** * 기갑(궤도-공수)
+Armor track airborne
+1.3.1.1.2.1.2 S * G * UCATW- ** ** * 기갑(궤도-상륙)
+Armor track amphibious
+1.3.1.1.2.1.2.1 S * G * UCATWR ** ** * 기갑(궤도-상륙정비)
+Armor track amphibious recovery
+1.3.1.1.2.1.3 S * G * UCATL- ** ** * 기갑(궤도-경)
+Armor track, Light
+1.3.1.1.2.1.4 S * G * UCATM- ** ** * 기갑(궤도-중)
+Armor track, Medium
+1.3.1.1.2.1.5 S * G * UCATH- ** ** * 기갑(궤도-대)
+Armor track, Heavy
+1.3.1.1.2.1.6 S * G * UCATR- ** ** * 기갑(궤도-정비)
+Armor track, Recovery
+1.3.1.1.2.1.7 S * G * UCATD- ** ** * 기갑(궤도-방공)
+Armor track, Air defense
+1.3.1.1.2.2 S * G * UCAW-- ** ** * 기갑(차륜)
+Armor, wheeled
+1.3.1.1.2.2.1 S * G * UCAWS- ** ** * 기갑(차륜-강습)
+Armor, wheeled air assault
+1.3.1.1.2.2.2 S * G * UCAWA- ** ** * 기갑(차륜-공수)
+Armor, wheeled airborne
+1.3.1.1.2.2.3 S * G * UCAWW- ** ** * 기갑(차륜-상륙)
+Armor, wheeled amphibious
+1.3.1.1.2.2.3.1 S * G * UCAWWR ** ** * 기갑(차륜-상륙구조)
+Armor, wheeled amphibious
+recovery
+1.3.1.1.2.2.4 S * G * UCAWL- ** ** * 기갑(차륜-경)
+Armor, wheeled light
+1.3.1.1.2.2.5 S * G * UCAWM- ** ** * 기갑(차륜-중)
+Armor, wheeled medium
+1.3.1.1.2.2.6 S * G * UCAWH- ** ** * 기갑(차륜-대)
+Armor, wheeled heavy
+1.3.1.1.2.2.7 S * G * UCAWR- ** ** * 기갑(차륜-정비)
+Armor, wheeled recovery
+1.3.1.1.3 S * G * UCAA-- ** ** * 대전차
+Antiarmor
+1.3.1.1.3.1 S * G * UCAAD- ** ** * 대전차(하차)
+Antiarmor dismounted
+1.3.1.1.3.2 S * G * UCAAL- ** ** * 대전차(경)
+Antiarmor light
+1.3.1.1.3.3 S * G * UCAAM- ** ** * 대전차(공수)
+Antiarmor airborne
+1.3.1.1.3.4 S * G * UCAAS- ** ** * 대전차(강습)
+Antiarmor air assault
+1.3.1.1.3.5 S * G * UCAAU- ** ** * 대전차(산악)
+Antiarmor mountain
+1.3.1.1.3.6 S * G * UCAAC- ** ** * 대전차(빙상)
+Antiarmor arctic
+1.3.1.1.3.7 S * G * UCAAA- ** ** * 대전차기갑
+Antiarmor armored
+1.3.1.1.3.7.1 S * G * UCAAAT ** ** * 대전차기갑(궤도)
+Antiarmor armored tracked
+1.3.1.1.3.7.2 S * G * UCAAAW ** ** * 대전차기갑(차륜)
+Antiarmor armored wheeled
+1.3.1.1.3.7.3 S * G * UCAAAS ** ** * 대전차기갑(강습)
+Antiarmor armored air assault
+1.3.1.1.3.8 S * G * UCAAO- ** ** * 대전차차량화
+Antiarmor motorized
+1.3.1.1.3.8.1 S * G * UCAAOS ** ** * 대전차차량화(강습)
+Antiarmor motorized air assault
+1.3.1.1.4 S * G * UCV--- ** ** * 항공
+Aviation
+1.3.1.1.4.1 S * G * UCVF-- ** ** * 고정익항공
+Fixed wing
+1.3.1.1.4.1.1 S * G * UCVFU- ** ** * 다목적고정익항공
+Utility fixed wing
+1.3.1.1.4.1.2 S * G * UCVFA- ** ** * 공격고정익항공
+Attack fixed wing
+1.3.1.1.4.1.3 S * G * UCVFR- ** ** * 수색정찰고정익항공
+Recon fixed wing
+1.3.1.1.4.1.4 S * G * UCVFT- ** ** * 고정익항공훈련
+Trainer fixed wing
+1.3.1.1.4.1.5 S * G * UCVFP- ** ** * 초계고정익항공
+Patrol fixed wing
+1.3.1.1.4.2 S * G * UCVR-- ** ** * 회전익항공
+Rotary wing
+1.3.1.1.4.2.1 S * G * UCVRA- ** ** * 공격헬기
+Attack rotary wing
+1.3.1.1.4.2.2 S * G * UCVRS- ** ** * 수색정찰헬기
+Scout rotary wing
+1.3.1.1.4.2.3 S * G * UCVRW- ** ** * 대잠헬기
+Antisubmarine warfare rotary
+wing
+1.3.1.1.4.2.4 S * G * UCVRU- ** ** * 다목적헬기
+Utility rotary wing
+1.3.1.1.4.2.4.1 S * G * UCVRUL ** ** * 다목적헬기(경)
+Light utility rotary wing
+1.3.1.1.4.2.4.2 S * G * UCVRUM ** ** * 다목적헬기(중)
+Medium utility rotary wing
+1.3.1.1.4.2.4.3 S * G * UCVRUH ** ** * 다목적헬기(대)
+Heavy utility rotary wing
+1.3.1.1.4.2.5 S * G * UCVRUC ** ** * 지휘통제헬기
+C2 rotary wing
+1.3.1.1.4.2.6 S * G * UCVRUE ** ** * 의무후송헬기
+Medevac rotary wing
+1.3.1.1.4.2.7 S * G * UCVRM- ** ** * 대기뢰헬기
+Mine countermeasure rotary wing
+1.3.1.1.4.3 S * G * UCVS-- ** ** * 탐색구조헬기
+Search and rescue
+1.3.1.1.4.4 S * G * UCVC-- ** ** * 복합(고정/회전익)
+Composite
+1.3.1.1.4.5 S * G * UCVV-- ** ** * 수직이착륙기
+Vertical and/or short takeoff
+and landing aircraft (V/STOL)
+1.3.1.1.4.6 S * G * UCVU-- ** ** * 무인항공기
+Unmanned aircraft
+1.3.1.1.4.6.1 S * G * UCVUF- ** ** * 무인항공기(고정익)
+Unmanned aircraft fixed wing
+1.3.1.1.4.6.2 S * G * UCVUR- ** ** * 무인항공기(회전익)
+Unmanned aircraft rotary wing
+1.3.1.1.5 S * G * UCI--- ** ** * 보병
+Infantry
+1.3.1.1.5.1 S * G * UCIL-- ** ** * 보병(경)
+Infantry light
+1.3.1.1.5.2 S * G * UCIM-- ** ** * 차량화보병
+Infantry motorized
+1.3.1.1.5.3 S * G * UCIO-- ** ** * 산악보병
+Infantry mountain
+1.3.1.1.5.4 S * G * UCIA-- ** ** * 공수보병
+Infantry airborne
+1.3.1.1.5.5 S * G * UCIS-- ** ** * 강습보병
+Infantry air assault
+1.3.1.1.5.6 S * G * UCIZ-- ** ** * 기계화보병
+Infantry mechanized
+1.3.1.1.5.7 S * G * UCIN-- ** ** * 해군보병
+Infantry naval
+1.3.1.1.5.8 S * G * UCII-- ** ** * 전투차량화보병
+Infantry fighting vehicle
+1.3.1.1.5.9 S * G * UCIC-- ** ** * 빙상보병
+Infantry arctic
+1.3.1.1.5.10 S * G * UCIP-- ** ** * 상륙보병
+Infantry amphibious
+1.3.1.1.5.11 S * G * UCIB-- ** ** * 특공
+Infantry special force
+1.3.1.1.6 S * G * UCE--- ** ** * 공병
+Engineer
+1.3.1.1.6.1 S * G * UCEC-- ** ** * 전투공병
+Engineer combat
+1.3.1.1.6.1.1 S * G * UCECS- ** ** * 강습공병
+Engineer combat air assault
+1.3.1.1.6.1.2 S * G * UCECA- ** ** * 공수공병
+Engineer combat airborne
+1.3.1.1.6.1.3 S * G * UCECC- ** ** * 한대전투공병
+Engineer combat arctic
+1.3.1.1.6.1.4 S * G * UCECL- ** ** * 전투공병(경)
+Engineer combat Light (Sapper)
+1.3.1.1.6.1.5 S * G * UCECM- ** ** * 전투공병(중)
+Engineer combat Medium
+1.3.1.1.6.1.6 S * G * UCECH- ** ** * 전투공병(대)
+Engineer combat Heavy
+1.3.1.1.6.1.7 S * G * UCECT- ** ** * 기계화공병
+Engineer combat Mechanized
+(Track)
+1.3.1.1.6.1.8 S * G * UCECW- ** ** * 차량화공병
+Engineer combat Motorized
+1.3.1.1.6.1.9 S * G * UCECO- ** ** * 산악공병
+Engineer combat Mountain
+1.3.1.1.6.1.10 S * G * UCECR- ** ** * 수색정찰공병
+Engineer combat Recon
+1.3.1.1.6.1.11 S * G * UCECV- ** ** * 도하공병
+Engineer combat Water crossing
+1.3.1.1.6.2 S * G * UCEN-- ** ** * 건설공병
+Engineer construction
+1.3.1.1.6.2.1 S * G * UCENN- ** ** * 해군건설공병
+Engineer naval construction
+1.3.1.1.6.2.2 S * G * UCENA- ** ** * 공군건설공병
+Engineer air force construction
+1.3.1.1.6.2.3 S * G * UCENB- ** ** * 도하 및 교량가설
+Engineer construction, Water
+crossing/Bridge
+1.3.1.1.7 S * G * UCF--- ** ** * 포병(야전)
+Field artillery
+1.3.1.1.7.1 S * G * UCFH-- ** ** * 포
+Howitzer/Gun
+1.3.1.1.7.1.1 S * G * UCFHE- ** ** * 자주포
+Self-propelled
+1.3.1.1.7.1.2 S * G * UCFHS- ** ** * 강습(포병)
+Air assault
+1.3.1.1.7.1.3 S * G * UCFHA- ** ** * 공수(포병)
+Airborne
+1.3.1.1.7.1.4 S * G * UCFHC- ** ** * 빙상(포병)
+Arctic
+1.3.1.1.7.1.5 S * G * UCFHO- ** ** * 산악(포병)
+Mountain
+1.3.1.1.7.1.6 S * G * UCFHL- ** ** * 포(경)
+Light
+1.3.1.1.7.1.7 S * G * UCFHM- ** ** * 포(중)
+Medium
+1.3.1.1.7.1.8 S * G * UCFHH- ** ** * 포(대)
+Heavy
+1.3.1.1.7.1.9 S * G * UCFHX- ** ** * 상륙포병
+Amphibious
+1.3.1.1.7.1.10 S * G * UCFHI- ** ** * 기계화포병(보병부대)
+Mechanized (Infantry)
+1.3.1.1.7.2 S * G * UCFR-- ** ** * 로켓
+Rocket
+1.3.1.1.7.2.1 S * G * UCFRS- ** ** * 단연장로켓발사기
+Single rocket, Launcher
+1.3.1.1.7.2.1.1 S * G * UCFRSS ** ** * 단연장로켓발사기(자주식)
+Single rocket, Self-propelled
+1.3.1.1.7.2.1.2 S * G * UCFRSR ** ** * 단연장로켓발사기(차량)
+Single rocket, Truck
+1.3.1.1.7.2.1.3 S * G * UCFRST ** ** * 단연장로켓발사기(견인)
+Single rocket, Towed
+1.3.1.1.7.2.2 S * G * UCFRM- ** ** * 다련장로켓발사기
+Multiple rocket, Launcher
+1.3.1.1.7.2.2.1 S * G * UCFRMS ** ** * 다련장로켓발사기(자주식)
+Multiple rocket, Self-propelled
+1.3.1.1.7.2.2.2 S * G * UCFRMR ** ** * 다련장로켓발사기(차량)
+Multiple rocket, Truck
+1.3.1.1.7.2.2.3 S * G * UCFRMT ** ** * 다련장로켓발사기(견인)
+Multiple rocket, Towed
+1.3.1.1.7.3 S * G * UCFT-- ** ** * 포병표적획득
+Target acquisition
+1.3.1.1.7.3.1 S * G * UCFTR- ** ** * 포병표적획득(레이다)
+Radar
+1.3.1.1.7.3.2 S * G * UCFTS- ** ** * 포병표적획득(음향)
+Sound
+1.3.1.1.7.3.3 S * G * UCFTF- ** ** * 포병표적획득(광학)
+Flash (Optical)
+1.3.1.1.7.3.4 S * G * UCFTC- ** ** * 관측반
+Colt/fist
+1.3.1.1.7.3.4.1 S * G * UCFTCD ** ** * 관측반(하차)
+Dismounted colt/Fist
+1.3.1.1.7.3.4.2 S * G * UCFTCM ** ** * 관측반(궤도화)
+Tracked colt/Fist
+1.3.1.1.7.3.5 S * G * UCFTA- ** ** * 함포항공연락
+Anglico
+1.3.1.1.7.4 S * G * UCFM-- ** ** * 박격포
+Mortar
+1.3.1.1.7.4.1 S * G * UCFMS- ** ** * 박격포(자주궤도식)
+Self-propelled (SP) tracked
+mortar
+1.3.1.1.7.4.2 S * G * UCFMW- ** ** * 박격포(자주차륜식)
+Sp wheeled mortar
+1.3.1.1.7.4.3 S * G * UCFMT- ** ** * 박격포(견인)
+Towed mortar
+1.3.1.1.7.4.3.1 S * G * UCFMTA ** ** * 박격포(견인-공수)
+Towed airborne mortar
+1.3.1.1.7.4.3.2 S * G * UCFMTS ** ** * 박격포(견인-강습)
+Towed air assault mortar
+1.3.1.1.7.4.3.3 S * G * UCFMTC ** ** * 박격포(견인-빙상)
+Towed arctic mortar
+1.3.1.1.7.4.3.4 S * G * UCFMTO ** ** * 박격포(견인-산악)
+Towed mountain mortar
+1.3.1.1.7.4.4 S * G * UCFML- ** ** * 박격포(상륙)
+Amphibious mortar
+1.3.1.1.7.5 S * G * UCFS-- ** ** * 포병측지
+Artillery survey
+1.3.1.1.7.5.1 S * G * UCFSS- ** ** * 포병측지(강습)
+Air assault
+1.3.1.1.7.5.2 S * G * UCFSA- ** ** * 포병측지(공수)
+Airborne
+1.3.1.1.7.5.3 S * G * UCFSL- ** ** * 포병측지(경)
+Light
+1.3.1.1.7.5.4 S * G * UCFSO- ** ** * 포병측지(산악)
+Mountain
+1.3.1.1.7.6 S * G * UCFO-- ** ** * 기상관측
+Meteorological
+1.3.1.1.7.6.1 S * G * UCFOS- ** ** * 기상관측(강습)
+Air assault meteorological
+1.3.1.1.7.6.2 S * G * UCFOA- ** ** * 기상관측(공수)
+Airborne meteorological
+1.3.1.1.7.6.3 S * G * UCFOL- ** ** * 기상관측(경)
+Light meteorological
+1.3.1.1.7.6.4 S * G * UCFOO- ** ** * 기상관측(산악)
+Mountain meteorological
+1.3.1.1.8 S * G * UCR--- ** ** * 수색정찰
+Reconnaissance
+1.3.1.1.8.1 S * G * UCRH-- ** ** * 수색정찰(기병)
+Reconnaissance, Horse
+1.3.1.1.8.2 S * G * UCRV-- ** ** * 수색정찰(기갑)
+Reconnaissance, Cavalry
+1.3.1.1.8.2.1 S * G * UCRVA- ** ** * 수색정찰(기갑-장갑화)
+Reconnaissance, Cavalry armored
+1.3.1.1.8.2.2 S * G * UCRVM- ** ** * 수색정찰(기갑-차량화)
+Reconnaissance, Cavalry
+motorized
+1.3.1.1.8.2.3 S * G * UCRVG- ** ** * 수색정찰(기갑-지상)
+Reconnaissance, Cavalry ground
+1.3.1.1.8.2.4 S * G * UCRVO- ** ** * 수색정찰(기갑-공중)
+Reconnaissance, Cavalry air
+1.3.1.1.8.3 S * G * UCRC-- ** ** * 수색정찰(빙상)
+Reconnaissance, Arctic
+1.3.1.1.8.4 S * G * UCRS-- ** ** * 수색정찰(강습)
+Reconnaissance, Air assault
+1.3.1.1.8.5 S * G * UCRA-- ** ** * 수색정찰(공수)
+Reconnaissance, Airborne
+1.3.1.1.8.6 S * G * UCRO-- ** ** * 수색정찰(산악)
+Reconnaissance, Mountain
+1.3.1.1.8.7 S * G * UCRL-- ** ** * 수색정찰(경)
+Reconnaissance, Light
+1.3.1.1.8.8 S * G * UCRR-- ** ** * 수색정찰(해병)
+Reconnaissance, Marine
+1.3.1.1.8.8.1 S * G * UCRRD- ** ** * 수색정찰(해병-사단)
+Reconnaissance, Marine division
+1.3.1.1.8.8.2 S * G * UCRRF- ** ** * 수색정찰(해병대-원정군)
+Reconnaissance, Marine force
+1.3.1.1.8.8.3 S * G * UCRRL- ** ** * 수색정찰(해병-경무장)
+Reconnaissance, Marine light
+armored reconnaissnace (LAR)
+1.3.1.1.8.9 S * G * UCRX-- ** ** * 수색정찰(광역수색)
+Reconnaissance, Long range
+surveillance (LRS)
+1.3.1.1.8.10 S * G * UCRB-- ** ** * 수색정찰(기구정찰)
+Reconnaissance, Lighter than
+air surveillance
+1.3.1.1.9 S * G * UCM--- ** ** * 유도탄(지대지)
+Missile (Surf-Surf)
+1.3.1.1.9.1 S * G * UCMT-- ** ** * 유도탄(전술)
+Missile (Surf-Surf) tactical
+1.3.1.1.9.2 S * G * UCMS-- ** ** * 유도탄(전략)
+Missile (Surf-Surf) strategic
+1.3.1.1.10 S * G * UCS--- ** ** * 경비부대
+Internal security forces
+1.3.1.1.10.1 S * G * UCSW-- ** ** * 경비부대(강변)
+Riverine
+1.3.1.1.10.2 S * G * UCSG-- ** ** * 경비지상군
+Ground
+1.3.1.1.10.2.1 S * G * UCSGD- ** ** * 경비지상군(하차)
+Dismounted ground
+1.3.1.1.10.2.2 S * G * UCSGM- ** ** * 경비지상군(차량화)
+Motorized ground
+1.3.1.1.10.2.3 S * G * UCSGA- ** ** * 경비지상군(기계화)
+Mechanized ground
+1.3.1.1.10.3 S * G * UCSM-- ** ** * 경비지상군(기갑화)
+Wheeled mechanized
+1.3.1.1.10.4 S * G * UCSR-- ** ** * 경비부대(철도)
+Railroad
+1.3.1.1.10.5 S * G * UCSA-- ** ** * 경비부대(항공)
+Aviation
+1.3.1.1.11 S * G * UCO--- ** ** * 관측 및 감시
+Observation and surveillance
+1.3.1.2 S * G * UU---- ** ** * 전투지원
+Combat support
+1.3.1.2.1 S * G * UUA--- ** ** * 화학
+Combat support cbrn
+1.3.1.2.1.1 S * G * UUAC-- ** ** * 화학전
+Chemical
+1.3.1.2.1.1.1 S * G * UUACC- ** ** * 연막/제독
+Smoke/Decon
+1.3.1.2.1.1.1.1 S * G * UUACCK ** ** * 연막/제독(기계화)
+Mechanized smoke/Decon
+1.3.1.2.1.1.1.2 S * G * UUACCM ** ** * 연막/제독(차량화)
+Motorized smoke/Decon
+1.3.1.2.1.1.2 S * G * UUACS- ** ** * 연막
+Smoke
+1.3.1.2.1.1.2.1 S * G * UUACSM ** ** * 연막(차량화)
+Motorized smoke
+1.3.1.2.1.1.2.2 S * G * UUACSA ** ** * 연막(장갑)
+Armor smoke
+1.3.1.2.1.1.3 S * G * UUACR- ** ** * 화학(정찰)
+Chemical recon
+1.3.1.2.1.1.3.1 S * G * UUACRW ** ** * 화학정찰(기갑)
+Chemical wheeled armored
+vehicle
+1.3.1.2.1.1.3.2 S * G * UUACRS ** ** * 화학정찰(기갑-정찰감시)
+Chemical wheeled armored
+vehicle reconnaissance
+surveillance
+1.3.1.2.1.2 S * G * UUAN-- ** ** * 방사능전
+Nuclear
+1.3.1.2.1.3 S * G * UUAB-- ** ** * 생물학전
+Biological
+1.3.1.2.1.3.1 S * G * UUABR- ** ** * 생물학정찰(장비착용)
+Recon equipped
+1.3.1.2.1.4 S * G * UUAD-- ** ** * 제독
+Decontamination
+1.3.1.2.1.5 S * G * UUAW-- ** ** * 대량살상무기(대응)팀
+Weapon Mass Destruction(WMD)
+1.3.1.2.1.6 S * G * UUAR-- ** ** * 화생방(신속대응)팀
+Chemical Biological Nuclear
+Rapid Response Team(CRRT)
+1.3.1.2.2 S * G * UUM--- ** ** * 정보
+Military intelligence
+1.3.1.2.2.1 S * G * UUMA-- ** ** * 정보(공중감시)
+Aerial exploitation
+1.3.1.2.2.2 S * G * UUMS-- ** ** * 정보(신호정보-도청)
+Signal intelligence (SIGINT)
+1.3.1.2.2.2.1 S * G * UUMSE- ** ** * 전자전
+Electronic warfare
+1.3.1.2.2.2.1.1 S * G * UUMSEA ** ** * 전자전(기갑)
+Armored wheeled vehicle
+1.3.1.2.2.2.1.2 S * G * UUMSED ** ** * 전파방향탐지
+Direction finding
+1.3.1.2.2.2.1.3 S * G * UUMSEI ** ** * 전파도청
+Intercept
+1.3.1.2.2.2.1.4 S * G * UUMSEJ ** ** * 전파교란
+Jamming
+1.3.1.2.2.2.1.5 S * G * UUMSET ** ** * 전자전전구
+Theater
+1.3.1.2.2.2.1.6 S * G * UUMSEC ** ** * 전자전군단
+Corps
+1.3.1.2.2.2.1.7 S * G * UUMSEF ** ** * 전파탐지
+Radiolocation
+1.3.1.2.2.3 S * G * UUMC-- ** ** * 정보(방첩)
+Counterintelligence
+1.3.1.2.2.4 S * G * UUMR-- ** ** * 정보(감시)
+Surveillance
+1.3.1.2.2.4.1 S * G * UUMRG- ** ** * 정보지상감시레이다
+Ground surveillance radar
+1.3.1.2.2.4.2 S * G * UUMRS- ** ** * 감시센서
+Sensor
+1.3.1.2.2.4.2.1 S * G * UUMRSS ** ** * 감시센서(제어)
+Sensor scm
+1.3.1.2.2.4.3 S * G * UUMRX- ** ** * 감시소
+Ground station module
+1.3.1.2.2.4.4 S * G * UUMMO- ** ** * 정보(기상)
+Meteorological
+1.3.1.2.2.5 S * G * UUMO-- ** ** * 정보작전
+Operations
+1.3.1.2.2.6 S * G * UUMT-- ** ** * 정보(선전전술)
+Tactical exploit
+1.3.1.2.2.7 S * G * UUMQ-- ** ** * 정보(심문)
+Interrogation
+1.3.1.2.2.8 S * G * UUMJ-- ** ** * 합동정보본부
+Joint intelligence center
+1.3.1.2.3 S * G * UUL--- ** ** * 법시행부대
+Law enforcement unit
+1.3.1.2.3.1 S * G * UULS-- ** ** * 해안경비
+Shore patrol
+1.3.1.2.3.2 S * G * UULM-- ** ** * 헌병
+Military police
+1.3.1.2.3.3 S * G * UULC-- ** ** * 민간경찰
+Civilian law enforcement
+1.3.1.2.3.3.1 S * G * UULCE- ** ** * 통신
+Communication
+1.3.1.2.3.3.2 S * G * UULCN- ** ** * 해양경찰
+Martime police
+1.3.1.2.3.3.3 S * G * UULCA- ** ** * 항공경찰
+Aviation police
+1.3.1.2.3.3.4 S * G * UULCC- ** ** * 전투경찰
+Combat police
+1.3.1.2.3.3.5 S * G * UULCM- ** ** * 기동대
+Task force
+1.3.1.2.3.3.6 S * G * UULCP- ** ** * 방범기동대
+Neighborhood guard
+1.3.1.2.3.3.7 S * G * UULCG- ** ** * 경비대
+Guard
+1.3.1.2.3.4 S * G * UULF-- ** ** * 기무부대
+Security police (Air)
+1.3.1.2.3.5 S * G * UULD-- ** ** * 중앙정보부
+Central intelligence division
+(CID)
+1.3.1.2.4 S * G * UUS--- ** ** * 통신
+Signal unit
+1.3.1.2.4.1 S * G * UUSA-- ** ** * 통신구역
+Area
+1.3.1.2.4.2 S * G * UUSC-- ** ** * 통신형성패키지
+Communication configured
+package
+1.3.1.2.4.2.1 S * G * UUSCL- ** ** * 통신형성패키지(대)
+Large communication configured
+package (LCCP)
+1.3.1.2.4.3 S * G * UUSO-- ** ** * 통신지휘작전
+Command operations
+1.3.1.2.4.4 S * G * UUSF-- ** ** * 통신전송
+Forward communications
+1.3.1.2.4.5 S * G * UUSM-- ** ** * 다중채널
+Multiple subscriber element
+1.3.1.2.4.5.1 S * G * UUSMS- ** ** * 확장단말(소)
+Small extension node
+1.3.1.2.4.5.2 S * G * UUSML- ** ** * 확장단말(대)
+Large extension node
+1.3.1.2.4.5.3 S * G * UUSMN- ** ** * 단말 본부
+Node center
+1.3.1.2.4.6 S * G * UUSR-- ** ** * 무선통신소
+Radio unit
+1.3.1.2.4.6.1 S * G * UUSRS- ** ** * 전술위성
+Tactical satellite
+1.3.1.2.4.6.2 S * G * UUSRT- ** ** * 전신타자
+Teletype center
+1.3.1.2.4.6.3 S * G * UUSRW- ** ** * 중계소
+Relay
+1.3.1.2.4.7 S * G * UUSS-- ** ** * 통신지원
+Signal support
+1.3.1.2.4.8 S * G * UUSW-- ** ** * 교환대
+Telephone switch
+1.3.1.2.4.9 S * G * UUSX-- ** ** * 전자탐지
+Electronic ranging
+1.3.1.2.4.10 S * G * UUB--- ** ** * 민사
+Civil
+1.3.1.2.5 S * G * UUI--- ** ** * 정보전부대
+Information warfare unit
+1.3.1.2.6 S * G * UUP--- ** ** * 상륙지원
+Landing support
+1.3.1.2.7 S * G * UUE--- ** ** * 폭발물처리
+Explosive ordnance disposal
+1.3.1.2.8 S * G * UUW--- ** ** * 기상
+Weather
+1.3.1.3 S * G * US---- ** ** * 전투근무지원
+Combat service support
+1.3.1.3.1 S * G * USA--- ** ** * 행정
+Administrative (Admin)
+1.3.1.3.1.1 S * G * USAT-- ** ** * 행정(전구)
+Admin theater
+1.3.1.3.1.2 S * G * USAC-- ** ** * 행정(군단)
+Admin corps
+1.3.1.3.1.3 S * G * USAJ-- ** ** * 법무
+Judge advocate general (JAG)
+1.3.1.3.1.3.1 S * G * USAJT- ** ** * 법무(전구)
+Jag theater
+1.3.1.3.1.3.2 S * G * USAJC- ** ** * 법무(군단)
+Jag corps
+1.3.1.3.1.4 S * G * USAO-- ** ** * 우편
+Postal
+1.3.1.3.1.4.1 S * G * USAOT- ** ** * 우편(전구)
+Postal theater
+1.3.1.3.1.4.2 S * G * USAOC- ** ** * 우편(군단)
+Postal corps
+1.3.1.3.1.5 S * G * USAF-- ** ** * 경리
+Finance
+1.3.1.3.1.5.1 S * G * USAFT- ** ** * 경리(전구)
+Finance theater
+1.3.1.3.1.5.2 S * G * USAFC- ** ** * 경리(군단)
+Finance corps
+1.3.1.3.1.6 S * G * USAS-- ** ** * 인사
+Personnel services
+1.3.1.3.1.6.1 S * G * USAST- ** ** * 인사(전구)
+Personnel theater
+1.3.1.3.1.6.2 S * G * USASC- ** ** * 인사(군단)
+Personnel corps
+1.3.1.3.1.7 S * G * USAM-- ** ** * 영현
+Mortuary/Graves registry
+1.3.1.3.1.7.1 S * G * USAMT- ** ** * 영현(전구)
+Mortuary/Graves registry
+theater
+1.3.1.3.1.7.2 S * G * USAMC- ** ** * 영현(군단)
+Mortuary/Graves registry corps
+1.3.1.3.1.8 S * G * USAR-- ** ** * 군종
+Religious/Chaplain
+1.3.1.3.1.8.1 S * G * USART- ** ** * 군종(전구)
+Religious/Chaplain theater
+1.3.1.3.1.8.2 S * G * USARC- ** ** * 군종(군단)
+Religious/Chaplain corps
+1.3.1.3.1.9 S * G * USAP-- ** ** * 공무
+Public affairs
+1.3.1.3.1.9.1 S * G * USAPT- ** ** * 공무(전구)
+Public affairs theater
+1.3.1.3.1.9.2 S * G * USAPC- ** ** * 공무(군단)
+Public affairs corps
+1.3.1.3.1.9.3 S * G * USAPB- ** ** * 공무(방송)
+Public affairs broadcast
+1.3.1.3.1.9.3.1 S * G * USAPBT ** ** * 공무(전구 방송)
+Public affairs broadcast
+theater
+1.3.1.3.1.9.3.2 S * G * USAPBC ** ** * 공무(군단 방송)
+Public affairs broadcast corps
+1.3.1.3.1.9.4 S * G * USAPM- ** ** * 공무(합동정보국)
+Public affairs joint
+information bureau (JIB)
+1.3.1.3.1.9.4.1 S * G * USAPMT ** ** * 공무(전구 합동정보국)
+Public affairs jib theater
+1.3.1.3.1.9.4.2 S * G * USAPMC ** ** * 공무(군단 합동정보국)
+Public affairs jib corps
+1.3.1.3.1.10 S * G * USAX-- ** ** * 보충부대
+Replacement holding unit (RHU)
+1.3.1.3.1.10.1 S * G * USAXT- ** ** * 보충부대(전구)
+RHU theater
+1.3.1.3.1.10.2 S * G * USAXC- ** ** * 보충부대(군단)
+RHU corps
+1.3.1.3.1.10.3 S * G * USAXP- ** ** * 훈련소
+Recruit training center
+1.3.1.3.1.11 S * G * USAL-- ** ** * 노무
+Labor
+1.3.1.3.1.11.1 S * G * USALT- ** ** * 노무(전구)
+Labor theater
+1.3.1.3.1.11.2 S * G * USALC- ** ** * 노무(군단)
+Labor corps
+1.3.1.3.1.12 S * G * USAW-- ** ** * 사기복지
+Morale, welfare, recreation
+(MWR)
+1.3.1.3.1.12.1 S * G * USAWT- ** ** * 사기복지(전구)
+MWR theater
+1.3.1.3.1.12.2 S * G * USAWC- ** ** * 사기복지(군단)
+MWR corps
+1.3.1.3.1.13 S * G * USAQ-- ** ** * 병참
+Quartermaster (Supply)
+1.3.1.3.1.13.1 S * G * USAQT- ** ** * 병참(전구)
+Quartermaster (Supply) theater
+1.3.1.3.1.13.2 S * G * USAQC- ** ** * 병참(군단)
+Quartermaster (Supply) corps
+1.3.1.3.1.14 S * G * USAA-- ** ** * 병기
+Weapon
+1.3.1.3.1.15 S * G * USAB-- ** ** * 예비군
+Reserved
+1.3.1.3.1.16 S * G * USAE-- ** ** * 포로
+Prisoner of War(POW)
+1.3.1.3.2 S * G * USM--- ** ** * 의무
+Medical
+1.3.1.3.2.1 S * G * USMT-- ** ** * 의무(전구)
+Medical theater
+1.3.1.3.2.2 S * G * USMC-- ** ** * 의무(군단)
+Medical corps
+1.3.1.3.2.3 S * G * USMM-- ** ** * 의무대
+Medical treatment facility
+1.3.1.3.2.3.1 S * G * USMMT- ** ** * 의무대(전구)
+Medical treatment facility
+theater
+1.3.1.3.2.3.2 S * G * USMMC- ** ** * 의무대(군단)
+Medical treatment facility
+corps
+1.3.1.3.2.4 S * G * USMV-- ** ** * 수의
+Medical veterinary
+1.3.1.3.2.4.1 S * G * USMVT- ** ** * 수의(전구)
+Medical veterinary theater
+1.3.1.3.2.4.2 S * G * USMVC- ** ** * 수의(군단)
+Medical veterinary corps
+1.3.1.3.2.5 S * G * USMD-- ** ** * 치과
+Medical dental
+1.3.1.3.2.5.1 S * G * USMDT- ** ** * 치과(전구)
+Medical dental theater
+1.3.1.3.2.5.2 S * G * USMDC- ** ** * 치과(군단)
+Medical dental corps
+1.3.1.3.2.6 S * G * USMP-- ** ** * 의무(신경과)
+Medical psychological
+1.3.1.3.2.6.1 S * G * USMPT- ** ** * 의무신경과(전구)
+Medical psychological theater
+1.3.1.3.2.6.2 S * G * USMPC- ** ** * 의무신경과(군단)
+Medical psychological corps
+1.3.1.3.3 S * G * USS--- ** ** * 보급-군수
+Supply
+1.3.1.3.3.1 S * G * USST-- ** ** * 보급(전구)
+Supply theater
+1.3.1.3.3.2 S * G * USSC-- ** ** * 보급(군단)
+Supply corps
+1.3.1.3.3.3 S * G * USS1-- ** ** * 보급1종(식량)
+Supply class I
+1.3.1.3.3.3.1 S * G * USS1T- ** ** * 보급1종(전구)
+Supply class I theater
+1.3.1.3.3.3.2 S * G * USS1C- ** ** * 보급1종(군단)
+Supply class I corps
+1.3.1.3.3.4 S * G * USS2-- ** ** * 보급2종(물자)
+Supply class II
+1.3.1.3.3.4.1 S * G * USS2T- ** ** * 보급2종(전구)
+Supply class II theater
+1.3.1.3.3.4.2 S * G * USS2C- ** ** * 보급2종(군단)
+Supply class II corps
+1.3.1.3.3.5 S * G * USS3-- ** ** * 보급3종(유류)
+Supply class III
+1.3.1.3.3.5.1 S * G * USS3T- ** ** * 보급3종(전구)
+Supply class III theater
+1.3.1.3.3.5.2 S * G * USS3C- ** ** * 보급3종(군단)
+Supply class III corps
+1.3.1.3.3.5.3 S * G * USS3A- ** ** * 보급3종(항공)
+Supply class III aviation
+1.3.1.3.3.5.3.1 S * G * USS3AT ** ** * 보급3종(항공전구)
+Supply class III aviation
+theater
+1.3.1.3.3.5.3.2 S * G * USS3AC ** ** * 보급3종(항공군단)
+Supply class III aviation corps
+1.3.1.3.3.6 S * G * USS4-- ** ** * 보급4종(자재)
+Supply class IV
+1.3.1.3.3.6.1 S * G * USS4T- ** ** * 보급4종(전구)
+Supply class IV theater
+1.3.1.3.3.6.2 S * G * USS4C- ** ** * 보급4종(군단)
+Supply class IV corps
+1.3.1.3.3.7 S * G * USS5-- ** ** * 보급5종(탄약)
+Supply class V
+1.3.1.3.3.7.1 S * G * USS5T- ** ** * 보급5종(전구)
+Supply class V theater
+1.3.1.3.3.7.2 S * G * USS5C- ** ** * 보급5종(군단)
+Supply class V corps
+1.3.1.3.3.7.3 S * G * USS5M- ** ** * 로켓 및 유도탄 탄약
+Supply rocket/missile munition
+1.3.1.3.3.7.4 S * G * USS5I- ** ** * 보병탄약
+Supply infantry munition
+1.3.1.3.3.7.5 S * G * USS5S- ** ** * 특수탄약
+Supply special munition
+1.3.1.3.3.7.6 S * G * USS5L- ** ** * 포병탄약
+Supply artillery munition
+1.3.1.3.3.7.7 S * G * USS5A- ** ** * 항공탄약
+Supply aviation munition
+1.3.1.3.3.7.8 S * G * USS5N- ** ** * 해군탄약
+Supply martime munition
+1.3.1.3.3.7.9 S * G * USS5H- ** ** * 화학탄약
+Supply chemical munition
+1.3.1.3.3.7.10 S * G * USS5R- ** ** * 탄약보급 정비부대
+Maintenance supply munition
+1.3.1.3.3.8 S * G * USS6-- ** ** * 보급6종(PX)
+Supply class VI
+1.3.1.3.3.8.1 S * G * USS6T- ** ** * 보급6종(전구)
+Supply class VI theater
+1.3.1.3.3.8.2 S * G * USS6C- ** ** * 보급6종(군단)
+Supply class VI corps
+1.3.1.3.3.9 S * G * USS7-- ** ** * 보급7종(장비)
+Supply class VII
+1.3.1.3.3.9.1 S * G * USS7T- ** ** * 보급7종(전구)
+Supply class VII theater
+1.3.1.3.3.9.2 S * G * USS7C- ** ** * 보급7종(군단)
+Supply class VII corps
+1.3.1.3.3.9.3 S * G * USS7I- ** ** *
+C4I장비 보급
+Supply C4I equipments
+1.3.1.3.3.10 S * G * USS8-- ** ** * 보급8종(의료)
+Supply class VIII
+1.3.1.3.3.10.1 S * G * USS8T- ** ** * 보급8종(전구)
+Supply class VIII theater
+1.3.1.3.3.10.2 S * G * USS8C- ** ** * 보급8종(군단)
+Supply class VIII corps
+1.3.1.3.3.11 S * G * USS9-- ** ** * 보급9종(수리부속)
+Supply class IX
+1.3.1.3.3.11.1 S * G * USS9T- ** ** * 보급9종(전구)
+Supply class IX theater
+1.3.1.3.3.11.2 S * G * USS9C- ** ** * 보급9종(군단)
+Supply class IX corps
+1.3.1.3.3.12 S * G * USSX-- ** ** * 보급10종(비군사적물자)
+Supply class X
+1.3.1.3.3.12.1 S * G * USSXT- ** ** * 보급10종(전구)
+Supply class X theater
+1.3.1.3.3.12.2 S * G * USSXC- ** ** * 보급10종(군단)
+Supply class X corps
+1.3.1.3.3.13 S * G * USSL-- ** ** * 보급(세탁/목욕)
+Supply laundry/Bath
+1.3.1.3.3.13.1 S * G * USSLT- ** ** * 보급(세탁/목욕-전구)
+Supply laundry/Bath theater
+1.3.1.3.3.13.2 S * G * USSLC- ** ** * 보급(세탁/목욕-군단)
+Supply laundry/Bath corps
+1.3.1.3.3.14 S * G * USSW-- ** ** * 급수지원
+Supply water
+1.3.1.3.3.14.1 S * G * USSWT- ** ** * 급수지원(전구)
+Supply water theater
+1.3.1.3.3.14.2 S * G * USSWC- ** ** * 급수지원(군단)
+Supply water corps
+1.3.1.3.3.14.3 S * G * USSWP- ** ** * 급수지원(정화)
+Supply water purification
+1.3.1.3.3.14.3.1 S * G * USSWPT ** ** * 급수지원(정화-전구)
+Supply water purification
+theater
+1.3.1.3.3.14.3.2 S * G * USSWPC ** ** * 급수지원(정화-군단)
+Supply water purification corps
+1.3.1.3.4 S * G * UST--- ** ** * 수송
+Transportation
+1.3.1.3.4.1 S * G * USTT-- ** ** * 수송(전구)
+Transportation theater
+1.3.1.3.4.2 S * G * USTC-- ** ** * 수송(군단)
+Transportation corps
+1.3.1.3.4.3 S * G * USTM-- ** ** * 이동통제본부
+Movement control center (MCC)
+1.3.1.3.4.3.1 S * G * USTMT- ** ** * 이동통제본부(전구)
+Mcc theater
+1.3.1.3.4.3.2 S * G * USTMC- ** ** * 이동통제본부(군단)
+Mcc corps
+1.3.1.3.4.4 S * G * USTR-- ** ** * 철도수송
+Railhead
+1.3.1.3.4.4.1 S * G * USTRT- ** ** * 철도수송(전구)
+Railhead theater
+1.3.1.3.4.4.2 S * G * USTRC- ** ** * 철도수송(군단)
+Railhead corps
+1.3.1.3.4.5 S * G * USTS-- ** ** * 해상수송
+SPOD/SPOE
+1.3.1.3.4.5.1 S * G * USTST- ** ** * 해상수송(전구)
+SPOD/SPOE theater
+1.3.1.3.4.5.2 S * G * USTSC- ** ** * 해상수송(군단)
+SPOD/SPOE corps
+1.3.1.3.4.6 S * G * USTA-- ** ** * 항공수송
+APOD/APOE
+1.3.1.3.4.6.1 S * G * USTAT- ** ** * 항공수송(전구)
+APOD/APOE theater
+1.3.1.3.4.6.2 S * G * USTAC- ** ** * 항공수송(군단)
+APOD/APOE corps
+1.3.1.3.4.7 S * G * USTI-- ** ** * 유도탄수송
+Missile
+1.3.1.3.4.7.1 S * G * USTIT- ** ** * 유도탄수송(전구)
+Missile theater
+1.3.1.3.4.7.2 S * G * USTIC- ** ** * 유도탄수송(군단)
+Missile corps
+1.3.1.3.4.8 S * G * USTU-- ** ** * 보급수송
+Supply transportation
+1.3.1.3.5 S * G * USX--- ** ** * 정비
+Maintenance
+1.3.1.3.5.1 S * G * USXT-- ** ** * 정비(전구)
+Maintenance theater
+1.3.1.3.5.2 S * G * USXC-- ** ** * 정비(군단)
+Maintenance corps
+1.3.1.3.5.3 S * G * USXH-- ** ** * 정비대
+Maintenance heavy
+1.3.1.3.5.3.1 S * G * USXHT- ** ** * 정비대(전구)
+Maintenance heavy theater
+1.3.1.3.5.3.2 S * G * USXHC- ** ** * 정비대(군단)
+Maintenance heavy corps
+1.3.1.3.5.4 S * G * USXR-- ** ** * 정비(복구)
+Maintenance recovery
+1.3.1.3.5.4.1 S * G * USXRT- ** ** * 정비(복구-전구)
+Maintenance recovery theater
+1.3.1.3.5.4.2 S * G * USXRC- ** ** * 정비(복구-군단)
+Maintenance recovery corps
+1.3.1.3.5.5 S * G * USXO-- ** ** * 정비-병기
+Ordnance
+1.3.1.3.5.5.1 S * G * USXOT- ** ** * 정비-병기(전구)
+Ordnance theater
+1.3.1.3.5.5.2 S * G * USXOC- ** ** * 정비-병기(군단)
+Ordnance corps
+1.3.1.3.5.5.3 S * G * USXOM- ** ** * 정비-유도탄
+Ordnance missile
+1.3.1.3.5.5.3.1 S * G * USXOMT ** ** * 정비-유도탄(전구)
+Ordnance missile theater
+1.3.1.3.5.5.3.2 S * G * USXOMC ** ** * 정비-유도탄(군단)
+Ordnance missile corps
+1.3.1.3.5.5.4 S * G * USXOA- ** ** * 정비-항공무기
+Aviation weapon
+1.3.1.3.5.6 S * G * USXE-- ** ** * 정비-전자광학
+Electro-optical
+1.3.1.3.5.6.1 S * G * USXET- ** ** * 정비-전자광학(전구)
+Electro-optical theater
+1.3.1.3.5.6.2 S * G * USXEC- ** ** * 정비-전자광학(군단)
+Electro-optical corps
+1.3.1.3.5.7 S * G * USXQ-- ** ** * 정비-통신
+Communication
+1.3.1.3.5.8 S * G * USXA-- ** ** * 정비-항공
+Aviation
+1.3.1.3.5.8.1 S * G * USXAE- ** ** * 정비-항공전자
+Avionic
+1.3.1.3.5.9 S * G * USXN-- ** ** * 정비-함정
+Ship
+1.3.1.3.5.10 S * G * USXD-- ** ** * 정비-방공포병
+Air defense artillery
+1.3.1.3.5.11 S * G * USXS-- ** ** * 보급정비
+Supply
+1.3.1.3.5.12 S * G * USXM-- ** ** * 의무보급정비
+Medical supply
+1.3.1.3.5.13 S * G * USXP-- ** ** * 정비-특전장비
+Special force equipment
+1.3.1.3.6 S * G * USI--- ** ** * 전산
+Computer
+1.3.1.3.7 S * G * USP--- ** ** * 인쇄
+Presswork
+1.3.1.3.8 S * G * USG--- ** ** * 지도제작
+Cartographic
+1.3.1.4 S * G * UH---- ** ** * 지휘통제소
+Special C2 headquarters
+component
+1.3.2 S * G * E----- ** ** * 지상장비
+Ground track equipment
+1.3.2.1 S * G * EW---- ** ** * 화기
+Weapon
+1.3.2.1.1 S * G * EWM--- ** ** * 유도탄 발사기
+Missile launcher
+1.3.2.1.1.1 S * G * EWMA-- ** ** * 방공유도탄 발사기
+Air defense (AD) missile
+launcher
+1.3.2.1.1.1.1 S * G * EWMAS- ** ** * 방공유도탄(단거리) 발사기
+Short range AD missile launcher
+1.3.2.1.1.1.1.1 S * G * EWMASR ** ** * 방공유도탄(단거리) 이동식
+발사기
+Transporter launcher and radar
+(TLAR)
+1.3.2.1.1.1.1.2 S * G * EWMASE ** ** * 방공유도탄(단거리) 이동식 직립
+발사기
+Transporter erector launcher
+and radar (TELAR)
+1.3.2.1.1.1.2 S * G * EWMAI- ** ** * 방공유도탄(중거리) 발사기
+Intermediate range ad missile
+launcher
+1.3.2.1.1.1.2.1 S * G * EWMAIR ** ** * 방공유도탄(중거리) 이동식
+발사기
+Transporter launcher and radar
+(TLAR)
+1.3.2.1.1.1.2.2 S * G * EWMAIE ** ** * 방공유도탄(중거리) 이동식 직립
+발사기
+Transporter erector launcher
+and radar (TELAR)
+1.3.2.1.1.1.3 S * G * EWMAL- ** ** * 방공유도탄(장거리) 발사기
+Long range ad missile launcher
+1.3.2.1.1.1.3.1 S * G * EWMALR ** ** * 방공유도탄(장거리) 이동식
+발사기
+Transporter launcher and radar
+(TLAR)
+1.3.2.1.1.1.3.2 S * G * EWMALE ** ** * 방공유도탄(장거리) 이동식 직립
+발사기
+Transporter erector launcher
+and radar (TELAR)
+1.3.2.1.1.1.4 S * G * EWMAT- ** ** * 방공유도탄(전구)
+Ad missile launcher theater
+1.3.2.1.1.1.4.1 S * G * EWMATR ** ** * 방공유도탄(전구) 이동식 발사기
+Transporter launcher and radar
+(TLAR)
+1.3.2.1.1.1.4.2 S * G * EWMATE ** ** * 방공유도탄(전구) 이동식 직립
+발사기
+Transporter erector launcher
+and radar (TELAR)
+1.3.2.1.1.2 S * G * EWMS-- ** ** * 지대지유도탄 발사기
+Surf-surf (ss) missile launcher
+1.3.2.1.1.2.1 S * G * EWMSS- ** ** * 지대지유도탄(단거리) 발사기
+Short range ss missile launcher
+1.3.2.1.1.2.2 S * G * EWMSI- ** ** * 지대지유도탄(중거리) 발사기
+Intermediate range ss missile
+launcher
+1.3.2.1.1.2.3 S * G * EWMSL- ** ** * 지대지유도탄(장거리) 발사기
+Long range ss missile launcher
+1.3.2.1.1.3 S * G * EWMT-- ** ** * 대전차유도탄 발사기
+Missile launcher antitank (AT)
+1.3.2.1.1.3.1 S * G * EWMTL- ** ** * 대전차유도탄(경) 발사기
+Missile launcher at light
+1.3.2.1.1.3.2 S * G * EWMTM- ** ** * 대전차유도탄(중) 발사기
+Missile launcher at medium
+1.3.2.1.1.3.3 S * G * EWMTH- ** ** * 대전차유도탄(대) 발사기
+Missile launcher at heavy
+1.3.2.1.2 S * G * EWS--- ** ** * 단연장로켓 발사기
+Single rocket launcher
+1.3.2.1.2.1 S * G * EWSL-- ** ** * 단연장로켓(경) 발사기
+Single rocket launcher light
+1.3.2.1.2.2 S * G * EWSM-- ** ** * 단연장로켓(중) 발사기
+Single rocket launcher medium
+1.3.2.1.2.3 S * G * EWSH-- ** ** * 단연장로켓(대) 발사기
+Single rocket launcher heavy
+1.3.2.1.3 S * G * EWX--- ** ** * 다련장로켓 발사기
+Multiple rocket launcher
+1.3.2.1.3.1 S * G * EWXL-- ** ** * 다련장로켓(경) 발사기
+Multiple rocket launcher light
+1.3.2.1.3.2 S * G * EWXM-- ** ** * 다련장로켓(중) 발사기
+Multiple rocket launcher medium
+1.3.2.1.3.3 S * G * EWXH-- ** ** * 다련장로켓(대) 발사기
+Multiple rocket launcher heavy
+1.3.2.1.4 S * G * EWT--- ** ** * 대전차로켓 발사기
+Antitank rocket launcher
+1.3.2.1.4.1 S * G * EWTL-- ** ** * 대전차로켓(경) 발사기
+Antitank rocket launcher light
+1.3.2.1.4.2 S * G * EWTM-- ** ** * 대전차로켓(중) 발사기
+Antitank rocket launcher medium
+1.3.2.1.4.3 S * G * EWTH-- ** ** * 대전차로켓(대) 발사기
+Antitank rocket launcher heavy
+1.3.2.1.5 S * G * EWR--- ** ** * 소총/자동무기
+Rifle/Automatic weapon
+1.3.2.1.5.1 S * G * EWRR-- ** ** * 소총
+Rifle
+1.3.2.1.5.2 S * G * EWRL-- ** ** * 기관총(중)
+Light machine gun
+1.3.2.1.5.3 S * G * EWRH-- ** ** * 기관총(대)
+Heavy machine gun
+1.3.2.1.6 S * G * EWZ--- ** ** * 유탄 발사기
+Grenade launcher
+1.3.2.1.6.1 S * G * EWZL-- ** ** * 유탄 발사기(경)
+Grenade launcher light
+1.3.2.1.6.2 S * G * EWZM-- ** ** * 유탄 발사기(중)
+Grenade launcher medium
+1.3.2.1.6.3 S * G * EWZH-- ** ** * 유탄 발사기(대)
+Grenade launcher heavy
+1.3.2.1.7 S * G * EWO--- ** ** * 박격포
+Mortar
+1.3.2.1.7.1 S * G * EWOL-- ** ** * 박격포(경)
+Mortar light
+1.3.2.1.7.2 S * G * EWOM-- ** ** * 박격포(중)
+Mortar medium
+1.3.2.1.7.3 S * G * EWOH-- ** ** * 박격포(대)
+Mortar heavy
+1.3.2.1.8 S * G * EWH--- ** ** * 곡사포
+Howitzer
+1.3.2.1.8.1 S * G * EWHL-- ** ** * 곡사포(경)
+Howitzer light
+1.3.2.1.8.1.1 S * G * EWHLS- ** ** * 곡사포(경-자주식)
+Howitzer light self-propelled
+1.3.2.1.8.2 S * G * EWHM-- ** ** * 곡사포(중)
+Howitzer medium
+1.3.2.1.8.2.1 S * G * EWHMS- ** ** * 곡사포(중-자주식)
+Howitzer medium self-propelled
+1.3.2.1.8.3 S * G * EWHH-- ** ** * 곡사포 (대)
+Howitzer heavy
+1.3.2.1.8.3.1 S * G * EWHHS- ** ** * 곡사포(대-자주식)
+Howitzer heavy self-propelled
+1.3.2.1.9 S * G * EWG--- ** ** * 대전차포
+Antitank gun
+1.3.2.1.9.1 S * G * EWGL-- ** ** * 대전차포(경)
+Antitank gun light
+1.3.2.1.9.2 S * G * EWGM-- ** ** * 대전차포(중)
+Antitank gun medium
+1.3.2.1.9.3 S * G * EWGH-- ** ** * 대전차포(대)
+Antitank gun heavy
+1.3.2.1.9.4 S * G * EWGR-- ** ** * 무반동포
+Antitank gun recoilless
+1.3.2.1.10 S * G * EWD--- ** ** * 평사포
+Direct fire gun
+1.3.2.1.10.1 S * G * EWDL-- ** ** * 평사포(경)
+Direct fire gun light
+1.3.2.1.10.1.1 S * G * EWDLS- ** ** * 평사포(경-자주식)
+Direct fire gun light
+self-propelled
+1.3.2.1.10.2 S * G * EWDM-- ** ** * 평사포(중)
+Direct fire gun medium
+1.3.2.1.10.2.1 S * G * EWDMS- ** ** * 평사포(중-자주식)
+Direct fire gun medium
+self-propelled
+1.3.2.1.10.3 S * G * EWDH-- ** ** * 평사포(대)
+Direct fire gun heavy
+1.3.2.1.10.3.1 S * G * EWDHS- ** ** * 평사포(대-자주식)
+Direct fire gun heavy
+self-propelled
+1.3.2.1.11 S * G * EWA--- ** ** * 대공포
+Air defense gun
+1.3.2.1.11.1 S * G * EWAL-- ** ** * 대공포(경)
+Air defense gun light
+1.3.2.1.11.2 S * G * EWAM-- ** ** * 대공포(중)
+Air defense gun medium
+1.3.2.1.11.3 S * G * EWAH-- ** ** * 대공포(대)
+Air defense gun heavy
+1.3.2.2 S * G * EV---- ** ** * 지상차량
+Ground vehicle
+1.3.2.2.1 S * G * EVA--- ** ** * 장갑차량
+Armored vehicle
+1.3.2.2.1.1 S * G * EVAT-- ** ** * 탱크
+Tank
+1.3.2.2.1.1.1 S * G * EVATL- ** ** * 탱크(경)
+Tank light
+1.3.2.2.1.1.1.1 S * G * EVATLR ** ** * 탱크(경-정비)
+Tank light recovery
+1.3.2.2.1.1.2 S * G * EVATM- ** ** * 탱크(중)
+Tank medium
+1.3.2.2.1.1.2.1 S * G * EVATMR ** ** * 탱크(중-정비)
+Tank medium recovery
+1.3.2.2.1.1.3 S * G * EVATH- ** ** * 탱크(대)
+Tank heavy
+1.3.2.2.1.1.3.1 S * G * EVATHR ** ** * 탱크(대-정비)
+Tank heavy recovery
+1.3.2.2.1.2 S * G * EVAA-- ** ** * 수송장갑차
+Armored personnel carrier
+1.3.2.2.1.2.1 S * G * EVAAR- ** ** * 수송장갑차(정비)
+Armored personnel carrier
+recovery
+1.3.2.2.1.3 S * G * EVAI-- ** ** * 장갑보병장갑차
+Armored infantry
+1.3.2.2.1.4 S * G * EVAC-- ** ** * 지휘통제장갑차
+C2V/ACV
+1.3.2.2.1.5 S * G * EVAS-- ** ** * 전투근무지원차량
+Combat service support vehicle
+1.3.2.2.1.6 S * G * EVAL-- ** ** * 경장갑화차량
+Light armored vehicle
+1.3.2.2.1.7 S * G * EVAP-- ** ** * 상륙용장갑차
+Amphibious armored vehicle
+1.3.2.2.1.7.1 S * G * EVAPP- ** ** * 상륙용장갑차(병력수송)
+Amphibious armored vehicle
+1.3.2.2.1.7.2 S * G * EVAPH- ** ** * 상륙용장갑차(곡사포)
+Amphibious armored
+vehicle(Howitzer)
+1.3.2.2.2 S * G * EVU--- ** ** * 다목적차량
+Utility vehicle
+1.3.2.2.2.1 S * G * EVUB-- ** ** * 버스
+Bus
+1.3.2.2.2.2 S * G * EVUS-- ** ** * 승합
+Semi
+1.3.2.2.2.2.1 S * G * EVUSL- ** ** * 승합(경)
+Semi light
+1.3.2.2.2.2.2 S * G * EVUSM- ** ** * 승합(중)
+Semi medium
+1.3.2.2.2.2.3 S * G * EVUSH- ** ** * 승합(대)
+Semi heavy
+1.3.2.2.2.3 S * G * EVUL-- ** ** * 트럭
+Limited cross-country truck
+1.3.2.2.2.4 S * G * EVUX-- ** ** * 야지횡단트럭
+Cross-country truck
+1.3.2.2.2.5 S * G * EVUR-- ** ** * 야지횡단수상트럭
+Water craft
+1.3.2.2.2.6 S * G * EVUT-- ** ** * 견인트럭
+Tow truck
+1.3.2.2.2.6.1 S * G * EVUTL- ** ** * 견인트럭(경)
+Tow truck light
+1.3.2.2.2.6.2 S * G * EVUTH- ** ** * 견인트럭(대)
+Tow truck heavy
+1.3.2.2.2.7 S * G * EVUA-- ** ** * 구급차
+Ambulance
+1.3.2.2.2.7.1 S * G * EVUAA- ** ** * 장갑구급차
+Armored ambulance
+1.3.2.2.3 S * G * EVE--- ** ** * 공병차량
+Engineer vehicle
+1.3.2.2.3.1 S * G * EVEB-- ** ** * 교량건설차량
+Bridge
+1.3.2.2.3.2 S * G * EVEE-- ** ** * 도로건설차량
+Earthmover
+1.3.2.2.3.3 S * G * EVEC-- ** ** * 공병차량
+Construction vehicle
+1.3.2.2.3.4 S * G * EVEM-- ** ** * 지뢰매설차량
+Mine laying vehicle
+1.3.2.2.3.4.1 S * G * EVEMV- ** ** * 지뢰매설차량(장갑)
+Armored carrier with volcano
+1.3.2.2.3.4.2 S * G * EVEML- ** ** * 지뢰매설차량(트럭)
+Truck mounted with volcano
+1.3.2.2.3.5 S * G * EVEA-- ** ** * 지뢰제거차량
+Mine clearing vehicle
+1.3.2.2.3.5.1 S * G * EVEAA- ** ** * 지뢰제거차량(장갑)
+Armored mounted mine clearing
+vehicle
+1.3.2.2.3.5.2 S * G * EVEAT- ** ** * 지뢰제거차량(트레일러)
+Trailer mounted mine clearing
+vehicle
+1.3.2.2.3.6 S * G * EVED-- ** ** * 불도저
+Dozer
+1.3.2.2.3.6.1 S * G * EVEDA- ** ** * 장갑화 불도저
+Armored dozer
+1.3.2.2.3.7 S * G * EVES-- ** ** * 장갑강습공병차량
+Armored assault
+1.3.2.2.3.8 S * G * EVER-- ** ** * 장갑정찰공병차량
+Armored engineer recon vehicle
+(AERV)
+1.3.2.2.3.9 S * G * EVEH-- ** ** * 굴착기
+Backhoe
+1.3.2.2.3.10 S * G * EVEF-- ** ** * 페리 수송차량
+Ferry transporter
+1.3.2.2.4 S * G * EVT--- ** ** * 기관차
+Train locomotive
+1.3.2.2.5 S * G * EVC--- ** ** * 민간 차량
+Civilian vehicle
+1.3.2.2.5.1 S * G * EVCA-- ** ** * 승용차
+Automobile
+1.3.2.2.5.1.1 S * G * EVCAL- ** ** * 승용차(소형)
+Compact automobile
+1.3.2.2.5.1.2 S * G * EVCAM- ** ** * 승용차(중형)
+Midsize automobile
+1.3.2.2.5.1.3 S * G * EVCAH- ** ** * 승용차(세단)
+Sedan automobile
+1.3.2.2.5.2 S * G * EVCO-- ** ** * 트럭(개방적재함)
+Open-bed truck
+1.3.2.2.5.2.1 S * G * EVCOL- ** ** * 픽업
+Pickup open-bed truck
+1.3.2.2.5.2.2 S * G * EVCOM- ** ** * 트럭(개방적재함)(경)
+Small open-bed truck
+1.3.2.2.5.2.3 S * G * EVCOH- ** ** * 트럭(개방적재함)(대)
+Large open-bed truck
+1.3.2.2.5.3 S * G * EVCM-- ** ** * 다인승 차량
+Multiple passenger vehicle
+1.3.2.2.5.3.1 S * G * EVCML- ** ** * 다인승 밴
+Van multiple passenger vehicle
+1.3.2.2.5.3.2 S * G * EVCMM- ** ** * 다인승 버스(경)
+Small bus multiple passenger
+vehicle
+1.3.2.2.5.3.3 S * G * EVCMH- ** ** * 다인승 버스(대)
+Large bus multiple passenger
+vehicle
+1.3.2.2.5.4 S * G * EVCU-- ** ** * 다목적 차량
+Utility vehicle
+1.3.2.2.5.4.1 S * G * EVCUL- ** ** * 스포트용 다목적 차량 (SUV)
+Sport utility vehicle (SUV),
+utility vehicle
+1.3.2.2.5.4.2 S * G * EVCUM- ** ** * 다목적 차량(소형 적재함)
+Small box truck, utility
+vehicle
+1.3.2.2.5.4.3 S * G * EVCUH- ** ** * 다목적 차량(대형 적재함)
+Large box truck, utility
+vehicle
+1.3.2.2.5.5 S * G * EVCJ-- ** ** * 지프형 차량
+Jeep type vehicle
+1.3.2.2.5.5.1 S * G * EVCJL- ** ** * 지프형 차량(경)
+Small/Light jeep type vehicle
+1.3.2.2.5.5.2 S * G * EVCJM- ** ** * 지프형 차량(중)
+Medium jeep type vehicle
+1.3.2.2.5.5.3 S * G * EVCJH- ** ** * 지프형 차량(대)
+Large/Heavy jeep type vehicle
+1.3.2.2.5.6 S * G * EVCT-- ** ** * 트랙터 운반 트럭(트레일러 박스)
+Tractor trailer truck with box
+trailer
+1.3.2.2.5.6.1 S * G * EVCTL- ** ** * 트랙터 운반 트럭(트레일러
+박스)(경)
+Small/Light box trailer,
+tractor trailer truck
+1.3.2.2.5.6.2 S * G * EVCTM- ** ** * 트랙터 운반 트럭(트레일러
+박스)(중)
+Medium box trailer, tractor
+trailer truck
+1.3.2.2.5.6.3 S * G * EVCTH- ** ** * 트랙터 운반 트럭(트레일러
+박스)(대)
+Large/Heavy box trailer,
+tractor trailer truck
+1.3.2.2.5.7 S * G * EVCF-- ** ** * 트랙터 운반 트럭(평상형)
+Tractor trailer truck with
+flatbed trailer
+1.3.2.2.5.7.1 S * G * EVCFL- ** ** * 트랙터 운반 트럭(평상형)(경)
+Small/Light flatbed trailer,
+tractor trailer truck
+1.3.2.2.5.7.2 S * G * EVCFM- ** ** * 트랙터 운반 트럭(평상형)(중)
+Medium flatbed trailer, tractor
+trailer truck
+1.3.2.2.5.7.3 S * G * EVCFH- ** ** * 트랙터 운반 트럭(평상형)(대)
+Large/Heavy flatbed trailer,
+tractor trailer truck
+1.3.2.2.5.8 S * G * EVM--- ** ** * 운반용 동물
+Pack animal(s)
+1.3.2.2.5.9 S * G * EVS--- ** ** * 유도탄 지원 차량
+Missile support vehicle
+1.3.2.2.5.9.1 S * G * EVST-- ** ** * 유도탄 지원 차량(적재)
+Missile support vehicle
+transloader
+1.3.2.2.5.9.2 S * G * EVSR-- ** ** * 유도탄 지원 차량(운송)
+Missile support vehicle
+transporter
+1.3.2.2.5.9.3 S * G * EVSC-- ** ** * 유도탄 지원
+차량(크레인/적재장치)
+Missile support vehicle
+crane/Loading device
+1.3.2.2.5.9.4 S * G * EVSP-- ** ** * 유도탄 지원 차량(추진체 운송)
+Missile support vehicle
+propellant transporter
+1.3.2.2.5.9.5 S * G * EVSW-- ** ** * 유도탄 지원 차량(탄두 운송)
+Missile support vehicle warhead
+transporter
+1.3.2.3 S * G * ES---- ** ** * 감지기
+Sensor
+1.3.2.3.1 S * G * ESR--- ** ** * 레이다
+Radar
+1.3.2.3.2 S * G * ESE--- ** ** * 감지기(고정)
+Emplaced sensor
+1.3.2.4 S * G * EX---- ** ** * 특수장비
+Special equipment
+1.3.2.4.1 S * G * EXI--- ** ** * 폭발물(IED)
+Improvised explosive device
+1.3.2.4.2 S * G * EXL--- ** ** * 레이저
+Laser
+1.3.2.4.3 S * G * EXN--- ** ** * 화생방장비
+Cbrn equipment
+1.3.2.4.4 S * G * EXF--- ** ** * 화염방사기
+Flame thrower
+1.3.2.4.5 S * G * EXM--- ** ** * 지뢰
+Land mines
+1.3.2.4.5.1 S * G * EXMC-- ** ** * 크레모아
+Claymore
+1.3.2.4.5.2 S * G * EXML-- ** ** * 지뢰(상해)
+Less than lethal
+1.3.2.4.6 S * G * EXC--- ** ** * 통신장비
+Communications equipment
+1.3.2.4.6.1 S * G * EXCB-- ** ** * 교환기
+Switchboard
+1.3.2.4.6.2 S * G * EXCD-- ** ** * 다중집선기
+Multiplex aggregator
+1.3.2.4.6.3 S * G * EXCR-- ** ** * 라우터
+Router
+1.3.2.4.6.4 S * G * EXCE-- ** ** * 전술다중장비(단말)
+Tactical multiplex
+equipment(Terminal)
+1.3.2.4.6.5 S * G * EXCG-- ** ** * 전술다중장비(중계)
+Tactical multiplex
+equipment(Repeater)
+1.3.2.4.6.6 S * G * EXCA-- ** ** * 이동무선기지국
+Mobile subscriber base station
+1.3.2.4.6.7 S * G * EXCM-- ** ** * 전술용이동통신장비
+Tactical moblie communication
+equipment
+1.3.2.4.6.8 S * G * EXCH-- ** ** * 위성통신장비
+Satellite communication
+equipment
+1.3.2.4.6.9 S * G * EXCI-- ** ** * 전투무선장비(단말)
+Combat radio
+equipment(Terminal)
+1.3.2.4.6.10 S * G * EXCJ-- ** ** * 전투무선장비(중계)
+Combat radio
+equipment(Repeater)
+1.3.2.4.6.11 S * G * EXCK-- ** ** * 망관리장비
+Network management equipment
+1.3.2.4.6.12 S * G * EXCP-- ** ** * 전화기
+Field phone
+1.3.2.4.6.13 S * G * EXCF-- ** ** * 모사전송기
+Facsimile equipment
+1.3.2.4.6.14 S * G * EXCC-- ** ** * 컴퓨터
+Computer
+1.3.2.4.6.15 S * G * EXCL-- ** ** * 광 전송장비
+Optical transmission equipment
+1.3.2.4.6.16 S * G * EXCS-- ** ** * 스위치
+Switch
+1.3.3 S * G * I----- H* ** * 시설
+Installation
+1.3.3.1 S * G * IR---- H* ** * 원료생산/저장
+Raw material production/Storage
+1.3.3.1.1 S * G * IRM--- H* ** * 광산
+Mine
+1.3.3.1.2 S * G * IRP--- H* ** * 석유/가스/기름
+Petroleum/Gas/Oil
+1.3.3.1.3 S * G * IRN--- H* ** * 화생방시설
+CBRN
+1.3.3.1.3.1 S * G * IRNB-- H* ** * 화생방시설(생물학전)
+Biological
+1.3.3.1.3.2 S * G * IRNC-- H* ** * 화생방시설(화학전)
+Chemical
+1.3.3.1.3.3 S * G * IRNN-- H* ** * 화생방시설(방사능전)
+Nuclear
+1.3.3.2 S * G * IP---- H* ** * 처리설비
+Processing facility
+1.3.3.2.1 S * G * IPD--- H* ** * 제독시설
+Decontamination
+1.3.3.3 S * G * IE---- H* ** * 장비제조
+Equipment manufacture
+1.3.3.4 S * G * IU---- H* ** * 다목적시설
+Service, research, utility
+facility
+1.3.3.4.1 S * G * IUR--- H* ** * 기술연구소
+Technological research facility
+1.3.3.4.2 S * G * IUT--- H* ** * 전화국
+Telecommunications facility
+1.3.3.4.2.1 S * G * IUTA-- H* ** * 방송시설
+Broadcasting facility
+1.3.3.4.3 S * G * IUE--- H* ** * 발전소
+Electric power facility
+1.3.3.4.3.1 S * G * IUEN-- H* ** * 핵발전소
+Nuclear plant
+1.3.3.4.3.2 S * G * IUED-- H* ** * 수력발전소
+Dam
+1.3.3.4.3.3 S * G * IUEF-- H* ** * 화력발전소
+Fossil fuel
+1.3.3.4.3.4 S * G * IUEW-- H* ** * 풍력/조력발전소
+Wind/Tidal plant
+1.3.3.4.3.5 S * G * IUEE-- H* ** * 열병합발전소
+Cogeneration plant
+1.3.3.4.4 S * G * IUP--- H* ** * 급수시설
+Public water services
+1.3.3.4.5 S * G * IUN--- H* ** * 전력시설
+Power supply facility
+1.3.3.4.6 S * G * IL---- H* ** * 재머
+Jammer
+1.3.3.5 S * G * IM---- H* ** * 군수공장
+Military materiel facility
+1.3.3.5.1 S * G * IMF--- H* ** * 핵시설
+Nuclear energy
+1.3.3.5.1.1 S * G * IMFA-- H* ** * 원자로
+Atomic energy reactor
+1.3.3.5.1.2 S * G * IMFP-- H* ** * 핵물질생산
+Nuclear material production
+1.3.3.5.1.2.1 S * G * IMFPW- H* ** * 핵물질생산(무기등급)
+Weapons grade
+1.3.3.5.1.3 S * G * IMFS-- H* ** * 핵물질저장
+Nuclear material storage
+1.3.3.5.2 S * G * IMA--- H* ** * 군수공장(항공기)
+Aircraft production and
+assembly
+1.3.3.5.3 S * G * IME--- H* ** * 군수공장(탄약/폭약)
+Ammunition and explosives
+production
+1.3.3.5.4 S * G * IMG--- H* ** * 군수공장(병기)
+Armament production
+1.3.3.5.5 S * G * IMV--- H* ** * 군수공장(차량)
+Military vehicle production
+1.3.3.5.6 S * G * IMN--- H* ** * 군수공장(공병장비)
+Engineering equipment
+production
+1.3.3.5.6.1 S * G * IMNB-- H* ** * 군수공장(공병장비-교량)
+Bridge
+1.3.3.5.7 S * G * IMC--- H* ** * 군수공장(화생방전)
+Chemical and biological warfare
+production
+1.3.3.5.8 S * G * IMS--- H* ** * 군수공장(조선)
+Ship construction
+1.3.3.5.9 S * G * IMM--- H* ** * 군수공장(유도탄/우주장비)
+Missile and space system
+production
+1.3.3.5.10 S * G * IMD--- H* ** * 군수물자공장
+War supplies factory
+1.3.3.6 S * G * IG---- H* ** * 국가중요시설
+Government leadership
+1.3.3.6.1 S * G * IGA--- H* ** * 대사관 및 영사관
+Embassy
+1.3.3.7 S * G * IB---- H* ** * 군용기지
+Military base/Facility
+1.3.3.7.1 S * G * IBA--- H* ** * 공항/공군기지
+Airport/Airbase
+1.3.3.7.1.1 S * G * IBAP-- H* ** * 공항
+Airport
+1.3.3.7.1.2 S * G * IBAR-- H* ** * 비행장
+Airfield
+1.3.3.7.1.3 S * G * IBAE-- H* ** * 비상활주로
+Emergency runway
+1.4 S * S * ------ ** ** * 수상항적
+Sea surface track
+1.4.1 S * S * C----- ** ** * 전투함
+Combatant
+1.4.1.1 S * S * CL---- ** ** * 함정
+1.3.3.7.1.4 S * G * IBAH-- H* ** * 헬기장
+Heliport
+1.3.3.7.2 S * G * IBN--- H* ** * 항구/해군기지
+Seaport/Naval base
+1.3.3.7.2.1 S * G * IBND-- H* ** * 해안방어유도탄기지
+1.3.3.7.3 S * G * IBG--- H* ** * 육군기지
+1.3.3.7.3.1 S * G * IBGA-- H* ** * 갱도포병기지
+1.3.3.8 S * G * IT---- H* ** * 수송설비
+Transport facility
+1.3.3.8.1 S * G * ITA--- H* ** * 조차장
+Switchyard
+1.3.3.9 S * G * IX---- H* ** * 의료설비
+Medical facility
+1.3.3.9.1 S * G * IXH--- H* ** * 병원
+Hospital
+1.3.3.10 S * G * IC---- H* ** * 전산시설
+Data center
+1.3.3.11 S * G * IN---- H* ** * 인쇄창
+Printing house
+1.3.3.12 S * G * IA---- H* ** * 지도창
+Mapping house
+1.3.3.13 S * G * ID---- H* ** * 문화재
+Cultural Properties
+1.3.3.13.1 S * G * IDN--- H* ** * 국보
+National Treasure
+1.3.3.13.2 S * G * IDT--- H* ** * 보물
+Treasure
+1.4.1.1.1 S * S * CLCV-- ** ** * 항공모함
+Carrier
+1.4.1.1.2 S * S * CLBB-- ** ** * 전함
+Battleship
+1.4.1.1.3 S * S * CLCC-- ** ** * 순양함
+Cruiser
+1.4.1.1.4 S * S * CLDD-- ** ** * 구축함
+Destroyer
+1.4.1.1.4.1 S * S * CLDDH- ** ** * 헬기탑재구축함
+Destroyer(Helicopter)
+1.4.1.1.4.2 S * S * CLDDG- ** ** * 유인유도탄구축함
+Destroyer(Decoy)
+1.4.1.1.4.3 S * S * CLDDX- ** ** * 중차기구축함
+Destroyer
+1.4.1.1.5 S * S * CLFF-- ** ** * 호위함
+Frigate/Corvette
+1.4.1.1.5.1 S * S * CLFFX- ** ** * 차기호위함
+Frigate/Corvette
+1.4.1.1.6 S * S * CLLL-- ** ** * 연안전투함
+Littoral combatant
+1.4.1.1.6.1 S * S * CLLLAS ** ** * 대잠전 임무 패키지
+Antisubmarine warfare mission
+package
+1.4.1.1.6.2 S * S * CLLLMI ** ** * 기뢰전 임무 패키지
+Mine warfare mission package
+1.4.1.1.6.3 S * S * CLLLSU ** ** * 수상전 임무 패키지
+Surface warfare (SUW) mission
+package
+1.4.1.2 S * S * CA---- ** ** * 상륙전함
+Amphibious warfare ship
+1.4.1.2.1 S * S * CALA-- ** ** * 공격함
+Assault vessel
+1.4.1.2.2 S * S * CALS-- ** ** * 상륙함
+Landing ship
+1.4.1.2.2.1 S * S * CALSH- ** ** * 대형수송함
+Transport ship(Large)
+1.4.1.2.2.2 S * S * CALST- ** ** * 상륙함
+Landing ship tank
+1.4.1.2.2.3 S * S * CALSF- ** ** * 고속상륙정
+Landing ship(High speed)
+1.4.1.2.2.4 S * S * CALSM- ** ** * 상륙함(중)
+Landing ship medium
+1.4.1.2.3 S * S * CALC-- ** ** * 상륙정
+Landing craft
+1.4.1.3 S * S * CM---- ** ** * 기뢰전함
+Mine warfare vessel
+1.4.1.3.1 S * S * CMML-- ** ** * 기뢰부설함
+Minelayer
+1.4.1.3.1.1 S * S * CMMLS- ** ** * 기뢰부설함
+Minelayer
+1.4.1.3.1.2 S * S * CMMLL- ** ** * 기뢰부설정
+Minelayer
+1.4.1.3.2 S * S * CMMS-- ** ** * 소해함
+Minesweeper
+1.4.1.3.2.1 S * S * CMMSH- ** ** * 소해함
+Minesweeper
+1.4.1.3.3 S * S * CMMH-- ** ** * 기뢰탐색함
+Minehunter
+1.4.1.3.3.1 S * S * CMMHC- ** ** * 기뢰탐색함
+Minehunter
+1.4.1.3.4 S * S * CMMA-- ** ** * 대기뢰함지원함
+Mcm support
+1.4.1.4 S * S * CP---- ** ** * 초계함
+Patrol
+1.4.1.4.1 S * S * CPSB-- ** ** * 대잠전초계함
+Antisubmarine warfare
+1.4.1.4.2 S * S * CPSU-- ** ** * 대수상전초계함
+Antisurface warfare
+1.4.1.4.2.1 S * S * CPSUM- ** ** * 초계함(대함유도탄)
+Antiship missile patrol craft
+1.4.1.4.2.2 S * S * CPSUT- ** ** * 초계함(어뢰)
+Torpedo patrol craft
+1.4.1.4.2.3 S * S * CPSUG- ** ** * 초계함(포)
+Gun patrol craft
+1.4.1.4.3 S * S * CPSP-- ** ** * 고속정
+Patrol killer
+1.4.1.4.3.1 S * S * CPSPX- ** ** * 차기고속정
+Patrol killer experimental
+1.4.1.5 S * S * CH---- ** ** * 공기부양정
+Hovercraft
+1.4.1.6 S * S * S----- ** ** * 위치
+Station
+1.4.1.6.1 S * S * SP---- ** ** * 전초함
+Patrol ship
+1.4.1.6.2 S * S * SA---- ** ** * 대잠함
+Anti submarine ship
+1.4.1.7 S * S * G----- ** ** * 해군그룹
+Navy group
+1.4.1.7.1 S * S * GT---- ** ** * 기동함대(TF)
+Navy task force
+1.4.1.7.2 S * S * GG---- ** ** * 기동전단(TG)
+Navy task group
+1.4.1.7.3 S * S * GU---- ** ** * 기동전대(TU)
+Navy task unit
+1.4.1.7.4 S * S * GC---- ** ** * 호송단대
+Convoy
+1.4.1.8 S * S * CD---- ** ** * 수상유인
+Surface decoy
+1.4.1.9 S * S * CU---- ** ** * 무인수상선(USV)
+Unmanned surface vehicle
+1.4.1.9.1 S * S * CUM--- ** ** * 무인수상선(대기뢰초계)
+Mine countermeasures surface
+drone
+1.4.1.9.2 S * S * CUS--- ** ** * 무인수상선(대잠전)
+Antisubmarine warfare surface
+drone
+1.4.1.9.3 S * S * CUN--- ** ** * 무인수상선(대수상전)
+Antisurface warfare surface
+drone
+1.4.1.9.4 S * S * CUR--- ** ** * 원격 다중임무 무인 수상선
+Remote multimission vehicle
+1.4.2 S * S * N----- ** ** * 지원함
+Noncombatant
+1.4.2.1 S * S * NR---- ** ** * 잠수함지원함
+Underway replenishment
+1.4.2.2 S * S * NF---- ** ** * 해상지원함
+Fleet support
+1.4.2.2.1 S * S * NFL--- ** ** * 보조함
+1.4.2.2.2 S * S * NFM--- ** ** * 동원선박
+1.4.2.2.3 S * S * NFO--- ** ** * 유조함
+1.4.2.2.4 S * S * NFT--- ** ** * 수상구조함
+1.4.2.2.5 S * S * NFR--- ** ** * 잠수함구조함
+1.4.2.2.6 S * S * NFS--- ** ** * 잠수정모함
+1.4.2.2.7 S * S * NFU--- ** ** * 군수지원정
+1.4.2.2.8 S * S * NFP--- ** ** * 경비정
+1.4.2.2.8.1 S * S * NFPR-- ** ** * RIB
+1.4.2.2.8.2 S * S * NFPA-- ** ** * 육경정
+1.4.2.2.8.3 S * S * NFPY-- ** ** * 연안경비정
+1.4.2.2.8.4 S * S * NFPS-- ** ** * 대동호
+1.4.2.3 S * S * NI---- ** ** * 정보함
+Intelligence
+1.4.2.3.1 S * S * NIN--- ** ** * 해양정보함
+1.4.2.4 S * S * NS---- ** ** * 지원항(전진기지 YPK)
+Service and support harbor
+1.4.2.5 S * S * NM---- ** ** * 병원선
+Hospital ship
+1.4.2.6 S * S * NH---- ** ** * 공기부양정(비전투)
+Hovercraft
+1.4.2.7 S * S * NN---- ** ** * 위치(비전투)
+Station
+1.4.2.7.1 S * S * NNR--- ** ** * 구조함
+Rescue
+1.4.3 S * S * X----- ** ** * 민간선박
+Non-military
+1.4.3.1 S * S * XM---- ** ** * 상선
+Merchant
+1.4.3.1.1 S * S * XMC--- ** ** * 화물선
+Cargo
+1.4.3.1.2 S * S * XMR--- ** ** * 트레일러선
+Roll on/Roll off
+1.4.3.1.3 S * S * XMO--- ** ** * 유조선
+Oiler/Tanker
+1.4.3.1.4 S * S * XMTU-- ** ** * 예인선
+Tug
+1.4.3.1.5 S * S * XMF--- ** ** * 페리
+Ferry
+1.4.3.1.6 S * S * XMP--- ** ** * 여객선
+Passenger
+1.4.3.1.7 S * S * XMH--- ** ** * 위험물질운반선
+Hazardous materials (HazMat)
+1.4.3.1.8 S * S * XMTO-- ** ** * 견인선
+Towing vessel
+1.4.3.2 S * S * XF---- ** ** * 어선
+Fishing
+1.4.3.2.1 S * S * XFDF-- ** ** * 유망어선
+Drifter
+1.4.3.2.2 S * S * XFDR-- ** ** * 준설선
+Dredge
+1.4.3.2.3 S * S * XFTR-- ** ** * 저인망어선
+Trawler
+1.4.3.3 S * S * XR---- ** ** * 레저용 선박
+Leisure craft
+1.4.3.4 S * S * XL---- ** ** * 해경선
+Law enforcement vessel
+1.4.3.5 S * S * XH---- ** ** * 공기부양정
+Hovercraft
+1.4.3.6 S * S * XG---- ** ** * 관공선
+1.4.3.7 S * S * XA---- ** ** * 고속 레크리에이션 선박
+Fast recreactional craft
+1.4.3.7.1 S * S * XAR--- ** ** * 경장갑공기정(RHIB)
+Rigid-hull inflatable boat
+1.4.3.7.2 S * S * XAS--- ** ** * 쾌속정
+Speed boat
+1.4.3.8 S * S * XP---- ** ** * 개인용 선박
+Personal watercraft
+1.4.4 S * S * O----- ** ** * 자함항적
+Own track
+1.5 S * U * ------ ** ** * 수중항적
+Subsurface track
+1.5.1 S * U * S----- ** ** * 잠수함
+Submarine
+1.5.1.1 S * U * SN---- ** ** * 핵잠수함
+Nuclear propulsion
+1.5.1.2 S * U * SC---- ** ** * 재래식잠수함
+Conventional propulsion
+1.5.1.2.1 S * U * SCF--- ** ** * 재래식잠수함(수상)
+Surfaced conventional
+propulsion submarine
+1.5.1.2.2 S * U * SCA--- ** ** * 재래식잠수함(공격)
+Attack submarine (SS)
+1.5.1.2.3 S * U * SCM--- ** ** * 재래식잠수함(유도탄)(종류미상)
+Missile submarine (Type
+unknown)
+1.5.1.2.4 S * U * SCG--- ** ** * 재래식잠수함(SSG)(유도미사일)
+Guided missile submarine (SSG)
+1.5.1.2.5 S * U * SCB--- ** ** * 재래식잠수함(SSB)(탄도미사일)
+Ballistic missile submarine
+(SSB)
+1.5.1.3 S * U * SO---- ** ** * 기타잠수함
+Other submersible
+1.5.1.3.1 S * U * SU---- ** ** * 무인잠수정
+Unmanned underwater vehicle
+(UUV)
+1.5.1.3.1.1 S * U * SUM--- ** ** * 대기뢰무인잠수정
+Mine warfare subsurface drone
+1.5.1.3.1.2 S * U * SUS--- ** ** * 대잠무인잠수정
+Antisubmarine warfare
+subsurface drone
+1.5.1.3.1.3 S * U * SUN--- ** ** * 대수상전무인잠수정
+Antisurface warfare subsurface
+drone
+1.5.1.3.2 S * U * SM---- ** ** * 잠수정
+Midget submarine
+1.5.1.3.3 S * U * SOF--- ** ** * 기타잠수함(수상)
+Surfaced other submersible
+1.5.1.4 S * U * SS---- ** ** * 위치
+Station
+1.5.1.4.1 S * U * SSA--- ** ** * 대잠전 잠수함
+ASW submarine
+1.5.1.5 S * U * SF---- ** ** * 잠수함(수상)
+Surfaced submarine
+1.5.1.6 S * U * SB---- ** ** * 잠수함(해저)
+Bottomed submarine
+1.5.1.7 S * U * SR---- ** ** * 잠수함(확실)
+Certain submarine
+1.5.1.8 S * U * SX---- ** ** * 비잠수함
+Nonsubmarine
+1.5.1.8.1 S * U * SNF--- ** ** * 핵잠수함(수상)
+Surfaced nuclear propulsion
+submarine
+1.5.1.8.2 S * U * SNA--- ** ** * 핵잠수함(SSN)(공격)
+Attack submarine (SSN)
+1.5.1.8.3 S * U * SNM--- ** ** * 핵잠수함(유도탄)(종류미상)
+Missile submarine (Type
+unknown)
+1.5.1.8.4 S * U * SNG--- ** ** * 핵잠수함(SSGN)(유도미사일)
+Guided missile submarine (SSGN)
+1.5.1.8.5 S * U * SNB--- ** ** * 핵잠수함(SSBN)(탄도미사일)
+Ballistic missile submarine
+(SSBN)
+1.5.1.9 S * U * S1---- ** ** * 잠수함 가능 1
+Possible submarine 1
+1.5.1.10 S * U * S2---- ** ** * 잠수함 가능 2
+Possible submarine 2
+1.5.1.11 S * U * S3---- ** ** * 잠수함 가능 3
+Possible submarine 3
+1.5.1.12 S * U * S4---- ** ** * 잠수함 가능 4
+Possible submarine 4
+1.5.1.13 S * U * SL---- ** ** * 잠수함 추정
+Probable submarine
+1.5.1.14 S * U * SK---- ** ** * 스노클링 잠수함
+Snorkeling submarine
+1.5.2 S * U * W----- ** ** * 수중화기
+Underwater weapon
+1.5.2.1 S * U * WT---- ** ** * 어뢰
+Torpedo
+1.5.2.1.1 S * U * WB---- ** ** * 폭뢰
+Depth bomb
+1.5.2.2 S * U * WM---- ** ** * 기뢰
+Sea mine
+1.5.2.2.1 S * U * WMD--- ** ** * 기뢰(처리된)
+Sea mine neutralized
+1.5.2.2.2 S * U * WMG--- ** ** * 해저기뢰
+Sea mine (Ground)
+1.5.2.2.2.1 S * U * WMGD-- ** ** * 해저기뢰(처리된)
+Sea mine (Ground) neutralized
+1.5.2.2.2.2 S * U * WMGX-- ** ** * 해저기뢰(훈련용)
+Ground (Bottom) exercise mine
+1.5.2.2.2.3 S * U * WMGE-- ** ** * 해저기뢰 유사 에코(MILEC)
+Ground (Bottom) mine-like echo
+(MILEC)
+1.5.2.2.2.4 S * U * WMGC-- ** ** * 해저기뢰 유사 접촉(MILCO)
+Ground (Bottom) mine-like
+contact (MILCO)
+1.5.2.2.2.5 S * U * WMGR-- ** ** * 해저기뢰 재포착 불가
+Ground (Bottom) negative
+reacquisition
+1.5.2.2.2.6 S * U * WMGO-- ** ** * 해저기뢰 유사 접촉(비기뢰)
+Ground (Bottom) non-mine
+mine-like contact
+1.5.2.2.3 S * U * WMM--- ** ** * 계류기뢰
+Sea mine (Moored)
+1.5.2.2.3.1 S * U * WMMD-- ** ** * 계류기뢰(처리된)
+Sea mine (Moored) neutralized
+1.5.2.2.3.2 S * U * WMMX-- ** ** * 계류기뢰(훈련용)
+Moored exercise mine
+1.5.2.2.3.3 S * U * WMME-- ** ** * 계류기뢰 유사 에코(MILEC)
+Moored mine-like echo
+1.5.2.2.3.4 S * U * WMMC-- ** ** * 계류기뢰 유사 접촉(MILCO)
+Moored mine-like contact
+1.5.2.2.3.5 S * U * WMMR-- ** ** * 계류기뢰 재포착 불가
+Moored negative reacquisition
+1.5.2.2.3.6 S * U * WMMO-- ** ** * 계류기뢰 유사 접촉(비기뢰)
+Moored non-mine mine-like
+object
+1.5.2.2.4 S * U * WMF--- ** ** * 부유기뢰
+Sea mine (Floating)
+1.5.2.2.4.1 S * U * WMFD-- ** ** * 부유기뢰(처리된)
+Sea mine (Floating) neutralized
+1.5.2.2.4.2 S * U * WMFX-- ** ** * 부유기뢰(훈련용)
+Floating exercise mine
+1.5.2.2.4.3 S * U * WMFE-- ** ** * 부유기뢰 유사 에코(MILEC)
+Floating mine-like echo (MILEC)
+1.5.2.2.4.4 S * U * WMFC-- ** ** * 부유기뢰 유사 접촉(MILCO)
+Floating mine-like contact
+(MILCO)
+1.5.2.2.4.5 S * U * WMFR-- ** ** * 부유기뢰 재포착 불가
+Floating negative reacquisition
+1.5.2.2.4.6 S * U * WMFO-- ** ** * 부유기뢰 유사 접촉(비기뢰)
+Floating non-mine mine-like
+contact
+1.5.2.2.5 S * U * WMO--- ** ** * 기타기뢰
+Sea mine (Other position)
+1.5.2.2.5.1 S * U * WMOD-- ** ** * 기타기뢰(처리된)
+Sea mine (Other position)
+neutralized
+1.5.2.2.6 S * U * WMA--- ** ** * 안테나기뢰
+General mine anchor
+1.5.2.2.6.1 S * U * WMAD-- ** ** * 안테나기뢰(처리된)
+General mine anchor neutralized
+1.5.2.2.7 S * U * WMS--- ** ** * 부동색기뢰
+Rising mine
+1.5.2.2.7.1 S * U * WMSD-- ** ** * 부동색기뢰(처리된)
+Rising neutralized mine
+1.5.2.2.7.2 S * U * WMSX-- ** ** * 부동색기뢰(훈련용)
+Rising exercise mine
+1.5.2.2.8 S * U * WMX--- ** ** * 기타기뢰(훈련용)
+General exercise mine
+1.5.2.2.9 S * U * WME--- ** ** * 기타기뢰 유사 에코(MILEC)
+General mine-like echo (MILEC)
+1.5.2.2.10 S * U * WMC--- ** ** * 기타기뢰 유사 접촉(MILCO)
+General mine-like contact
+(MILCO)
+1.5.2.2.11 S * U * WMR--- ** ** * 기타기뢰 재포착 불가
+General negative reacquisition
+1.5.2.2.12 S * U * WMB--- ** ** * 기타기뢰 방해물
+General obstructor
+1.5.2.2.12.1 S * U * WMBD-- ** ** * 기타기뢰(처리된) 방해물
+General neutralized obstructor
+1.5.2.2.13 S * U * WMN--- ** ** * 기타기뢰 유사 접촉(비기뢰)
+General non-mine mine-like
+object
+1.5.3 S * U * WD---- ** ** * 수중유인(교란)
+Underwater decoy
+1.5.3.1 S * U * WDM--- ** ** * 기뢰유인
+Sea mine decoy
+1.5.3.1.1 S * U * WDMG-- ** ** * 해저기뢰유인
+Ground (Bottom) decoy
+1.5.3.1.2 S * U * WDMM-- ** ** * 계류기뢰유인
+Moored decoy
+1.5.4 S * U * N----- ** ** * 비잠수함
+Non-submarine
+1.5.4.1 S * U * ND---- ** ** * 잠수부
+Diver
+1.5.5 S * U * E----- ** ** * 환경보고지점
+Environmental report location
+1.5.6 S * U * V----- ** ** * 잠수보고지점
+Dive report location
+1.5.7 S * U * X----- ** ** * 불발탄지역
+Unexploded ordnance area
+1.6 S * F * ------ ** ** * 기동부대
+Special operations forces (SOF)
+unit
+1.6.1 S * F * A----- ** ** * 기동부대(항공)
+SOF unit aviation
+1.6.1.1 S * F * AF---- ** ** * 기동부대(고정익)
+SOF unit fixed wing
+1.6.1.1.1 S * F * AFA--- ** ** * 기동부대(공격고정익)
+SOF unit attack
+1.6.1.1.2 S * F * AFK--- ** ** * 기동부대(재급유고정익)
+SOF unit refuel
+1.6.1.1.3 S * F * AFU--- ** ** * 기동부대(다목적고정익)
+SOF unit utility
+1.6.1.1.3.1 S * F * AFUL-- ** ** * 기동부대(다목적고정익-경)
+SOF unit utility (Light)
+1.6.1.1.3.2 S * F * AFUM-- ** ** * 기동부대(다목적고정익-중)
+SOF unit utility (Medium)
+1.6.1.1.3.3 S * F * AFUH-- ** ** * 기동부대(다목적고정익-대)
+SOF unit utility (Heavy)
+1.6.1.2 S * F * AV---- ** ** * 기동부대(수직이착륙기)
+SOF unit V/STOL
+1.6.1.3 S * F * AH---- ** ** * 기동부대(회전익)
+SOF unit rotary wing
+1.6.1.3.1 S * F * AHH--- ** ** * 기동부대(탐색구조헬기)
+SOF unit combat search and
+rescue
+1.6.1.3.2 S * F * AHA--- ** ** * 기동부대(공격헬기)
+SOF unit attack
+1.6.1.3.3 S * F * AHU--- ** ** * 기동부대(다목적헬기)
+SOF unit utility
+1.6.1.3.3.1 S * F * AHUL-- ** ** * 기동부대(다목적헬기-경)
+SOF unit utility (Light)
+1.6.1.3.3.2 S * F * AHUM-- ** ** * 기동부대(다목적헬기-중)
+SOF unit utility (Medium)
+1.6.1.3.3.3 S * F * AHUH-- ** ** * 기동부대(다목적헬기-대)
+SOF unit utility (Heavy)
+1.6.2 S * F * N----- ** ** * 해군특수작전
+SOF unit SOF unit naval
+1.6.2.1 S * F * NS---- ** ** * 특전작전팀
+SOF unit seal
+1.6.2.2 S * F * NU---- ** ** * 수중 폭파팀
+SOF unit underwater demolition
+team
+1.6.2.3 S * F * NB---- ** ** * 특수작전용 보트
+SOF unit special boat
+1.6.2.4 S * F * NN---- ** ** * 특수작전용 잠수함
+SOF unit special SSNR
+1.6.3 S * F * G----- ** ** * 지상 특수작전용
+SOF unit ground
+1.6.3.1 S * F * GS---- ** ** * 특수전부대
+SOF unit special forces
+1.6.3.2 S * F * GR---- ** ** * 공수특전
+SOF unit ranger
+1.6.3.3 S * F * GP---- ** ** * 기동부대(심리작전)
+SOF unit psychological
+operations (PSYOP)
+1.6.3.3.1 S * F * GPA--- ** ** * 기동부대(심리작전-항공)
+SOF unit fixed wing aviation
+1.6.3.4 S * F * GC---- ** ** * 기동부대(민사)
+SOF unit civil affairs
+1.6.4 S * F * B----- ** ** * 특수작전지원부대
+Sof unit support
+1.6.5 S * F * U----- ** ** * 합동특수작전
