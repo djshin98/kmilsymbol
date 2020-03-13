@@ -97,7 +97,6 @@ Search and rescue (CSAR)
 1.2.1.1.16.7 S * A * MFQJ-- ** ** * 무인 전파방해기
 Electronic countermeasures
 (jammer)
-11
 1.2.1.1.16.8 S * A * MFQK-- ** ** * 무인 공중급유기
 Tanker
 1.2.1.1.16.9 S * A * MFQL-- ** ** * 무인 수직 단거리 이착륙기
@@ -139,8 +138,7 @@ Rotary wing
 1.2.1.2.1 S * A * MH-- ** ** * 공격헬기
 Attack
 1.2.1.2.2 S * A * MHS--- ** ** * 대잠헬기
-Antisubmarine warfare/MPA
-12
+Antisubmarin
 1.2.1.2.3 S * A * MHU--- ** ** * 다목적헬기
 Utility
 1.2.1.2.3.1 S * A * MHUL-- ** ** * 다목적헬기(경)
@@ -183,7 +181,6 @@ Lighter than air
 1.2.1.4 S * A * MV---- ** ** *
 VIP
 Very important person (VIP)
-13
 1.2.1.5 S * A * ME---- ** ** * 호위
 Escort
 1.2.2 S * A * W----- ** ** * 공중화기

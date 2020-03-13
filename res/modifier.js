@@ -1,71 +1,125 @@
 const fs = require('fs');
 const readline = require('readline');
 
-class Modifier {
-    constructor(fd) {
-        this.fd = fd;
-        this.group = "";
-        this.code = "";
-        this.buffer = "";
-        this.write("{\n");
-        this.hashCodes = [];
-    }
-    currentGroup() {
-        return this.group;
-    }
-    end() {
-        if (this.group.length > 0) {
-            if (this.code.length > 0) {
-                this.write(this.buffer + '"}');
+class Writable {
+    constructor() {
 
-            }
-            this.write("\n\t]");
-        }
-        this.write("\n}\n");
-        this.group = "";
-        this.code = "";
-        this.buffer = "";
     }
-    startGroup(grp) {
-        if (this.group.length > 0) {
-            this.write(this.buffer + '"}');
-            this.write("\n\t],\n");
-        }
-        this.group = grp;
-        this.write('"' + this.group + '" : [\n');
-        this.code = "";
-        this.buffer = "";
-    }
-    startCode(code) {
-        if (this.code.length > 0) {
-            this.appendDesc('"},\n');
-            //let str = this.buffer + '"},\n';
-            this.write(this.buffer);
-            this.buffer = "";
-        }
-        this.code = code;
-        this.hashCodes.push(this.code);
-        this.write('\t\t{code:"' + this.code + '", desc:"');
-        this.buffer = "";
-    }
-    appendDesc(desc) {
-        this.buffer += " " + desc;
-    }
-    hasCode(code) {
-        if (this.hashCodes.indexOf(code) >= 0) {
-            return true;
-        }
-        return false;
-    }
-    write(str) {
+    write(fd, str) {
         let buf = Buffer.from(str);
-        //  buf.write(str);
-        fs.write(this.fd, buf, 0, buf.length, null, (err, writtenBytes, b) => {
+        fs.write(fd, buf, 0, buf.length, null, (err, writtenBytes, b) => {
             //console.log(`Wrote ${writtenBytes} bytes to file`);
         });
+    }
+}
+class ModifierItem extends Writable {
+    constructor(txt) {
+        super();
+        this.txt = txt;
+        this.parentId;
+        this.id;
+        this.codeType;
+        this.affiliation;
+        this.battlefield;
+        this.status;
+        this.modifier;
+        this.desc;
+        this.children;
+        this.parse();
 
     }
+    parse() {
+        let fields = this.txt.split(" ");
+        this.id = fields[0];
+        if (this.id.indexOf(".") > 0) {
+            this.parendId = this.id.substring(0, this.id.lastIndexOf("."));
+        }
+        this.codeType = fields[1];
+        this.affiliation = fields[2];
+        this.battlefield = fields[3];
+        this.status = fields[4];
+        this.modifier = fields[5];
+        this.desc = fields.splice(6).reduce((prev, curr) => {
+            return prev + " " + curr;
+        });
+    }
+    isRoot() {
+        return this.parendId ? false : true;
+    }
+    append(m) {
+        this.children.push(m);
+    }
+    save(fd) {
+        if (this.children && this.children.length > 0) {
+            this.children.forEach
+        }
 
+        let post = '" }';
+    }
+    toString() {
+        if (this.children && this.children.length > 0) {
+            this.children.reduce((prev, curr) => {})
+        }
+        return '{ id:"' + this.id + '", type:"' + this.codeType +
+            '", affiliation:"' + this.affiliation +
+            '", battlefield:"' + this.battlefield +
+            '", status:"' + this.status +
+            '", modifier:"' + this.modifier +
+            '", desc:"' + this.desc +
+
+            '" }';
+    }
+}
+class Modifier extends Writable {
+    constructor(fd) {
+        super();
+        this.fd = fd;
+        this.hashCodes = [];
+        this.rootModifier = [];
+        this.cachedBuffer = "";
+    }
+    createCode(txt) {
+        if (this.cachedBuffer.length > 0) {
+            this.hashCodes.push(this.cachedBuffer);
+        }
+        this.cachedBuffer = txt;
+    }
+    appendCode(txt) {
+        this.cachedBuffer += " " + txt;
+    }
+    endRead() {
+        if (this.cachedBuffer.length > 0) {
+            this.hashCodes.push(this.cachedBuffer);
+        }
+        this.hashCodes.forEach((d) => {
+            let m = new ModifierItem(d);
+            if (m.isRoot()) {
+                this.rootModifier.push(m);
+            } else {
+                let parent = findParent(m.parendId);
+                if (parent) {
+                    parent.append(m);
+                } else {
+                    console.log("error: not found parent :" + m.toString());
+                }
+            }
+            console.log(m.toString());
+
+        });
+    }
+    save() {
+        if (this.rootModifier) {
+            this.rootModifier.save(this.fd);
+        } else {
+            this.hashCodes.forEach(d => {
+                this.write(d + "\n");
+            });
+        }
+
+    }
+    write(str) {
+        super.write(this.fd, str);
+    }
 }
 async function processLineByLine(parser) {
     const fileStream = fs.createReadStream('./milsymbol/res/modifier.1.txt');
@@ -80,17 +134,17 @@ async function processLineByLine(parser) {
         if (txt.length > 0) {
             let txts = txt.split(" ");
             if (txts[0].split("").every(d => { return ((d >= '0' && d <= '9') || d == ".") ? true : false; })) {
-                parser.startCode(txt);
+                parser.createCode(txt);
+            } else {
+                parser.appendCode(txt);
             }
-            .every(d => { return (d >= '0' && d <= '9') ? true : false; })
-            parser.write(txt);
-            parser.write("\n");
         }
     }
-    parser.end();
+    parser.endRead();
+    parser.save();
 }
 
-fs.open("./milsymbol/res/modifier.2.txt", 'w', (err, fd) => {
+fs.open("./milsymbol/res/modifier.3.txt", 'w', (err, fd) => {
     var s = new Modifier(fd);
     processLineByLine(s);
 
