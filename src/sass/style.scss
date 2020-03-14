@@ -91,3 +91,14 @@ table.terms {
     background-color: #eee;
     color: #999;
 }
+
+ul.tree-wrapper{
+    li{
+        font-size: 0.9em;
+        background-color: #ddd;
+        border: 1px solid #aaa;
+        border-radius: 5px;
+        padding: 0.3em;
+        cursor:pointer;
+    }
+}

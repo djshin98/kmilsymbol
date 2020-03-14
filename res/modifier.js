@@ -1,6 +1,11 @@
 const fs = require('fs');
 const readline = require('readline');
 
+function isAlphaX(s){
+    return s.split("").every(d=>{
+        return (d>=" " && d<= "z")?true:false;
+    });
+}
 class Writable {
     constructor() {
 
@@ -15,7 +20,7 @@ class Writable {
 class ModifierItem extends Writable {
     constructor(txt) {
         super();
-        this.stairs = 0;
+        this.stairs = 1;
         this.txt = txt;
         this.parentId;
         this.id;
@@ -24,8 +29,9 @@ class ModifierItem extends Writable {
         this.battlefield;
         this.status;
         this.modifier;
+        this.echelon;
         this.desc;
-        this.children;
+        this.children = [];
         this.parse();
 
     }
@@ -40,19 +46,31 @@ class ModifierItem extends Writable {
         this.battlefield = fields[3];
         this.status = fields[4];
         this.modifier = fields[5];
-        this.desc = fields.splice(6).reduce((prev, curr) => {
-            return prev + " " + curr;
-        });
+        this.echelon = fields[6];
+        let desc = fields.splice(9);
+        //desc.forEach();
+        let engIndex = 0;
+        this.desc_kor = desc.reduce((prev, curr , i) => {
+            if( engIndex > 0 || (i != 0 && isAlphaX(curr)) ){
+                if( engIndex == 0 ) engIndex += i;
+                return prev;
+            } 
+            return (prev.length>0) ? (prev+" "+curr) : curr;
+        },"");
+        this.desc_eng = desc.splice(engIndex);
     }
     isRoot() {
         return this.parendId ? false : true;
     }
     find(id){
         let findObj;
-        if( this.id == id ) findObj= this;
-        else if( this.id.indexOf(id) == 0 && this.children ){
+        //console.log( this.tab() + " searching " + this.id );
+        if( this.id == id ){
+            //console.log( this.tab() + id + " : finded to " + this.id );
+            findObj= this;
+        } else if( id.indexOf(this.id) == 0 && this.children ){
             this.children.some((d)=>{
-                let findObj = d.find(id);
+                findObj = d.find(id);
                 return findObj ? true : false;
             });
         }
@@ -65,28 +83,53 @@ class ModifierItem extends Writable {
     save(fd) {
         this.write(fd,this.preString());
         if (this.children && this.children.length > 0) {
-            this.children.forEach(d=>{
+            this.write(fd, ",\n" +this.tab() + "\tchildren : [\n");
+            this.children.forEach((d,i)=>{
                 d.save(fd);
-            })
+                if(this.children.length - 1 == i){
+                    this.write(fd,"\n");
+                }else{
+                    this.write(fd,",\n");
+                }
+            });
+            this.write( fd, this.tab() + "\t]\n" );
         }
-        this.write(fd,this.postString());
+        this.write(fd,this.postString() );
+    }
+    tab(){
+        return '\t'.repeat(this.stairs);
     }
     preString(){
-        return '\t'.repeat(this.stairs) + '{ id:"' + this.id + '", type:"' + this.codeType +
+        return this.tab() + '{ id:"' + this.id + '", type:"' + this.codeType +
             '", affiliation:"' + this.affiliation +
             '", battlefield:"' + this.battlefield +
             '", status:"' + this.status +
             '", modifier:"' + this.modifier +
-            '", desc:"' + this.desc +'"';
+            '", desc_kor:"' + this.desc_kor +
+            '", desc_eng:"' + this.desc_eng +'"';
     }
     postString(){
+        if (this.children && this.children.length > 0) {
+            return this.tab() +'}';
+        }
         return '}';
     }
     toString() {
+        var buffer = this.preString();
         if (this.children && this.children.length > 0) {
-            this.children.reduce((prev, curr) => {})
+            buffer += ",\n" +this.tab() + "\tchildren : [\n";
+            this.children.forEach((d,i)=>{
+                buffer += d.toString();
+                if(this.children.length - 1 == i){
+                    buffer += "\n";
+                }else{
+                    buffer += ",\n";
+                }
+            });
+            buffer += "\t"+this.tab()+"]\n";
         }
-        return this.preString() + this.postString();
+        buffer += this.postString();
+        return buffer;
     }
 }
 class Modifier extends Writable {
@@ -118,23 +161,37 @@ class Modifier extends Writable {
         if (this.cachedBuffer.length > 0) {
             this.hashCodes.push(this.cachedBuffer);
         }
+        this.hashCodes.sort((a,b)=>{
+            return 1;
+        })
         this.hashCodes.forEach((d) => {
             let m = new ModifierItem(d);
             if (m.isRoot()) {
                 this.rootModifier.push(m);
             } else {
-                let parent = find(m.parendId);
+                console.log( m.id + " : finding parent ");
+                let parent = this.find(m.parendId);
                 if (parent) {
                     parent.append(m);
                 } else {
-                    console.log("error: not found parent :" + m.toString());
+                    console.err("error: not found parent :" + m.toString());
                 }
             }
         });
     }
     save() {
         if (this.rootModifier) {
-            this.rootModifier.save(this.fd);
+            this.write("var modifier = [\n");
+            this.rootModifier.forEach((d,i)=>{
+                let str = d.toString();
+                this.write( str );
+                if( this.rootModifier.length-1 == i){
+                    this.write("\n");
+                }else{
+                    this.write(",\n");
+                }
+            })
+            this.write("];\n");
         } else {
             this.hashCodes.forEach(d => {
                 this.write(d + "\n");

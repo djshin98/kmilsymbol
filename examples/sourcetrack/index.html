@@ -7,6 +7,50 @@
     <link rel="stylesheet" href="../../docs/style.css">
     <script src="../../dist/milsymbol.development.js"></script>
     <script src="app.js"></script>
+
+    <style>
+        #treeModifier,#treeMobility{
+            height:500px;
+            overflow:scroll;
+        }
+        ul, .tree-wrapper {
+          list-style-type: none;
+        }
+        
+        .tree-wrapper {
+          margin: 0;
+          padding: 0;
+        }
+        
+        .caret {
+          cursor: pointer;
+          -webkit-user-select: none; /* Safari 3.1+ */
+          -moz-user-select: none; /* Firefox 2+ */
+          -ms-user-select: none; /* IE 10+ */
+          user-select: none;
+        }
+        
+        .caret::before {
+          content: "\25B6";
+          color: black;
+          display: inline-block;
+          margin-right: 6px;
+        }
+        
+        .caret-down::before {
+          -ms-transform: rotate(90deg); /* IE 9 */
+          -webkit-transform: rotate(90deg); /* Safari */'
+          transform: rotate(90deg);  
+        }
+        
+        .nested {
+          display: none;
+        }
+        
+        .active {
+          display: block;
+        }
+    </style>
 </head>
 
 <body>
@@ -90,8 +134,8 @@
                                 <option value="F">현재 / 최대가동(F)</option>
                             </select>
                         </td>
-                        <td data-tooltip="기능식별자" data-length="6"></td>
-                        <td data-tooltip="크기/기동수단" data-length="2"></td>
+                        <td data-tooltip="기능식별자" data-length="6"> 아래 맨<br>우측 선택</td>
+                        <td data-tooltip="크기/기동수단" data-length="2"> 아래 우측에서<br>두번째 선택</td>
                         <td data-tooltip="국가코드" data-length="2">KR</td>
                         <td data-tooltip="전투임무">
                             <select id="status">
@@ -111,11 +155,25 @@
 
     </div>
 
-    <h2>Two way bindings</h2>
-
-    <div ng-controller="SymbolController">
+    <div >
         <table class="fullwidth">
+            <thead>
+                <tr>
+                    <th>기능수정자</th>
+                    <th>크기/기동수단</th>
+                    <th style="width:170px;" >직접입력</th>
+                    <th style="width:100px;">부호 이미지</th>
+                </tr>                
+            </thead>
             <tr>
+                <td style="text-align:left;">
+                    <div id="treeModifier"></div>
+                      
+                </td>
+                <td style="text-align:left;">
+                    <div id="treeMobility"></div>
+                      
+                </td>
                 <td>
                     <form>
                         Size:
