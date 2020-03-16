@@ -100,5 +100,9 @@ ul.tree-wrapper{
         border-radius: 5px;
         padding: 0.3em;
         cursor:pointer;
+        div{
+            display: inline-block;
+        }
+        
     }
 }

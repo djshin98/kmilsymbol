@@ -2044,21 +2044,21 @@ function changeModifier(code){
     let val = ele.value;
     let sidc = new SIDC(val);
     sidc.modifier = code;
-    document.getElementById("symbolCode").value = sidc.toCode();
-    //symbolTest.try();
+    ele.value = sidc.toCode();
+    symbolTest.try();
 }
 function makeTree(arr){
     str = "";
     arr.forEach(d=>{
         
         if( d.children && d.children.length > 0 ){
-            str += '<li onclick="changeModifier(\''+d.modifier+'\')"><span class="caret">'+d.desc_kor+'</span>';
+            str += '<li ><span class="caret"><div onclick="changeModifier(\''+d.modifier+'\')">'+d.desc_kor+'</div></span>';
             str += '<ul class="nested">';
             str += makeTree(d.children);
             str += '</ul>';
             str += '</li>';
         }else{
-            str += '<li onclick="changeModifier(\''+d.modifier+'\')">'+d.desc_kor+'</li>';
+            str += '<li ><div onclick="changeModifier(\''+d.modifier+'\')">'+d.desc_kor+'</div></li>';
         }
     });
     return str;
@@ -2098,5 +2098,38 @@ window.onload = function() {
             this.classList.toggle("caret-down");
         });
     });
+
+    document.getElementById("affiliation").onchange = (e)=>{
+        let val = document.getElementById("affiliation").value;
+        let ele = document.getElementById("symbolCode");
+        let sidc = new SIDC(ele.value);
+        sidc.affiliation = val;
+        ele.value = sidc.toCode();
+        symbolTest.try();
+    }
+    document.getElementById("battlefield").onchange = (e)=>{
+        let val = document.getElementById("battlefield").value;
+        let ele = document.getElementById("symbolCode");
+        let sidc = new SIDC(ele.value);
+        sidc.battlefield = val;
+        ele.value = sidc.toCode();
+        symbolTest.try();
+    }
+    document.getElementById("status").onchange = (e)=>{
+        let val = document.getElementById("status").value;
+        let ele = document.getElementById("symbolCode");
+        let sidc = new SIDC(ele.value);
+        sidc.status = val;
+        ele.value = sidc.toCode();
+        symbolTest.try();
+    }
+    document.getElementById("mission").onchange = (e)=>{
+        let val = document.getElementById("mission").value;
+        let ele = document.getElementById("symbolCode");
+        let sidc = new SIDC(ele.value);
+        sidc.mission = val;
+        ele.value = sidc.toCode();
+        symbolTest.try();
+    }
  
 }
