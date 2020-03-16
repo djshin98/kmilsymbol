@@ -1,0 +1,140 @@
+5 O * - - ------ ** ** * 안정화작전
+Stability operations (SO)
+5.1 O * V * ------ ** ** * 과격행동(사상자초래)
+Violent activities (Death
+causing)
+5.1.1 O * V * A----- ** ** * 방화/화재
+Arson/Fire
+5.1.2 O * V * M----- ** ** * 살해
+Killing (General)
+5.1.2.1 O * V * MA---- ** ** * 살인
+Murder
+5.1.2.2 O * V * MB---- ** ** * 처형
+Execution
+5.1.2.3 O * V * MC---- ** ** * 암살
+Assassination
+5.1.3 O * V * B----- ** ** * 폭탄테러/폭탄투하(척)
+Bomb/Bombing
+5.1.4 O * V * Y----- ** ** * 부비트랩
+Booby trap
+5.1.5 O * V * D----- ** ** * 차량사격돌진
+Drive-by shooting
+5.1.6 O * V * S----- ** ** * 저격
+Sniping
+5.1.7 O * V * P----- ** ** * 독살
+Poisoning
+5.1.8 O * V * E----- ** ** * 폭발
+Explosion
+5.1.8.1 O * V * EI---- ** ** * 폭발물 폭발
+IED explosion
+5.2 O * L * ------ ** ** * 위치
+Locations
+5.2.1 O * L * B----- ** ** * 블랙리스트 위치
+Black list location
+5.2.2 O * L * G----- ** ** * 그레이리스트 위치
+Gray list location
+5.2.3 O * L * W----- ** ** * 화이트 리스트 위치
+White list location
+5.2.4 O * L * M----- ** ** * 공동묘지
+Mass grave location
+5.3 O * O * ------ ** ** * 작전
+Operations
+5.3.1 O * O * P----- ** ** * 순찰
+Patrolling
+5.3.2 O * O * R----- ** ** * 징집
+Recruitment
+5.3.2.1 O * O * RW---- ** ** * 징집(지원)
+Recruitment (Willing)
+5.3.2.2 O * O * RC---- ** ** * 징집(강제/징모)
+Recruitment (Coerced/Impressed)
+5.3.3 O * O * D----- ** ** * 데모
+Demonstration
+5.3.4 O * O * M----- ** ** * 지뢰부설
+Mine laying
+5.3.5 O * O * Y----- ** ** * 심리작전
+Psychological operations
+(PSYOP)
+5.3.5.1 O * O * YT---- ** ** * 심리작전(TV,라디오)
+Psyop (TV and radio propaganda)
+5.3.5.2 O * O * YW---- ** ** * 심리작전(선전물)
+Psyop (Written propaganda)
+5.3.5.3 O * O * YH---- ** ** * 방문선전
+House-to-house propaganda
+5.3.6 O * O * F----- ** ** * 식량탐색
+Foraging/Searching
+5.3.7 O * O * S----- ** ** * 염탐
+Spy
+5.3.8 O * O * O----- ** ** * 배식
+Food distribution
+5.3.9 O * O * E----- ** ** * 강탈
+Extortion
+5.3.10 O * O * H----- ** ** * 공중납치
+Hijacking
+5.3.10.1 O * O * HT---- ** ** * 공중납치(차량)
+Hijacking (Vehicle)
+5.3.10.2 O * O * HA---- ** ** * 공중납치(항공기)
+Hijacking (Airplane)
+5.3.10.3 O * O * HV---- ** ** * 공중납치(선박)
+Hijacking (Boat)
+5.3.11 O * O * K----- ** ** * 납치
+Kidnapping
+5.3.11.1 O * O * KA---- ** ** * 납치미수
+Attempted
+5.3.12 O * O * A----- ** ** * 체포
+Arrest
+5.3.13 O * O * U----- ** ** * 마약작전
+Drug operation
+5.3.14 O * O * C----- ** ** * 복합손실
+Composite loss
+5.3.14.1 O * O * CA---- ** ** * 전투
+Combat
+5.3.14.2 O * O * CB---- ** ** * 사고
+Accident
+5.3.14.3 O * O * CC---- ** ** * 기타
+Other
+5.4 O * I * ------ ** ** * 항목
+Items
+5.4.1 O * I * R----- ** ** * 난민
+Refugees
+5.4.2 O * I * S----- ** ** * 은신처
+Safe house
+5.4.3 O * I * G----- ** ** * 낙서
+Graffiti
+5.4.4 O * I * V----- ** ** * 야만/강간/강탈/약탈/도적/노략질
+Vandalism/Loot/Ransack/Plunder/
+Sack
+5.4.5 O * I * I----- ** ** * 확인된 반란차량
+Known insurgent vehicle
+5.4.6 O * I * D----- ** ** * 마약 차량
+Drug vehicle
+5.4.7 O * I * F----- ** ** * 내부 경비 부대
+Internal security force
+5.5 O * P * ------ ** ** * 개인
+Individual
+5.5.1 O * P * A----- ** ** * 지도자
+Leader
+5.5.2 O * P * B----- ** ** * 표적
+Targeted
+5.5.3 O * P * C----- ** ** * 테러리스트
+Terrorist
+5.6 O * G * ------ ** ** * 비군사단체
+Nonmilitary group or
+organization
+5.6.1 O * G * A----- ** ** * 난민, 피난민 단체
+Displaced persons, refugees,
+and evacuees
+5.6.2 O * G * B----- ** ** * 비정부조직
+Nongovernmental organization
+(NGO)
+5.6.3 O * G * C----- ** ** * 테러조직
+Terrorist
+5.6.4 O * G * D----- ** ** * 종교단체
+Religious
+5.6.5 O * G * E----- ** ** * 외국인전사
+Foreign fighters
+5.6.6 O * G * F----- ** ** * 폭력조직
+Gang
+5.7 O * R * ------ ** ** * 강간
+Rape
+5.7.1 O * R * A----- ** ** * 강간미수
+Attempted

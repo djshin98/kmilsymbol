@@ -1,0 +1,218 @@
+4 I - - - ------ -- -- - 신호정보
+Signals intelligence
+4.1 I * P * ------ -- ** * 우주항적
+Space track
+4.1.1 I * P * S----- -- ** * 신호도청
+Signal intercept
+4.1.1.1 I * P * SC---- -- ** * 통신
+Communications
+4.1.1.1.1 I * P * SCD--- -- ** * 위성수신
+Satellite downlink
+4.1.1.2 I * P * SR---- -- ** * 레이다
+Radar
+4.1.1.2.1 I * P * SRD--- -- ** * 데이터전송
+Data transmission
+4.1.1.2.2 I * P * SRE--- -- ** * 지구감시
+Earth surveillance
+4.1.1.2.3 I * P * SRI--- -- ** * 적아식별(응답기)
+IFF (Transponder)
+4.1.1.2.4 I * P * SRM--- -- ** * 다중임무
+Multifunction
+4.1.1.2.5 I * P * SRT--- -- ** * 표적획득
+Target acquisition
+4.1.1.2.6 I * P * SRS--- -- ** * 우주항적
+Space
+4.1.1.2.7 I * P * SRU--- -- ** * 미확인
+Unknown
+4.2 I * A * ------ -- ** * 공중항적
+Air track
+4.2.1 I * A * S----- -- ** * 신호도청
+Signal intercept
+4.2.1.1 I * A * SC---- -- ** * 통신
+Communications
+4.2.1.1.1 I * A * SCC--- -- ** * 무선/모바일
+Cellular/Mobile
+4.2.1.1.2 I * A * SCO--- -- ** * 전방위레이다가시선
+Omni-line of sight (LOS)
+4.2.1.1.3 I * A * SCP--- -- ** * 일대일레이다가시선
+Point-to-point line of sight
+(LOS)
+4.2.1.1.4 I * A * SCS--- -- ** * 위성송신
+Satellite uplink
+4.2.1.2 I * A * SR---- -- ** * 레이다
+Radar
+4.2.1.2.1 I * A * SRAI-- -- ** * 공수 도청
+Airborne intercept
+4.2.1.2.2 I * A * SRAS-- -- ** * 공수 탐색 및 폭격
+Airborne search and bombing
+4.2.1.2.3 I * A * SRC--- -- ** * 통제된 도청
+Controlled intercept
+4.2.1.2.4 I * A * SRD--- -- ** * 데이터전송
+Data transmission
+4.2.1.2.5 I * A * SRE--- -- ** * 조기경보
+Early warning
+4.2.1.2.6 I * A * SRF--- -- ** * 화력제어
+Fire control
+4.2.1.2.7 I * A * SRI--- -- ** * 적아식별(응답기)
+IFF (Transponder)
+4.2.1.2.8 I * A * SRMA-- -- ** * 유도탄포착
+Missile acquisition
+4.2.1.2.9 I * A * SRMD-- -- ** * 유도탄수신
+Missile downlink
+4.2.1.2.10 I * A * SRMG-- -- ** * 유도탄유도
+Missile guidance
+4.2.1.2.11 I * A * SRMT-- -- ** * 유도탄추적
+Missile tracking
+4.2.1.2.12 I * A * SRMF-- -- ** * 다중임무
+Multifunction
+4.2.1.2.13 I * A * SRTI-- -- ** * 표적발광체
+Target illuminator
+4.2.1.2.14 I * A * SRTA-- -- ** * 표적획득
+Target acquisition
+4.2.1.2.15 I * A * SRTT-- -- ** * 표적추적
+Target tracking
+4.2.1.2.16 I * A * SRU--- -- ** * 미확인
+Unknown
+4.3 I * G * ------ -- ** * 지상 항적
+Ground track
+4.3.1 I * G * S----- -- ** * 신호도청
+Signal intercept
+4.3.1.1 I * G * SC---- -- ** * 통신
+Communications
+4.3.1.1.1 I * G * SCC--- -- ** * 무선/모바일
+Cellular/Mobile
+4.3.1.1.2 I * G * SCO--- -- ** * 전방위레이다가시선
+Omni-line of sight (LOS)
+4.3.1.1.3 I * G * SCP--- -- ** * 일대일레이다가시선
+Point-to-point line of sight
+(LOS)
+4.3.1.1.4 I * G * SCS--- -- ** * 위성송신
+Satellite uplink
+4.3.1.1.5 I * G * SCT--- -- ** * 대류권산란
+Tropospheric scatter
+4.3.1.2 I * G * SR---- -- ** * 레이다
+Radar
+4.3.1.2.1 I * G * SRAT-- -- ** * 항공교통관제
+Air traffic control
+4.3.1.2.2 I * G * SRAA-- -- ** * 대공
+Antiaircraft
+4.3.1.2.3 I * G * SRB--- -- ** * 전장감시
+Battlefield surveillance
+4.3.1.2.4 I * G * SRCS-- -- ** * 해안감시
+Coastal surveillance
+4.3.1.2.5 I * G * SRCA-- -- ** * 접근관제
+Controlled approach
+4.3.1.2.6 I * G * SRD--- -- ** * 데이터전송
+Data transmission
+4.3.1.2.7 I * G * SRE--- -- ** * 조기경보
+Early warning
+4.3.1.2.8 I * G * SRF--- -- ** * 화력통제
+Fire control
+4.3.1.2.9 I * G * SRH--- -- ** * 고도탐지
+Height finding
+4.3.1.2.10 I * G * SRI--- -- ** * 적아식별(질문기)
+Identification friend/FOE
+(Interrogator)
+4.3.1.2.11 I * G * SRMM-- -- ** * 기상(군용)
+Meteorological (Military)
+4.3.1.2.12 I * G * SRMA-- -- ** * 유도탄포착
+Missile acquisition
+4.3.1.2.13 I * G * SRMG-- -- ** * 유도탄유도
+Missile guidance
+4.3.1.2.14 I * G * SRMT-- -- ** * 유도탄추적
+Missile tracking
+4.3.1.2.15 I * G * SRMF-- -- ** * 다중임무
+Multifunction
+4.3.1.2.16 I * G * SRS--- -- ** * 포탄포착
+Shell tracking
+4.3.1.2.17 I * G * SRTA-- -- ** * 표적획득
+Target acquisition
+4.3.1.2.18 I * G * SRTI-- -- ** * 표적발광체
+Target illuminator
+4.3.1.2.19 I * G * SRTT-- -- ** * 표적추적
+Target tracking
+4.3.1.2.20 I * G * SRU--- -- ** * 미확인
+Unknown
+4.4 I * S * ------ -- ** * 수상항적
+Sea surface track
+4.4.1 I * S * S----- -- ** * 신호도청
+Signal intercept
+4.4.1.1 I * S * SC---- -- ** * 통신
+Communications
+4.4.1.1.1 I * S * SCC--- -- ** * 무선/모바일
+Cellular/Mobile
+4.4.1.1.2 I * S * SCO--- -- ** * 전방위레이다가시선
+Omni-line of sight (LOS)
+4.4.1.1.3 I * S * SCP--- -- ** * 일대일레이다가시선
+Point-to-point line of sight
+(LOS)
+4.4.1.1.4 I * S * SCS--- -- ** * 위성송신
+Satellite uplink
+4.4.1.2 I * S * SR---- -- ** * 레이다
+Radar
+4.4.1.2.1 I * S * SRAT-- -- ** * 항공교통관제
+Air traffic control
+4.4.1.2.2 I * S * SRAA-- -- ** * 대공
+Antiaircraft
+4.4.1.2.3 I * S * SRCA-- -- ** * 접근관제
+Controlled approach
+4.4.1.2.4 I * S * SRCI-- -- ** * 요격관제
+Controlled intercept
+4.4.1.2.5 I * S * SRD--- -- ** * 데이터전송
+Data transmission
+4.4.1.2.6 I * S * SRE--- -- ** * 조기경보
+Early warning
+4.4.1.2.7 I * S * SRF--- -- ** * 화력통제
+Fire control
+4.4.1.2.8 I * S * SRH--- -- ** * 고도탐지
+Height finding
+4.4.1.2.9 I * S * SRI--- -- ** * 적아식별(질문기)
+Identification friend/FOE
+(Interrogator)
+4.4.1.2.10 I * S * SRMM-- -- ** * 기상(군용)
+Meteorological (Military)
+4.4.1.2.11 I * S * SRMA-- -- ** * 유도탄포착
+Missile acquisition
+4.4.1.2.12 I * S * SRMG-- -- ** * 유도탄유도
+Missile guidance
+4.4.1.2.13 I * S * SRMT-- -- ** * 유도탄추적
+Missile tracking
+4.4.1.2.14 I * S * SRMF-- -- ** * 다중임무
+Multifunction
+4.4.1.2.15 I * S * SRS--- -- ** * 수상탐색
+Surface search
+4.4.1.2.16 I * S * SRTA-- -- ** * 표적포착
+Target acquisition
+4.4.1.2.17 I * S * SRTI-- -- ** * 표적발광체
+Target illuminator
+4.4.1.2.18 I * S * SRTT-- -- ** * 표적추적
+Target tracking
+4.4.1.2.19 I * S * SRU--- -- ** * 미확인
+Unknown
+4.5 I * U * ------ -- ** * 수중항적
+Subsurface track
+4.5.1 I * U * S----- -- ** * 신호도청
+Signal intercept
+4.5.1.1 I * U * SC---- -- ** * 통신
+Communications
+4.5.1.1.1 I * U * SCO--- -- ** * 전방위레이다가시선
+Omni-line of sight (LOS)
+4.5.1.1.2 I * U * SCP--- -- ** * 일대일레이다가시선
+Point-to-point line of sight
+(LOS)
+4.5.1.1.3 I * U * SCS--- -- ** * 위성송신
+Satellite uplink
+4.5.1.2 I * U * SR---- -- ** * 레이다
+Radar
+4.5.1.2.1 I * U * SRD--- -- ** * 데이터전송
+Data transmission
+4.5.1.2.2 I * U * SRE--- -- ** * 조기경보
+Early warning
+4.5.1.2.3 I * U * SRM--- -- ** * 다중임무
+Multifunction
+4.5.1.2.4 I * U * SRS--- -- ** * 수상탐색
+Surface search
+4.5.1.2.5 I * U * SRT--- -- ** * 표적포착
+Target acquisition
+4.5.1.2.6 I * U * SRU--- -- ** * 미확인
+Unknown

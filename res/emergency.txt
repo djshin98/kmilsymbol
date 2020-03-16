@@ -1,0 +1,545 @@
+6 E - - - ------ -- -- - 비상관리
+Emergency management symbols
+6.1 E - I - ------ ** ** * 사고
+Incident
+6.1.1 E * I * A----- ** ** * 소란
+Civil disturbance incident
+6.1.1.1 O * O * D----- ** ** * 데모
+Civil demonstration
+6.1.1.2 O * I * R----- ** ** * 난민
+Civil displaced population
+6.1.1.3 E * I * AC---- ** ** * 폭동
+Civil rioting
+6.1.2 E * I * B----- ** ** * 범죄활동
+Criminal activity incident
+6.1.2.1 E * I * BA---- ** ** * 폭파위협
+Bomb threat
+6.1.2.2 O * V * B----- ** ** * 폭탄
+Bomb
+6.1.2.3 E * I * BC---- ** ** * 폭파
+Explosion
+6.1.2.4 E * I * BD---- ** ** * 도난
+Looting
+6.1.2.5 O * V * P----- ** ** * 독살
+Poisoning
+6.1.2.6 E * I * BF---- ** ** * 총격
+Shooting
+6.1.3 E * I * C----- ** ** * 화재
+Fire incident
+6.1.3.1 E * I * CA---- ** ** * 분쟁
+Hot spot
+6.1.3.2 E * I * CB---- ** ** * 비주거지화재
+Non-residential fire
+6.1.3.3 E * I * CC---- ** ** * 발화점
+Origin (of fire)
+6.1.3.4 E * I * CD---- ** ** * 주거지화재
+Residential fire
+6.1.3.5 E * I * CE---- ** ** * 학교화재
+School fire
+6.1.3.6 E * I * CF---- ** ** * 연막
+Smoke
+6.1.3.7 E * I * CG---- ** ** * 특수처리필요화재
+Special needs fire
+6.1.3.8 E * I * CH---- ** ** * 번갯불
+Wild fire
+6.1.4 E * I * D----- ** ** * 위험물 사건
+Hazardous material incident
+6.1.4.1 E * I * DA---- ** ** * 화학물질
+Chemical agent
+6.1.4.2 E * I * DB---- ** ** * 부식성물질
+Corrosive material
+6.1.4.3 E * I * DC---- ** ** * 습식위험물
+Hazardous when wet
+6.1.4.4 E * I * DD---- ** ** * 폭발물
+Explosive
+6.1.4.5 E * I * DE---- ** ** * 인화물질(기체)
+Flammable gas
+6.1.4.6 E * I * DF---- ** ** * 인화물질(액체)
+Flammable liquid
+6.1.4.7 E * I * DG---- ** ** * 인화물질(고체)
+Flammable solid
+6.1.4.8 E * I * DH---- ** ** * 불연성가스
+Non-flammable gas
+6.1.4.9 E * I * DI---- ** ** * 유기산화물
+Organic peroxide
+6.1.4.10 E * I * DJ---- ** ** * 산화제
+Oxidizer
+6.1.4.11 E * I * DK---- ** ** * 방사성물질
+Radioactive material
+6.1.4.12 E * I * DL---- ** ** * 자연발화성물질
+Spontaneously combustible
+6.1.4.13 E * I * DM---- ** ** * 독가스
+Toxic gas
+6.1.4.14 E * I * DN---- ** ** * 독극물/전염물
+Toxic and infectious
+6.1.4.15 E * I * DO---- ** ** * 불발탄
+Unexploded ordnance
+6.1.5 E * I * E----- ** ** * 항공사건
+Air incident
+6.1.5.1 E * I * EA---- ** ** * 항공사고
+Air accident
+6.1.5.2 O * O * HA---- ** ** * 항공납치
+Air hijacking
+6.1.6 E * I * F----- ** ** * 해양사건
+Marine incident
+6.1.6.1 E * I * FA---- ** ** * 해양사고
+Marine accident
+6.1.6.2 O * O * HV---- ** ** * 해양납치
+Marine hijacking
+6.1.7 E * I * G----- ** ** * 철도사건
+Rail incident
+6.1.7.1 E * I * GA---- ** ** * 철도사고
+Rail accident
+6.1.7.2 E * I * GB---- ** ** * 철도납치
+Rail hijacking
+6.1.8 E * I * H----- ** ** * 차량사건
+Vehicle incident
+6.1.8.1 E * I * HA---- ** ** * 차량사고
+Vehicle accident
+6.1.8.2 O * O * HT---- ** ** * 차량납치
+Vehicle hijacking
+6.2 E - N - ------ ** ** * 자연사건
+Natural events
+6.2.1 E * N * A----- ** ** * 지질
+Geologic
+6.2.1.1 E * N * AA---- ** ** * 여진
+Aftershock
+6.2.1.2 E * N * AB---- ** ** * 사태
+Avalanche
+6.2.1.3 E * N * AC---- ** ** * 진앙
+Earthquake epicenter
+6.2.1.4 E * N * AD---- ** ** * 산사태
+Landslide
+6.2.1.5 E * N * AE---- ** ** * 침하
+Subsidence
+6.2.1.6 W A S - WSVE-- P- -- - 화산폭발
+Volcanic eruption
+6.2.1.7 E * N * AG---- ** ** * 화산위협
+Volcanic threat
+6.2.2 E * N * B----- ** ** * 기상
+Hydro-meteorological
+6.2.2.1 W A S - WSD-LI P- -- - 가랑비
+Drizzle
+6.2.2.2 E * N * BB---- ** ** * 가뭄
+Drought
+6.2.2.3 E * N * BC---- ** ** * 홍수
+Flood
+6.2.2.4 W A S - WSFGSO P- -- - 안개
+Fog
+6.2.2.5 W A S - WSGRL- P- -- - 우박
+Hail
+6.2.2.6 E * N * BF---- ** ** * 전도
+Inversion
+6.2.2.7 W A S - WSR-LI P- -- - 비
+Rain
+6.2.2.8 W A S - WSDSLM P- -- - 풍진
+Sand dust storm
+6.2.2.9 W A S - WSS-LI P- -- - 눈
+Snow
+6.2.2.10 W A S - WSTMH- P- -- - 뇌우
+Thunder storm
+6.2.2.11 W A S - WST-FC P- -- - 토네이도
+Tornado
+6.2.2.12 W A S - WSTSS- P- -- - 열대폭풍
+Tropical cyclone
+6.2.2.13 E * N * BM---- ** ** * 쓰나미
+Tsunami
+6.2.3 E * N * C----- ** ** * 감염
+Infestation
+6.2.3.1 E * N * CA---- ** ** * 조류감염
+Bird infestation
+6.2.3.2 E * N * CB---- ** ** * 곤충감염
+Insect infestation
+6.2.3.3 E * N * CC---- ** ** * 세균감염
+Microbial infestation
+6.2.3.4 E * N * CD---- ** ** * 파충류감염
+Reptile infestation
+6.2.3.5 E * N * CE---- ** ** * 설치류감염
+Rodent infestation
+6.3 E - O - ------ ** ** * 작전
+Operations
+6.3.1 E * O * A----- ** ** * 응급수술
+Emergency medical operation
+6.3.1.1 E * O * AA---- ** ** * 응급수술부대
+Emergency medical operation
+unit
+6.3.1.2 E * O * AB---- ** ** * 응급수술장비
+Emergency medical operation
+equipment
+6.3.1.3 E * O * AC---- H* ** * 응급수술시설
+Emergency medical operation
+installation
+6.3.1.4 E * O * AD---- H* ** * 구급의료기사 대기장소
+EMT station location
+6.3.1.5 E * O * AE---- ** ** * 구급차
+Ambulance
+6.3.1.6 E * O * AF---- ** ** * 의무후송헬기
+Medical evacuation helicopter
+6.3.1.7 E * O * AG---- H* ** * 보건시설
+Health department facility
+6.3.1.8 S * G * IXH--- H* ** * 병원
+Hospital
+6.3.1.9 S * S * NM---- ** ** * 병원선
+Hospital ship
+6.3.1.10 E * O * AJ---- H* ** * 외래환자의료시설
+Medical facilities out patient
+6.3.1.11 E * O * AK---- H* ** * 영안실
+Morgue
+6.3.1.12 E * O * AL---- H* ** * 약국
+Pharmacy
+6.3.1.13 E * O * AM---- H* ** * 부상자분류
+Triage
+6.3.2 E * O * B----- ** ** * 응급작전
+Emergency operation
+6.3.2.1 E * O * BA---- ** ** * 응급작전부대
+Emergency operation unit
+6.3.2.2 E * O * BB---- ** ** * 응급작전장비
+Emergency operation equipment
+6.3.2.3 E * O * BC---- H* ** * 응급작전시설
+Emergency operation
+installation
+6.3.2.4 E * O * BD---- ** ** * 응급수집후송지점
+Emergency collection evacuation
+point
+6.3.2.5 E * O * BE---- H* ** * 응급사건지휘소
+Emergency incident command
+center
+6.3.2.6 E * O * BF---- H* ** * 응급작전센터
+Emergency operations center
+6.3.2.7 E * O * BG---- H* ** * 응급정보센터
+Emergency public information
+center
+6.3.2.8 E * O * BH---- H* ** * 응급쉘터
+Emergency shelter
+6.3.2.9 E * O * BI---- H* ** * 응급숙영지
+Emergency staging area
+6.3.2.10 E * O * BJ---- ** ** * 응급팀
+Emergency team
+6.3.2.11 E * O * BK---- H* ** * 응급급수센터
+Emergency water distribution
+center
+6.3.2.12 E * O * BL---- H* ** * 응급배식센터
+Emergency food distribution
+center
+6.3.3 E * O * C----- ** ** * 소방작전
+Fire fighting operation
+6.3.3.1 E * O * CA---- ** ** * 소방작전부대
+Fire fighting operation unit
+6.3.3.2 E * O * CB---- ** ** * 소방작전장비
+Fire fighting operation
+equipment
+6.3.3.3 E * O * CC---- ** ** * 소화전
+Fire hydrant
+6.3.3.4 E * O * CD---- H* ** * 추가급수지점
+Other water supply location
+6.3.3.5 E * O * CE---- H* ** * 소방서
+Fire station
+6.3.4 E * O * D----- ** ** * 법집행작전
+Law enforcement operation
+6.3.4.1 E * O * DA---- ** ** * 법집행작전부대
+Law enforcement operation unit
+6.3.4.2 E * O * DB---- ** ** * 법집행작전장비
+Law enforcement operation
+equipment
+6.3.4.3 E * O * DC---- H* ** * 법집행작전시설
+Law enforcement operation
+installation
+6.3.4.4 E * O * DD---- ** ** *
+ATF(미국 주류·담배·화기
+단속국)
+Bureau of Alcohol, Tobacco,
+Firearms and Explosives (ATF)
+6.3.4.4.1 E * O * DDA--- ** ** *
+ATF 부대
+ATF unit
+6.3.4.4.2 E * O * DDB--- ** ** *
+ATF 장비
+ATF equipment
+6.3.4.4.3 E * O * DDC--- H* ** *
+ATF 시설
+ATF installation
+6.3.4.5 E * O * DE---- ** ** * 국경순찰
+Border patrol
+6.3.4.5.1 E * O * DEA--- ** ** * 국경순찰부대
+Border patrol unit
+6.3.4.5.2 E * O * DEB--- ** ** * 국경순찰장비
+Border patrol equipment
+6.3.4.5.3 E * O * DEC--- H* ** * 국경순찰시설
+Border patrol installation
+6.3.4.6 E * O * DF---- ** ** * 세관업무
+Customs service
+6.3.4.6.1 E * O * DFA--- ** ** * 세관업무부대
+Customs service unit
+6.3.4.6.2 E * O * DFB--- ** ** * 세관업무장비
+Customs service equipment
+6.3.4.6.3 E * O * DFC--- H* ** * 세관업무시설
+Customs service installation
+6.3.4.7 E * O * DG---- ** ** *
+DEA(마약단속국)
+Drug Enforcement
+Administration(DEA)
+6.3.4.7.1 E * O * DGA--- ** ** *
+DEA부대
+DEA unit
+6.3.4.7.2 E * O * DGB--- ** ** *
+DEA장비
+DEA equipment
+6.3.4.7.3 E * O * DGC--- H* ** *
+DEA시설
+DEA installation
+6.3.4.8 E * O * DH---- ** ** *
+DOJ(미국법무부)
+Department of Justice (DOJ)
+6.3.4.8.1 E * O * DHA--- ** ** *
+DOJ부대
+DOJ unit
+6.3.4.8.2 E * O * DHB--- ** ** *
+DOJ장비
+DOJ equipment
+6.3.4.8.3 E * O * DHC--- H* ** *
+DOJ시설
+DOJ installation
+6.3.4.9 E * O * DI---- ** ** *
+FBI(미국연방수사국)
+Federal Bureau of Investigation
+(FBI)
+6.3.4.9.1 E * O * DIA--- ** ** *
+FBI부대
+FBI unit
+6.3.4.9.2 E * O * DIB--- ** ** *
+FBI장비
+FBI equipment
+6.3.4.9.3 E * O * DIC--- H* ** *
+FBI시설
+FBI installation
+6.3.4.10 E * O * DJ---- ** ** * 민간경찰
+Police
+6.3.4.10.1 S * G * UULC-- ** ** * 경찰
+Police unit
+6.3.4.10.2 E * O * DJB--- ** ** * 경찰장비
+Police equipment
+6.3.4.10.3 E * O * DJC--- H* ** * 경찰시설
+Police installation
+6.3.4.11 E * O * DK---- H* ** * 죄수
+Prison
+6.3.4.12 E * O * DL---- ** ** * 첩보기관
+Secret service
+6.3.4.12.1 E * O * DLA--- ** ** * 첩보기관부대
+Secret service unit
+6.3.4.12.2 E * O * DLB--- ** ** * 첩보기관장비
+Secret service equipment
+6.3.4.12.3 E * O * DLC--- H* ** * 첩보기관시설
+Secret service installation
+6.3.4.13 E * O * DM---- ** ** *
+TSA(미국국토안보국)
+Transportation Security
+Administration (TSA)
+6.3.4.13.1 E * O * DMA--- ** ** *
+TSA부대
+TSA unit
+6.3.4.13.2 E * O * DMB--- ** ** *
+TSA장비
+TSA equipment
+6.3.4.13.3 E * O * DMC--- H* ** *
+TSA시설
+TSA installation
+6.3.4.14 E * O * DN---- ** ** * 해경
+Coast guard
+6.3.4.14.1 E * O * DNA--- ** ** * 해경부대
+Coast guard unit
+6.3.4.14.2 S * S * XL---- ** ** * 해경장비
+Coast guard equipment
+6.3.4.14.3 E * O * DNC--- H* ** * 해경시설
+Coast guard installation
+6.3.4.15 E * O * DO---- ** ** * 미연방보안관
+US marshals service
+6.3.4.15.1 E * O * DOA--- ** ** * 미연방보안관부대
+US marshals service unit
+6.3.4.15.2 E * O * DOB--- ** ** * 미연방보안관장비
+US marshals service equipment
+6.3.4.15.3 E * O * DOC--- H* ** * 미연방보안관시설
+US marshals service
+installation
+6.3.5 S * G * ES---- ** ** * 감지기
+Sensor
+6.3.5.1 E * O * EA---- ** ** * 생체감지기
+Biological sensor
+6.3.5.2 E * O * EB---- ** ** * 화학감지기
+Chemical sensor
+6.3.5.3 E * O * EC---- ** ** * 침임감지기
+Intrusion sensor
+6.3.5.4 E * O * ED---- ** ** * 핵감지기
+Nuclear sensor
+6.3.5.5 E * O * EE---- ** ** * 방사능감지기
+Radiological sensor
+6.4 E - F - ------ ** ** * 기반시설
+Infrastructure
+6.4.1 E * F * A----- H* ** * 농업 및 식량 기반시설
+Agriculture and food
+infrastructure
+6.4.1.1 E * F * AA---- H* ** * 농업연구소
+Agricultural laboratory
+6.4.1.2 E * F * AB---- H* ** * 가축사육장
+Animal feedlot
+6.4.1.3 E * F * AC---- H* ** * 식량배급상가
+Commercial food distribution
+center
+6.4.1.4 E * F * AD---- H* ** * 농장/목장
+Farm/Ranch
+6.4.1.5 E * F * AE---- H* ** * 식량생산센터
+Food production center
+6.4.1.6 E * F * AF---- H* ** * 식량판매
+Food retail
+6.4.1.7 E * F * AG---- H* ** * 식량창고
+Grain storage
+6.4.2 E * F * B----- H* ** * 은행/금융/보험 기반시설
+Banking finance and insurance
+infrastructure
+6.4.2.1 E * F * BA---- ** ** * 현금인출기
+ATM
+6.4.2.2 E * F * BB---- H* ** * 은행/금융/보험 기반시설
+Bank
+6.4.2.3 E * F * BC---- H* ** * 금괴저장고
+Bullion storage
+6.4.2.4 E * F * BD---- H* ** * 연방준비은행
+Federal reserve bank
+6.4.2.5 E * F * BE---- H* ** * 금융거래
+Financial exchange
+6.4.2.6 E * F * BF---- H* ** * 기타금융서비스
+Financial services other
+6.4.3 E * F * C----- H* ** * 상업 기반시설
+Commercial infrastructure
+6.4.3.1 E * F * CA---- H* ** * 화학공장
+Chemical plant
+6.4.3.2 E * F * CB---- H* ** * 총기생산
+Firearms manufacturer
+6.4.3.3 E * F * CC---- H* ** * 총기판매
+Firearms retailer
+6.4.3.4 E * F * CD---- H* ** * 위험물생산
+Hazardous material production
+6.4.3.5 E * F * CE---- H* ** * 위험물저장
+Hazardous material storage
+6.4.3.6 E * F * CF---- H* ** * 공업용지
+Industrial site
+6.4.3.7 E * F * CG---- H* ** * 매립지
+Landfill
+6.4.3.8 E * F * CH---- H* ** * 제약시설
+Pharmaceutical manufacturer
+6.4.3.9 E * F * CI---- H* ** * 유독성폐기물처리지역
+Contaminated hazardous waste
+site
+6.4.3.10 E * F * CJ---- H* ** * 유해물질 배출시설
+Toxic release inventory
+6.4.4 E * F * D----- H* ** * 교육 기반시설
+Educational facilities
+infrastructure
+6.4.4.1 E * F * DA---- H* ** * 대학
+College university
+6.4.4.2 E * F * DB---- H* ** * 학교화재
+School
+6.4.5 S * G * IUE--- H* ** * 발전소
+Energy facilities
+infrastructure
+6.4.5.1 E * F * EA---- H* ** * 발전소
+Generation station
+6.4.5.2 E * F * EB---- H* ** * 화력발전소(천연가스)
+Natural gas facility
+6.4.5.3 S * G * IUEN-- H* ** * 핵발전소
+Nuclear facility
+6.4.5.4 S * G * IRP--- H* ** * 화력발전소(석유)
+Petroleum facility
+6.4.5.5 E * F * EE---- H* ** * 화력발전소(프로판)
+Propane facility
+6.4.6 E * F * F----- H* ** * 정부시설
+Government site infrastructure
+6.4.7 E * F * G----- H* ** * 군사시설
+Military infrastructure
+6.4.7.1 E * F * GA---- H* ** * 무기고
+Military armory
+6.4.7.2 S * G * IB---- H* ** * 군용기지
+Military base
+6.4.8 E * F * H----- H* ** * 우편 기반시설
+Postal service infrastructure
+6.4.8.1 E * F * HA---- H* ** * 우편집중국
+Postal distribution center
+6.4.8.2 E * F * HB---- H* ** * 우체국
+Post office
+6.4.9 E * F * I----- H* ** * 공공 기반시설
+Public venues infrastructure
+6.4.9.1 E * F * IA---- H* ** * 폐쇄형 시설
+Enclosed facility
+6.4.9.2 E * F * IB---- H* ** * 개방형 시설
+Open facility
+6.4.9.3 E * F * IC---- H* ** * 레크리에이션 지역
+Recreational area
+6.4.9.4 E * F * ID---- H* ** * 종교단체
+Religious institution
+6.4.10 E * F * J----- H* ** * 특수복지시설
+Special needs infrastructure
+6.4.10.1 E * F * JA---- H* ** * 장애인복지시설
+Adult day care
+6.4.10.2 E * F * JB---- H* ** * 아동복지시설
+Child day care
+6.4.10.3 E * F * JC---- H* ** * 노인복지시설
+Elder care
+6.4.11 E * F * K----- H* ** * 통신기반시설
+Telecommunications
+infrastructure
+6.4.11.1 S * G * IUT--- H* ** * 전화국
+Telecommunications facility
+6.4.11.2 E * F * KB---- H* ** * 통신탑
+Telecommunications tower
+6.4.12 S * G * IT---- H* ** * 수송 기반시설
+Transportation infrastructure
+6.4.12.1 E * F * LA---- H* ** * 항공관제시설
+Air traffic control facility
+6.4.12.2 S * G * IBA--- H* ** * 공항
+Airport
+6.4.12.3 G * M * BCB--- ** ** X 교량
+Bridge
+6.4.12.4 E * F * LD---- H* ** * 버스정거장
+Bus station
+6.4.12.5 E * F * LE---- H* ** * 페리터미널
+Ferry terminal
+6.4.12.6 E * F * LF---- H* ** * 헬기장
+Helicopter landing site
+6.4.12.7 W O S - ML---- P- -- - 갑문
+Lock
+6.4.12.8 E * F * LH---- H* ** * 보수시설
+Maintenance facility
+6.4.12.9 S * G * IBN--- H* ** * 항구
+Port
+6.4.12.10 E * F * LJ---- H* ** * 철도역
+Rail station
+6.4.12.11 E * F * LK---- H* ** * 휴게소
+Rest stop
+6.4.12.12 W O S - HPBA-- P- -- - 선박정박지
+Ship anchorage
+6.4.12.13 E * F * LM---- H* ** * 통행료징수시설
+Toll facility
+6.4.12.14 G * S * PO---- ** ** X 교통통제소
+Traffic control point (TCP)
+6.4.12.15 E * F * LO---- H* ** * 교통검문소
+Traffic inspection facility
+6.4.12.16 E * F * LP---- H* ** * 터널
+Tunnel
+6.4.13 S * G * IUP--- H* ** * 급수시설
+Water supply infrastructure
+6.4.13.1 E * F * MA---- ** ** * 제어밸브
+Control valve
+6.4.13.2 E * F * MB---- H* ** * 댐
+DAM
+6.4.13.3 E * F * MC---- ** ** * 하수방출구
+Discharge outfall
+6.4.13.4 E * F * MD---- H* ** * 지하수우물
+Ground water well
+6.4.13.5 E * F * ME---- H* ** * 펌프장
+Pumping station
+6.4.13.6 E * F * MF---- H* ** * 저수지
+Reservoir
+6.4.13.7 E * F * MG---- H* ** * 저장탑
+Storage tower
+6.4.13.8 E * F * MH---- H* ** * 지표수취수구
+Surface water intake
+6.4.13.9 E * F * MI---- H* ** * 하수처리시설
+Wastewater treatment facility

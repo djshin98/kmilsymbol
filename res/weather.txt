@@ -1,0 +1,912 @@
+3 W - - - ------ -- -- - 기상 및 해양
+METOC
+3.1 W A - - ------ -- -- - 대기
+Atmospheric
+3.1.1 W A - - P----- -- -- - 기압
+Pressure systems
+3.1.1.1 W A S - PL---- P- -- - 저기압중심
+Low pressure center
+3.1.1.1.1 W A S - PC---- P- -- - 싸이클론중심
+Cyclone center
+3.1.1.1.2 W A S - PLT--- P- -- - 대류권계면 저고도
+Tropopause low
+3.1.1.2 W A S - PH---- P- -- - 고기압중심
+High pressure center
+3.1.1.2.1 W A S - PA---- P- -- - 고기압중심
+Anticyclone center
+3.1.1.2.2 W A S - PHT--- P- -- - 대류권계면 고고도
+Tropopause high
+3.1.1.3 W A - D PF---- -L -- - 전선
+Frontal systems
+3.1.1.3.1 W A - D PFC--- -L -- - 한랭전선
+Cold front
+3.1.1.3.1.1 W A - D PFCU-- -L -- - 상층 한랭전선
+Upper cold front
+3.1.1.3.1.2 W A - D PFC-FG -L -- - 한랭전선 발생
+Cold frontogenesis
+3.1.1.3.1.3 W A - D PFC-FY -L -- - 한랭전선 소멸
+Cold frontolysis
+3.1.1.3.2 W A - D PFW--- -L -- - 온난전선
+Warm front
+3.1.1.3.2.1 W A - D PFWU-- -L -- - 상층 온난전선
+Upper warm front
+3.1.1.3.2.2 W A - D PFW-FG -L -- - 온난전선 발생
+Warm frontogenesis
+3.1.1.3.2.3 W A - D PFW-FY -L -- - 온난전선 소멸
+Warm frontolysis
+3.1.1.3.3 W A - D PFO--- -L -- - 폐색전선
+Occluded front
+3.1.1.3.3.1 W A - D PFOU-- -L -- - 상층 폐색전선
+Upper occluded front
+3.1.1.3.3.2 W A - D PFO-FY -L -- - 폐색전선 소멸
+Occluded frontolysis
+3.1.1.3.4 W A - D PFS--- -L -- - 정체전선
+Stationary front
+3.1.1.3.4.1 W A - D PFSU-- -L -- - 상층 정체전선
+Upper stationary front
+3.1.1.3.4.2 W A - D PFS-FG -L -- - 정체전선 발생
+Stationary frontogenesis
+3.1.1.3.4.3 W A - D PFS-FY -L -- - 정체전선 소멸
+Stationary frontolysis
+3.1.1.4 W A - - PX---- -- -- - 선
+Lines
+3.1.1.4.1 W A - D PXT--- -L -- - 기압골
+Trough axis
+3.1.1.4.2 W A - D PXR--- -L -- - 기압마루
+Ridge axis
+3.1.1.4.3 W A - D PXSQ-- -L -- - 강한돌풍선
+Severe squall line
+3.1.1.4.4 W A - D PXIL-- -L -- - 대기불안정선
+Instability line
+3.1.1.4.5 W A - D PXSH-- -L -- - 측밀림선
+Shear line
+3.1.1.4.6 W A - D PXITCZ -L -- - 열대수렴대(ITCZ)
+Inter-tropical convergance zone
+3.1.1.4.7 W A - D PXCV-- -L -- - 수렴선
+Convergance line
+3.1.1.4.8 W A - D PXITD- -L -- - 열대불연속(ITD)
+Inter-tropical discontinuity
+3.1.2 W A - - T----- -- -- - 난기류
+Turbulence
+3.1.2.1 W A S - TL---- P- -- - 난기류(약)
+Turbulence - Light
+3.1.2.2 W A S - TM---- P- -- - 난기류(중)
+Turbulence - Moderate
+3.1.2.3 W A S - TS---- P- -- - 난기류(강)
+Turbulence - Severe
+3.1.2.4 W A S - TE---- P- -- - 난기류(매우강)
+Turbulence - Extreme
+3.1.2.5 W A S - T-MW-- P- -- - 산악파
+Mountain waves
+3.1.3 W A - - I----- -- -- - 착빙
+Icing
+3.1.3.1 W A S - IC---- P- -- - 결빙
+Clear icing
+3.1.3.1.1 W A S - ICL--- P- -- - 결빙(약)
+Clear icing - Light
+3.1.3.1.2 W A S - ICM--- P- -- - 결빙(중)
+Clear icing - Moderate
+3.1.3.1.3 W A S - ICS--- P- -- - 결빙(강)
+Clear icing - Severe
+3.1.3.2 W A S - IR---- P- -- - 무빙
+Rime icing
+3.1.3.2.1 W A S - IRL--- P- -- - 무빙(약)
+Rime icing - Light
+3.1.3.2.2 W A S - IRM--- P- -- - 무빙(중)
+Rime icing - Moderate
+3.1.3.2.3 W A S - IRS--- P- -- - 무빙(강)
+Rime icing - Severe
+3.1.3.3 W A S - IM---- P- -- - 혼빙
+Mixed icing
+3.1.3.3.1 W A S - IML--- P- -- - 혼빙(약)
+Mixed icing - Light
+3.1.3.3.2 W A S - IMM--- P- -- - 혼빙(중)
+Mixed icing - Moderate
+3.1.3.3.3 W A S - IMS--- P- -- - 혼빙(강)
+Mixed icing - Severe
+3.1.4 W A - - W----- -- -- - 바람
+Winds
+3.1.4.1 W A S - WC---- P- -- - 무풍
+Calm winds
+3.1.4.2 W A S - WP---- P- -- - 바람기호
+Wind plot
+3.1.4.3 W A - D WJ---- -L -- - 제트기류
+Jet stream
+3.1.4.4 W A - D WS---- -L -- - 기류선
+Stream line
+3.1.5 W A - - CC---- -- -- - 구름상태
+Cloud coverage
+3.1.5.1 W A - - CCCS-- -- -- - 구름상태부호
+Cloud coverage symbols
+3.1.5.1.1 W A S - CCCSCS P- -- - 맑음
+Clear sky
+3.1.5.1.2 W A S - CCCSFC P- -- - 구름조금
+Few coverage
+3.1.5.1.3 W A S - CCCSSC P- -- - 구름다소
+Scattered coverage
+3.1.5.1.4 W A S - CCCSBC P- -- - 약간흐림
+Broken coverage
+3.1.5.1.5 W A S - CCCSOC P- -- - 흐림
+Overcast coverage
+3.1.5.1.6 W A S - CCCSOB P- -- - 하늘덮임
+Sky totally or partially obscured
+3.1.6 W A - - WS---- -- -- - 날씨부호
+Weather symbols
+3.1.6.1 W A S - WSR--- -- -- - 비
+Rain
+3.1.6.1.1 W A S - WSR-LI P- -- - 비(간헐-약)
+Rain - Intermittent light
+3.1.6.1.2 W A S - WSR-LC P- -- - 비(지속-약)
+Rain - Continuous light
+3.1.6.1.3 W A S - WSR-MI P- -- - 비(간헐-중)
+Rain - Intermittent moderate
+3.1.6.1.4 W A S - WSR-MC P- -- - 비(지속-중)
+Rain - Continuous moderate
+3.1.6.1.5 W A S - WSR-HI P- -- - 비(간헐-강)
+Rain - Intermittent heavy
+3.1.6.1.6 W A S - WSR-HC P- -- - 비(지속-강)
+Rain - Continuous heavy
+3.1.6.2 W A S - WSRF-- -- -- - 동우
+Freezing rain
+3.1.6.2.1 W A S - WSRFL- P- -- - 동우(약)
+Freezing rain - Light
+3.1.6.2.2 W A S - WSRFMH P- -- - 동우(중/강)
+Freezing rain - Moderate/Heavy
+3.1.6.3 W A S - WSRS-- -- -- - 소나기
+Rain showers
+3.1.6.3.1 W A S - WSRSL- P- -- - 소나기(약)
+Rain showers - Light
+3.1.6.3.2 W A S - WSRSMH P- -- - 소나기(중/강)
+Rain showers - Moderate/Heavy
+3.1.6.3.3 W A S - WSRST- P- -- - 소나기(폭우)
+Rain showers - Torrential
+3.1.6.4 W A S - WSD--- -- -- - 가랑비
+Drizzle
+3.1.6.4.1 W A S - WSD-LI P- -- - 가랑비(간헐-약)
+Drizzle - Intermittent light
+3.1.6.4.1.1 W A S - WSD-LC P- -- - 가랑비(지속-약)
+Drizzle - Continuous light
+3.1.6.4.2 W A S - WSD-MI P- -- - 가랑비(간헐-중)
+Drizzle - Intermittent moderate
+3.1.6.4.2.1 W A S - WSD-MC P- -- - 가랑비(지속-중)
+Drizzle - Continuous moderate
+3.1.6.4.3 W A S - WSD-HI P- -- - 가랑비(간헐-강)
+Drizzle - Intermittent heavy
+3.1.6.4.3.1 W A S - WSD-HC P- -- - 가랑비(지속-강)
+Drizzle - Continuous heavy
+3.1.6.5 W A S - WSDF-- -- -- - 진눈깨비
+Freezing drizzle
+3.1.6.5.1 W A S - WSDFL- P- -- - 진눈깨비(약)
+Freezing drizzle - Light
+3.1.6.5.2 W A S - WSDFMH P- -- - 진눈깨비(중/강)
+Freezing drizzle - Moderate/Heavy
+3.1.6.6 W A S - WSM--- -- -- - 눈비혼합
+Rain and snow mixed
+3.1.6.6.1 W A S - WSM-L- P- -- - 비/가랑비/눈(약)
+Rain or drizzle and snow - Light
+3.1.6.6.2 W A S - WSM-MH P- -- - 비/가랑비/눈(중/강)
+Rain or drizzle and snow -
+Moderate/Heavy
+3.1.6.6.3 W A S - WSMSL- P- -- - 소나기/소낙눈(약)
+Rain and snow showers - Light
+3.1.6.6.4 W A S - WSMSMH P- -- - 소나기/소낙눈(중/강)
+Rain and snow showers -
+Moderate/Heavy
+3.1.6.7 W A S - WSS--- -- -- - 눈
+Snow
+3.1.6.7.1 W A S - WSS-LI P- -- - 눈(간헐-약)
+Snow - intermittent light
+3.1.6.7.1.1 W A S - WSS-LC P- -- - 눈(지속-약)
+Snow - continuous light
+3.1.6.7.2 W A S - WSS-MI P- -- - 눈(간헐-중)
+Snow - intermittent moderate
+3.1.6.7.2.1 W A S - WSS-MC P- -- - 눈(지속-중)
+Snow - continuous moderate
+3.1.6.7.3 W A S - WSS-HI P- -- - 눈(간헐-강)
+Snow - intermittent heavy
+3.1.6.7.3.1 W A S - WSS-HC P- -- - 눈(지속-강)
+Snow - continuous heavy
+3.1.6.7.4 W A S - WSSBLM P- -- - 눈보라(풍설)(약/중)
+Blowing snow - Light/Moderate
+3.1.6.7.5 W A S - WSSBH- P- -- - 눈보라(강)
+Blowing snow - Heavy
+3.1.6.8 W A S - WSSG-- P- -- - 싸락눈
+Snow grains
+3.1.6.9 W A S - WSSS-- -- -- - 소낙눈
+Snow showers
+3.1.6.9.1 W A S - WSSSL- P- -- - 소낙눈(약)
+Snow showers - Light
+3.1.6.9.2 W A S - WSSSMH P- -- - 소낙눈(중/강)
+Snow showers - Moderate/Heavy
+3.1.6.10 W A S - WSGR-- -- -- - 우박
+Hail
+3.1.6.10.1 W A S - WSGRL- P- -- - 우박(약)
+Hail - Light not associated with
+thunder
+3.1.6.10.2 W A S - WSGRMH P- -- - 우박(중/강)
+Hail - Moderate/Heavy not
+associated with thunder
+3.1.6.11 W A S - WSIC-- P- -- - 얼음결정
+Ice crystals (Diamond dust)
+3.1.6.12 W A S - WSPL-- -- -- - 싸락우박
+Ice pellets (Sleet)
+3.1.6.12.1 W A S - WSPLL- P- -- - 싸락우박(약)
+Ice pellets - Light
+3.1.6.12.2 W A S - WSPLM- P- -- - 싸락우박(중)
+Ice pellets - Moderate
+3.1.6.12.3 W A S - WSPLH- P- -- - 싸락우박(강)
+Ice pellets - Heavy
+3.1.6.13 W A S - WST--- -- -- - 폭풍
+Storms
+3.1.6.13.1 W A S - WST-NP P- -- - 뇌우
+Thunderstorm - No precipitation
+3.1.6.13.2 W A S - WSTMR- P- -- - 뇌우(약~중)(비/눈)
+Thunderstorm light to moderate
+with Rain/Snow - No hail
+3.1.6.13.3 W A S - WSTHR- P- -- - 뇌우(강)(비/눈)
+Thunderstorm heavy with Rain/Snow
+- No hail
+3.1.6.13.4 W A S - WSTMH- P- -- - 뇌우(약~중)(우박)
+Thunderstorm light to moderate -
+With hail
+3.1.6.13.5 W A S - WSTHH- P- -- - 뇌우(강)(우박)
+Thunderstorm heavy - With hail
+3.1.6.13.6 W A S - WST-FC P- -- - 토네이도
+Funnel cloud (Tornado/Waterspout)
+3.1.6.13.7 W A S - WST-SQ P- -- - 돌풍
+Squall
+3.1.6.13.8 W A S - WST-LG P- -- - 번개
+Lightning
+3.1.6.14 W A S - WSFG-- -- -- - 안개
+Fog
+3.1.6.14.1 W A S - WSFGPS P- -- - 안개(옅은,부분적)
+Fog - Shallow patches
+3.1.6.14.2 W A S - WSFGCS P- -- - 안개(옅은,지속적)
+Fog - Shallow continuous
+3.1.6.14.3 W A S - WSFGP- P- -- - 안개(부분적)
+Fog - Patchy
+3.1.6.14.4 W A S - WSFGSV P- -- - 안개(하늘보임)
+Fog - Sky visible
+3.1.6.14.5 W A S - WSFGSO P- -- - 안개(하늘가림)
+Fog - Sky obscured
+3.1.6.14.6 W A S - WSFGFV P- -- - 얼안개(빙무)(하늘보임)
+Fog - Freezing, Sky visible
+3.1.6.14.7 W A S - WSFGFO P- -- - 얼안개(빙무)(하늘가림)
+Fog - Freezing, Sky not visible
+3.1.6.15 W A S - WSBR-- P- -- - 박무
+Mist
+3.1.6.16 W A S - WSFU-- P- -- - 연기
+Smoke
+3.1.6.17 W A S - WSHZ-- P- -- - 연무
+Haze
+3.1.6.18 W A S - WSDS-- -- -- - 풍진
+Dust or sand
+3.1.6.18.1 W A S - WSDSLM P- -- - 풍진(약~중)
+Dust/Sand storm - Light to
+moderate
+3.1.6.18.2 W A S - WSDSS- P- -- - 풍진(강)
+Dust/Sand storm - Severe
+3.1.6.18.3 W A S - WSDD-- P- -- - 회오리바람
+Dust devil
+3.1.6.18.4 W A S - WSDB-- P- -- - 먼지/모래바람
+Blowing dust or sand
+3.1.6.19 W A S - WSTS-- -- -- - 폭풍체계
+Tropical storm systems
+3.1.6.19.1 W A S - WSTSD- P- -- - 열대성저기압
+Tropical depression
+3.1.6.19.2 W A S - WSTSS- P- -- - 열대폭풍
+Tropical storm
+3.1.6.19.3 W A S - WSTSH- P- -- - 태풍(허리케인)
+Hurricane/Typhoon
+3.1.6.19.4 W A - D WSTSWA -- A- - 열대태풍 영역/일시
+Tropical storm wind areas and
+date/Time labels
+3.1.6.20 W A S - WSVE-- P- -- - 화산폭발
+Volcanic eruption
+3.1.6.20.1 W A S - WSVA-- P- -- - 화산재
+Volcanic ash
+3.1.6.21 W A S - WST-LV P- -- - 대류권계면 고도
+Tropopause level
+3.1.6.22 W A S - WSF-LV P- -- - 결빙 고도
+Freezing level
+3.1.6.23 W A S - WSUKP- P- -- - 강수미상(형태/밀도)
+Precipitation of unknown type and
+intensity
+3.1.7 W A - - BA---- -- -- - 기상 상태별 지역
+Bounded areas of weather
+3.1.7.1 W A - D BAIF-- -- A- - 계기비행 지역
+Instrument flight rule (IFR)
+3.1.7.2 W A - D BAMV-- -- A- - 유시계비행한계 지역
+Marginal visual flight rule (MVFR)
+3.1.7.3 W A - D BATB-- -- A- - 난기류 지역
+Turbulence
+3.1.7.4 W A - D BAI--- -- A- - 착빙 지역
+Icing
+3.1.7.5 W A - D BALPNC -- A- - 액체형태 강수(비대류성, 연속 또는
+간헐) 지역
+Liquid precipitation -
+Non-convective continuous or
+intermittent
+3.1.7.6 W A - D BALPC- -- A- - 액체형태 강수(대류성) 지역
+Liquid precipitation - Convective
+3.1.7.7 W A - D BAFP-- -- A- - 결빙형태 강수 지역
+Freezing/Frozen precipitation
+3.1.7.8 W A - D BAT--- -- A- - 뇌우지역
+Thunderstorms
+3.1.7.9 W A - D BAFG-- -- A- - 안개지역
+Fog
+3.1.7.10 W A - D BAD--- -- A- - 풍진지역
+Dust or sand
+3.1.7.11 W A - D BAFF-- -- A- - 임의지정지역
+Operator-defined freeform
+3.1.8 W A - - IP---- -- -- - 등치선
+Isopleths
+3.1.8.1 W A - D IPIB-- -L -- - 등압선(표면)
+Isobar - Surface
+3.1.8.2 W A - D IPCO-- -L -- - 등압면고도(고층)
+Contour - Upper air
+3.1.8.3 W A - D IPIS-- -L -- - 등온선
+Isotherm
+3.1.8.4 W A - D IPIT-- -L -- - 등풍속선
+Isotach
+3.1.8.5 W A - D IPID-- -L -- - 등이슬점선
+Isodrosotherm
+3.1.8.6 W A - D IPTH-- -L -- - 등겹선
+Thickness
+3.1.8.7 W A - D IPFF-- -L -- - 임의지정등치선
+Operator-defined freeform
+3.1.9 W A S - G----- -- -- - 지표상태
+State of the ground
+3.1.9.1 W A S - GN---- -- -- - 눈/결빙 없음
+Without snow or measurable ice
+cover
+3.1.9.1.1 W A S - GND-NC P- -- - 지표건조(균열, 주목할만한 먼지, 성긴모래 등이 없음)
+Surface dry without cracks or
+appreciable dust or loose sand
+3.1.9.1.2 W A S - GNM--- P- -- - 지표습기
+Surface moist
+3.1.9.1.3 W A S - GNW-SW P- -- - 지표물기(크고작은 물웅덩이)
+Surface wet, standing water in
+small or large pools
+3.1.9.1.4 W A S - GNFL-- P- -- - 지표홍수
+Surface flooded
+3.1.9.1.5 W A S - GNFZ-- P- -- - 지표결빙
+Surface frozen
+3.1.9.1.6 W A S - GNG-TI P- -- - 지표우빙
+Glaze (Thin ice) on ground
+3.1.9.1.7 W A S - GNLDN- P- -- - 지표를 완전히 덮지 않는 성긴
+먼지/모래
+Loose dry dust or sand not covering
+ground completely
+3.1.9.1.8 W A S - GNLDTC P- -- - 지표를 얇게 덮는 성긴 먼지/모래
+Thin loose dry dust or sand
+covering ground completely
+3.1.9.1.9 W A S - GNLDMC P- -- - 지표를 두껍게 덮는 성긴 먼지/모래
+Moderate/Thick loose dry dust or
+sand covering ground completely
+3.1.9.1.10 W A S - GNDEWC P- -- - 지표 매우건조 및 갈라짐
+Extremely dry with cracks
+3.1.9.2 W A S - GS---- -- -- - 지표 눈/얼음 덮임
+With snow or measurable ice cover
+3.1.9.2.1 W A S - GSI--- P- -- - 지표 대부분 얼음 덮임
+Predominately ice covered
+3.1.9.2.2 W A S - GSSCL- P- -- - 지표 반이하 단단한눈 또는 젖은눈
+덮임
+Compact or wet snow (with or
+without ice) covering less than
+one-half of ground
+3.1.9.2.3 W A S - GSSCH- P- -- - 지표 반이상 단단한눈 또는 젖은눈
+덮임
+Compact or wet snow (with or
+without ice) covering at least
+one-half ground, but ground not
+completely covered
+3.1.9.2.4 W A S - GSSCCE P- -- - 지표전체 골고루 단단한눈 또는
+젖은눈 덮임
+Even layer of compact or wet snow
+covering ground completely
+3.1.9.2.5 W A S - GSSCCU P- -- - 지표전체 불규칙하게 단단한눈 또는
+젖은눈 덮임
+Uneven layer of compact or wet snow
+covering ground completely
+3.1.9.2.6 W A S - GSSLL- P- -- - 지표 반이하 성기고 마른눈 덮임
+Loose dry snow covering less than
+one-half of ground
+3.1.9.2.7 W A S - GSSLH- P- -- - 지표 반이상 성기고 마른눈 덮임
+Loose dry snow covering at least
+one-half ground, but ground not
+completely covered
+3.1.9.2.8 W A S - GSSLCE P- -- - 지표전체 골고루 성기고 마른눈 덮임
+Even layer of loose dry snow
+covering ground completely
+3.1.9.2.9 W A S - GSSLCU P- -- - 지표전체 불규칙하게 성기고 마른눈
+덮임
+Uneven layer of loose dry snow
+covering ground completely
+3.1.9.2.10 W A S - GSSDC- P- -- - 지표완전 눈덮임(두꺼운 눈더미)
+Snow covering ground completely;
+Deep drifts
+3.1.10 W A - - F----- -- -- - 비행규정
+Flight rules
+3.1.10.1 W A - - FI---- -- -- - 계기상승한도
+Instrument ceiling
+3.1.10.2 W A - - FV---- -- -- - 시계상승한도
+Visual ceiling
+3.2 W O - - ------ -- -- - 해양
+Oceanic
+3.2.1 W O - - I----- -- -- - 얼음
+Ice systems
+3.2.1.1 W O S - IB---- P- -- - 빙산군
+Icebergs
+3.2.1.1.1 W O S - IBM--- P- -- - 많은 빙산군
+Many icebergs
+3.2.1.1.2 W O S - IBBS-- P- -- - 빙산띠
+Belts and strips
+3.2.1.1.3 W O S - IBG--- P- -- - 빙산(일반)
+Iceberg - General
+3.2.1.1.4 W O S - IBMG-- P- -- - 많은 빙산(일반)
+Many icebergs - General
+3.2.1.1.5 W O S - IBBB-- P- -- - 부빙편
+Bergy bit
+3.2.1.1.6 W O S - IBBBM- P- -- - 많은 부빙편
+Many bergy bits
+3.2.1.1.7 W O S - IBGL-- P- -- - 작은 빙산
+Growler
+3.2.1.1.8 W O S - IBGLM- P- -- - 작은 빙산(다수)
+Many growlers
+3.2.1.1.9 W O S - IBF--- P- -- - 부빙
+Floeberg
+3.2.1.1.10 W O S - IBII-- P- -- - 얼음섬
+Ice island
+3.2.1.2 W O - - IC---- -- -- - 얼음 분포
+Ice concentration
+3.2.1.2.1 W O S - ICWB-- P- -- - 빙산 많음
+Bergy water
+3.2.1.2.2 W O S - ICWR-- P- -- - 레이다에 포착되는 빙산
+Water with radar targets
+3.2.1.2.3 W O S - ICIF-- P- -- - 빙산 없음
+Ice free
+3.2.1.3 W O - - ID---- -- -- - 동적 프로세스
+Dynamic processes
+3.2.1.3.1 W O S - IDC--- P- -- - 수렴
+Convergence
+3.2.1.3.2 W O S - IDD--- P- -- - 발산
+Divergence
+3.2.1.3.3 W O S - IDS--- P- -- - 측밀림/측밀림지역
+Shearing or shear zone
+3.2.1.3.4 W O - D IDID-- -L -- - 눈더미(방향)
+Ice drift (Direction)
+3.2.1.4 W O S - II---- P- -- - 해빙(바다얼음)
+Sea ice
+3.2.1.4.1 W O S - IITM-- P- -- - 해빙두께(관측)
+Ice thickness (Observed)
+3.2.1.4.2 W O S - IITE-- P- -- - 해빙두께(추정)
+Ice thickness (Estimated)
+3.2.1.4.3 W O S - IIP--- P- -- - 홍수얼음
+Melt puddles or flooded ice
+3.2.1.5 W O - - IL---- -- -- - 제한
+Limits
+3.2.1.5.1 W O - D ILOV-- -L -- - 목측관측 제한
+Limit of visual observation
+3.2.1.5.2 W O - D ILUC-- -L -- - 비행기 아래의 구름
+Limit of undercast
+3.2.1.5.3 W O - D ILOR-- -L -- - 레이더 관측 제한
+Limit of radar observation
+3.2.1.5.4 W O - D ILIEO- -L -- - 관측된 빙산면/경계
+Observed ice edge or boundary
+3.2.1.5.5 W O - D ILIEE- -L -- - 추정된 빙산면/경계
+Estimated ice edge or boundary
+3.2.1.5.6 W O - D ILIER- -L -- - 레이더 관측 빙산면/경계
+Ice edge or boundary from radar
+3.2.1.6 W O - - IO---- -- -- - 얼음 구멍
+Openings in the ice
+3.2.1.6.1 W O - D IOC--- -L -- - 균열
+Cracks
+3.2.1.6.2 W O - D IOCS-- -L -- - 특정위치의 균열
+Cracks at a specific location
+3.2.1.6.3 W O - D IOL--- -L -- - 리드
+Lead
+3.2.1.6.4 W O - D IOLF-- -L -- - 리드(결빙)
+Frozen lead
+3.2.1.7 W O S - ISC--- P- -- - 적설
+Snow cover
+3.2.1.7.1 W O S - ISS--- P- -- - 설면융기(방향)
+Sastrugi (with orientation)
+3.2.1.8 W O - - IT---- -- -- - 지형특성
+Topographical features
+3.2.1.8.1 W O S - ITRH-- P- -- - 산마루/작은언덕
+Ridges or hummocks
+3.2.1.8.2 W O S - ITR--- P- -- - 급류
+Rafting
+3.2.1.8.3 W O S - ITBB-- P- -- - 빽빽한 유빙조각
+Jammed brash barrier
+3.2.2 W O - - H----- -- -- - 수부
+Hydrography
+3.2.2.1 W O - - HD---- -- -- - 수심
+Depth
+3.2.2.1.1 W O S - HDS--- P- -- - 수심측량
+Soundings
+3.2.2.1.2 W O - D HDDL-- -L -- - 수심선
+Depth curve
+3.2.2.1.3 W O - D HDDC-- -L -- - 등심선
+Depth contour
+3.2.2.1.4 W O - D HDDA-- -- A- - 등심영역
+Depth area
+3.2.2.2 W O - - HC---- -- -- - 해안수부
+Coastal hydrography
+3.2.2.2.1 W O - D HCC--- -L -- - 해안선
+Coastline
+3.2.2.2.2 W O - D HCI--- -- A- - 섬
+Island
+3.2.2.2.3 W O - D HCB--- -- A- - 해안
+Beach
+3.2.2.2.4 W O - D HCW--- -- A- - 물
+Water
+3.2.2.2.5 W O - D HCF--- -- -- - 물가,갯벌
+Foreshore
+3.2.2.2.5.1 W O - D HCF--- -L -- - 물가,갯벌(경계)
+Foreshore
+3.2.2.2.5.2 W O - D HCF--- -- A- - 물가,갯벌(영역)
+Foreshore
+3.2.2.3 W O - D HP---- -- -- - 항만,항구
+Ports and harbors
+3.2.2.3.1 W O S - HPB--- -- -- - 항만
+Ports
+3.2.2.3.1.1 W O S - HPB-O- P- -- - 정박지(육지)
+Berths (Onshore)
+3.2.2.3.1.2 W O S - HPB-A- P- -- - 정박지(닻)
+Berths (Anchor)
+3.2.2.3.1.3 W O S - HPBA-- P- -- - 정박지(위치)
+Anchorage
+3.2.2.3.1.4 W O - D HPBA-- -L -- - 정박지(경계)
+Anchorage
+3.2.2.3.1.5 W O - D HPBA-- -- A- - 정박지(영역)
+Anchorage
+3.2.2.3.1.6 W O S - HPCP-- P- -- - 호출지점
+Call in point
+3.2.2.3.1.7 W O - D HPBP-- -L -- - 부두
+Pier/Wharf/Quay
+3.2.2.3.2 W O - - HPF--- -- -- - 어업
+Fishing
+3.2.2.3.2.1 W O S - HPFH-- P- -- - 어항
+Fishing harbor
+3.2.2.3.2.2 W O S - HPFS-- P- -- - 둑(위치)
+Fish stakes/Traps/Weirs
+3.2.2.3.2.3 W O S - HPFS-- -L -- - 둑(경계)
+Fish stakes
+3.2.2.3.2.4 W O S - HPFF-- -- A- - 둑(영역)
+Fish stakes/Traps/Weirs
+3.2.2.3.3 W O - - HPM--- -- -- - 항만시설
+Facilities
+3.2.2.3.3.1 W O - D HPMD-- -- A- - 건선거
+Drydock
+3.2.2.3.3.2 W O S - HPML-- P- -- - 상륙장
+Landing place
+3.2.2.3.3.3 W O - D HPMO-- P- -- - 연안 화물적재시설(위치)
+Offshore loading facility
+3.2.2.3.3.4 W O - D HPMO-- -L -- - 연안 화물적재시설(경계)
+Offshore loading facility
+3.2.2.3.3.5 W O - D HPMO-- -- A- - 연안 화물적재시설(영역)
+Offshore loading facility
+3.2.2.3.3.6 W O - D HPMRA- -L -- - 경사로(수면)
+Ramp (Above water)
+3.2.2.3.3.7 W O - D HPMRB- -L -- - 경사로(수중)
+Ramp (Below water)
+3.2.2.3.3.8 W O S - HPM-R- P- -- - 상륙고리
+Landing ring
+3.2.2.3.3.9 W O S - HPM-FC -L -- - 연락선
+Ferry crossing
+3.2.2.3.3.10 W O S - HPM-CC -L -- - 연락선(케이블)
+Cable ferry crossing
+3.2.2.3.3.11 W O S - HPD--- P- -- - 돌고래
+Dolphin
+3.2.2.3.4 W O - - HPP--- -- -- - 해안방제
+Shoreline protection
+3.2.2.3.4.1 W O - D HPSPA- -L -- - 방파제/제방/둑(수면)
+Breakwater/Groin/Jetty (Above
+water)
+3.2.2.3.4.2 W O - D HPSPB- -L -- - 방파제/제방/둑(수중)
+Breakwater/Groin/Jetty (Below
+water)
+3.2.2.3.4.3 W O - D HPSPS- -L -- - 방파제
+Seawall
+3.2.2.4 W O - - HA---- -- -- - 항로표지
+Aids to navigation
+3.2.2.4.1 W O S - HABA-- P- -- - 신호등
+Beacon
+3.2.2.4.2 W O S - HABB-- P- -- - 부표(기본)
+Buoy default
+3.2.2.4.3 W O S - HABM-- P- -- - 표시
+Marker
+3.2.2.4.4 W O S - HABP-- -- -- - 말뚝
+Perches/Stakes
+3.2.2.4.4.1 W O S - HABP-- P- -- - 말뚝(위치)
+Perches/Stakes
+3.2.2.4.4.2 W O - D HABP-- -- A- - 말뚝(지역)
+Perches/Stakes
+3.2.2.4.5 W O S - HAL--- P- -- - 빛
+Light
+3.2.2.4.6 W O - D HALLA- -L -- - 유도선
+Leading line
+3.2.2.4.7 W O S - HALV-- P- -- - 등대선
+Light vessel/Lightship
+3.2.2.4.8 W O S - HALH-- P- -- - 등대
+Lighthouse
+3.2.2.5 W O - - HH---- -- -- - 위험물/장애물
+Dangers/Hazards
+3.2.2.5.1 W O S - HHRS-- P- -- - 암반(침수)
+Rock submergered
+3.2.2.5.2 W O S - HHRA-- P- -- - 암반(침세)
+Rock awashed
+3.2.2.5.3 W O - D HHD--- -- A- - 해저 위험물/장애물
+Underwater danger/Hazard
+3.2.2.5.4 W O S - HHDF-- -- -- - 해저암초
+Foul ground
+3.2.2.5.4.1 W O S - HHDF-- P- -- - 해저암초(위치)
+Foul ground
+3.2.2.5.4.2 W O - D HHDF-- -- A- - 해저암초(지역)
+Foul ground
+3.2.2.5.5 W O - D HHDK-- -- -- - 해초
+Kelp/Seaweed
+3.2.2.5.5.1 W O - D HHDK-- P- -- - 해초(위치)
+Kelp/Seaweed
+3.2.2.5.5.2 W O - D HHDK-- -- A- - 해초(지역)
+Kelp/Seaweed
+3.2.2.5.6 W O S - HHDMD- -- -- - 기뢰
+Mine-naval
+3.2.2.5.6.1 W O S - HHDMDB P- -- - 기뢰(의심)
+Mine-naval (Doubtful)
+3.2.2.5.6.2 W O S - HHDMDF P- -- - 기뢰(명확)
+Mine-naval (Definite)
+3.2.2.5.7 W O S - HHDS-- P- -- - 암초
+Snags/Stumps
+3.2.2.5.8 W O S - HHDWA- -- -- - 난파선
+Wreck
+3.2.2.5.8.1 W O S - HHDWA- P- -- - 난파선(돌출)
+Wreck (Uncovers)
+3.2.2.5.8.2 W O S - HHDWB- P- -- - 난파선(침수)
+Wreck (Submerged)
+3.2.2.5.9 W O - D HHDB-- -L -- - 쇄파
+Breakers
+3.2.2.5.10 W O S - HHDR-- -L -- - 암초
+Reef
+3.2.2.5.11 W O S - HHDE-- P- -- - 회오리/단조/격조
+Eddies/Overfalls/Tide rips
+3.2.2.5.12 W O - D HHDD-- -- A- - 적조
+Discolored water
+3.2.2.6 W O - - BF---- -- -- - 해저지형
+Bottom features
+3.2.2.6.1 W O S - BFC--- -- -- - 해저지형 특성
+Bottom characteristics
+3.2.2.6.1.1 W O S - BFC-S- P- -- - 모래
+Sand
+3.2.2.6.1.2 W O S - BFC-M- P- -- - 진흙
+Mud
+3.2.2.6.1.3 W O S - BFC-CL P- -- - 점토
+Clay
+3.2.2.6.1.4 W O S - BFC-SI P- -- - 유사
+Silt
+3.2.2.6.1.5 W O S - BFC-ST P- -- - 돌
+Stones
+3.2.2.6.1.6 W O S - BFC-G- P- -- - 자갈자
+Gravel
+3.2.2.6.1.7 W O S - BFC-P- P- -- - 조약돌
+Pebbles
+3.2.2.6.1.8 W O S - BFC-CB P- -- - 굵은 자갈
+Cobbles
+3.2.2.6.1.9 W O S - BFC-R- P- -- - 바위
+Rock
+3.2.2.6.1.10 W O S - BFC-CO P- -- - 산호
+Coral
+3.2.2.6.1.11 W O S - BFC-SH P- -- - 패각
+Shell
+3.2.2.6.2 W O S - BFQ--- -- -- - 해저상태
+Qualifying terms
+3.2.2.6.2.1 W O S - BFQ-F- P- -- - 좋음
+Fine
+3.2.2.6.2.2 W O S - BFQ-M- P- -- - 보통
+Medium
+3.2.2.6.2.3 W O S - BFQ-C- P- -- - 거친
+Coarse
+3.2.2.7 W O - - TCC--- -- -- - 조류
+Tide and current
+3.2.2.7.1 W O S - TCCW-- P- -- - 난류
+Water turbulence
+3.2.2.7.2 W O - D TCCCFE -L -- - 조류방향(간조)
+Current flow - Ebb
+3.2.2.7.3 W O - D TCCCFF -L -- - 조류방향(만조)
+Current flow - Flood
+3.2.2.7.4 W O S - TCCTD- P- -- - 조류 자료수집점
+Tide data point
+3.2.2.7.5 W O S - TCCTG- P- -- - 검조기
+Tide gauge
+3.2.3 W O - - O----- -- -- - 해양
+Oceanography
+3.2.3.1 W O - - OB---- -- -- - 생물발광
+Bioluminescence
+3.2.3.1.1 W O - D OBVA-- -- A- -
+VDR 레벨 1~2
+VDR level 1-2
+3.2.3.1.2 W O - D OBVB-- -- A- -
+VDR 레벨 2~3
+VDR level 2-3
+3.2.3.1.3 W O - D OBVC-- -- A- -
+VDR 레벨 3~4
+VDR level 3-4
+3.2.3.1.4 W O - D OBVD-- -- A- -
+VDR 레벨 4~5
+VDR level 4-5
+3.2.3.1.5 W O - D OBVE-- -- A- -
+VDR 레벨 5~6
+VDR level 5-6
+3.2.3.1.6 W O - D OBVF-- -- A- -
+VDR 레벨 6~7
+VDR level 6-7
+3.2.3.1.7 W O - D OBVG-- -- A- -
+VDR 레벨 7~8
+VDR level 7-8
+3.2.3.1.8 W O - D OBVH-- -- A- -
+VDR 레벨 8~9
+VDR level 8-9
+3.2.3.1.9 W O - D OBVI-- -- A- -
+VDR 레벨 9~10
+VDR level 9-10
+3.2.3.2 W O - - BS---- -- -- - 해안경사
+Beach slope
+3.2.3.2.1 W O - D BSF--- -- A- - 평지
+Flat
+3.2.3.2.2 W O - D BSG--- -- A- - 완만한
+Gentle
+3.2.3.2.3 W O - D BSM--- -- A- - 적당한
+Moderate
+3.2.3.2.4 W O - D BST--- -- A- - 가파른가
+Steep
+3.2.4 W O - - G----- -- -- - 지구물리/음향
+Geophysics/Acoustics
+3.2.4.1 W O - - GM---- -- -- - 기뢰전 해저 설명
+Mine warfare bottom descriptors
+3.2.4.1.1 W O - - GMS--- -- -- - 기뢰전 해저 침전물
+Miw-bottom sediments
+3.2.4.1.1.1 W O - D GMSR-- -- A- - 암석
+Solid rock
+3.2.4.1.1.2 W O - D GMSC-- -- A- - 점토
+Clay
+3.2.4.1.1.3 W O - D GMSSVS -- A- - 극조사
+Very coarse sand
+3.2.4.1.1.4 W O - D GMSSC- -- A- - 조사조
+Coarse sand
+3.2.4.1.1.5 W O - D GMSSM- -- A- - 중사
+Medium sand
+3.2.4.1.1.6 W O - D GMSSF- -- A- - 세사
+Fine sand
+3.2.4.1.1.7 W O - D GMSSVF -- A- - 미세사미
+Very fine sand
+3.2.4.1.1.8 W O - D GMSIVF -- A- - 미세사립실트
+Very fine silt
+3.2.4.1.1.9 W O - D GMSIF- -- A- - 세립실트
+Fine silt
+3.2.4.1.1.10 W O - D GMSIM- -- A- - 중립실트
+Medium silt
+3.2.4.1.1.11 W O - D GMSIC- -- A- - 조립실트
+Coarse silt
+3.2.4.1.1.12 W O - D GMSB-- -- A- - 옥석
+Boulders
+3.2.4.1.1.13 W O - D GMS-CO -- A- - 조약돌,패분
+Cobbles, oyster shells
+3.2.4.1.1.14 W O - D GMS-PH -- A- - 자갈,패각
+Pebbles, shells
+3.2.4.1.1.15 W O - D GMS-SH -- A- - 모래,패각
+Sand and shells
+3.2.4.1.1.16 W O - D GML--- -- A- - 육지
+Land
+3.2.4.1.1.17 W O - D GMN--- -- A- - 자료없음
+No data
+3.2.4.1.2 W O - - GMR--- -- -- - 해저 거칠기
+Bottom roughness
+3.2.4.1.2.1 W O - D GMRS-- -- A- - 평탄
+Smooth
+3.2.4.1.2.2 W O - D GMRM-- -- A- - 보통
+Moderate
+3.2.4.1.2.3 W O - D GMRR-- -- A- - 거친
+Rough
+3.2.4.1.3 W O - - GMC--- -- -- - 바닥쓰레기
+Clutter (Bottom)
+3.2.4.1.3.1 W O - D GMCL-- -- A- - 적음
+Low
+3.2.4.1.3.2 W O - D GMCM-- -- A- - 보통
+Medium
+3.2.4.1.3.3 W O - D GMCH-- -- A- - 많음
+High
+3.2.4.1.4 W O - - GMIB-- -- -- - 침전물 충돌가능성
+Impact burial
+3.2.4.1.4.1 W O - D GMIBA- -- A- -
+0%
+0%
+3.2.4.1.4.2 W O - D GMIBB- -- A- -
+0-10%
+0-10%
+3.2.4.1.4.3 W O - D GMIBC- -- A- -
+10-20%
+10-20%
+3.2.4.1.4.4 W O - D GMIBD- -- A- -
+20-75%
+20-75%
+3.2.4.1.4.5 W O - D GMIBE- -- A- -
+>75%
+>75%
+3.2.4.1.5 W O - - GMBC-- -- -- - 대기뢰전 해저 범주
+MIW bottom category
+3.2.4.1.5.1 W O - D GMBCA- -- A- -
+A
+A
+3.2.4.1.5.2 W O - D GMBCB- -- A- -
+B
+B
+3.2.4.1.5.3 W O - D GMBCC- -- A- -
+C
+C
+3.2.4.1.6 W O - - GMBT-- -- -- - 대기뢰전 해저 유형
+MIW bottom type
+3.2.4.1.6.1 W O - D GMBTA- -- A- -
+A1
+A1
+3.2.4.1.6.2 W O - D GMBTB- -- A- -
+A2
+A2
+3.2.4.1.6.3 W O - D GMBTC- -- A- -
+A3
+A3
+3.2.4.1.6.4 W O - D GMBTD- -- A- -
+B1
+B1
+3.2.4.1.6.5 W O - D GMBTE- -- A- -
+B2
+B2
+3.2.4.1.6.6 W O - D GMBTF- -- A- -
+B3
+B3
+3.2.4.1.6.7 W O - D GMBTG- -- A- -
+C1
+C1
+3.2.4.1.6.8 W O - D GMBTH- -- A- -
+C2
+C2
+3.2.4.1.6.9 W O - D GMBTI- -- A- -
+C3
+C3
+3.2.5 W O - - L----- -- -- - 제한
+Limits
+3.2.5.1 W O - D L-ML-- -L -- - 해상제한경계
+Maritime limit boundary
+3.2.5.2 W O - D L-MA-- -- A- - 연안지역
+Maritime area
+3.2.5.3 W O - D L-RA-- -L -- - 제한지역(경계)
+Restricted area
+3.2.5.4 W O - D L-SA-- -- A- - 피해지역
+Swept area
+3.2.5.5 W O - D L-TA-- -- A- - 훈련지역
+Training area
+3.2.5.6 W O - D L-O--- -- A- - 임의지정지역
+Operator-defined
+3.2.6 W O - - M----- -- -- - 인공구조물
+Man-made structures
+3.2.6.1 W O - D MCA--- -L -- - 해저케이블
+Submarine cable
+3.2.6.2 W O - D MCC--- -- A- - 해저시설물
+Submerged crib
+3.2.6.3 W O - D MCD--- -L -- - 운하
+Canal
+3.2.6.4 W O S - MF---- P- -- - 여울
+Ford
+3.2.6.5 W O S - ML---- P- -- - 갑문
+Lock
+3.2.6.6 W O S - MOA--- P- -- - 석유/가스 굴착장치(위치)
+Oil/Gas rig
+3.2.6.7 W O - D MOA--- -- A- - 석유/가스 굴착장치(지역)
+Oil/Gas rig field
+3.2.6.8 W O - D MPA--- -L -- - 송유관
+Pipelines/Pipe
+3.2.6.9 W O S - MPA--- P- -- - 말뚝/기둥
+Pile/Piling/Post
+3.3 W S - - ------ -- -- - 우주
+Space

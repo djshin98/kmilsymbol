@@ -1,0 +1,1388 @@
+2 G * - - ------ ** ** X 작전활동부호
+Tactical graphics
+2.1 G * T * ------ ** ** X 임무
+Tasks
+2.1.1 G * T * B----- ** ** X 저지
+Block
+2.1.2 G * T * H----- ** ** X 개척
+Breach
+2.1.3 G * T * Y----- ** ** X 우회
+Bypass
+2.1.4 G * T * C----- ** ** X 유인
+Canalize
+2.1.5 G * T * X----- ** ** X 장애물제거
+Clear
+2.1.6 G * T * J----- ** ** X 견제
+Contain
+2.1.7 G * T * K----- ** ** X 반격(CATK)
+Counterattack (CATK)
+2.1.7.1 G * T * KF---- ** ** X 반격(화기집중)
+Counterattack by fire
+2.1.8 G * T * L----- ** ** X 지연
+Delay
+2.1.9 G * T * D----- ** ** X 격멸
+Destroy
+2.1.10 G * T * T----- ** ** X 와해
+Disrupt
+2.1.11 G * T * F----- ** ** X 고착
+Fix
+2.1.12 G * T * A----- ** ** X 주공후속
+Follow and assume
+2.1.12.1 G * T * AS---- ** ** X 후속지원
+Follow and support
+2.1.13 G * T * I----- ** ** X 차단
+Interdict
+2.1.14 G * T * E----- ** ** X 고립
+Isolate
+2.1.15 G * T * N----- ** ** X 무력화
+Neutralize
+2.1.16 G * T * O----- ** ** X 점령
+Occupy
+2.1.17 G * T * P----- ** ** X 돌파
+Penetrate
+2.1.18 G * T * R----- ** ** X 진지교대
+Relief in place (RIP)
+2.1.19 G * T * Q----- ** ** X 점령유지
+Retain
+2.1.20 G * T * M----- ** ** X 철퇴
+Retirement
+2.1.21 G * T * S----- ** ** X 확보
+Secure
+2.1.22 G * T * U----- ** ** X 경계
+Security
+2.1.22.1 G * T * US---- ** ** X 차장
+Screen
+2.1.22.2 G * T * UG---- ** ** X 경비
+Guard
+2.1.22.3 G * T * UC---- ** ** X 엄폐
+Cover
+2.1.22.4 G * T * UP---- ** ** X 방호
+
+2.1.23 G * T * Z----- ** ** X 탈취
+Seize
+2.1.24 G * T * W----- ** ** X 철수
+Withdraw
+2.1.24.1 G * T * WP---- ** ** X 철수(강압)
+Withdraw under pressure
+2.2 G * G * ------ ** ** X
+지휘통제 및 일반작전
+Command and control and general
+maneuver
+2.2.1 G * G * G----- ** ** X 일반
+General
+2.2.1.1 G * G * GP---- ** ** X 점
+Points
+2.2.1.1.1 G * G * GPU--- ** ** X 수중전
+Under sea warfare
+2.2.1.1.1.1 G * G * GPUU-- ** ** X 수중
+Underwater
+2.2.1.1.1.1.1 G * G * GPUUD- ** ** X 잠수함최종위치
+Datum
+2.2.1.1.1.1.2 G * G * GPUUB- ** ** X 잠수함 접촉
+Brief contact
+2.2.1.1.1.1.3 G * G * GPUUL- ** ** X 잠수함 소실
+Lost contact
+2.2.1.1.1.1.4 G * G * GPUUS- ** ** X 침몰위치
+Sinker
+2.2.1.1.1.2 G * G * GPUY-- ** ** X 소노부이
+Sonobuoy
+2.2.1.1.1.2.1 G * G * GPUYP- ** ** X 소노부이(패턴중심)
+Pattern center
+2.2.1.1.1.2.2 G * G * GPUYD- ** ** X
+소노부이(지향성저주파분석기록기)
+Directional frequency analyzing
+and recording (DIFAR)
+2.2.1.1.1.2.3 G * G * GPUYL- ** ** X
+소노부이(저주파분석및기록)
+Low frequency analyzing and
+recording (LOFAR)
+2.2.1.1.1.2.4 G * G * GPUYC- ** ** X
+소노부이(능동소노부이체계)
+Command active sonobuoy system
+(CASS)
+2.2.1.1.1.2.5 G * G * GPUYS- ** ** X
+소노부이(지향성능동소노부이체계)
+Directional command active
+sonobuoy system (DICASS)
+2.2.1.1.1.2.6 G * G * GPUYB- ** ** X 소노부이(수온측정기)
+Bathythermograph transmitting (BT)
+2.2.1.1.1.2.7 G * G * GPUYA- ** ** X 소노부이(음향부표)
+Anm
+2.2.1.1.1.2.8 G * G * GPUYV- ** ** X
+소노부이(수직지향성주파수분석기록기
+)
+Vertical line array difar (VLAD)
+2.2.1.1.1.2.9 G * G * GPUYT- ** ** X 소노부이(공중전달가능음향통신)
+Atac
+2.2.1.1.1.2.10 G * G * GPUYR- ** ** X 소노부이(범위만)
+Range only (RO)
+2.2.1.1.1.2.11 G * G * GPUYK- ** ** X 소노부이(킹핀)
+Kingpin
+2.2.1.1.1.2.12 G * G * GPUYX- ** ** X 소노부이(폐기)
+Sonobuoy-expired
+2.2.1.1.1.3 G * G * GPUS-- ** ** X 수중전(탐색)
+Search
+2.2.1.1.1.3.1 G * G * GPUSA- ** ** X 수중전(탐색해역)
+Search area
+2.2.1.1.1.3.2 G * G * GPUSD- ** ** X 수중전(잠항해점)
+Dip position
+2.2.1.1.1.3.3 G * G * GPUSC- ** ** X 수중전(탐색중심)
+Search center
+2.2.1.1.2 G * G * GPR--- ** ** X 참조점
+Reference point
+2.2.1.1.2.1 G * G * GPRN-- ** ** X 해군참조점
+Navigational reference point
+2.2.1.1.2.2 G * G * GPRS-- ** ** X 특수참조점(함포지원참조점)
+Special point
+2.2.1.1.2.3 G * G * GPRD-- ** ** X 데이타링크참조점
+Dlrp
+2.2.1.1.2.4 G * G * GPRP-- ** ** X 계획이동지점
+Point of intended movement (PIM)
+2.2.1.1.2.5 G * G * GPRM-- ** ** X 출동집결지
+Marshall point
+2.2.1.1.2.6 G * G * GPRW-- ** ** X 경로점
+Waypoint
+2.2.1.1.2.7 G * G * GPRC-- ** ** X 항로 식별점
+Corridor tab
+2.2.1.1.2.8 G * G * GPRB-- ** ** X 선회 대기점
+2.2.1.1.2.9 G * G * GPRE-- ** ** X 노드 통신소
+Node Signal Unit
+2.2.1.1.2.10 G * G * GPRI-- ** ** X 관심지점
+Point of interest
+2.2.1.1.3 G * G * GPW--- ** ** X 무기
+Weapon
+2.2.1.1.3.1 G * G * GPWA-- ** ** X 조준점
+Aim point
+2.2.1.1.3.2 G * G * GPWD-- ** ** X 낙하지점
+Drop point
+2.2.1.1.3.3 G * G * GPWE-- ** ** X 진입점
+Entry point
+2.2.1.1.3.4 G * G * GPWG-- ** ** X 지상원점
+Ground zero
+2.2.1.1.3.5 G * G * GPWM-- ** ** X 유도탄탐지점
+Msl detect point
+2.2.1.1.3.6 G * G * GPWI-- ** ** X 탄착지점
+Impact point
+2.2.1.1.3.7 G * G * GPWP-- ** ** X 예상타격지점
+Predicted impact point
+2.2.1.1.4 G * G * GPF--- ** ** X 진형참조점
+Formation
+2.2.1.1.5 G * G * GPH--- ** ** X 항만(일반)
+Harbor (General)
+2.2.1.1.5.1 G * G * GPHQ-- ** ** X
+Q점
+Point Q
+2.2.1.1.5.2 G * G * GPHA-- ** ** X
+A점
+Point A
+2.2.1.1.5.3 G * G * GPHY-- ** ** X
+Y점
+Point Y
+2.2.1.1.5.4 G * G * GPHX-- ** ** X
+X점
+Point X
+2.2.1.1.6 G * G * GPO--- ** ** X 항로
+Route
+2.2.1.1.6.1 G * G * GPOZ-- ** ** X 상봉점
+Rendezvous
+2.2.1.1.6.2 G * G * GPOD-- ** ** X 전환점
+Diversions
+2.2.1.1.6.3 G * G * GPOW-- ** ** X 변침점
+Waypoint
+2.2.1.1.6.4 G * G * GPOP-- ** ** X 예정항로
+PIM
+2.2.1.1.6.5 G * G * GPOR-- ** ** X
+R점
+Point R
+2.2.1.1.7 G * G * GPA--- ** ** X 항공통제
+Air control
+2.2.1.1.7.1 G * G * GPAP-- ** ** X 전투공중초계(CAP)
+Combat air patrol (CAP)
+2.2.1.1.7.2 G * G * GPAW-- ** ** X 공중조기경보(AEW)
+Airborne early warning (AEW)
+2.2.1.1.7.3 G * G * GPAK-- ** ** X 급유기대기점
+Tanking
+2.2.1.1.7.4 G * G * GPAA-- ** ** X 대잠전(고정익)
+Antisubmarine warfare, fixed wing
+2.2.1.1.7.5 G * G * GPAH-- ** ** X 대잠전(회전익)
+Antisubmarine warfare, rotary wing
+2.2.1.1.7.6 G * G * GPAB-- ** ** X
+SUCAP(고정익)
+SUCAP - Fixed wing
+2.2.1.1.7.7 G * G * GPAC-- ** ** X
+SUCAP(회전익)
+SUCAP - Rotary wing
+2.2.1.1.7.8 G * G * GPAD-- ** ** X
+MIW(고정익)
+MIW - Fixed wing
+2.2.1.1.7.9 G * G * GPAE-- ** ** X
+MIW(회전익)
+MIW - Rotary wing
+2.2.1.1.7.10 G * G * GPAS-- ** ** X 타격최초지점
+Strike IP
+2.2.1.1.7.11 G * G * GPAT-- ** ** X 전술공중항법장비
+Tacan
+2.2.1.1.7.12 G * G * GPAO-- ** ** X
+TOMCAT
+Tomcat
+2.2.1.1.7.13 G * G * GPAR-- ** ** X 구조
+Rescue
+2.2.1.1.7.14 G * G * GPAL-- ** ** X 급유
+Replenish
+2.2.1.1.7.15 G * G * GPAF-- ** ** X 무인항법장치
+Unmanned aerial system (UAS/UA)
+2.2.1.1.7.16 G * G * GPAG-- ** ** X
+VTUA
+VTUA
+2.2.1.1.7.17 G * G * GPAI-- ** ** X 궤도
+Orbit
+2.2.1.1.7.18 G * G * GPAJ-- ** ** X 궤도(F8)
+Orbit - Figure eight
+2.2.1.1.7.19 G * G * GPAM-- ** ** X 궤도(경주로)
+Orbit - Race track
+2.2.1.1.7.20 G * G * GPAN-- ** ** X 궤도(랜덤, 폐쇄)
+Orbit - Random, closed
+2.2.1.1.8 G * G * GPP--- ** ** X 활동지점(일반)
+Action points (General)
+2.2.1.1.8.1 G * G * GPPK-- ** ** X 확인점
+Check point
+2.2.1.1.8.2 G * G * GPPC-- ** ** X 접촉점
+Contact point
+2.2.1.1.8.3 G * G * GPPO-- ** ** X 협조점
+Coordination point
+2.2.1.1.8.4 G * G * GPPD-- ** ** X 결심점
+Decision point
+2.2.1.1.8.5 G * G * GPPL-- ** ** X 연결점
+Linkup point
+2.2.1.1.8.6 G * G * GPPP-- ** ** X 초월점
+Passage point
+2.2.1.1.8.7 G * G * GPPR-- ** ** X 재집결점
+Rally point
+2.2.1.1.8.8 G * G * GPPE-- ** ** X 분진점
+Release point
+2.2.1.1.8.9 G * G * GPPS-- ** ** X 출발점
+Start point
+2.2.1.1.8.10 G * G * GPPA-- ** ** X 자진신고점
+Amnesty point
+2.2.1.1.8.11 G * G * GPPW-- ** ** X 경로점
+Waypoint
+2.2.1.1.9 G * G * GPC--- ** ** X 해상통제점
+Sea surface control station
+2.2.1.1.9.1 G * G * GPCU-- ** ** X
+무인수상선통제점
+Unmanned surface vehicle (USV)
+control station
+2.2.1.1.9.1.1 G * G * GPCUR- ** ** X
+무인수상선(원격 다중임무)통제점
+Remote multimission vehicle (RMV)
+usv control station
+2.2.1.1.9.1.2 G * G * GPCUA- ** ** X
+무인수상선(대잠전)통제점
+USV - antisubmarine warfare
+control station
+2.2.1.1.9.1.3 G * G * GPCUS- ** ** X
+무인수상선(수상전)통제점
+USV - surface warfare control
+station
+2.2.1.1.9.1.4 G * G * GPCUM- ** ** X 무인수상선(대기뢰전)통제점
+USV - mine warfare control station
+2.2.1.1.9.2 G * G * GPCA-- ** ** X 대잠전통제점
+ASW control station
+2.2.1.1.9.3 G * G * GPCS-- ** ** X 수상전통제점
+SUW control station
+2.2.1.1.9.4 G * G * GPCM-- ** ** X 대기뢰전통제점
+MIW control station
+2.2.1.1.9.5 G * G * GPCP-- ** ** X 소초통제점
+Picket control station
+2.2.1.1.9.6 G * G * GPCR-- ** ** X 접합통제점
+Rendezvous control point
+2.2.1.1.9.7 G * G * GPCC-- ** ** X 구조통제점
+Rescue control point
+2.2.1.1.9.8 G * G * GPCE-- ** ** X 보급통제점
+Replenishment control point
+2.2.1.1.9.9 G * G * GPCN-- ** ** X 비전투통제점
+Noncombatant control station
+2.2.1.1.10 G * G * GPB--- ** ** X 수중통제점
+Subsurface control station
+2.2.1.1.10.1 G * G * GPBU-- ** ** X
+무인수중선통제점
+Unmanned underwater vehicle (UUV)
+control station
+2.2.1.1.10.1.1 G * G * GPBUA- ** ** X
+무인수중선통제점(대잠전)
+UUV - antisubmarine warfare
+control station
+2.2.1.1.10.1.2 G * G * GPBUS- ** ** X
+무인수중선통제점(수상전)
+UUV - surface warfare control
+station
+2.2.1.1.10.1.3 G * G * GPBUM- ** ** X 무인수중선통제점(대기뢰전)
+UUV - mine warfare control station
+2.2.1.1.10.2 G * G * GPBS-- ** ** X 잠수함통제점
+Submarine control station
+2.2.1.1.10.2.1 G * G * GPBSA- ** ** X 대잠전잠수함통제점
+Asw submarine control station
+2.2.1.1.11 G * G * GPD--- ** ** X 해안통제점
+Beach control station
+2.2.1.1.11.1 G * G * GPDB-- ** ** X 해안 표식기
+Beach Sign
+2.2.1.1.11.1.1 G * G * GPDBL- ** ** X 해안 표식기(좌)
+Beach Sign(left)
+2.2.1.1.11.1.2 G * G * GPDBC- ** ** X 해안 표식기(중앙)
+Beach Sign(center)
+2.2.1.1.11.1.3 G * G * GPDBR- ** ** X 해안 표식기(우)
+Beach Sign(right)
+2.2.1.1.11.2 G * G * GPDL-- ** ** X 양륙 표식기
+Landing Sign
+2.2.1.1.11.2.1 G * G * GPDLA- ** ** X 양륙 표식기(1종)
+Landing Sign(Class 1)
+2.2.1.1.11.2.2 G * G * GPDLC- ** ** X 양륙 표식기(3종)
+Landing Sign(Class 3)
+2.2.1.1.11.2.3 G * G * GPDLE- ** ** X 양륙 표식기(5종)
+Landing Sign(Class 5)
+2.2.1.1.11.2.4 G * G * GPDLH- ** ** X 양륙 표식기(8종)
+Landing Sign(Class 8)
+2.2.1.1.11.2.5 G * G * GPDLW- ** ** X 양륙 표식기(식수)
+Landing Sign(Drinking Water)
+2.2.1.1.11.2.6 G * G * GPDLM- ** ** X 양륙 표식기(차륜차량)
+Landing Sign(Motor)
+2.2.1.1.11.2.7 G * G * GPDLO- ** ** X 양륙 표식기(궤도차량)
+Landing Sign(Orbit)
+2.2.1.1.11.2.8 G * G * GPDLJ- ** ** X 양륙 표식기(10종)
+Landing Sign(Class 10)
+2.2.1.2 G * G * GL---- ** ** X 선
+Lines
+2.2.1.2.1 G * G * GLB--- ** ** X 경계
+Boundaries
+2.2.1.2.2 G * G * GLF--- ** ** X 전선, 부대진출선
+Forward line of own troops (FLOT)
+2.2.1.2.3 G * G * GLC--- ** ** X 접촉선
+Line of contact
+2.2.1.2.4 G * G * GLP--- ** ** X 통제선
+Phase line
+2.2.1.2.5 G * G * GLL--- ** ** X 등화관제선
+Light line
+2.2.1.2.6 G * G * GLA--- ** ** X 적 함정소실
+2.2.1.2.8 G * G * GLE--- ** ** X 해안두보선
+2.2.1.2.28 G * G * GL2--- ** ** X 적군 전방배치선
+2.2.1.2.29 G * G * GL3--- ** ** X 전투이양선(BHL)
+2.2.1.2.30 G * G * GL4--- ** ** X 지상군 전방 전투지경선(FB)
+2.2.1.2.31 G * G * GL5--- ** ** X 통신망
+Network
+2.2.1.2.31.1 G * G * GL5L-- ** ** X 유선통신망
+Line Network
+2.2.1.2.31.2 G * G * GL5W-- ** ** X 무선통신망
+Wireless Network
+2.2.1.2.31.3 G * G * GL5A-- ** ** X 부대통신소
+Unit communication station
+2.2.1.2.31.4 G * G * GL5B-- ** ** X 중계소
+Relay station
+2.2.1.2.31.5 G * G * GL5C-- ** ** X 전술용유선망도
+Tactical cable net plan
+2.2.1.2.31.6 G * G * GL5D-- ** ** X 전술용무선망도
+Tactical radio net plan
+2.2.1.2.31.7 G * G * GL5E-- ** ** X 전령경로
+Messenger Route
+2.2.1.2.31.7.1 G * G * GL5EM- ** ** X 주전령경로
+Main Messenger Route
+2.2.1.2.31.7.2 G * G * GL5EA- ** ** X 예비전령경로
+Alternate Messenger Route
+2.2.1.2.32 G * G * GL6--- ** ** X 주민이동로
+Moving Line
+2.2.1.3 G * G * GA---- ** ** X 지역
+Areas
+2.2.1.3.1 G * G * GAG--- ** ** X 일반지역
+General area
+2.2.1.3.2 G * G * GAA--- ** ** X 집결지
+Assembly area
+2.2.1.3.3 G * G * GAE--- ** ** X 교전지역
+Engagement area
+2.2.1.3.4 G * G * GAF--- ** ** X 요새지역
+Fortified area
+2.2.1.3.5 G * G * GAD--- ** ** X 투하지역
+Drop zone
+2.2.1.3.6 G * G * GAX--- ** ** X 퇴출지역
+Extraction zone (EZ)
+2.2.1.3.7 G * G * GAL--- ** ** X 착륙지역
+Landing zone (LZ)
+2.2.1.3.8 G * G * GAP--- ** ** X 탑재(픽업)지역
+Pickup zone (PZ)
+2.2.1.3.9 G * G * GAS--- ** ** X 수색정찰지역
+Search area/Reconnaissance area
+2.2.1.3.10 G * G * GAY--- ** ** X 접근제한지역
+Limited access area
+2.2.1.3.11 G * G * GAZ--- ** ** X 비행장지대
+Airfield zone
+2.2.1.3.12 G * G * GAB--- ** ** X 비치매트
+Beach Mat
+2.2.1.3.12.1 G * G * GABB-- ** ** X 비치매트
+Beach Mat
+2.2.1.3.12.2 G * G * GABH-- ** ** X 한매트
+Han Mat
+2.2.2 G * G * A----- ** ** X 항공통제
+Aviation
+2.2.2.1 G * G * AP---- ** ** X 점
+Points
+2.2.2.1.1 G * G * APP--- ** ** X 항공통제점
+Air control point (ACP)
+2.2.2.1.2 G * G * APC--- ** ** X 통신확인점
+Communications checkpoint (CCP)
+2.2.2.1.3 G * G * APU--- ** ** X 급상승지점
+Pull-up point (PUP)
+2.2.2.1.4 G * G * APD--- ** ** X 비상탈출승무원 구조지점
+Downed aircrew pickup point
+2.2.2.2 G * G * AL---- ** ** X 선
+Lines
+2.2.2.2.1 G * G * ALC--- ** ** X 비행회랑
+Air corridor
+2.2.2.2.2 G * G * ALM--- ** ** X 최소위험경로
+Minimum risk route (MRR)
+2.2.2.2.3 G * G * ALS--- ** ** X
+일반군용기비행경로
+Standard-use army aircraft flight
+route (SAAFR)
+2.2.2.2.4 G * G * ALU--- ** ** X 무인항공기비행경로
+Unmanned aircraft (UA) route
+2.2.2.2.5 G * G * ALL--- ** ** X 저고도비행경로
+Low level transit route (LLTR)
+2.2.2.3 G * G * AA---- ** ** X 구역
+Areas
+2.2.2.3.1 G * G * AAR--- ** ** X 작전제한공역
+Restricted operations zone (ROZ)
+2.2.2.3.2 G * G * AAF--- ** ** X
+전방방공구역
+Short-range air defense engagement
+zone (ShorADEZ)
+2.2.2.3.3 G * G * AAH--- ** ** X
+고밀도공역통제구역
+High density airspace control zone
+(HiDACZ)
+2.2.2.3.4 G * G * AAM--- ** ** X 유도탄교전구역
+Missile engagement zone (MEZ)
+2.2.2.3.4.1 G * G * AAML-- ** ** X 저고도유도탄교전구역
+Low altitude MEZ
+2.2.2.3.4.2 G * G * AAMH-- ** ** X 고고도 유도탄교전공역
+High altitude MEZ
+2.2.2.3.5 G * G * AAW--- ** ** X 자유무기사격지대
+Weapons free zone
+2.2.2.3.6 G * G * AAP--- ** ** X 다각호형
+Polygon Arc
+2.2.2.3.7 G * G * AAA--- ** ** X 방위호형
+Radial Arc
+2.2.2.3.8 G * G * AAT--- ** ** X 트랙형
+Track
+2.2.2.3.9 G * G * AAO--- ** ** X 궤도형
+Orbit
+2.2.2.4 G * G * AS---- ** ** X 특수부호
+2.2.2.4.1 G * G * ASP--- ** ** X 점
+2.2.2.4.1.1 G * G * ASPG-- ** ** X 일반
+2.2.2.4.1.2 G * G * ASPS-- ** ** X Station, General
+2.2.2.4.1.3 G * G * ASPA-- ** ** X Station, Air
+2.2.2.4.1.4 G * G * ASPE-- ** ** X Station, Emergency
+2.2.2.4.1.5 G * G * ASPH-- ** ** X Station, Hazard
+2.2.2.4.1.6 G * G * ASPU-- ** ** X Station, Support Unit
+2.2.2.4.1.7 G * G * ASPN-- ** ** X Station, Enemy point
+2.2.2.4.1.8 G * G * ASPR-- ** ** X Station, Link participant
+2.2.2.4.1.9 G * G * ASPI-- ** ** X Station, Site
+2.2.2.4.1.10 G * G * ASPC-- ** ** X Station, ECM fix
+2.2.2.4.1.11 G * G * ASPF-- ** ** X Station, Radar site
+2.2.2.4.1.12 G * G * ASPM-- ** ** X Station, Mine warfare
+2.2.2.4.1.13 G * G * ASPT-- ** ** X Station, CAP
+2.2.2.4.2 G * G * AST--- ** ** X Track SIF
+2.2.2.4.3 G * G * ASI--- ** ** X Intermediate told-in track
+2.2.2.4.4 G * G * ASM--- ** ** X 산
+2.2.2.4.5 G * G * ASC--- ** ** X 좌표점
+2.2.2.4.6 G * G * ASA--- ** ** X Area handles (when area is hooked)
+2.2.2.4.7 G * G * ASF--- ** ** X
+Appproach fix (for border
+crossings)
+2.2.2.4.8 G * G * ASB--- ** ** X Attention arrow
+2.2.2.4.9 G * G * ASD--- ** ** X SPI code
+2.2.2.4.10 G * G * ASE--- ** ** X AOP track
+2.2.2.4.11 G * G * ASG--- ** ** X Cities and landmarks
+2.2.2.4.12 G * G * ASH--- ** ** X Flight plan(uncorrelated)
+2.2.2.4.13 G * G * ASJ--- ** ** X Flight plan(correlated)
+2.2.2.4.14 G * G * ASK--- ** ** X Offset/Final turn
+2.2.2.4.15 G * G * ASL--- ** ** X Mission plan(Uncrrelated)
+2.2.2.4.16 G * G * ASN--- ** ** X Mission plan(correlated)
+2.2.2.4.17 G * G * ASO--- ** ** X Present uncorrelated serch
+2.2.2.4.18 G * G * ASQ--- ** ** X Present correlated search
+2.2.2.4.19 G * G * ASR--- ** ** X Present uncorrelated beacon
+2.2.2.4.20 G * G * ASS--- ** ** X Present correlated beacon
+2.2.2.4.21 G * G * ASU--- ** ** X
+Present uncorrelated reinforced
+search/beacon
+2.2.2.4.22 G * G * ASV--- ** ** X
+Present correlated reinforced
+search/beacon
+2.2.2.4.23 G * G * ASW--- ** ** X Plot histories
+2.2.2.4.24 G * G * ASX--- ** ** X Emergency beacon
+2.2.2.4.25 G * G * ASY--- ** ** X All beacon
+2.2.2.4.26 G * G * ASZ--- ** ** X Search Reinforced beacon
+2.2.2.4.27 G * G * AS1--- ** ** X Search
+2.2.2.4.28 G * G * AS2--- ** ** X Data SIF
+2.2.3 G * G * P----- ** ** X 기만
+Deception
+2.2.3.1 G * G * PD---- ** ** X 모조
+Dummy (Deception/Decoy)
+2.2.3.2 G * G * PA---- ** ** X 기만전진축
+Axis of advance for feint
+2.2.3.3 G * G * PF---- ** ** X 기만공격방향
+Direction of attack for feint
+2.2.3.4 G * G * PM---- ** ** X 기만지뢰지역
+Decoy mined area
+2.2.3.5 G * G * PY---- ** ** X 기만지뢰구역(망)
+Decoy mined area, fenced
+2.2.3.6 G * G * PN---- ** ** X 모조지뢰지대(설치식)
+Dummy minefield (Static)
+2.2.3.7 G * G * PC---- ** ** X 모조지뢰지대(살포식)
+Dummy minefield (Dynamic)
+2.2.4 G * G * D----- ** ** X 방어
+Defense
+2.2.4.1 G * G * DP---- ** ** X 점
+Points
+2.2.4.1.1 G * G * DPT--- ** ** X 표적참조점
+Target reference point (TRP)
+2.2.4.1.2 G * G * DPO--- ** ** X 관측소
+Observation post/Outpost
+2.2.4.1.2.1 G * G * DPOC-- ** ** X 전투전초
+Combat outpost
+2.2.4.1.2.1.1 G * G * DPOCA- ** ** X 초소
+2.2.4.1.2.1.2 G * G * DPOCB- ** ** X 잠복초
+2.2.4.1.2.1.3 G * G * DPOCC- ** ** X 복초
+2.2.4.1.2.1.4 G * G * DPOCD- ** ** X 교통초소
+2.2.4.1.2.1.5 G * G * DPOCE- ** ** X 해안초소
+2.2.4.1.2.1.6 G * G * DPOCF- ** ** X 대공초소
+2.2.4.1.2.1.7 G * G * DPOCG- ** ** X 경계분초 및 분견대
+2.2.4.1.2.2 G * G * DPOR-- ** ** X
+관측소(수색정찰)
+Observation post occupied by
+dismounted scouts or
+reconnaissance
+2.2.4.1.2.3 G * G * DPOF-- ** ** X 전방관측점
+Forward observer position
+2.2.4.1.2.4 G * G * DPOS-- ** ** X
+감지소/청음초
+Sensor outpost/Listening post
+(OP/LP)
+2.2.4.1.2.5 G * G * DPON-- ** ** X 화생방관측소
+Cbrn observation post (Dismounted)
+2.2.4.1.2.6 G * G * DPOM-- ** ** X 수중탐지소
+2.2.4.2 G * G * DL---- ** ** X 선
+Lines
+2.2.4.2.1 G * G * DLF--- ** ** X 전투지역전단
+Forward edge of battle area (FEBA)
+2.2.4.2.2 G * G * DLP--- ** ** X 주사격방향
+Principal direction of fire (PDF)
+2.2.4.2.3 G * G * DLA--- ** ** X 봉쇄선
+2.2.4.2.4 G * G * DLB--- ** ** X 차단선
+2.2.4.2.5 G * G * DLC--- ** ** X 교란사격
+2.2.4.3 G * G * DA---- ** ** X 구역
+Areas
+2.2.4.3.1 G * G * DAB--- ** ** X 전투진지
+Battle position
+2.2.4.3.1.1 G * G * DABP-- ** ** X 전투진지(미점령)
+Prepared but not occupied
+2.2.4.3.2 G * G * DAE--- ** ** X 교전구역
+Engagement area
+2.2.4.3.3 G * G * DAF--- ** ** X 발열진지
+2.2.5 G * G * O----- ** ** X 공격
+Offense
+2.2.5.1 G * G * OP---- ** ** X 점
+Points
+2.2.5.1.1 G * G * OPP--- ** ** X 공격개시점
+Point of departure
+2.2.5.2 G * G * OL---- ** ** X 선
+Lines
+2.2.5.2.1 G * G * OLA--- ** ** X 전진축
+Axis of advance
+2.2.5.2.1.1 G * G * OLAV-- ** ** X 아군항공전진축
+Aviation
+2.2.5.2.1.2 G * G * OLAA-- ** ** X 아군공수전진축
+Airborne
+2.2.5.2.1.3 G * G * OLAR-- ** ** X 아군공격 회전익 전진축
+Attack, rotary wing
+2.2.5.2.1.4 G * G * OLAG-- ** ** X 지상전진축
+Ground
+2.2.5.2.1.4.1 G * G * OLAGM- ** ** X 지상주공전진측
+Main attack
+2.2.5.2.1.4.2 G * G * OLAGS- ** ** X 지상조공전진축
+Supporting attack
+2.2.5.2.2 G * G * OLK--- ** ** X 공격방향
+Direction of attack
+2.2.5.2.2.1 G * G * OLKA-- ** ** X 공중공격방향
+Aviation
+2.2.5.2.2.2 G * G * OLKG-- ** ** X 지상공격방향
+Ground
+2.2.5.2.2.2.1 G * G * OLKGM- ** ** X 지상주공방향
+Main attack
+2.2.5.2.2.2.2 G * G * OLKGS- ** ** X 지상조공방향
+Supporting attack
+2.2.5.2.3 G * G * OLF--- ** ** X 최후협조선
+Final coordination line
+2.2.5.2.4 G * G * OLI--- ** ** X 침투로
+Infiltration lane
+2.2.5.2.5 G * G * OLL--- ** ** X 전진한계선
+Limit of advance
+2.2.5.2.6 G * G * OLT--- ** ** X 공격개시선
+Line of departure
+2.2.5.2.7 G * G * OLC--- ** ** X
+공격개시선/접촉선
+Line of departure/line of contact
+(LD/LC)
+2.2.5.2.8 G * G * OLP--- ** ** X 예상전개선
+Probable line of deployment (PLD)
+2.2.5.3 G * G * OA---- ** ** X 구역
+Areas
+2.2.5.3.1 G * G * OAA--- ** ** X 돌격진지
+Assault position
+2.2.5.3.2 G * G * OAK--- ** ** X 공격대기지역
+Attack position
+2.2.5.3.3 G * G * OAF--- ** ** X 사격지점(공격)
+Attack by fire position
+2.2.5.3.4 G * G * OAS--- ** ** X 사격지원진지
+Support by fire position
+2.2.5.3.5 G * G * OAO--- ** ** X 목표
+Objective
+2.2.5.3.6 G * G * OAP--- ** ** X 돌파구역
+Penetration box
+2.2.6 G * G * S----- ** ** X 특수
+Special
+2.2.6.1 G * G * SL---- ** ** X 선
+Line
+2.2.6.1.1 G * G * SLA--- ** ** X 매복
+Ambush
+2.2.6.1.1.1 G * G * SLAA-- ** ** X 분대매복
+Ambush(Squad)
+2.2.6.1.1.2 G * G * SLAB-- ** ** X 소대매복
+2.2.6.1.1.3 G * G * SLAD-- ** ** X 화기매복
+2.2.6.1.2 G * G * SLH--- ** ** X 견제선
+Holding line
+2.2.6.1.3 G * G * SLR--- ** ** X 분진선
+Release line
+2.2.6.1.4 G * G * SLB--- ** ** X 교두보
+Bridgehead
+2.2.6.2 G * G * SA---- ** ** X 구역
+Area
+2.2.6.2.1 G * G * SAO--- ** ** X 작전구역
+Area of operations (AO)
+2.2.6.2.2 G * G * SAA--- ** ** X 공두보
+Airhead
+2.2.6.2.4 G * G * SAE--- ** ** X 포위지역
+Encirclement
+2.2.6.2.5 G * G * SAN--- ** ** X 중요관심지역
+Named area of interest (NAI)
+2.2.6.2.6 G * G * SAT--- ** ** X 관심타격지역
+Targeted area of interest (TAI)
+2.3 G * M * ------ ** ** X 기동 및 방어
+Mobility/Survivability
+2.3.1 G * M * O----- ** ** X 장애물
+Obstacles
+2.3.1.1 G * M * OG---- ** ** X 일반
+General
+2.3.1.1.1 G * M * OGB--- ** ** X 장애물지대
+Belt
+2.3.1.1.2 G * M * OGL--- ** ** X 장애물라인
+Line
+2.3.1.1.3 G * M * OGZ--- ** ** X 장애물지역
+Zone
+2.3.1.1.4 G * M * OGF--- ** ** X 장애물허가구역
+Obstacle free area
+2.3.1.1.5 G * M * OGR--- ** ** X 장애물제한구역
+Obstacle restricted area
+2.3.1.1.6 G * M * OGA--- ** ** X 사태,돌폭뢰 등 폭파지역
+2.3.1.1.7 G * M * OGC--- ** ** X 이동차단물대
+2.3.1.1.8 G * M * OGD--- ** ** X 장애물
+2.3.1.1.9 G * M * OGE--- ** ** X 기타장애물(육상)
+2.3.1.1.10 G * M * OGG--- ** ** X 기계적인 장애물
+2.3.1.1.11 G * M * OGH--- ** ** X 장벽
+2.3.1.1.12 G * M * OGI--- ** ** X 단애
+2.3.1.1.13 G * M * OGJ--- ** ** X 기타군장애물위치
+2.3.1.1.14 G * M * OGK--- ** ** X 장애물극복
+2.3.1.2 G * M * OS---- ** ** X 목책(녹채)
+Abatis
+2.3.1.3 G * M * OA---- ** ** X 대전차장애물
+Antitank obstacles
+2.3.1.3.1 G * M * OAD--- ** ** X 대전차구
+Antitank ditch
+2.3.1.3.1.1 G * M * OADU-- ** ** X 대전차구(건설중)
+Under construction
+2.3.1.3.1.2 G * M * OADC-- ** ** X 대전차구(완성)
+Complete
+2.3.1.3.1.3 G * M * OADD-- ** ** X 거부완료
+2.3.1.3.1.4 G * M * OADA-- ** ** X 낙석장애물
+2.3.1.3.1.4.1 G * M * OADAA- ** ** X 낙석준비
+2.3.1.3.1.5 G * M * OADB-- ** ** X 고가낙석
+2.3.1.3.1.5.1 G * M * OADBA- ** ** X 고가낙석준비
+2.3.1.3.1.6 G * M * OADE-- ** ** X 도로대화구
+2.3.1.3.2 G * M * OAR--- ** ** X
+대전차구(대전차지뢰포함)
+Antitank ditch reinforced with
+antitank mines
+2.3.1.3.3 G * M * OAO--- ** ** X
+대전차장애물,용치,기타
+Antitank obstacles: tetrahedrons,
+dragons teeth, and other similar
+obstacles
+2.3.1.3.3.1 G * M * OAOF-- ** ** X 대전차장애물(고정,조립식)
+Fixed and prefabricated
+2.3.1.3.3.2 G * M * OAOM-- ** ** X 대전차장애물(이동식)
+Moveable
+2.3.1.3.3.3 G * M * OAOP-- ** ** X 대전차장애물(이동,조립식)
+Moveable and prefabricated
+2.3.1.3.4 G * M * OAW--- ** ** X 대전차방벽
+Antitank wall
+2.3.1.4 G * M * OB---- ** ** X 부비트랩
+Booby trap
+2.3.1.5 G * M * OM---- ** ** X 지뢰
+Mines
+2.3.1.5.1 G * M * OMU--- ** ** X 불명확지뢰
+Unspecified mine
+2.3.1.5.2 G * M * OMT--- ** ** X 대전차지뢰
+Antitank mine (AT)
+2.3.1.5.2.1 G * M * OMTA-- ** ** X 대전차지뢰열
+2.3.1.5.3 G * M * OMD--- ** ** X
+대전차지뢰(제거방지장치)
+Antitank mine with antihandling
+device
+2.3.1.5.4 G * M * OME--- ** ** X 대전차지뢰(지향성)
+Antitank mine (Directional)
+2.3.1.5.5 G * M * OMP--- ** ** X 대인지뢰
+Antipersonnel (AP) mines
+2.3.1.5.5.1 G * M * OMPA-- ** ** X 대인지뢰열
+2.3.1.5.6 G * M * OMW--- ** ** X 살포식지뢰
+Wide area mines
+2.3.1.5.7 G * M * OMC--- ** ** X 지뢰군
+Mine cluster
+2.3.1.5.8 G * M * OMA--- ** ** X 돌출봉지뢰
+2.3.1.5.9 G * M * OMB--- ** ** X 조명지뢰
+2.3.1.5.10 G * M * OMF--- ** ** X 다중크레모아
+2.3.1.6 G * M * OF---- ** ** X 지뢰지대
+Minefields
+2.3.1.6.1 G * M * OFS--- ** ** X 지뢰지대(설치식)
+Static depiction
+2.3.1.6.2 G * M * OFD--- ** ** X 지뢰지대(살포식)
+Dynamic depiction
+2.3.1.6.3 G * M * OFG--- ** ** X 간격(지뢰 또는 장애물이 없는지대)
+Gap
+2.3.1.6.4 G * M * OFA--- ** ** X 지뢰지역
+Mined area
+2.3.1.7 G * M * OE---- ** ** X 장애물 효과
+Obstacle effect
+2.3.1.7.1 G * M * OEB--- ** ** X 저지(장애물효과)
+Block
+2.3.1.7.2 G * M * OEF--- ** ** X 고착(장애물효과)
+Fix
+2.3.1.7.3 G * M * OET--- ** ** X 유인(장애물효과)
+Turn
+2.3.1.7.4 G * M * OED--- ** ** X 와해(장애물효과)
+Disrupt
+2.3.1.8 G * M * OU---- ** ** X 불발탄 탄착지역
+Unexploded ordnance area (UXO)
+2.3.1.9 G * M * OR---- ** ** X
+도로봉쇄,대화구,폭파된교량
+Roadblocks, craters, and blown
+bridges
+2.3.1.9.1 G * M * ORP--- ** ** X 폭파예정
+Planned
+2.3.1.9.2 G * M * ORS--- ** ** X
+폭파준비1(안전)
+Explosives, state of readiness 1
+(Safe)
+2.3.1.9.3 G * M * ORA--- ** ** X
+폭파준비2(설치완료)
+Explosives, state of readiness 2
+(Armed-but passable)
+2.3.1.9.4 G * M * ORC--- ** ** X 도로봉쇄완료(폭파완료)
+Roadblock complete (Executed)
+2.3.1.10 G * M * OT---- ** ** X 인계철선
+Trip wire
+2.3.1.11 G * M * OW---- ** ** X 철조망
+Wire obstacle
+2.3.1.11.1 G * M * OWU--- ** ** X 불명확철조망
+Unspecified
+2.3.1.11.2 G * M * OWS--- ** ** X 단선철조망
+Single fence
+2.3.1.11.3 G * M * OWD--- ** ** X 복선철조망
+Double fence
+2.3.1.11.4 G * M * OWA--- ** ** X 복선지붕형철조망
+Double apron fence
+2.3.1.11.5 G * M * OWL--- ** ** X 저가철조망
+Low wire fence
+2.3.1.11.6 G * M * OWH--- ** ** X 고가철조망
+High wire fence
+2.3.1.11.7 G * M * OWC--- ** ** X 윤형철조망
+Concertina
+2.3.1.11.7.1 G * M * OWCS-- ** ** X 단선윤형철조망
+Single concertina
+2.3.1.11.7.2 G * M * OWCD-- ** ** X 복선윤형철조망
+Double strand concertina
+2.3.1.11.7.3 G * M * OWCT-- ** ** X 삼선윤형철조망
+Triple strand concertina
+2.3.1.11.7.4 G * M * OWCA-- ** ** X 전기철조망
+2.3.1.12 G * M * OH---- ** ** X 비행장애물
+Aviation
+2.3.1.12.1 G * M * OHT--- ** ** X 탑
+Tower
+2.3.1.12.1.1 G * M * OHTL-- ** ** X 탑(저고도)
+Low
+2.3.1.12.1.2 G * M * OHTH-- ** ** X 탑(고고도)
+High
+2.3.1.12.2 G * M * OHO--- ** ** X 가공전선/송전선
+Overhead wire/Power line
+2.3.2 G * M * B----- ** ** X 장애물우회
+Obstacle bypass
+2.3.2.1 G * M * BD---- ** ** X 장애물우회곤란정도
+Obstacle bypass difficulty
+2.3.2.1.1 G * M * BDE--- ** ** X 우회가능
+Bypass easy
+2.3.2.1.2 G * M * BDD--- ** ** X 우회곤란
+Bypass difficult
+2.3.2.1.3 G * M * BDI--- ** ** X 우회불가
+Bypass impossible
+2.3.2.2 G * M * BC---- ** ** X 도하
+Crossing site/Water crossing
+2.3.2.2.1 G * M * BCA--- ** ** X 공격도하지점
+Assault crossing area
+2.3.2.2.2 G * M * BCB--- ** ** X 교량도하
+Bridge or gap
+2.3.2.2.3 G * M * BCF--- ** ** X 도선장
+Ferry
+2.3.2.2.4 G * M * BCE--- ** ** X 도섭가능
+Ford easy
+2.3.2.2.5 G * M * BCD--- ** ** X 도섭곤란
+Ford difficult
+2.3.2.2.6 G * M * BCL--- ** ** X 도하통로
+Lane
+2.3.2.2.7 G * M * BCR--- ** ** X 문교지점
+Raft site
+2.3.2.2.8 G * M * BCP--- ** ** X 공병통제소
+Engineer regulating point
+2.3.2.2.9 G * M * BCC--- ** ** X 공병장비집적소
+2.3.2.2.10 G * M * BCG--- ** ** X 철교(거부작전실시위치)
+2.3.2.2.11 G * M * BCH--- ** ** X 터널(피해복구)
+2.3.3 G * M * S----- ** ** X 방어
+Survivability
+2.3.3.1 G * M * SE---- ** ** X
+둑,참호,축성
+Earthwork, small trench or
+fortification
+2.3.3.2 G * M * SF---- ** ** X 요새
+Fort
+2.3.3.3 G * M * SL---- ** ** X 요새방어선
+Fortified line
+2.3.3.4 G * M * SW---- ** ** X
+유개엄체호
+Foxhole, emplacement or weapon
+site
+2.3.3.5 G * M * SP---- ** ** X 거점
+Strong point
+2.3.3.6 G * M * SS---- ** ** X 지상엄체
+Surface shelter
+2.3.3.7 G * M * SU---- ** ** X 지하엄체
+Underground shelter
+2.3.3.8 G * M * SA---- ** ** X 교통호
+2.3.3.9 G * M * SB---- ** ** X 교통호(총안구)
+2.3.3.10 G * M * SC---- ** ** X 교통호(구축중)
+2.3.3.11 G * M * SD---- ** ** X 갱도
+2.3.3.12 G * M * SG---- ** ** X 토목화점
+2.3.3.13 G * M * SH---- ** ** X 일화구영구화점
+2.3.3.14 G * M * SI---- ** ** X 쌍화구화점
+2.3.3.15 G * M * SJ---- ** ** X 비밀화점
+2.3.4 G * M * N----- ** ** X
+화생방
+Chemical, biological,
+radiological, and nuclear
+2.3.4.1 G * M * NM---- ** ** X 최소안전지대
+Minimum safe distance zones
+2.3.4.2 G * M * NZ---- ** ** X 핵폭발지점
+Nuclear detonations ground zero
+2.3.4.3 G * M * NF---- ** ** X 낙진발생지점
+Fallout producing
+2.3.4.4 G * M * NR---- ** ** X 방사능오염지역
+Radioactive area
+2.3.4.5 G * M * NB---- ** ** X 생물학오염지역
+Biologically contaminated area
+2.3.4.6 G * M * NC---- ** ** X 화학오염지역
+Chemically contaminated area
+2.3.4.7 G * M * NE---- ** ** X 오염발생
+Release events
+2.3.4.7.1 G * M * NEB--- ** ** X 오염발생(생물학)
+Biological
+2.3.4.7.2 G * M * NEC--- ** ** X 오염발생(화학)
+Chemical
+2.3.4.8 G * M * ND---- ** ** X 제독지점
+Decontamination (DECON) points
+2.3.4.8.1 G * M * NDP--- ** ** X 제독지점(불명확)
+Decon site/point (Unspecified)
+2.3.4.8.2 G * M * NDA--- ** ** X
+대체제독지점(불명확)
+Alternate decon site/point
+(Unspecified)
+2.3.4.8.3 G * M * NDT--- ** ** X 제독지점(부대)
+Decon site/point (Troops)
+2.3.4.8.4 G * M * NDE--- ** ** X 제독지점(장비)
+Decon site/point (Equipment)
+2.3.4.8.5 G * M * NDB--- ** ** X
+제독지점(장비및부대)
+Decon site/point (Equipment and
+troops)
+2.3.4.8.6 G * M * NDO--- ** ** X
+제독지점(작전상제독)
+Decon site/point (Operational
+decontamination)
+2.3.4.8.7 G * M * NDD--- ** ** X
+제독지점(완전제독)
+Decon site/point (Thorough
+decontamination)
+2.3.4.8.8 G * M * NDF--- ** ** X 제독지점(인원)
+2.3.4.8.9 G * M * NDG--- ** ** X 제독지점(정밀)
+2.3.4.8.10 G * M * NDH--- ** ** X 제독지점(급속)
+2.3.4.8.11 G * M * NDC--- ** ** X 제독급수원
+2.3.4.9 G * M * NL---- ** ** X 오염윤곽선
+Dose rate contour lines
+2.4 G * F * ------ ** ** X 화력지원
+Fire support
+2.4.1 G * F * P----- ** ** X 점
+Point
+2.4.1.1 G * F * PT---- ** ** X 표적
+Target
+2.4.1.1.1 G * F * PTS--- ** ** X 점/단일표적
+Point/Single target
+2.4.1.1.2 G * F * PTN--- ** ** X 핵표적
+Nuclear target
+2.4.1.2 G * F * PC---- ** ** X 지휘통제점
+Command/Control points
+2.4.1.2.1 G * F * PCF--- ** ** X 화력지원지점
+Fire support station
+2.4.1.2.2 G * F * PCS--- ** ** X 측량통제점
+Survey control point
+2.4.1.2.3 G * F * PCB--- ** ** X 사격위치
+Firing point
+2.4.1.2.4 G * F * PCR--- ** ** X 재장전위치
+Reload point
+2.4.1.2.5 G * F * PCH--- ** ** X 은폐위치
+Hide point
+2.4.1.2.6 G * F * PCL--- ** ** X 발사위치
+Launch point
+2.4.2 G * F * L----- ** ** X 선
+Lines
+2.4.2.1 G * F * LT---- ** ** X 선형표적
+Linear target
+2.4.2.1.1 G * F * LTS--- ** ** X 선형연막표적
+Linear smoke target
+2.4.2.1.2 G * F * LTF--- ** ** X 최후방어사격
+Final protective fire (FPF)
+2.4.2.2 G * F * LC---- ** ** X 지휘통제선
+Command/control lines
+2.4.2.2.1 G * F * LCF--- ** ** X
+화력지원협조선(FSCL)
+Fire support coordination line
+(FSCL)
+2.4.2.2.2 G * F * LCC--- ** ** X 사격협조선(CFL)
+Coordinated fire line (CFL)
+2.4.2.2.3 G * F * LCN--- ** ** X 화력금지선
+No-fire line (NFL)
+2.4.2.2.4 G * F * LCR--- ** ** X 사격제한선
+Restrictive fire line (RFL)
+2.4.2.2.5 G * F * LCM--- ** ** X 군수비행경로
+Munition flight path (MFP)
+2.4.3 G * F * A----- ** ** X 구역
+Areas
+2.4.3.1 G * F * AT---- ** ** X 영역표적지역
+Area target
+2.4.3.1.1 G * F * ATR--- ** ** X 사각형표적
+Rectangular target
+2.4.3.1.2 G * F * ATC--- ** ** X 원형표적
+Circular target
+2.4.3.1.3 G * F * ATG--- ** ** X 표적열/군 지역
+Series or group of targets
+2.4.3.1.4 G * F * ATS--- ** ** X 연막차장지역
+Smoke
+2.4.3.1.5 G * F * ATB--- ** ** X 폭격지역
+Bomb area
+2.4.3.2 G * F * AC---- ** ** X 지휘통제지역
+Command/control areas
+2.4.3.2.1 G * F * ACS--- ** ** X 화력지원지역
+Fire support area (FSA)
+2.4.3.2.1.1 G * F * ACSI-- ** ** X 화력지원지역(FSA)(다각형)
+Fire support area (FSA), Irregular
+2.4.3.2.1.2 G * F * ACSR-- ** ** X
+화력지원지역(FSA)(사각형)
+Fire support area (FSA),
+Rectangular
+2.4.3.2.1.3 G * F * ACSC-- ** ** X 화력지원지역(FSA)(원형)
+Fire support area (FSA), Circular
+2.4.3.2.2 G * F * ACA--- ** ** X 공역협조지역(ACA)
+Airspace coordination area (ACA)
+2.4.3.2.2.1 G * F * ACAI-- ** ** X
+공역협조지역(ACA)(다각형)
+Airspace coordination area (ACA),
+Irregular
+2.4.3.2.2.2 G * F * ACAR-- ** ** X
+공역협조지역(ACA)(사각형)
+Airspace coordination area (ACA),
+Rectangular
+2.4.3.2.2.3 G * F * ACAC-- ** ** X
+공역협조지역(ACA)(원형)
+Airspace coordination area (ACA),
+Circular
+2.4.3.2.3 G * F * ACF--- ** ** X 자유사격지역(FFA)
+Free fire area (FFA)
+2.4.3.2.3.1 G * F * ACFI-- ** ** X 자유사격지역(FFA)(다각형)
+Free fire area (FFA), Irregular
+2.4.3.2.3.2 G * F * ACFR-- ** ** X 자유사격지역(FFA)(사각형)
+Free fire area (FFA), Rectangular
+2.4.3.2.3.3 G * F * ACFC-- ** ** X 자유사격지역(FFA)(원형)
+Free fire area (FFA), Circular
+2.4.3.2.4 G * F * ACN--- ** ** X 화력금지지역(NFA)
+No-fire area (NFA)
+2.4.3.2.4.1 G * F * ACNI-- ** ** X 화력금지지역(NFA)(다각형)
+No fire area (NFA), Irregular
+2.4.3.2.4.2 G * F * ACNR-- ** ** X 화력금지지역(NFA)(사각형)
+No fire area (NFA), Rectangular
+2.4.3.2.4.3 G * F * ACNC-- ** ** X 화력금지지역(NFA)(원형)
+No fire area (NFA), Circular
+2.4.3.2.5 G * F * ACR--- ** ** X 화력제한지역(RFA)
+Restrictive fire area (RFA)
+2.4.3.2.5.1 G * F * ACRI-- ** ** X
+화력제한지역(RFA)(다각형)
+Restrictive fire area (RFA),
+Irregular
+2.4.3.2.5.2 G * F * ACRR-- ** ** X
+화력제한지역(RFA)(사각형)
+Restrictive fire area (RFA),
+Rectangular
+2.4.3.2.5.3 G * F * ACRC-- ** ** X
+화력제한지역(RFA)(원형)
+Restrictive fire area (RFA),
+Circular
+2.4.3.2.6 G * F * ACP--- ** ** X 포진지지역(PAA)
+Position area for artillery (PAA)
+2.4.3.2.6.1 G * F * ACPR-- ** ** X
+포진지지역(PAA)(사각형)
+Position area for artillery (PAA),
+Rectangular
+2.4.3.2.6.2 G * F * ACPC-- ** ** X
+포진지지역(PAA)(원형)
+Position area for artillery (PAA),
+Circular
+2.4.3.2.7 G * F * ACE--- ** ** X 센서지역
+Sensor zone
+2.4.3.2.7.1 G * F * ACEI-- ** ** X 센서지역(다각형)
+Sensor zone, Irregular
+2.4.3.2.7.2 G * F * ACER-- ** ** X 센서지역(사각형)
+Sensor zone, Rectangular
+2.4.3.2.7.3 G * F * ACEC-- ** ** X 센서지역(원형)
+Sensor zone, Circular
+2.4.3.2.8 G * F * ACD--- ** ** X 사강지역(DA)
+Dead space area (DA)
+2.4.3.2.8.1 G * F * ACDI-- ** ** X 사강지역(DA)(다각형)
+Dead space area (DA), Irregular
+2.4.3.2.8.2 G * F * ACDR-- ** ** X 사강지역(DA)(사각형)
+Dead space area (DA), Rectangular
+2.4.3.2.8.3 G * F * ACDC-- ** ** X 사강지역(DA)(원형)
+Dead space area (DA), Circular
+2.4.3.2.9 G * F * ACZ--- ** ** X 책임구역(ZOR)
+Zone of responsibility (ZOR)
+2.4.3.2.9.1 G * F * ACZI-- ** ** X
+책임구역(ZOR)(다각형)
+Zone of responsibility (ZOR),
+Irregular
+2.4.3.2.9.2 G * F * ACZR-- ** ** X
+책임구역(ZOR)(사각형)
+Zone of responsibility (ZOR),
+Rectangular
+2.4.3.2.9.3 G * F * ACZC-- ** ** X
+책임구역(ZOR)(원형)
+Zone of responsibility (ZOR),
+Circular
+2.4.3.2.10 G * F * ACB--- ** ** X 표적식별지역(TBA)
+Target build-up area (TBA)
+2.4.3.2.10.1 G * F * ACBI-- ** ** X
+표적식별지역(TBA)(다각형)
+Target build up area (TBA),
+Irregular
+2.4.3.2.10.2 G * F * ACBR-- ** ** X
+표적식별지역(TBA)(사각형)
+Target build up area (TBA),
+Rectangular
+2.4.3.2.10.3 G * F * ACBC-- ** ** X
+표적식별지역(TBA)(원형)
+Target build up area (TBA),
+Circular
+2.4.3.2.11 G * F * ACV--- ** ** X 표적평가지역(TVAR)
+Target value area (TVAR)
+2.4.3.2.11.1 G * F * ACVI-- ** ** X
+표적평가지역(TVAR)(다각형)
+Target value area (TVAR),
+Irregular
+2.4.3.2.11.2 G * F * ACVR-- ** ** X
+표적평가지역(TVAR)(사각형)
+Target value area (TVAR),
+Rectangular
+2.4.3.2.11.3 G * F * ACVC-- ** ** X 표적평가지역(TVAR)(원형)
+Target value area (TVAR), Circular
+2.4.3.2.12 G * F * ACT--- ** ** X
+단말유도 군수품 수신구역
+Terminally guided munition
+footprint (TGMF)
+2.4.3.2.13 G * F * ACC--- ** ** X 화생방정찰지역
+CBRN reconnaissance area
+2.4.3.2.13.1 G * F * ACCI-- ** ** X
+화생방정찰지역(다각형)
+CBRN reconnaissance area,
+Irregular
+2.4.3.2.14 G * F * ACG--- ** ** X 화생방제독지역
+CBRN detoxification area
+2.4.3.2.14.1 G * F * ACGI-- ** ** X
+화생방제독지역(다각형)
+CBRN detoxification area,
+Irregular
+2.4.3.3 G * F * AZ---- ** ** X 표적획득지역
+Target acquisition zones
+2.4.3.3.1 G * F * AZI--- ** ** X
+포병표적정보구역(ATI)
+Artillery target intelligence
+(ATI) zone
+2.4.3.3.1.1 G * F * AZII-- ** ** X
+포병표적정보구역(ATI)(다각형)
+Artillery target intelligence
+(ATI) zone, Irregular
+2.4.3.3.1.2 G * F * AZIR-- ** ** X
+포병표적정보구역(ATI)(사각형)
+Artillery target intelligence
+(ATI) zone, Rectangular
+2.4.3.3.2 G * F * AZX--- ** ** X 화력요청구역(CFFZ)
+Call for fire zone (CFFZ)
+2.4.3.3.2.1 G * F * AZXI-- ** ** X
+화력요청구역(CFFZ)(다각형)
+Call for fire zone (CFFZ),
+Irregular
+2.4.3.3.2.2 G * F * AZXR-- ** ** X
+화력요청구역(CFFZ)(사각형)
+Call for fire zone (CFFZ),
+Rectangular
+2.4.3.3.3 G * F * AZC--- ** ** X 검열구역
+Censor zone
+2.4.3.3.3.1 G * F * AZCI-- ** ** X 검열구역(다각형)
+Censor zone, Irregular
+2.4.3.3.3.2 G * F * AZCR-- ** ** X 검열구역(사각형)
+Censor zone, Rectangular
+2.4.3.3.4 G * F * AZF--- ** ** X 아군확인구역(CFZ)
+Critical friendly zone (CFZ)
+2.4.3.3.4.1 G * F * AZFI-- ** ** X
+아군확인구역(CFZ)(다각형)
+Critical friendly zone (CFZ),
+Irregular
+2.4.3.3.4.2 G * F * AZFR-- ** ** X
+아군확인구역(CFZ)(사각형)
+Critical friendly zone (CFZ),
+Rectangular
+2.4.3.4 G * F * AX---- ** ** X 무기/센서 유효영역
+Weapon/sensor range fans
+2.4.3.4.1 G * F * AXC--- ** ** X 무기/센서 유효영역(원형)
+Weapon/sensor range fan, Circular
+2.4.3.4.2 G * F * AXS--- ** ** X 무기/센서 유효영역(섹터)
+Weapon/sensor range fan, Sector
+2.4.3.5 G * F * AK---- ** ** X 킬박스
+Kill box
+2.4.3.5.1 G * F * AKB--- ** ** X 아군 킬박스
+Blue kill box (BKB)
+2.4.3.5.1.1 G * F * AKBC-- ** ** X 아군 킬박스(원형)
+Blue kill box, Circular
+2.4.3.5.1.2 G * F * AKBI-- ** ** X 아군 킬박스(다각형)
+Blue kill box, Irregular
+2.4.3.5.1.3 G * F * AKBR-- ** ** X 아군 킬박스(사각형)
+Blue kill box, Rectangular
+2.4.3.5.2 G * F * AKP--- ** ** X 적군 킬박스
+Purple kill box (PKB)
+2.4.3.5.2.1 G * F * AKPC-- ** ** X 적군 킬박스(원형)
+Purple kill box, Circular
+2.4.3.5.2.2 G * F * AKPI-- ** ** X 적군 킬박스(다각형)
+Purple kill box, Irregular
+2.4.3.5.2.3 G * F * AKPR-- ** ** X 적군 킬박스(사각형)
+Purple kill box, Rectangular
+2.5 G * S * ------ ** ** X 전투근무지원
+Combat service support
+2.5.1 G * S * P----- ** ** X 점
+Points
+2.5.1.1 G * S * PX---- ** ** X 구급전환지점
+Ambulance exchange point
+2.5.1.2 G * S * PC---- ** ** X 폐품(재활용)활용지점
+Cannibalization point
+2.5.1.3 G * S * PY---- ** ** X 사상자수집소
+Casualty collection point
+2.5.1.4 G * S * PT---- ** ** X 민간인수집소
+Civilian collection point
+2.5.1.5 G * S * PD---- ** ** X 억류자수용소
+Detainee collection point
+2.5.1.6 G * S * PE---- ** ** X
+적포로수집소
+Enemy prisoner of war (EPW)
+collection point
+2.5.1.7 G * S * PL---- ** ** X 군수불출지점
+Logistics release point (LRP)
+2.5.1.8 G * S * PM---- ** ** X 정비수집소
+Maintenance collection point
+2.5.1.9 G * S * PR---- ** ** X 재무장,재급유,재보급지점
+Rearm, refuel and resupply point
+2.5.1.10 G * S * PU---- ** ** X 이동재급유지점
+Refuel on the move (ROM) point
+2.5.1.11 G * S * PO---- ** ** X 교통통제소
+Traffic control post (TCP)
+2.5.1.12 G * S * PI---- ** ** X 트레일러전달지점
+Trailer transfer point
+2.5.1.13 G * S * PN---- ** ** X 부대정비수집지점
+Unit maintenance collection point
+2.5.1.14 G * S * PS---- ** ** X 보급지점
+Supply points
+2.5.1.14.1 G * S * PSZ--- ** ** X 일반
+General
+2.5.1.14.2 G * S * PSA--- ** ** X
+1종-식량
+Class I
+2.5.1.14.3 G * S * PSB--- ** ** X
+2종-물자
+Class II
+2.5.1.14.4 G * S * PSC--- ** ** X
+3종-유류
+Class III
+2.5.1.14.5 G * S * PSD--- ** ** X
+4종-자재
+Class IV
+2.5.1.14.6 G * S * PSE--- ** ** X
+5종-탄약
+Class V
+2.5.1.14.7 G * S * PSF--- ** ** X
+6종-PX
+Class VI
+2.5.1.14.8 G * S * PSG--- ** ** X
+7종-장비
+Class VII
+2.5.1.14.9 G * S * PSH--- ** ** X
+8종-의료
+Class VIII
+2.5.1.14.10 G * S * PSI--- ** ** X
+9종-수리부속
+Class IX
+2.5.1.14.11 G * S * PSJ--- ** ** X
+10종-기타
+Class X
+2.5.1.14.12 G * S * PSK--- ** ** X 급수탑
+2.5.1.14.13 G * S * PSL--- ** ** X 석탄탑
+2.5.1.15 G * S * PA---- ** ** X 탄약지점
+Ammunition points
+2.5.1.15.1 G * S * PAS--- ** ** X 탄약보급소
+Ammunition supply point (ASP)
+2.5.1.15.2 G * S * PAT--- ** ** X 탄약전환보급소
+Ammunition transfer point (ATP)
+2.5.1.16 G * S * PQ---- ** ** X 노상구난반
+Rescue team
+2.5.1.17 G * S * PV---- ** ** X 검문소
+Checkpoint
+2.5.2 G * S * L----- ** ** X 선
+Lines
+2.5.2.1 G * S * LC---- ** ** X 호위
+Convoys
+2.5.2.1.1 G * S * LCM--- ** ** X 호위(이동중)
+Moving convoy
+2.5.2.1.2 G * S * LCH--- ** ** X 호위(정지)
+Halted convoy
+2.5.2.2 G * S * LR---- ** ** X 보급로(병참선)
+Supply routes
+2.5.2.2.1 G * S * LRM--- ** ** X 주보급로
+Main supply route
+2.5.2.2.2 G * S * LRA--- ** ** X 예비보급로
+Alternate supply route
+2.5.2.2.3 G * S * LRO--- ** ** X 주보급로(일방통행)
+One-way traffic
+2.5.2.2.4 G * S * LRT--- ** ** X 주보급로(우회통행)
+Alternating traffic
+2.5.2.2.5 G * S * LRW--- ** ** X 주보급로(양방통행)
+Two-way traffic
+2.5.2.2.6 G * S * LRB--- ** ** X 통제구간
+2.5.3 G * S * A----- ** ** X 지역
+Area
+2.5.3.1 G * S * AD---- ** ** X 억류자수용지역
+Detainee holding area
+2.5.3.2 G * S * AE---- ** ** X
+포로수용소
+Enemy prisoner of war (EPW)
+holding area
+2.5.3.3 G * S * AR---- ** ** X
+전방 재무장 및 재급유지역
+Forward arming and refueling area
+(FARP)
+2.5.3.4 G * S * AH---- ** ** X 피난민수용지역
+Refugee holding area
+2.5.3.5 G * S * AS---- ** ** X 지원지역
+Support areas
+2.5.3.5.1 G * S * ASB--- ** ** X 여단지원지역
+Brigade (BSA)
+2.5.3.5.2 G * S * ASD--- ** ** X 사단지원지역
+Division (DSA)
+2.5.3.5.3 G * S * ASR--- ** ** X 연대지원지역
+Regimental (RSA)
+2.5.3.5.4 G * S * ASA--- ** ** X 군수지원지역
+2.6 G * O * ------ ** ** X 기타
+Other
+2.6.1 G * O * E----- ** ** X 비상
+Emergency
+2.6.1.1 G * O * ED---- ** ** X 불시착
+Ditched aircraft
+2.6.1.2 G * O * EP---- ** ** X 익수자
+Person in water
+2.6.1.3 G * O * EV---- ** ** X 조난선
+Distressed vessel
+2.6.2 G * O * H----- ** ** X 위험
+Hazard
+2.6.2.1 G * O * HM---- ** ** X 기뢰의심
+Sea mine-like
+2.6.2.2 G * O * HN---- ** ** X 항해장애물
+Navigational
+2.6.2.3 G * O * HI---- ** ** X 빙산
+Iceberg
+2.6.2.4 G * O * HO---- ** ** X 유전시추장치
+Oil rig
+2.6.3 G * O * S----- ** ** X 해저장애물
+Sea subsurface returns
+2.6.3.1 G * O * SB---- ** ** X 해저장애물
+Bottom return/Non-milco
+2.6.3.1.1 G * O * SBM--- ** ** X 해저장애물(시설,인공)
+Installation/Manmade
+2.6.3.1.2 G * O * SBN--- ** ** X 해저암반,기타 장애물
+Seabed rock/Stone, obstacle, other
+2.6.3.1.3 G * O * SBW--- ** ** X 난파선(안전)
+Wreck, non dangerous
+2.6.3.1.4 G * O * SBX--- ** ** X 난파선(위험)
+Wreck, dangerous
+2.6.3.2 G * O * SM---- ** ** X 해양생물
+Marine life
+2.6.3.3 G * O * SS---- ** ** X
+이례적해양현상(해류,항적)
+Sea anomaly (Wake, Current,
+Knuckle)
+2.6.3.4 G * O * SA---- ** ** X 어초
+2.6.4 G * O * B----- ** ** X 방향선
+Bearing line
+2.6.4.1 G * O * BE---- ** ** X 전파방향선
+Electronic
+2.6.4.2 G * O * BA---- ** ** X 음파방향선
+Acoustic
+2.6.4.3 G * O * BT---- ** ** X 어뢰방향선
+Torpedo
+2.6.4.4 G * O * BO---- ** ** X 전자광학도청방향선
+Electro-optical intercept
+2.6.5 G * O * F----- ** ** X 교차점
+Fix
+2.6.5.1 G * O * FA---- ** ** X 교차점(음파로부터)
+Acoustic
+2.6.5.2 G * O * FE---- ** ** X 교차점(전자기로부터)
+Electro-magnetic
+2.6.5.3 G * O * FO---- ** ** X 교차점(전자광학으로부터)
+Electro-optical
+2.6.9 G * O * O----- ** ** X 폭파지점
+Blasting Point
+2.6.10 G * O * D----- ** ** X 댐방류통제
+Dam
