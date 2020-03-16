@@ -8,14 +8,31 @@ var signal = require("./mil_signal");
 var weather = require("./mil_weather");
 
 var codeTypes = [
-    { code: "S", desc: "기본군대부호" },
-    { code: "G", desc: "작전활동부호" },
-    { code: "W", desc: "기상 및 해양부호" },
-    { code: "I", desc: "신호정보부호" },
-    { code: "O", desc: "안정화작전부호" },
-    { code: "E", desc: "비상관리부호" },
+    { code: "S", desc: "기본군대부호", standard: basic },
+    { code: "G", desc: "작전활동부호", standard: operAct },
+    { code: "W", desc: "기상 및 해양부호", standard: weather },
+    { code: "I", desc: "신호정보부호", standard: signal },
+    { code: "O", desc: "안정화작전부호", standard: safe },
+    { code: "E", desc: "비상관리부호", standard: emergency }
 ]
 
+class CodeType {
+    constructor(opt) {
+        this.activeType;
+        this.init(opt.id);
+    }
+    init(id) {
+        let ele = document.querySelector("#" + id);
+        let str;
+        codeTypes.forEach(d => {
+            str += '<option value="' + d.code + '">' + d.desc + '</option>';
+        });
+        ele.innerHTML = str;
+        ele.onchange = function() {
+
+        };
+    }
+}
 class SIDC {
     constructor(sidc) {
         this.extra = "";
@@ -152,6 +169,7 @@ window.onload = function() {
     symbolTest.viewModels.push(new ViewModelElement({ dataKey: "monoColor", id: "symbolMonoColor", type: "select", dataType: "text", dataUndefined: "none" }));
     symbolTest.viewModels.push(new ViewModelElement({ dataKey: "icon", id: "symbolIcon", type: "select", dataType: "bool" }));
 
+    let codeSel = new CodeType({ id: "codetype" });
     let str = '<ul class="tree-wrapper">';
     str += makeTree(functionIdentifier);
     str += "</ul>";
@@ -211,5 +229,4 @@ window.onload = function() {
         ele.value = sidc.toCode();
         symbolTest.try();
     }
-
 }

@@ -8,7 +8,7 @@ var concat = require('gulp-concat');
 var markdown = require("gulp-markdown");
 var inject = require("gulp-inject-string");
 
-var uglify = require('gulp-uglify');
+//var uglify = require('gulp-uglify');
 var babelify = require("babelify");
 var browserify = require("browserify");
 var buffer = require("vinyl-buffer");
@@ -34,10 +34,10 @@ var paths = {
         dest: './docs/'
     },
     scripts: {
-        entries: ['./index.js'],
-        output: 'milsymbol.js',
-        output_src: 'milsymbol.development.js',
-        dest: 'dist/'
+        entries: ['./examples/sourcetrack/app.js'],
+        src: './examples/sourcetrack/*.js',
+        output: 'index.js',
+        dest: 'examples/sourcetrack/'
     },
     js: {
         src: 'src/**/*.js',
@@ -72,22 +72,24 @@ function md_src() {
         .pipe(inject.append("</body></html>"))
         .pipe(dest(paths.md_src.src));
 }
-
-function js_b() {
+/*
+function jsb() {
     return browserify({
             entries: paths.scripts.entries
-        }).transform(babelify({
-            presets: ["es2015"]
-        }))
+        }).transform(babelify
+            ({
+                        presets: ["es2015"]
+                    })
+        )
         .bundle()
         .pipe(source(paths.scripts.output))
         .pipe(buffer())
         .pipe(sourcemaps.init({ loadMaps: true }))
-        .pipe(uglify())
+        //.pipe(uglify())
         .pipe(dest(paths.scripts.dest));
 }
 
-/*
+
 function js_src_w() {
     return new Promise((resolve, reject) => {
         webpack(webpackConfig, (err, stats) => {
@@ -101,19 +103,19 @@ function js_src_w() {
         })
     });
 }
-
+*/
 function js_src_b() {
     return browserify({
             entries: paths.scripts.entries
         }).transform(babelify)
         .bundle()
-        .pipe(source(paths.scripts.output_src))
+        .pipe(source(paths.scripts.output))
         .pipe(buffer())
         .pipe(sourcemaps.init({ loadMaps: true }))
         .pipe(dest(paths.scripts.dest));
 
 }
-*/
+
 
 function scss() {
     return src(paths.scss.src)
@@ -148,9 +150,9 @@ function watchFiles() {
     watch(paths.css.src, css);
     watch(paths.html.src, html);
     watch(paths.libs.src, libs);
-    // watch(paths.js.src, js_b);
+    watch(paths.scripts.src, js_src_b);
 }
 
 exports.clean = series(clean);
 exports.scss = parallel(scss);
-exports.default = parallel(watchFiles, series(md, md_src, libs, scss, css, html));
+exports.default = parallel(watchFiles, series(md, md_src, libs, scss, css, js_src_b, html));

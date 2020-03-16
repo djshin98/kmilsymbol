@@ -1416,7 +1416,7 @@ var functionIdentifier_Weather = [{
 
 module.exports = {
     code: "W",
-    affilication: position_Weather,
+    pos: position_Weather,
     fix: fix_Weather,
     graphic: graphic_Weather,
     identifier: functionIdentifier_Weather
