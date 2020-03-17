@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wssi_basic date="2014.04.10, 03:03:03" bd="S">
+  <aff af="*">
+    <sh od="1" st="5" l="-0.4" t="-0.35" r="0.4" b="0.35" ha="1" va="1" tx="MHC" />
+  </aff>
+</wssi_basic>

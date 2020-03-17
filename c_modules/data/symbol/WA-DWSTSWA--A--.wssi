@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wssi_gentg date="2014.04.10, 21:00:00" st="35" tc="1" pv="0.,-0.,-85.,40.,20.,-15.,5.,45.,35.,45.,15.,65.,75.,30." adp="-75.,-60.,-20.,-35.,50.,-65.,-35.,40.,55.,20.,0.,25.,40.,10." ads="PT.1,PT.2,PT.3,PT.4,PT.5,PT.6,PT.7">
+  <exmod W="1225Z"/>
+  <tgsh lc="#FFC61021" lw="0.100" fc="0" fd="0" lpc="0" lpw="0.000" fpc="0"/>
+  <label name="ICON" text="" icon="true" ts="0.25" ss="12." at="4" ha="1" va="1"/>
+  <label name="DTL" text="%W" icon="false" ts="0.4" ss="12." at="4" ha="1" va="1"/>
+  <label name="COL" text="7" icon="false" ts="0.25" ss="1." at="4" ha="1" va="1"/>
+</wssi_gentg>

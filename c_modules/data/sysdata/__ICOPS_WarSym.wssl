@@ -1,0 +1,999 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<wssl xmlns="urn:icops.cngsol.co.kr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:icops.cngsol.co.kr C:/ICOPS/warsym/schema/ICOPS_WSSL.xsd">
+
+<wsi cd='S*Z*------*****' as='S' ss='H' st='1' sc='2' hl='0' nll='미식별' ncl='Unknown' />
+<wsi cd='S---------*****' as='S' ss='-' st='0' sc='0' hl='1' nll='기본군대부호' ncl='Warfighting symbols' />
+<wsi cd='S*P*------*****' as='S' ss='H' st='1' sc='2' hl='1.1' nll='우주항적' ncl='Space track' />
+<wsi cd='S*P*S-----*****' as='S' ss='H' st='1' sc='2' hl='1.1.1' nll='위성' ncl='Satellite' />
+<wsi cd='S*P*V-----*****' as='S' ss='H' st='1' sc='2' hl='1.1.2' nll='우주비행선' ncl='Crewed space vehicle' />
+<wsi cd='S*P*T-----*****' as='S' ss='H' st='1' sc='2' hl='1.1.3' nll='우주정거장' ncl='Space station' />
+<wsi cd='S*P*L-----*****' as='U' ss='H' st='1' sc='2' hl='1.1.4' nll='우주로켓' ncl='Space launch vehicle' />
+<wsi cd='S*A*------*****' as='S' ss='H' st='1' sc='2' hl='1.2' nll='공중항적' ncl='Air track' />
+<wsi cd='S*A*M-----*****' as='S' ss='H' st='1' sc='2' hl='1.2.1' nll='공중항적(군용)' ncl='Military' />
+<wsi cd='S*A*MF----*****' as='S' ss='H' st='1' sc='2' hl='1.2.1.1' nll='고정익(군용)' ncl='Fixed wing' />
+<wsi cd='S*A*MFB---*****' as='S' ss='H' st='1' sc='2' hl='1.2.1.1.1' nll='폭격기' ncl='Bomber' />
+<wsi cd='S*A*MFF---*****' as='S' ss='H' st='1' sc='2' hl='1.2.1.1.2' nll='전투기' ncl='Fighter' />
+<wsi cd='S*A*MFFI--*****' as='S' ss='H' st='1' sc='2' hl='1.2.1.1.2.1' nll='요격기' ncl='Interceptor' />
+<wsi cd='S*A*MFT---*****' as='S' ss='H' st='1' sc='2' hl='1.2.1.1.3' nll='훈련기' ncl='Trainer' />
+<wsi cd='S*A*MFA---*****' as='S' ss='H' st='1' sc='2' hl='1.2.1.1.4' nll='공격기' ncl='Attack/strike' />
+<wsi cd='S*A*MFL---*****' as='S' ss='H' st='1' sc='2' hl='1.2.1.1.5' nll='수직이착륙기' ncl='V/STOL' />
+<wsi cd='S*A*MFK---*****' as='S' ss='H' st='1' sc='2' hl='1.2.1.1.6' nll='공중급유기' ncl='Tanker' />
+<wsi cd='S*A*MFKB--*****' as='U' ss='H' st='1' sc='2' hl='1.2.1.1.6.1' nll='공중급유기(Boom)' ncl='Tanker boom-only' />
+<wsi cd='S*A*MFKD--*****' as='U' ss='H' st='1' sc='2' hl='1.2.1.1.6.2' nll='공중급유기(Drogue)' ncl='Tanker drogue-only' />
+<wsi cd='S*A*MFC---*****' as='S' ss='H' st='1' sc='2' hl='1.2.1.1.7' nll='수송기' ncl='Cargo airlift (transport)' />
+<wsi cd='S*A*MFCL--*****' as='S' ss='H' st='1' sc='2' hl='1.2.1.1.7.1' nll='수송기(경)' ncl='Cargo airlift (light)' />
+<wsi cd='S*A*MFCM--*****' as='S' ss='H' st='1' sc='2' hl='1.2.1.1.7.2' nll='수송기(중)' ncl='Cargo airlift (medium)' />
+<wsi cd='S*A*MFCH--*****' as='S' ss='H' st='1' sc='2' hl='1.2.1.1.7.3' nll='수송기(대)' ncl='Cargo airlift (heavy)' />
+<wsi cd='S*A*MFJ---*****' as='U' ss='H' st='1' sc='2' hl='1.2.1.1.8' nll='전자전기' ncl='Electronic countermeasures (ECM/jammer)' />
+<wsi cd='S*A*MFO---*****' as='U' ss='H' st='1' sc='2' hl='1.2.1.1.9' nll='의무후송기' ncl='Medical evacuation (MEDEVAC)' />
+<wsi cd='S*A*MFR---*****' as='S' ss='H' st='1' sc='2' hl='1.2.1.1.10' nll='수색정찰기' ncl='Reconnaissance' />
+<wsi cd='S*A*MFRW--*****' as='S' ss='H' st='1' sc='2' hl='1.2.1.1.10.1' nll='수색정찰기(공중조기경보)' ncl='Airborne early warning (AEW)' />
+<wsi cd='S*A*MFRZ--*****' as='S' ss='H' st='1' sc='2' hl='1.2.1.1.10.2' nll='수색정찰기(전자감시)' ncl='Electronic surveillance measures' />
+<wsi cd='S*A*MFRX--*****' as='S' ss='H' st='1' sc='2' hl='1.2.1.1.10.3' nll='수색정찰기(사진)' ncl='Photographic' />
+<wsi cd='S*A*MFP---*****' as='S' ss='H' st='1' sc='2' hl='1.2.1.1.11' nll='초계기' ncl='Patrol' />
+<wsi cd='S*A*MFPN--*****' as='U' ss='H' st='1' sc='2' hl='1.2.1.1.11.1' nll='대함초계기' ncl='Antisurface warfare (ASUW)' />
+<wsi cd='S*A*MFPM--*****' as='S' ss='H' st='1' sc='2' hl='1.2.1.1.11.2' nll='대기뢰초계기' ncl='Mine countermeasures' />
+<wsi cd='S*A*MFPU--*****' as='K' ss='H' st='1' sc='2' hl='1.2.1.1.11.3' nll='대잠초계기' ncl='Antisubmarine patrol' />
+<wsi cd='S*A*MFU---*****' as='S' ss='H' st='1' sc='2' hl='1.2.1.1.12' nll='다목적기' ncl='Utility' />
+<wsi cd='S*A*MFUL--*****' as='S' ss='H' st='1' sc='2' hl='1.2.1.1.12.1' nll='다목적기(경)' ncl='Utility (light)' />
+<wsi cd='S*A*MFUM--*****' as='S' ss='H' st='1' sc='2' hl='1.2.1.1.12.2' nll='다목적기(중)' ncl='Utility (medium)' />
+<wsi cd='S*A*MFUH--*****' as='S' ss='H' st='1' sc='2' hl='1.2.1.1.12.3' nll='다목적기(대)' ncl='Utility (heavy)' />
+<wsi cd='S*A*MFY---*****' as='S' ss='H' st='1' sc='2' hl='1.2.1.1.13' nll='통신항공기' ncl='Communications' />
+<wsi cd='S*A*MFH---*****' as='S' ss='H' st='1' sc='2' hl='1.2.1.1.14' nll='탐색구조기' ncl='Combat search and rescue (CSAR)' />
+<wsi cd='S*A*MFD---*****' as='S' ss='H' st='1' sc='2' hl='1.2.1.1.15' nll='공중지휘기' ncl='Airborne command post (C2)' />
+<wsi cd='S*A*MFQ---*****' as='U' ss='H' st='1' sc='2' hl='1.2.1.1.16' nll='무인항공기' ncl='Drone (RPV/UA)' />
+<wsi cd='S*A*MFQA--*****' as='U' ss='H' st='1' sc='2' hl='1.2.1.1.16.1' nll='무인 공격기' ncl='Attack' />
+<wsi cd='S*A*MFQB--*****' as='U' ss='H' st='1' sc='2' hl='1.2.1.1.16.2' nll='무인 폭격기' ncl='Bomber' />
+<wsi cd='S*A*MFQC--*****' as='U' ss='H' st='1' sc='2' hl='1.2.1.1.16.3' nll='무인 수송기' ncl='Cargo' />
+<wsi cd='S*A*MFQD--*****' as='U' ss='H' st='1' sc='2' hl='1.2.1.1.16.4' nll='무인 공중 사령기' ncl='Airborne command post' />
+<wsi cd='S*A*MFQF--*****' as='U' ss='H' st='1' sc='2' hl='1.2.1.1.16.5' nll='무인 전투기' ncl='Fighter' />
+<wsi cd='S*A*MFQH--*****' as='U' ss='H' st='1' sc='2' hl='1.2.1.1.16.6' nll='무인 탐색구조기' ncl='Search and rescue (CSAR)' />
+<wsi cd='S*A*MFQJ--*****' as='U' ss='H' st='1' sc='2' hl='1.2.1.1.16.7' nll='무인 전파방해기' ncl='Electronic countermeasures (jammer)' />
+<wsi cd='S*A*MFQK--*****' as='U' ss='H' st='1' sc='2' hl='1.2.1.1.16.8' nll='무인 공중급유기' ncl='Tanker' />
+<wsi cd='S*A*MFQL--*****' as='U' ss='H' st='1' sc='2' hl='1.2.1.1.16.9' nll='무인 수직 단거리 이착륙기' ncl='V/STOL' />
+<wsi cd='S*A*MFQM--*****' as='U' ss='H' st='1' sc='2' hl='1.2.1.1.16.10' nll='무인 특수작전기' ncl='Special operations forces (SOF)' />
+<wsi cd='S*A*MFQI--*****' as='U' ss='H' st='1' sc='2' hl='1.2.1.1.16.11' nll='무인 대기뢰기' ncl='Mine countermeasures' />
+<wsi cd='S*A*MFQN--*****' as='U' ss='H' st='1' sc='2' hl='1.2.1.1.16.12' nll='무인 대수상전 초계기' ncl='Antisurface warfare (ASUW)' />
+<wsi cd='S*A*MFQP--*****' as='U' ss='H' st='1' sc='2' hl='1.2.1.1.16.13' nll='무인 초계기' ncl='Patrol' />
+<wsi cd='S*A*MFQR--*****' as='U' ss='H' st='1' sc='2' hl='1.2.1.1.16.14' nll='무인 수색정찰기' ncl='Reconnaissance' />
+<wsi cd='S*A*MFQRW-*****' as='U' ss='H' st='1' sc='2' hl='1.2.1.1.16.14.1' nll='무인 조기경보기' ncl='Airborne early warning (AEW)' />
+<wsi cd='S*A*MFQRZ-*****' as='U' ss='H' st='1' sc='2' hl='1.2.1.1.16.14.2' nll='무인 전탐기' ncl='Electronic surveillance measures' />
+<wsi cd='S*A*MFQRX-*****' as='U' ss='H' st='1' sc='2' hl='1.2.1.1.16.14.3' nll='무인 촬영기' ncl='Photographic' />
+<wsi cd='S*A*MFQS--*****' as='U' ss='H' st='1' sc='2' hl='1.2.1.1.16.15' nll='무인 대잠전 초계기' ncl='Antisubmarine warfare (ASW)' />
+<wsi cd='S*A*MFQT--*****' as='U' ss='H' st='1' sc='2' hl='1.2.1.1.16.16' nll='무인 훈련기' ncl='Trainer' />
+<wsi cd='S*A*MFQU--*****' as='U' ss='H' st='1' sc='2' hl='1.2.1.1.16.17' nll='무인 다목적기' ncl='Utility' />
+<wsi cd='S*A*MFQY--*****' as='U' ss='H' st='1' sc='2' hl='1.2.1.1.16.18' nll='무인 통신기' ncl='Communications' />
+<wsi cd='S*A*MFQO--*****' as='U' ss='H' st='1' sc='2' hl='1.2.1.1.16.19' nll='무인 의무후송기' ncl='Medevac' />
+<wsi cd='S*A*MFS---*****' as='S' ss='H' st='1' sc='2' hl='1.2.1.1.17' nll='대잠항공기(함재기)' ncl='Antisubmarine warfare (ASW) carrier based' />
+<wsi cd='S*A*MFM---*****' as='S' ss='H' st='1' sc='2' hl='1.2.1.1.18' nll='특수작전기' ncl='Special operations forces (SOF)' />
+<wsi cd='S*A*MH----*****' as='S' ss='H' st='1' sc='2' hl='1.2.1.2' nll='회전익' ncl='Rotary wing' />
+<wsi cd='S*A*MHA---*****' as='S' ss='H' st='1' sc='2' hl='1.2.1.2.1' nll='공격헬기' ncl='Attack' />
+<wsi cd='S*A*MHS---*****' as='S' ss='H' st='1' sc='2' hl='1.2.1.2.2' nll='대잠헬기' ncl='Antisubmarine warfare/MPA' />
+<wsi cd='S*A*MHU---*****' as='S' ss='H' st='1' sc='2' hl='1.2.1.2.3' nll='다목적헬기' ncl='Utility' />
+<wsi cd='S*A*MHUL--*****' as='S' ss='H' st='1' sc='2' hl='1.2.1.2.3.1' nll='다목적헬기(경)' ncl='Utility (light)' />
+<wsi cd='S*A*MHUM--*****' as='S' ss='H' st='1' sc='2' hl='1.2.1.2.3.2' nll='다목적헬기(중)' ncl='Utility (medium)' />
+<wsi cd='S*A*MHUH--*****' as='S' ss='H' st='1' sc='2' hl='1.2.1.2.3.3' nll='다목적헬기(대)' ncl='Utility (heavy)' />
+<wsi cd='S*A*MHI---*****' as='S' ss='H' st='1' sc='2' hl='1.2.1.2.4' nll='대기뢰헬기' ncl='Mine countermeasures' />
+<wsi cd='S*A*MHH---*****' as='S' ss='H' st='1' sc='2' hl='1.2.1.2.5' nll='탐색구조헬기' ncl='Combat search and rescue (CSAR)' />
+<wsi cd='S*A*MHR---*****' as='S' ss='H' st='1' sc='2' hl='1.2.1.2.6' nll='수색정찰헬기' ncl='Reconnaissance' />
+<wsi cd='S*A*MHQ---*****' as='S' ss='H' st='1' sc='2' hl='1.2.1.2.7' nll='무인조정헬기' ncl='Drone (RPV/UA)' />
+<wsi cd='S*A*MHC---*****' as='S' ss='H' st='1' sc='2' hl='1.2.1.2.8' nll='수송헬기' ncl='Cargo airlift (transport)' />
+<wsi cd='S*A*MHCL--*****' as='S' ss='H' st='1' sc='2' hl='1.2.1.2.8.1' nll='수송헬기(경)' ncl='Cargo airlift (light)' />
+<wsi cd='S*A*MHCM--*****' as='S' ss='H' st='1' sc='2' hl='1.2.1.2.8.2' nll='수송헬기(중)' ncl='Cargo airlift (medium)' />
+<wsi cd='S*A*MHCH--*****' as='S' ss='H' st='1' sc='2' hl='1.2.1.2.8.3' nll='수송헬기(대)' ncl='Cargo airlift (heavy)' />
+<wsi cd='S*A*MHT---*****' as='S' ss='H' st='1' sc='2' hl='1.2.1.2.9' nll='훈련헬기' ncl='Trainer' />
+<wsi cd='S*A*MHO---*****' as='S' ss='H' st='1' sc='2' hl='1.2.1.2.10' nll='의무후송헬기' ncl='Medevac' />
+<wsi cd='S*A*MHM---*****' as='S' ss='H' st='1' sc='2' hl='1.2.1.2.11' nll='기동부대헬기' ncl='Special operations forces (SOF)' />
+<wsi cd='S*A*MHD---*****' as='S' ss='H' st='1' sc='2' hl='1.2.1.2.12' nll='공수지휘헬기' ncl='Airborne command post (C2)' />
+<wsi cd='S*A*MHK---*****' as='S' ss='H' st='1' sc='2' hl='1.2.1.2.13' nll='공중급유헬기' ncl='Tanker' />
+<wsi cd='S*A*MHJ---*****' as='S' ss='H' st='1' sc='2' hl='1.2.1.2.14' nll='전파교란헬기' ncl='Electronic countermeasures (ECM/jammer)' />
+<wsi cd='S*A*ML----*****' as='S' ss='H' st='1' sc='2' hl='1.2.1.3' nll='풍선기구(군용)' ncl='Lighter than air' />
+<wsi cd='S*A*MV----*****' as='U' ss='H' st='1' sc='2' hl='1.2.1.4' nll='VIP' ncl='Very important person (VIP)' />
+<wsi cd='S*A*ME----*****' as='U' ss='H' st='1' sc='2' hl='1.2.1.5' nll='호위' ncl='Escort' />
+<wsi cd='S*A*W-----*****' as='S' ss='H' st='1' sc='2' hl='1.2.2' nll='공중화기' ncl='Weapon' />
+<wsi cd='S*A*WM----*****' as='S' ss='H' st='1' sc='2' hl='1.2.2.1' nll='유도탄(공중)' ncl='Missile in flight' />
+<wsi cd='S*A*WMS---*****' as='S' ss='H' st='1' sc='2' hl='1.2.2.1.1' nll='지대(함)유도탄' ncl='Surface launched missile' />
+<wsi cd='S*A*WMSS--*****' as='S' ss='H' st='1' sc='2' hl='1.2.2.1.1.1' nll='지(함)대지(함)유도탄' ncl='Surface-to-surface missile (SSM)' />
+<wsi cd='S*A*WMSA--*****' as='S' ss='H' st='1' sc='2' hl='1.2.2.1.1.2' nll='지(함)대공유도탄' ncl='Surface-to-air missile (SAM)' />
+<wsi cd='S*A*WMSU--*****' as='U' ss='H' st='1' sc='2' hl='1.2.2.1.1.3' nll='대잠유도탄' ncl='Surface-to-subsurface missile' />
+<wsi cd='S*A*WMSB--*****' as='U' ss='H' st='1' sc='2' hl='1.2.2.1.1.4' nll='탄도탄 요격 유도탄' ncl='Antiballistic missile (ABM)' />
+<wsi cd='S*A*WMA---*****' as='S' ss='H' st='1' sc='2' hl='1.2.2.1.2' nll='공대유도탄' ncl='Air launched missile' />
+<wsi cd='S*A*WMAS--*****' as='S' ss='H' st='1' sc='2' hl='1.2.2.1.2.1' nll='공대지(함)유도탄' ncl='Air-to-surface missile (ASM)' />
+<wsi cd='S*A*WMAA--*****' as='S' ss='H' st='1' sc='2' hl='1.2.2.1.2.2' nll='공대공유도탄' ncl='Air-to-air missile (AAM)' />
+<wsi cd='S*A*WMAP--*****' as='U' ss='H' st='1' sc='2' hl='1.2.2.1.2.3' nll='공대 우주 유도탄' ncl='Air-to-space missile' />
+<wsi cd='S*A*WMU---*****' as='S' ss='H' st='1' sc='2' hl='1.2.2.1.3' nll='잠대지(함) 유도탄' ncl='Subsurface-to-surface missile (S/SSM)' />
+<wsi cd='S*A*WMCM--*****' as='U' ss='H' st='1' sc='2' hl='1.2.2.1.3.1' nll='순항유도탄' ncl='Cruise missile' />
+<wsi cd='S*A*WMB---*****' as='U' ss='H' st='1' sc='2' hl='1.2.2.1.4' nll='탄도유도탄' ncl='Ballistic missile' />
+<wsi cd='S*A*WML---*****' as='K' ss='H' st='1' sc='2' hl='1.2.2.1.5' nll='지상공격유도탄' ncl='Ground attack missile' />
+<wsi cd='S*A*WD----*****' as='S' ss='H' st='1' sc='2' hl='1.2.2.2' nll='유인유도탄' ncl='Decoy' />
+<wsi cd='S*A*WB----*****' as='U' ss='H' st='1' sc='2' hl='1.2.2.3' nll='폭탄' ncl='Bomb' />
+<wsi cd='S*A*C-----*****' as='S' ss='H' st='1' sc='2' hl='1.2.3' nll='공중항적(민간)' ncl='Civil aircraft' />
+<wsi cd='S*A*CF----*****' as='S' ss='H' st='1' sc='2' hl='1.2.3.1' nll='고정익(민간)' ncl='Fixed wing' />
+<wsi cd='S*A*CH----*****' as='S' ss='H' st='1' sc='2' hl='1.2.3.2' nll='회전익(민간)' ncl='Rotary wing' />
+<wsi cd='S*A*CL----*****' as='S' ss='H' st='1' sc='2' hl='1.2.3.3' nll='풍선기구(민간)' ncl='Lighter than air' />
+<wsi cd='S*G*------*****' as='S' ss='H' st='1' sc='1' hl='1.3' nll='지상항적' ncl='Ground track' />
+<wsi cd='S*G*U-----*****' as='S' ss='H' st='1' sc='1' hl='1.3.1' nll='부대' ncl='Unit' />
+<wsi cd='S*G*UC----*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1' nll='전투' ncl='Combat' />
+<wsi cd='S*G*UCD---*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.1' nll='방공' ncl='Air defense' />
+<wsi cd='S*G*UCDS--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.1.1' nll='단거리방공' ncl='Short range' />
+<wsi cd='S*G*UCDSC-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.1.1.1' nll='채퍼럴방공' ncl='Chaparral' />
+<wsi cd='S*G*UCDSS-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.1.1.2' nll='스팅거방공' ncl='Stinger' />
+<wsi cd='S*G*UCDSV-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.1.1.3' nll='발칸방공' ncl='Vulcan' />
+<wsi cd='S*G*UCDM--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.1.2' nll='방공유도탄' ncl='Air defense missile' />
+<wsi cd='S*G*UCDML-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.1.2.1' nll='방공유도탄(경)' ncl='Air defense missile light' />
+<wsi cd='S*G*UCDMLA*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.1.2.1.1' nll='방공유도탄(경-차량화)' ncl='Air defense missile motorized (Avenger)' />
+<wsi cd='S*G*UCDMM-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.1.2.2' nll='방공유도탄(중)' ncl='Air defense missile medium' />
+<wsi cd='S*G*UCDMH-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.1.2.3' nll='방공유도탄(대)' ncl='Air defense missile heavy' />
+<wsi cd='S*G*UCDH--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.1.2.4' nll='방공(고고도)' ncl='H/MAD' />
+<wsi cd='S*G*UCDHH-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.1.2.4.1' nll='호크방공' ncl='Hawk' />
+<wsi cd='S*G*UCDHP-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.1.2.4.2' nll='패트리어트방공' ncl='Patriot' />
+<wsi cd='S*G*UCDHN-*****' as='K' ss='H' st='1' sc='1' hl='1.3.1.1.1.2.4.3' nll='나이키방공' ncl='Nike' />
+<wsi cd='S*G*UCDG--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.1.3' nll='대공포' ncl='Gun unit' />
+<wsi cd='S*G*UCDC--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.1.4' nll='복합(포/유도탄)' ncl='Composite' />
+<wsi cd='S*G*UCDT--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.1.5' nll='방공표적획득' ncl='Targeting unit' />
+<wsi cd='S*G*UCDO--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.1.6' nll='전구유도탄방어' ncl='Theater missile defense unit' />
+<wsi cd='S*G*UCA---*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.2' nll='기갑' ncl='Armor' />
+<wsi cd='S*G*UCAT--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.2.1' nll='기갑(궤도)' ncl='Armor track' />
+<wsi cd='S*G*UCATA-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.2.1.1' nll='기갑(궤도-공수)' ncl='Armor track airborne' />
+<wsi cd='S*G*UCATW-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.2.1.2' nll='기갑(궤도-상륙)' ncl='Armor track amphibious' />
+<wsi cd='S*G*UCATWR*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.2.1.2.1' nll='기갑(궤도-상륙정비)  ' ncl='Armor track amphibious recovery' />
+<wsi cd='S*G*UCATL-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.2.1.3' nll='기갑(궤도-경)' ncl='Armor track, Light' />
+<wsi cd='S*G*UCATM-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.2.1.4' nll='기갑(궤도-중)' ncl='Armor track, Medium' />
+<wsi cd='S*G*UCATH-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.2.1.5' nll='기갑(궤도-대)' ncl='Armor track, Heavy' />
+<wsi cd='S*G*UCATR-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.2.1.6' nll='기갑(궤도-정비)' ncl='Armor track, Recovery' />
+<wsi cd='S*G*UCATD-*****' as='K' ss='H' st='1' sc='1' hl='1.3.1.1.2.1.7' nll='기갑(궤도-방공)' ncl='Armor track, Air defense' />
+<wsi cd='S*G*UCAW--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.2.2' nll='기갑(차륜)' ncl='Armor, wheeled' />
+<wsi cd='S*G*UCAWS-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.2.2.1' nll='기갑(차륜-강습)' ncl='Armor, wheeled air assault' />
+<wsi cd='S*G*UCAWA-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.2.2.2' nll='기갑(차륜-공수)' ncl='Armor, wheeled airborne' />
+<wsi cd='S*G*UCAWW-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.2.2.3' nll='기갑(차륜-상륙)' ncl='Armor, wheeled amphibious' />
+<wsi cd='S*G*UCAWWR*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.2.2.3.1' nll='기갑(차륜-상륙구조)' ncl='Armor, wheeled amphibious recovery' />
+<wsi cd='S*G*UCAWL-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.2.2.4' nll='기갑(차륜-경)' ncl='Armor, wheeled light' />
+<wsi cd='S*G*UCAWM-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.2.2.5' nll='기갑(차륜-중)' ncl='Armor, wheeled medium' />
+<wsi cd='S*G*UCAWH-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.2.2.6' nll='기갑(차륜-대)' ncl='Armor, wheeled heavy' />
+<wsi cd='S*G*UCAWR-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.2.2.7' nll='기갑(차륜-정비)' ncl='Armor, wheeled recovery' />
+<wsi cd='S*G*UCAA--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.3' nll='대전차' ncl='Antiarmor' />
+<wsi cd='S*G*UCAAD-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.3.1' nll='대전차(하차)' ncl='Antiarmor dismounted' />
+<wsi cd='S*G*UCAAL-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.3.2' nll='대전차(경)' ncl='Antiarmor light' />
+<wsi cd='S*G*UCAAM-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.3.3' nll='대전차(공수)' ncl='Antiarmor airborne' />
+<wsi cd='S*G*UCAAS-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.3.4' nll='대전차(강습)' ncl='Antiarmor air assault' />
+<wsi cd='S*G*UCAAU-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.3.5' nll='대전차(산악)' ncl='Antiarmor mountain' />
+<wsi cd='S*G*UCAAC-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.3.6' nll='대전차(빙상)' ncl='Antiarmor arctic' />
+<wsi cd='S*G*UCAAA-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.3.7' nll='대전차기갑' ncl='Antiarmor armored' />
+<wsi cd='S*G*UCAAAT*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.3.7.1' nll='대전차기갑(궤도)' ncl='Antiarmor armored tracked' />
+<wsi cd='S*G*UCAAAW*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.3.7.2' nll='대전차기갑(차륜)' ncl='Antiarmor armored wheeled' />
+<wsi cd='S*G*UCAAAS*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.3.7.3' nll='대전차기갑(강습)' ncl='Antiarmor armored air assault' />
+<wsi cd='S*G*UCAAO-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.3.8' nll='대전차차량화' ncl='Antiarmor motorized' />
+<wsi cd='S*G*UCAAOS*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.3.8.1' nll='대전차차량화(강습)' ncl='Antiarmor motorized air assault' />
+<wsi cd='S*G*UCV---*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.4' nll='항공' ncl='Aviation' />
+<wsi cd='S*G*UCVF--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.4.1' nll='고정익항공' ncl='Fixed wing' />
+<wsi cd='S*G*UCVFU-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.4.1.1' nll='다목적고정익항공' ncl='Utility fixed wing' />
+<wsi cd='S*G*UCVFA-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.4.1.2' nll='공격고정익항공' ncl='Attack fixed wing' />
+<wsi cd='S*G*UCVFR-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.4.1.3' nll='수색정찰고정익항공' ncl='Recon fixed wing' />
+<wsi cd='S*G*UCVFT-*****' as='K' ss='H' st='1' sc='1' hl='1.3.1.1.4.1.4' nll='고정익항공훈련' ncl='Trainer fixed wing' />
+<wsi cd='S*G*UCVFP-*****' as='K' ss='H' st='1' sc='1' hl='1.3.1.1.4.1.5' nll='초계고정익항공' ncl='Patrol fixed wing' />
+<wsi cd='S*G*UCVR--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.4.2' nll='회전익항공' ncl='Rotary wing' />
+<wsi cd='S*G*UCVRA-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.4.2.1' nll='공격헬기' ncl='Attack rotary wing' />
+<wsi cd='S*G*UCVRS-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.4.2.2' nll='수색정찰헬기' ncl='Scout rotary wing' />
+<wsi cd='S*G*UCVRW-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.4.2.3' nll='대잠헬기' ncl='Antisubmarine warfare rotary wing' />
+<wsi cd='S*G*UCVRU-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.4.2.4' nll='다목적헬기' ncl='Utility rotary wing' />
+<wsi cd='S*G*UCVRUL*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.4.2.4.1' nll='다목적헬기(경)' ncl='Light utility rotary wing' />
+<wsi cd='S*G*UCVRUM*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.4.2.4.2' nll='다목적헬기(중)' ncl='Medium utility rotary wing' />
+<wsi cd='S*G*UCVRUH*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.4.2.4.3' nll='다목적헬기(대)' ncl='Heavy utility rotary wing' />
+<wsi cd='S*G*UCVRUC*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.4.2.5' nll='지휘통제헬기' ncl='C2 rotary wing' />
+<wsi cd='S*G*UCVRUE*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.4.2.6' nll='의무후송헬기' ncl='Medevac rotary wing' />
+<wsi cd='S*G*UCVRM-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.4.2.7' nll='대기뢰헬기' ncl='Mine countermeasure rotary wing' />
+<wsi cd='S*G*UCVS--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.4.3' nll='탐색구조헬기' ncl='Search and rescue' />
+<wsi cd='S*G*UCVC--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.4.4' nll='복합(고정/회전익)' ncl='Composite' />
+<wsi cd='S*G*UCVV--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.4.5' nll='수직이착륙기' ncl='Vertical and/or short takeoff and landing aircraft (V/STOL)' />
+<wsi cd='S*G*UCVU--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.4.6' nll='무인항공기' ncl='Unmanned aircraft' />
+<wsi cd='S*G*UCVUF-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.4.6.1' nll='무인항공기(고정익)' ncl='Unmanned aircraft fixed wing' />
+<wsi cd='S*G*UCVUR-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.4.6.2' nll='무인항공기(회전익)' ncl='Unmanned aircraft rotary wing' />
+<wsi cd='S*G*UCI---*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.5' nll='보병' ncl='Infantry' />
+<wsi cd='S*G*UCIL--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.5.1' nll='보병(경)' ncl='Infantry light' />
+<wsi cd='S*G*UCIM--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.5.2' nll='차량화보병' ncl='Infantry motorized' />
+<wsi cd='S*G*UCIO--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.5.3' nll='산악보병' ncl='Infantry mountain' />
+<wsi cd='S*G*UCIA--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.5.4' nll='공수보병' ncl='Infantry airborne' />
+<wsi cd='S*G*UCIS--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.5.5' nll='강습보병' ncl='Infantry air assault' />
+<wsi cd='S*G*UCIZ--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.5.6' nll='기계화보병' ncl='Infantry mechanized' />
+<wsi cd='S*G*UCIN--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.5.7' nll='해군보병' ncl='Infantry naval' />
+<wsi cd='S*G*UCII--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.5.8' nll='전투차량화보병' ncl='Infantry fighting vehicle' />
+<wsi cd='S*G*UCIC--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.5.9' nll='빙상보병' ncl='Infantry arctic' />
+<wsi cd='S*G*UCIP--*****' as='K' ss='H' st='1' sc='1' hl='1.3.1.1.5.10' nll='상륙보병' ncl='Infantry amphibious' />
+<wsi cd='S*G*UCIB--*****' as='K' ss='H' st='1' sc='1' hl='1.3.1.1.5.11' nll='특공' ncl='Infantry special force' />
+<wsi cd='S*G*UCE---*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.6' nll='공병' ncl='Engineer' />
+<wsi cd='S*G*UCEC--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.6.1' nll='전투공병' ncl='Engineer combat' />
+<wsi cd='S*G*UCECS-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.6.1.1' nll='강습공병' ncl='Engineer combat air assault' />
+<wsi cd='S*G*UCECA-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.6.1.2' nll='공수공병' ncl='Engineer combat airborne' />
+<wsi cd='S*G*UCECC-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.6.1.3' nll='한대전투공병' ncl='Engineer combat arctic' />
+<wsi cd='S*G*UCECL-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.6.1.4' nll='전투공병(경)' ncl='Engineer combat Light (Sapper)' />
+<wsi cd='S*G*UCECM-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.6.1.5' nll='전투공병(중)' ncl='Engineer combat Medium' />
+<wsi cd='S*G*UCECH-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.6.1.6' nll='전투공병(대)' ncl='Engineer combat Heavy' />
+<wsi cd='S*G*UCECT-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.6.1.7' nll='기계화공병' ncl='Engineer combat Mechanized (Track)' />
+<wsi cd='S*G*UCECW-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.6.1.8' nll='차량화공병' ncl='Engineer combat Motorized' />
+<wsi cd='S*G*UCECO-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.6.1.9' nll='산악공병' ncl='Engineer combat Mountain' />
+<wsi cd='S*G*UCECR-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.6.1.10' nll='수색정찰공병' ncl='Engineer combat Recon' />
+<wsi cd='S*G*UCECV-*****' as='K' ss='H' st='1' sc='1' hl='1.3.1.1.6.1.11' nll='도하공병' ncl='Engineer combat Water crossing' />
+<wsi cd='S*G*UCEN--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.6.2' nll='건설공병' ncl='Engineer construction' />
+<wsi cd='S*G*UCENN-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.6.2.1' nll='해군건설공병' ncl='Engineer naval construction' />
+<wsi cd='S*G*UCENA-*****' as='K' ss='H' st='1' sc='1' hl='1.3.1.1.6.2.2' nll='공군건설공병' ncl='Engineer air force construction' />
+<wsi cd='S*G*UCENB-*****' as='K' ss='H' st='1' sc='1' hl='1.3.1.1.6.2.3' nll='도하 및 교량가설' ncl='Engineer construction, Water crossing/Bridge' />
+<wsi cd='S*G*UCF---*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.7' nll='포병(야전)' ncl='Field artillery' />
+<wsi cd='S*G*UCFH--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.7.1' nll='포' ncl='Howitzer/Gun' />
+<wsi cd='S*G*UCFHE-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.7.1.1' nll='자주포' ncl='Self-propelled' />
+<wsi cd='S*G*UCFHS-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.7.1.2' nll='강습(포병)' ncl='Air assault' />
+<wsi cd='S*G*UCFHA-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.7.1.3' nll='공수(포병)' ncl='Airborne' />
+<wsi cd='S*G*UCFHC-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.7.1.4' nll='빙상(포병)' ncl='Arctic' />
+<wsi cd='S*G*UCFHO-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.7.1.5' nll='산악(포병)' ncl='Mountain' />
+<wsi cd='S*G*UCFHL-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.7.1.6' nll='포(경)' ncl='Light' />
+<wsi cd='S*G*UCFHM-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.7.1.7' nll='포(중)' ncl='Medium' />
+<wsi cd='S*G*UCFHH-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.7.1.8' nll='포(대)' ncl='Heavy' />
+<wsi cd='S*G*UCFHX-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.7.1.9' nll='상륙포병' ncl='Amphibious' />
+<wsi cd='S*G*UCFHI-*****' as='K' ss='H' st='1' sc='1' hl='1.3.1.1.7.1.10' nll='기계화포병(보병부대)' ncl='Mechanized (Infantry)' />
+<wsi cd='S*G*UCFR--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.7.2' nll='로켓' ncl='Rocket' />
+<wsi cd='S*G*UCFRS-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.7.2.1' nll='단연장로켓발사기' ncl='Single rocket, Launcher' />
+<wsi cd='S*G*UCFRSS*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.7.2.1.1' nll='단연장로켓발사기(자주식)' ncl='Single rocket, Self-propelled' />
+<wsi cd='S*G*UCFRSR*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.7.2.1.2' nll='단연장로켓발사기(차량)' ncl='Single rocket, Truck' />
+<wsi cd='S*G*UCFRST*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.7.2.1.3' nll='단연장로켓발사기(견인)' ncl='Single rocket, Towed' />
+<wsi cd='S*G*UCFRM-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.7.2.2' nll='다련장로켓발사기' ncl='Multiple rocket, Launcher' />
+<wsi cd='S*G*UCFRMS*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.7.2.2.1' nll='다련장로켓발사기(자주식)' ncl='Multiple rocket, Self-propelled' />
+<wsi cd='S*G*UCFRMR*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.7.2.2.2' nll='다련장로켓발사기(차량)' ncl='Multiple rocket, Truck' />
+<wsi cd='S*G*UCFRMT*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.7.2.2.3' nll='다련장로켓발사기(견인)' ncl='Multiple rocket, Towed' />
+<wsi cd='S*G*UCFT--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.7.3' nll='포병표적획득' ncl='Target acquisition' />
+<wsi cd='S*G*UCFTR-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.7.3.1' nll='포병표적획득(레이다)' ncl='Radar' />
+<wsi cd='S*G*UCFTS-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.7.3.2' nll='포병표적획득(음향)' ncl='Sound' />
+<wsi cd='S*G*UCFTF-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.7.3.3' nll='포병표적획득(광학)' ncl='Flash (Optical)' />
+<wsi cd='S*G*UCFTC-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.7.3.4' nll='관측반' ncl='Colt/fist' />
+<wsi cd='S*G*UCFTCD*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.7.3.4.1' nll='관측반(하차)' ncl='Dismounted colt/Fist' />
+<wsi cd='S*G*UCFTCM*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.7.3.4.2' nll='관측반(궤도화)' ncl='Tracked colt/Fist' />
+<wsi cd='S*G*UCFTA-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.7.3.5' nll='함포항공연락' ncl='Anglico' />
+<wsi cd='S*G*UCFM--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.7.4' nll='박격포' ncl='Mortar' />
+<wsi cd='S*G*UCFMS-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.7.4.1' nll='박격포(자주궤도식)' ncl='Self-propelled (SP) tracked mortar' />
+<wsi cd='S*G*UCFMW-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.7.4.2' nll='박격포(자주차륜식)' ncl='Sp wheeled mortar' />
+<wsi cd='S*G*UCFMT-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.7.4.3' nll='박격포(견인)' ncl='Towed mortar' />
+<wsi cd='S*G*UCFMTA*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.7.4.3.1' nll='박격포(견인-공수)' ncl='Towed airborne mortar' />
+<wsi cd='S*G*UCFMTS*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.7.4.3.2' nll='박격포(견인-강습)' ncl='Towed air assault mortar' />
+<wsi cd='S*G*UCFMTC*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.7.4.3.3' nll='박격포(견인-빙상)' ncl='Towed arctic mortar' />
+<wsi cd='S*G*UCFMTO*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.7.4.3.4' nll='박격포(견인-산악)' ncl='Towed mountain mortar' />
+<wsi cd='S*G*UCFML-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.7.4.4' nll='박격포(상륙)' ncl='Amphibious mortar' />
+<wsi cd='S*G*UCFS--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.7.5' nll='포병측지' ncl='Artillery survey' />
+<wsi cd='S*G*UCFSS-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.7.5.1' nll='포병측지(강습)' ncl='Air assault' />
+<wsi cd='S*G*UCFSA-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.7.5.2' nll='포병측지(공수)' ncl='Airborne' />
+<wsi cd='S*G*UCFSL-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.7.5.3' nll='포병측지(경)' ncl='Light' />
+<wsi cd='S*G*UCFSO-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.7.5.4' nll='포병측지(산악)' ncl='Mountain' />
+<wsi cd='S*G*UCFO--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.7.6' nll='기상관측' ncl='Meteorological' />
+<wsi cd='S*G*UCFOS-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.7.6.1' nll='기상관측(강습)' ncl='Air assault meteorological' />
+<wsi cd='S*G*UCFOA-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.7.6.2' nll='기상관측(공수)' ncl='Airborne meteorological' />
+<wsi cd='S*G*UCFOL-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.7.6.3' nll='기상관측(경)' ncl='Light meteorological' />
+<wsi cd='S*G*UCFOO-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.7.6.4' nll='기상관측(산악)' ncl='Mountain meteorological' />
+<wsi cd='S*G*UCR---*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.8' nll='수색정찰' ncl='Reconnaissance' />
+<wsi cd='S*G*UCRH--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.8.1' nll='수색정찰(기병)' ncl='Reconnaissance, Horse' />
+<wsi cd='S*G*UCRV--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.8.2' nll='수색정찰(기갑)' ncl='Reconnaissance, Cavalry' />
+<wsi cd='S*G*UCRVA-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.8.2.1' nll='수색정찰(기갑-장갑화)' ncl='Reconnaissance, Cavalry armored' />
+<wsi cd='S*G*UCRVM-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.8.2.2' nll='수색정찰(기갑-차량화)' ncl='Reconnaissance, Cavalry motorized' />
+<wsi cd='S*G*UCRVG-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.8.2.3' nll='수색정찰(기갑-지상)' ncl='Reconnaissance, Cavalry ground' />
+<wsi cd='S*G*UCRVO-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.8.2.4' nll='수색정찰(기갑-공중)' ncl='Reconnaissance, Cavalry air' />
+<wsi cd='S*G*UCRC--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.8.3' nll='수색정찰(빙상)' ncl='Reconnaissance, Arctic' />
+<wsi cd='S*G*UCRS--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.8.4' nll='수색정찰(강습)' ncl='Reconnaissance, Air assault' />
+<wsi cd='S*G*UCRA--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.8.5' nll='수색정찰(공수)' ncl='Reconnaissance, Airborne' />
+<wsi cd='S*G*UCRO--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.8.6' nll='수색정찰(산악)' ncl='Reconnaissance, Mountain' />
+<wsi cd='S*G*UCRL--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.8.7' nll='수색정찰(경)' ncl='Reconnaissance, Light' />
+<wsi cd='S*G*UCRR--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.8.8' nll='수색정찰(해병)' ncl='Reconnaissance, Marine' />
+<wsi cd='S*G*UCRRD-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.8.8.1' nll='수색정찰(해병-사단)' ncl='Reconnaissance, Marine division' />
+<wsi cd='S*G*UCRRF-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.8.8.2' nll='수색정찰(해병대-원정군)' ncl='Reconnaissance, Marine force' />
+<wsi cd='S*G*UCRRL-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.8.8.3' nll='수색정찰(해병-경무장)' ncl='Reconnaissance, Marine light armored reconnaissnace (LAR)' />
+<wsi cd='S*G*UCRX--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.8.9' nll='수색정찰(광역수색)' ncl='Reconnaissance, Long range surveillance (LRS)' />
+<wsi cd='S*G*UCRB--*****' as='K' ss='H' st='1' sc='1' hl='1.3.1.1.8.10' nll='수색정찰(기구정찰)' ncl='Reconnaissance, Lighter than air surveillance' />
+<wsi cd='S*G*UCM---*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.9' nll='유도탄(지대지)' ncl='Missile (Surf-Surf)' />
+<wsi cd='S*G*UCMT--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.9.1' nll='유도탄(전술)' ncl='Missile (Surf-Surf) tactical' />
+<wsi cd='S*G*UCMS--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.9.2' nll='유도탄(전략)' ncl='Missile (Surf-Surf) strategic' />
+<wsi cd='S*G*UCS---*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.10' nll='경비부대' ncl='Internal security forces' />
+<wsi cd='S*G*UCSW--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.10.1' nll='경비부대(강변)' ncl='Riverine' />
+<wsi cd='S*G*UCSG--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.10.2' nll='경비지상군' ncl='Ground' />
+<wsi cd='S*G*UCSGD-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.10.2.1' nll='경비지상군(하차)' ncl='Dismounted ground' />
+<wsi cd='S*G*UCSGM-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.10.2.2' nll='경비지상군(차량화)' ncl='Motorized ground' />
+<wsi cd='S*G*UCSGA-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.10.2.3' nll='경비지상군(기계화)' ncl='Mechanized ground' />
+<wsi cd='S*G*UCSM--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.10.3' nll='경비지상군(기갑화)' ncl='Wheeled mechanized' />
+<wsi cd='S*G*UCSR--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.10.4' nll='경비부대(철도)' ncl='Railroad' />
+<wsi cd='S*G*UCSA--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.1.10.5' nll='경비부대(항공)' ncl='Aviation' />
+<wsi cd='S*G*UCO---*****' as='K' ss='H' st='1' sc='1' hl='1.3.1.1.11' nll='관측 및 감시' ncl='Observation and surveillance' />
+<wsi cd='S*G*UU----*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2' nll='전투지원' ncl='Combat support' />
+<wsi cd='S*G*UUA---*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.1' nll='화학' ncl='Combat support cbrn' />
+<wsi cd='S*G*UUAC--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.1.1' nll='화학전' ncl='Chemical' />
+<wsi cd='S*G*UUACC-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.1.1.1' nll='연막/제독' ncl='Smoke/Decon' />
+<wsi cd='S*G*UUACCK*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.1.1.1.1' nll='연막/제독(기계화)' ncl='Mechanized smoke/Decon' />
+<wsi cd='S*G*UUACCM*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.1.1.1.2' nll='연막/제독(차량화)' ncl='Motorized smoke/Decon' />
+<wsi cd='S*G*UUACS-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.1.1.2' nll='연막' ncl='Smoke' />
+<wsi cd='S*G*UUACSM*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.1.1.2.1' nll='연막(차량화)' ncl='Motorized smoke' />
+<wsi cd='S*G*UUACSA*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.1.1.2.2' nll='연막(장갑)' ncl='Armor smoke' />
+<wsi cd='S*G*UUACR-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.1.1.3' nll='화학(정찰)' ncl='Chemical recon' />
+<wsi cd='S*G*UUACRW*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.1.1.3.1' nll='화학정찰(기갑)' ncl='Chemical wheeled armored vehicle' />
+<wsi cd='S*G*UUACRS*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.1.1.3.2' nll='화학정찰(기갑-정찰감시)' ncl='Chemical wheeled armored vehicle reconnaissance surveillance' />
+<wsi cd='S*G*UUAN--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.1.2' nll='방사능전' ncl='Nuclear' />
+<wsi cd='S*G*UUAB--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.1.3' nll='생물학전' ncl='Biological' />
+<wsi cd='S*G*UUABR-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.1.3.1' nll='생물학정찰(장비착용)' ncl='Recon equipped' />
+<wsi cd='S*G*UUAD--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.1.4' nll='제독' ncl='Decontamination' />
+<wsi cd='S*G*UUAW--*****' as='K' ss='H' st='1' sc='1' hl='1.3.1.2.1.5' nll='대량살상무기(대응)팀' ncl='Weapons of Mass Destruction(WMD) Response Team' />
+<wsi cd='S*G*UUAR--*****' as='K' ss='H' st='1' sc='1' hl='1.3.1.2.1.6' nll='화생방(신속대응)팀' ncl='NBC Quick Response Team' />
+<wsi cd='S*G*UUM---*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.2' nll='정보' ncl='Military intelligence' />
+<wsi cd='S*G*UUMA--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.2.1' nll='정보(공중감시)' ncl='Aerial exploitation' />
+<wsi cd='S*G*UUMS--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.2.2' nll='정보(신호정보-도청)' ncl='Signal intelligence (SIGINT)' />
+<wsi cd='S*G*UUMSE-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.2.2.1' nll='전자전' ncl='Electronic warfare' />
+<wsi cd='S*G*UUMSEA*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.2.2.1.1' nll='전자전(기갑)' ncl='Armored wheeled vehicle' />
+<wsi cd='S*G*UUMSED*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.2.2.1.2' nll='전파방향탐지' ncl='Direction finding' />
+<wsi cd='S*G*UUMSEI*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.2.2.1.3' nll='전파도청' ncl='Intercept' />
+<wsi cd='S*G*UUMSEJ*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.2.2.1.4' nll='전파교란' ncl='Jamming' />
+<wsi cd='S*G*UUMSET*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.2.2.1.5' nll='전자전전구' ncl='Theater' />
+<wsi cd='S*G*UUMSEC*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.2.2.1.6' nll='전자전군단' ncl='Corps' />
+<wsi cd='S*G*UUMSEF*****' as='K' ss='H' st='1' sc='1' hl='1.3.1.2.2.2.1.7' nll='전파탐지' ncl='Radiolocation' />
+<wsi cd='S*G*UUMC--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.2.3' nll='정보(방첩)' ncl='Counterintelligence' />
+<wsi cd='S*G*UUMR--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.2.4' nll='정보(감시)' ncl='Surveillance' />
+<wsi cd='S*G*UUMRG-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.2.4.1' nll='정보지상감시레이다' ncl='Ground surveillance radar' />
+<wsi cd='S*G*UUMRS-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.2.4.2' nll='감시센서' ncl='Sensor' />
+<wsi cd='S*G*UUMRSS*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.2.4.2.1' nll='감시센서(제어)' ncl='Sensor scm' />
+<wsi cd='S*G*UUMRX-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.2.4.3' nll='감시소' ncl='Ground station module' />
+<wsi cd='S*G*UUMMO-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.2.4.4' nll='정보(기상)' ncl='Meteorological' />
+<wsi cd='S*G*UUMO--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.2.5' nll='정보작전' ncl='Operations' />
+<wsi cd='S*G*UUMT--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.2.6' nll='정보(선전전술)' ncl='Tactical exploit' />
+<wsi cd='S*G*UUMQ--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.2.7' nll='정보(심문)' ncl='Interrogation' />
+<wsi cd='S*G*UUMJ--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.2.8' nll='합동정보본부' ncl='Joint intelligence center' />
+<wsi cd='S*G*UUL---*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.3' nll='법시행부대' ncl='Law enforcement unit' />
+<wsi cd='S*G*UULS--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.3.1' nll='해안경비' ncl='Shore patrol' />
+<wsi cd='S*G*UULM--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.3.2' nll='헌병' ncl='Military police' />
+<wsi cd='S*G*UULC--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.3.3' nll='민간경찰' ncl='Civilian law enforcement' />
+<wsi cd='S*G*UULCE-*****' as='K' ss='H' st='1' sc='1' hl='1.3.1.2.3.3.1' nll='통신' ncl='Communication' />
+<wsi cd='S*G*UULCN-*****' as='K' ss='H' st='1' sc='1' hl='1.3.1.2.3.3.2' nll='해양경찰' ncl='Martime police' />
+<wsi cd='S*G*UULCA-*****' as='K' ss='H' st='1' sc='1' hl='1.3.1.2.3.3.3' nll='항공경찰' ncl='Aviation police' />
+<wsi cd='S*G*UULCC-*****' as='K' ss='H' st='1' sc='1' hl='1.3.1.2.3.3.4' nll='전투경찰' ncl='Combat police' />
+<wsi cd='S*G*UULCM-*****' as='K' ss='H' st='1' sc='1' hl='1.3.1.2.3.3.5' nll='기동대' ncl='Task force' />
+<wsi cd='S*G*UULCP-*****' as='K' ss='H' st='1' sc='1' hl='1.3.1.2.3.3.6' nll='방범기동대' ncl='Neighborhood guard' />
+<wsi cd='S*G*UULCG-*****' as='K' ss='H' st='1' sc='1' hl='1.3.1.2.3.3.7' nll='경비대' ncl='Guard' />
+<wsi cd='S*G*UULF--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.3.4' nll='기무부대' ncl='Security police (Air)' />
+<wsi cd='S*G*UULD--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.3.5' nll='중앙정보부' ncl='Central intelligence division (CID)' />
+<wsi cd='S*G*UUS---*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.4' nll='통신' ncl='Signal unit' />
+<wsi cd='S*G*UUSA--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.4.1' nll='통신구역' ncl='Area' />
+<wsi cd='S*G*UUSC--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.4.2' nll='통신형성패키지' ncl='Communication configured package' />
+<wsi cd='S*G*UUSCL-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.4.2.1' nll='통신형성패키지(대)' ncl='Large communication configured package (LCCP)' />
+<wsi cd='S*G*UUSO--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.4.3' nll='통신지휘작전' ncl='Command operations' />
+<wsi cd='S*G*UUSF--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.4.4' nll='통신전송' ncl='Forward communications' />
+<wsi cd='S*G*UUSM--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.4.5' nll='다중채널' ncl='Multiple subscriber element' />
+<wsi cd='S*G*UUSMS-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.4.5.1' nll='확장단말(소)' ncl='Small extension node' />
+<wsi cd='S*G*UUSML-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.4.5.2' nll='확장단말(대)' ncl='Large extension node' />
+<wsi cd='S*G*UUSMN-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.4.5.3' nll='단말 본부' ncl='Node center' />
+<wsi cd='S*G*UUSR--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.4.6' nll='무선통신소' ncl='Radio unit' />
+<wsi cd='S*G*UUSRS-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.4.6.1' nll='전술위성' ncl='Tactical satellite' />
+<wsi cd='S*G*UUSRT-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.4.6.2' nll='전신타자' ncl='Teletype center' />
+<wsi cd='S*G*UUSRW-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.4.6.3' nll='중계소' ncl='Relay' />
+<wsi cd='S*G*UUSS--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.4.7' nll='통신지원' ncl='Signal support' />
+<wsi cd='S*G*UUSW--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.4.8' nll='교환대' ncl='Telephone switch' />
+<wsi cd='S*G*UUSX--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.4.9' nll='전자탐지' ncl='Electronic ranging' />
+<wsi cd='S*G*UUB---*****' as='K' ss='H' st='1' sc='1' hl='1.3.1.2.4.10' nll='민사' ncl='Civil' />
+<wsi cd='S*G*UUI---*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.5' nll='정보전부대' ncl='Information warfare unit' />
+<wsi cd='S*G*UUP---*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.6' nll='상륙지원' ncl='Landing support' />
+<wsi cd='S*G*UUE---*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.2.7' nll='폭발물처리' ncl='Explosive ordnance disposal' />
+<wsi cd='S*G*UUW---*****' as='K' ss='H' st='1' sc='1' hl='1.3.1.2.8' nll='기상' ncl='Weather' />
+<wsi cd='S*G*US----*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3' nll='전투근무지원' ncl='Combat service support' />
+<wsi cd='S*G*USA---*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.1' nll='행정' ncl='Administrative (Admin)' />
+<wsi cd='S*G*USAT--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.1.1' nll='행정(전구)' ncl='Admin theater' />
+<wsi cd='S*G*USAC--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.1.2' nll='행정(군단)' ncl='Admin corps' />
+<wsi cd='S*G*USAJ--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.1.3' nll='법무' ncl='Judge advocate general (JAG)' />
+<wsi cd='S*G*USAJT-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.1.3.1' nll='법무(전구)' ncl='Jag theater' />
+<wsi cd='S*G*USAJC-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.1.3.2' nll='법무(군단)' ncl='Jag corps' />
+<wsi cd='S*G*USAO--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.1.4' nll='우편' ncl='Postal' />
+<wsi cd='S*G*USAOT-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.1.4.1' nll='우편(전구)' ncl='Postal theater' />
+<wsi cd='S*G*USAOC-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.1.4.2' nll='우편(군단)' ncl='Postal corps' />
+<wsi cd='S*G*USAF--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.1.5' nll='경리' ncl='Finance' />
+<wsi cd='S*G*USAFT-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.1.5.1' nll='경리(전구)' ncl='Finance theater' />
+<wsi cd='S*G*USAFC-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.1.5.2' nll='경리(군단)' ncl='Finance corps' />
+<wsi cd='S*G*USAS--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.1.6' nll='인사' ncl='Personnel services' />
+<wsi cd='S*G*USAST-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.1.6.1' nll='인사(전구)' ncl='Personnel theater' />
+<wsi cd='S*G*USASC-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.1.6.2' nll='인사(군단)' ncl='Personnel corps' />
+<wsi cd='S*G*USAM--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.1.7' nll='영현' ncl='Mortuary/Graves registry' />
+<wsi cd='S*G*USAMT-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.1.7.1' nll='영현(전구)' ncl='Mortuary/Graves registry theater' />
+<wsi cd='S*G*USAMC-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.1.7.2' nll='영현(군단)' ncl='Mortuary/Graves registry corps' />
+<wsi cd='S*G*USAR--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.1.8' nll='군종' ncl='Religious/Chaplain' />
+<wsi cd='S*G*USART-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.1.8.1' nll='군종(전구)' ncl='Religious/Chaplain theater' />
+<wsi cd='S*G*USARC-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.1.8.2' nll='군종(군단)' ncl='Religious/Chaplain corps' />
+<wsi cd='S*G*USAP--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.1.9' nll='공무' ncl='Public affairs' />
+<wsi cd='S*G*USAPT-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.1.9.1' nll='공무(전구)' ncl='Public affairs theater' />
+<wsi cd='S*G*USAPC-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.1.9.2' nll='공무(군단)' ncl='Public affairs corps' />
+<wsi cd='S*G*USAPB-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.1.9.3' nll='공무(방송)' ncl='Public affairs broadcast' />
+<wsi cd='S*G*USAPBT*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.1.9.3.1' nll='공무(전구 방송)' ncl='Public affairs broadcast theater' />
+<wsi cd='S*G*USAPBC*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.1.9.3.2' nll='공무(군단 방송)' ncl='Public affairs broadcast corps' />
+<wsi cd='S*G*USAPM-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.1.9.4' nll='공무(합동정보국)' ncl='Public affairs joint information bureau (JIB)' />
+<wsi cd='S*G*USAPMT*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.1.9.4.1' nll='공무(전구 합동정보국)' ncl='Public affairs jib theater' />
+<wsi cd='S*G*USAPMC*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.1.9.4.2' nll='공무(군단 합동정보국)' ncl='Public affairs jib corps' />
+<wsi cd='S*G*USAX--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.1.10' nll='보충부대' ncl='Replacement holding unit (RHU)' />
+<wsi cd='S*G*USAXT-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.1.10.1' nll='보충부대(전구)' ncl='RHU theater' />
+<wsi cd='S*G*USAXC-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.1.10.2' nll='보충부대(군단)' ncl='RHU corps' />
+<wsi cd='S*G*USAXP-*****' as='K' ss='H' st='1' sc='1' hl='1.3.1.3.1.10.3' nll='훈련소' ncl='Recruit training center' />
+<wsi cd='S*G*USAL--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.1.11' nll='노무' ncl='Labor' />
+<wsi cd='S*G*USALT-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.1.11.1' nll='노무(전구)' ncl='Labor theater' />
+<wsi cd='S*G*USALC-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.1.11.2' nll='노무(군단)' ncl='Labor corps' />
+<wsi cd='S*G*USAW--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.1.12' nll='사기복지' ncl='Morale, welfare, recreation (MWR)' />
+<wsi cd='S*G*USAWT-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.1.12.1' nll='사기복지(전구)' ncl='MWR theater' />
+<wsi cd='S*G*USAWC-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.1.12.2' nll='사기복지(군단)' ncl='MWR corps' />
+<wsi cd='S*G*USAQ--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.1.13' nll='병참' ncl='Quartermaster (Supply)' />
+<wsi cd='S*G*USAQT-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.1.13.1' nll='병참(전구)' ncl='Quartermaster (Supply) theater' />
+<wsi cd='S*G*USAQC-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.1.13.2' nll='병참(군단)' ncl='Quartermaster (Supply) corps' />
+<wsi cd='S*G*USAA--*****' as='K' ss='H' st='1' sc='1' hl='1.3.1.3.1.14' nll='병기' ncl='Weapon' />
+<wsi cd='S*G*USAB--*****' as='K' ss='H' st='1' sc='1' hl='1.3.1.3.1.15' nll='예비군' ncl='Reserved' />
+<wsi cd='S*G*USAE--*****' as='K' ss='H' st='1' sc='1' hl='1.3.1.3.1.16' nll='포로' ncl='Prison of war(POW)' />
+<wsi cd='S*G*USM---*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.2' nll='의무' ncl='Medical' />
+<wsi cd='S*G*USMT--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.2.1' nll='의무(전구)' ncl='Medical theater' />
+<wsi cd='S*G*USMC--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.2.2' nll='의무(군단)' ncl='Medical corps' />
+<wsi cd='S*G*USMM--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.2.3' nll='의무대' ncl='Medical treatment facility' />
+<wsi cd='S*G*USMMT-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.2.3.1' nll='의무대(전구)' ncl='Medical treatment facility theater' />
+<wsi cd='S*G*USMMC-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.2.3.2' nll='의무대(군단)' ncl='Medical treatment facility corps' />
+<wsi cd='S*G*USMV--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.2.4' nll='수의' ncl='Medical veterinary' />
+<wsi cd='S*G*USMVT-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.2.4.1' nll='수의(전구)' ncl='Medical veterinary theater' />
+<wsi cd='S*G*USMVC-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.2.4.2' nll='수의(군단)' ncl='Medical veterinary corps' />
+<wsi cd='S*G*USMD--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.2.5' nll='치과' ncl='Medical dental' />
+<wsi cd='S*G*USMDT-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.2.5.1' nll='치과(전구)' ncl='Medical dental theater' />
+<wsi cd='S*G*USMDC-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.2.5.2' nll='치과(군단)' ncl='Medical dental corps' />
+<wsi cd='S*G*USMP--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.2.6' nll='의무(신경과)' ncl='Medical psychological' />
+<wsi cd='S*G*USMPT-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.2.6.1' nll='의무신경과(전구)' ncl='Medical psychological theater' />
+<wsi cd='S*G*USMPC-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.2.6.2' nll='의무신경과(군단)' ncl='Medical psychological corps' />
+<wsi cd='S*G*USS---*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.3' nll='보급-군수' ncl='Supply' />
+<wsi cd='S*G*USST--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.3.1' nll='보급(전구)' ncl='Supply theater' />
+<wsi cd='S*G*USSC--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.3.2' nll='보급(군단)' ncl='Supply corps' />
+<wsi cd='S*G*USS1--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.3.3' nll='보급1종(식량)' ncl='Supply class I' />
+<wsi cd='S*G*USS1T-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.3.3.1' nll='보급1종(전구)' ncl='Supply class I theater' />
+<wsi cd='S*G*USS1C-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.3.3.2' nll='보급1종(군단)' ncl='Supply class I corps' />
+<wsi cd='S*G*USS2--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.3.4' nll='보급2종(물자)' ncl='Supply class II' />
+<wsi cd='S*G*USS2T-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.3.4.1' nll='보급2종(전구)' ncl='Supply class II theater' />
+<wsi cd='S*G*USS2C-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.3.4.2' nll='보급2종(군단)' ncl='Supply class II corps' />
+<wsi cd='S*G*USS3--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.3.5' nll='보급3종(유류)' ncl='Supply class III' />
+<wsi cd='S*G*USS3T-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.3.5.1' nll='보급3종(전구)' ncl='Supply class III theater' />
+<wsi cd='S*G*USS3C-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.3.5.2' nll='보급3종(군단)' ncl='Supply class III corps' />
+<wsi cd='S*G*USS3A-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.3.5.3' nll='보급3종(항공)' ncl='Supply class III aviation' />
+<wsi cd='S*G*USS3AT*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.3.5.3.1' nll='보급3종(항공전구)' ncl='Supply class III aviation theater' />
+<wsi cd='S*G*USS3AC*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.3.5.3.2' nll='보급3종(항공군단)' ncl='Supply class III aviation corps' />
+<wsi cd='S*G*USS4--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.3.6' nll='보급4종(자재)' ncl='Supply class IV' />
+<wsi cd='S*G*USS4T-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.3.6.1' nll='보급4종(전구)' ncl='Supply class IV theater' />
+<wsi cd='S*G*USS4C-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.3.6.2' nll='보급4종(군단)' ncl='Supply class IV corps' />
+<wsi cd='S*G*USS5--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.3.7' nll='보급5종(탄약)' ncl='Supply class V' />
+<wsi cd='S*G*USS5T-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.3.7.1' nll='보급5종(전구)' ncl='Supply class V theater' />
+<wsi cd='S*G*USS5C-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.3.7.2' nll='보급5종(군단)' ncl='Supply class V corps' />
+<wsi cd='S*G*USS5M-*****' as='K' ss='H' st='1' sc='1' hl='1.3.1.3.3.7.3' nll='로켓 및 유도탄 탄약' ncl='Supply rocket/missile munition' />
+<wsi cd='S*G*USS5I-*****' as='K' ss='H' st='1' sc='1' hl='1.3.1.3.3.7.4' nll='보병탄약' ncl='Supply infantry munition' />
+<wsi cd='S*G*USS5S-*****' as='K' ss='H' st='1' sc='1' hl='1.3.1.3.3.7.5' nll='특수탄약' ncl='Supply special munition' />
+<wsi cd='S*G*USS5L-*****' as='K' ss='H' st='1' sc='1' hl='1.3.1.3.3.7.6' nll='포병탄약' ncl='Supply artillery munition' />
+<wsi cd='S*G*USS5A-*****' as='K' ss='H' st='1' sc='1' hl='1.3.1.3.3.7.7' nll='항공탄약' ncl='Supply aviation munition' />
+<wsi cd='S*G*USS5N-*****' as='K' ss='H' st='1' sc='1' hl='1.3.1.3.3.7.8' nll='해군탄약' ncl='Supply martime munition' />
+<wsi cd='S*G*USS5H-*****' as='K' ss='H' st='1' sc='1' hl='1.3.1.3.3.7.9' nll='화학탄약' ncl='Supply chemical munition' />
+<wsi cd='S*G*USS5R-*****' as='K' ss='H' st='1' sc='1' hl='1.3.1.3.3.7.10' nll='탄약보급 정비부대' ncl='Maintenance supply munition' />
+<wsi cd='S*G*USS6--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.3.8' nll='보급6종(PX)' ncl='Supply class VI' />
+<wsi cd='S*G*USS6T-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.3.8.1' nll='보급6종(전구)' ncl='Supply class VI theater' />
+<wsi cd='S*G*USS6C-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.3.8.2' nll='보급6종(군단)' ncl='Supply class VI corps' />
+<wsi cd='S*G*USS7--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.3.9' nll='보급7종(장비)' ncl='Supply class VII' />
+<wsi cd='S*G*USS7T-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.3.9.1' nll='보급7종(전구)' ncl='Supply class VII theater' />
+<wsi cd='S*G*USS7C-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.3.9.2' nll='보급7종(군단)' ncl='Supply class VII corps' />
+<wsi cd='S*G*USS7I-*****' as='K' ss='H' st='1' sc='1' hl='1.3.1.3.3.9.3' nll='C4I장비 보급' ncl='Supply C4I equipments' />
+<wsi cd='S*G*USS8--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.3.10' nll='보급8종(의료)' ncl='Supply class VIII' />
+<wsi cd='S*G*USS8T-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.3.10.1' nll='보급8종(전구)' ncl='Supply class VIII theater' />
+<wsi cd='S*G*USS8C-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.3.10.2' nll='보급8종(군단)' ncl='Supply class VIII corps' />
+<wsi cd='S*G*USS9--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.3.11' nll='보급9종(수리부속)' ncl='Supply class IX' />
+<wsi cd='S*G*USS9T-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.3.11.1' nll='보급9종(전구)' ncl='Supply class IX theater' />
+<wsi cd='S*G*USS9C-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.3.11.2' nll='보급9종(군단)' ncl='Supply class IX corps' />
+<wsi cd='S*G*USSX--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.3.12' nll='보급10종(비군사적물자)' ncl='Supply class X' />
+<wsi cd='S*G*USSXT-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.3.12.1' nll='보급10종(전구)' ncl='Supply class X theater' />
+<wsi cd='S*G*USSXC-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.3.12.2' nll='보급10종(군단)' ncl='Supply class X corps' />
+<wsi cd='S*G*USSL--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.3.13' nll='보급(세탁/목욕)' ncl='Supply laundry/Bath' />
+<wsi cd='S*G*USSLT-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.3.13.1' nll='보급(세탁/목욕-전구)' ncl='Supply laundry/Bath theater' />
+<wsi cd='S*G*USSLC-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.3.13.2' nll='보급(세탁/목욕-군단)' ncl='Supply laundry/Bath corps' />
+<wsi cd='S*G*USSW--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.3.14' nll='급수지원' ncl='Supply water' />
+<wsi cd='S*G*USSWT-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.3.14.1' nll='급수지원(전구)' ncl='Supply water theater' />
+<wsi cd='S*G*USSWC-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.3.14.2' nll='급수지원(군단)' ncl='Supply water corps' />
+<wsi cd='S*G*USSWP-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.3.14.3' nll='급수지원(정화)' ncl='Supply water purification' />
+<wsi cd='S*G*USSWPT*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.3.14.3.1' nll='급수지원(정화-전구)' ncl='Supply water purification theater' />
+<wsi cd='S*G*USSWPC*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.3.14.3.2' nll='급수지원(정화-군단)' ncl='Supply water purification corps' />
+<wsi cd='S*G*UST---*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.4' nll='수송' ncl='Transportation' />
+<wsi cd='S*G*USTT--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.4.1' nll='수송(전구)' ncl='Transportation theater' />
+<wsi cd='S*G*USTC--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.4.2' nll='수송(군단)' ncl='Transportation corps' />
+<wsi cd='S*G*USTM--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.4.3' nll='이동통제본부' ncl='Movement control center (MCC)' />
+<wsi cd='S*G*USTMT-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.4.3.1' nll='이동통제본부(전구)' ncl='Mcc theater' />
+<wsi cd='S*G*USTMC-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.4.3.2' nll='이동통제본부(군단)' ncl='Mcc corps' />
+<wsi cd='S*G*USTR--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.4.4' nll='철도수송' ncl='Railhead' />
+<wsi cd='S*G*USTRT-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.4.4.1' nll='철도수송(전구)' ncl='Railhead theater' />
+<wsi cd='S*G*USTRC-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.4.4.2' nll='철도수송(군단)' ncl='Railhead corps' />
+<wsi cd='S*G*USTS--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.4.5' nll='해상수송' ncl='SPOD/SPOE' />
+<wsi cd='S*G*USTST-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.4.5.1' nll='해상수송(전구)' ncl='SPOD/SPOE theater' />
+<wsi cd='S*G*USTSC-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.4.5.2' nll='해상수송(군단)' ncl='SPOD/SPOE corps' />
+<wsi cd='S*G*USTA--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.4.6' nll='항공수송' ncl='APOD/APOE' />
+<wsi cd='S*G*USTAT-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.4.6.1' nll='항공수송(전구)' ncl='APOD/APOE theater' />
+<wsi cd='S*G*USTAC-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.4.6.2' nll='항공수송(군단)' ncl='APOD/APOE corps' />
+<wsi cd='S*G*USTI--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.4.7' nll='유도탄수송' ncl='Missile' />
+<wsi cd='S*G*USTIT-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.4.7.1' nll='유도탄수송(전구)' ncl='Missile theater' />
+<wsi cd='S*G*USTIC-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.4.7.2' nll='유도탄수송(군단)' ncl='Missile corps' />
+<wsi cd='S*G*USTU--*****' as='K' ss='H' st='1' sc='1' hl='1.3.1.3.4.8' nll='보급수송' ncl='Supply transportation' />
+<wsi cd='S*G*USX---*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.5' nll='정비' ncl='Maintenance' />
+<wsi cd='S*G*USXT--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.5.1' nll='정비(전구)' ncl='Maintenance theater' />
+<wsi cd='S*G*USXC--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.5.2' nll='정비(군단)' ncl='Maintenance corps' />
+<wsi cd='S*G*USXH--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.5.3' nll='정비대' ncl='Maintenance heavy' />
+<wsi cd='S*G*USXHT-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.5.3.1' nll='정비대(전구)' ncl='Maintenance heavy theater' />
+<wsi cd='S*G*USXHC-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.5.3.2' nll='정비대(군단)' ncl='Maintenance heavy corps' />
+<wsi cd='S*G*USXR--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.5.4' nll='정비(복구)' ncl='Maintenance recovery' />
+<wsi cd='S*G*USXRT-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.5.4.1' nll='정비(복구-전구)' ncl='Maintenance recovery theater' />
+<wsi cd='S*G*USXRC-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.5.4.2' nll='정비(복구-군단)' ncl='Maintenance recovery corps' />
+<wsi cd='S*G*USXO--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.5.5' nll='정비-병기' ncl='Ordnance' />
+<wsi cd='S*G*USXOT-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.5.5.1' nll='정비-병기(전구)' ncl='Ordnance theater' />
+<wsi cd='S*G*USXOC-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.5.5.2' nll='정비-병기(군단)' ncl='Ordnance corps' />
+<wsi cd='S*G*USXOM-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.5.5.3' nll='정비-유도탄' ncl='Ordnance missile' />
+<wsi cd='S*G*USXOMT*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.5.5.3.1' nll='정비-유도탄(전구)' ncl='Ordnance missile theater' />
+<wsi cd='S*G*USXOMC*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.5.5.3.2' nll='정비-유도탄(군단)' ncl='Ordnance missile corps' />
+<wsi cd='S*G*USXOA-*****' as='K' ss='H' st='1' sc='1' hl='1.3.1.3.5.5.4' nll='정비-항공무기' ncl='Aviation weapon' />
+<wsi cd='S*G*USXE--*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.5.6' nll='정비-전자광학' ncl='Electro-optical' />
+<wsi cd='S*G*USXET-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.5.6.1' nll='정비-전자광학(전구)' ncl='Electro-optical theater' />
+<wsi cd='S*G*USXEC-*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.3.5.6.2' nll='정비-전자광학(군단)' ncl='Electro-optical corps' />
+<wsi cd='S*G*USXQ--*****' as='K' ss='H' st='1' sc='1' hl='1.3.1.3.5.7' nll='정비-통신' ncl='Communication' />
+<wsi cd='S*G*USXA--*****' as='K' ss='H' st='1' sc='1' hl='1.3.1.3.5.8' nll='정비-항공' ncl='Aviation' />
+<wsi cd='S*G*USXAE-*****' as='K' ss='H' st='1' sc='1' hl='1.3.1.3.5.8.1' nll='정비-항공전자' ncl='Avionic' />
+<wsi cd='S*G*USXN--*****' as='K' ss='H' st='1' sc='1' hl='1.3.1.3.5.9' nll='정비-함정' ncl='Ship' />
+<wsi cd='S*G*USXD--*****' as='K' ss='H' st='1' sc='1' hl='1.3.1.3.5.10' nll='정비-방공포병' ncl='Air defense artillery' />
+<wsi cd='S*G*USXS--*****' as='K' ss='H' st='1' sc='1' hl='1.3.1.3.5.11' nll='보급정비' ncl='Supply' />
+<wsi cd='S*G*USXM--*****' as='K' ss='H' st='1' sc='1' hl='1.3.1.3.5.12' nll='의무보급정비' ncl='Medical supply' />
+<wsi cd='S*G*USXP--*****' as='K' ss='H' st='1' sc='1' hl='1.3.1.3.5.13' nll='정비-특전장비' ncl='Special force equipment' />
+<wsi cd='S*G*USI---*****' as='K' ss='H' st='1' sc='1' hl='1.3.1.3.6' nll='전산' ncl='Computer' />
+<wsi cd='S*G*USP---*****' as='K' ss='H' st='1' sc='1' hl='1.3.1.3.7' nll='인쇄' ncl='Presswork' />
+<wsi cd='S*G*USG---*****' as='K' ss='H' st='1' sc='1' hl='1.3.1.3.8' nll='지도제작' ncl='Cartographic' />
+<wsi cd='S*G*UH----*****' as='S' ss='H' st='1' sc='1' hl='1.3.1.4' nll='지휘통제소' ncl='Special C2 headquarters component' />
+<wsi cd='S*G*E-----*****' as='S' ss='H' st='1' sc='2' hl='1.3.2' nll='지상장비' ncl='Ground track equipment' />
+<wsi cd='S*G*EW----*****' as='S' ss='-' st='0' sc='0' hl='1.3.2.1' nll='화기' ncl='Weapon' />
+<wsi cd='S*G*EWM---*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.1' nll='유도탄 발사기' ncl='Missile launcher' />
+<wsi cd='S*G*EWMA--*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.1.1' nll='방공유도탄 발사기' ncl='Air defense (AD) missile launcher' />
+<wsi cd='S*G*EWMAS-*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.1.1.1' nll='방공유도탄(단거리) 발사기' ncl='Short range AD missile launcher' />
+<wsi cd='S*G*EWMASR*****' as='U' ss='O' st='1' sc='2' hl='1.3.2.1.1.1.1.1' nll='방공유도탄(단거리) 이동식 발사기' ncl='Transporter launcher and radar (TLAR)' />
+<wsi cd='S*G*EWMASE*****' as='U' ss='O' st='1' sc='2' hl='1.3.2.1.1.1.1.2' nll='방공유도탄(단거리) 이동식 직립 발사기' ncl='Transporter erector launcher and radar (TELAR)' />
+<wsi cd='S*G*EWMAI-*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.1.1.2' nll='방공유도탄(중거리) 발사기' ncl='Intermediate range ad missile launcher' />
+<wsi cd='S*G*EWMAIR*****' as='U' ss='O' st='1' sc='2' hl='1.3.2.1.1.1.2.1' nll='방공유도탄(중거리) 이동식 발사기' ncl='Transporter launcher and radar (TLAR)' />
+<wsi cd='S*G*EWMAIE*****' as='U' ss='O' st='1' sc='2' hl='1.3.2.1.1.1.2.2' nll='방공유도탄(중거리) 이동식 직립 발사기' ncl='Transporter erector launcher and radar (TELAR)' />
+<wsi cd='S*G*EWMAL-*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.1.1.3' nll='방공유도탄(장거리) 발사기' ncl='Long range ad missile launcher' />
+<wsi cd='S*G*EWMALR*****' as='U' ss='O' st='1' sc='2' hl='1.3.2.1.1.1.3.1' nll='방공유도탄(장거리) 이동식 발사기' ncl='Transporter launcher and radar (TLAR)' />
+<wsi cd='S*G*EWMALE*****' as='U' ss='O' st='1' sc='2' hl='1.3.2.1.1.1.3.2' nll='방공유도탄(장거리) 이동식 직립 발사기' ncl='Transporter erector launcher and radar (TELAR)' />
+<wsi cd='S*G*EWMAT-*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.1.1.4' nll='방공유도탄(전구)' ncl='Ad missile launcher theater' />
+<wsi cd='S*G*EWMATR*****' as='U' ss='O' st='1' sc='2' hl='1.3.2.1.1.1.4.1' nll='방공유도탄(전구) 이동식 발사기' ncl='Transporter launcher and radar (TLAR)' />
+<wsi cd='S*G*EWMATE*****' as='U' ss='O' st='1' sc='2' hl='1.3.2.1.1.1.4.2' nll='방공유도탄(전구) 이동식 직립 발사기' ncl='Transporter erector launcher and radar (TELAR)' />
+<wsi cd='S*G*EWMS--*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.1.2' nll='지대지유도탄 발사기' ncl='Surf-surf (ss) missile launcher' />
+<wsi cd='S*G*EWMSS-*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.1.2.1' nll='지대지유도탄(단거리) 발사기' ncl='Short range ss missile launcher' />
+<wsi cd='S*G*EWMSI-*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.1.2.2' nll='지대지유도탄(중거리) 발사기' ncl='Intermediate range ss missile launcher' />
+<wsi cd='S*G*EWMSL-*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.1.2.3' nll='지대지유도탄(장거리) 발사기' ncl='Long range ss missile launcher' />
+<wsi cd='S*G*EWMT--*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.1.3' nll='대전차유도탄 발사기' ncl='Missile launcher antitank (AT)' />
+<wsi cd='S*G*EWMTL-*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.1.3.1' nll='대전차유도탄(경) 발사기' ncl='Missile launcher at light' />
+<wsi cd='S*G*EWMTM-*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.1.3.2' nll='대전차유도탄(중) 발사기' ncl='Missile launcher at medium' />
+<wsi cd='S*G*EWMTH-*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.1.3.3' nll='대전차유도탄(대) 발사기' ncl='Missile launcher at heavy' />
+<wsi cd='S*G*EWS---*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.2' nll='단연장로켓 발사기' ncl='Single rocket launcher' />
+<wsi cd='S*G*EWSL--*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.2.1' nll='단연장로켓(경) 발사기' ncl='Single rocket launcher light' />
+<wsi cd='S*G*EWSM--*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.2.2' nll='단연장로켓(중) 발사기' ncl='Single rocket launcher medium' />
+<wsi cd='S*G*EWSH--*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.2.3' nll='단연장로켓(대) 발사기' ncl='Single rocket launcher heavy' />
+<wsi cd='S*G*EWX---*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.3' nll='다련장로켓 발사기' ncl='Multiple rocket launcher' />
+<wsi cd='S*G*EWXL--*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.3.1' nll='다련장로켓(경) 발사기' ncl='Multiple rocket launcher light' />
+<wsi cd='S*G*EWXM--*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.3.2' nll='다련장로켓(중) 발사기' ncl='Multiple rocket launcher medium' />
+<wsi cd='S*G*EWXH--*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.3.3' nll='다련장로켓(대) 발사기' ncl='Multiple rocket launcher heavy' />
+<wsi cd='S*G*EWT---*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.4' nll='대전차로켓 발사기' ncl='Antitank rocket launcher' />
+<wsi cd='S*G*EWTL--*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.4.1' nll='대전차로켓(경) 발사기' ncl='Antitank rocket launcher light' />
+<wsi cd='S*G*EWTM--*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.4.2' nll='대전차로켓(중) 발사기' ncl='Antitank rocket launcher medium' />
+<wsi cd='S*G*EWTH--*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.4.3' nll='대전차로켓(대) 발사기' ncl='Antitank rocket launcher heavy' />
+<wsi cd='S*G*EWR---*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.5' nll='소총/자동무기' ncl='Rifle/Automatic weapon' />
+<wsi cd='S*G*EWRR--*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.5.1' nll='소총' ncl='Rifle' />
+<wsi cd='S*G*EWRL--*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.5.2' nll='기관총(중)' ncl='Light machine gun' />
+<wsi cd='S*G*EWRH--*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.5.3' nll='기관총(대)' ncl='Heavy machine gun' />
+<wsi cd='S*G*EWZ---*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.6' nll='유탄 발사기' ncl='Grenade launcher' />
+<wsi cd='S*G*EWZL--*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.6.1' nll='유탄 발사기(경)' ncl='Grenade launcher light' />
+<wsi cd='S*G*EWZM--*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.6.2' nll='유탄 발사기(중)' ncl='Grenade launcher medium' />
+<wsi cd='S*G*EWZH--*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.6.3' nll='유탄 발사기(대)' ncl='Grenade launcher heavy' />
+<wsi cd='S*G*EWO---*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.7' nll='박격포' ncl='Mortar' />
+<wsi cd='S*G*EWOL--*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.7.1' nll='박격포(경)' ncl='Mortar light' />
+<wsi cd='S*G*EWOM--*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.7.2' nll='박격포(중)' ncl='Mortar medium' />
+<wsi cd='S*G*EWOH--*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.7.3' nll='박격포(대)' ncl='Mortar heavy' />
+<wsi cd='S*G*EWH---*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.8' nll='곡사포' ncl='Howitzer' />
+<wsi cd='S*G*EWHL--*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.8.1' nll='곡사포(경)' ncl='Howitzer light' />
+<wsi cd='S*G*EWHLS-*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.8.1.1' nll='곡사포(경-자주식)' ncl='Howitzer light self-propelled' />
+<wsi cd='S*G*EWHM--*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.8.2' nll='곡사포(중)' ncl='Howitzer medium' />
+<wsi cd='S*G*EWHMS-*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.8.2.1' nll='곡사포(중-자주식)' ncl='Howitzer medium self-propelled' />
+<wsi cd='S*G*EWHH--*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.8.3' nll='곡사포 (대)' ncl='Howitzer heavy' />
+<wsi cd='S*G*EWHHS-*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.8.3.1' nll='곡사포(대-자주식)' ncl='Howitzer heavy self-propelled' />
+<wsi cd='S*G*EWG---*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.9' nll='대전차포' ncl='Antitank gun' />
+<wsi cd='S*G*EWGL--*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.9.1' nll='대전차포(경)' ncl='Antitank gun light' />
+<wsi cd='S*G*EWGM--*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.9.2' nll='대전차포(중)' ncl='Antitank gun medium' />
+<wsi cd='S*G*EWGH--*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.9.3' nll='대전차포(대)' ncl='Antitank gun heavy' />
+<wsi cd='S*G*EWGR--*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.9.4' nll='무반동포' ncl='Antitank gun recoilless' />
+<wsi cd='S*G*EWD---*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.10' nll='평사포' ncl='Direct fire gun' />
+<wsi cd='S*G*EWDL--*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.10.1' nll='평사포(경)' ncl='Direct fire gun light' />
+<wsi cd='S*G*EWDLS-*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.10.1.1' nll='평사포(경-자주식)' ncl='Direct fire gun light self-propelled' />
+<wsi cd='S*G*EWDM--*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.10.2' nll='평사포(중)' ncl='Direct fire gun medium' />
+<wsi cd='S*G*EWDMS-*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.10.2.1' nll='평사포(중-자주식)' ncl='Direct fire gun medium self-propelled' />
+<wsi cd='S*G*EWDH--*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.10.3' nll='평사포(대)' ncl='Direct fire gun heavy' />
+<wsi cd='S*G*EWDHS-*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.10.3.1' nll='평사포(대-자주식)' ncl='Direct fire gun heavy self-propelled' />
+<wsi cd='S*G*EWA---*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.11' nll='대공포' ncl='Air defense gun' />
+<wsi cd='S*G*EWAL--*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.11.1' nll='대공포(경)' ncl='Air defense gun light' />
+<wsi cd='S*G*EWAM--*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.11.2' nll='대공포(중)' ncl='Air defense gun medium' />
+<wsi cd='S*G*EWAH--*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.1.11.3' nll='대공포(대)' ncl='Air defense gun heavy' />
+<wsi cd='S*G*EV----*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.2' nll='지상차량' ncl='Ground vehicle' />
+<wsi cd='S*G*EVA---*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.2.1' nll='장갑차량' ncl='Armored vehicle' />
+<wsi cd='S*G*EVAT--*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.2.1.1' nll='탱크' ncl='Tank' />
+<wsi cd='S*G*EVATL-*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.2.1.1.1' nll='탱크(경)' ncl='Tank light' />
+<wsi cd='S*G*EVATLR*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.2.1.1.1.1' nll='탱크(경-정비)' ncl='Tank light recovery' />
+<wsi cd='S*G*EVATM-*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.2.1.1.2' nll='탱크(중)' ncl='Tank medium' />
+<wsi cd='S*G*EVATMR*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.2.1.1.2.1' nll='탱크(중-정비)' ncl='Tank medium recovery' />
+<wsi cd='S*G*EVATH-*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.2.1.1.3' nll='탱크(대)' ncl='Tank heavy' />
+<wsi cd='S*G*EVATHR*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.2.1.1.3.1' nll='탱크(대-정비)' ncl='Tank heavy recovery' />
+<wsi cd='S*G*EVAA--*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.2.1.2' nll='수송장갑차' ncl='Armored personnel carrier' />
+<wsi cd='S*G*EVAAR-*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.2.1.2.1' nll='수송장갑차(정비)' ncl='Armored personnel carrier recovery' />
+<wsi cd='S*G*EVAI--*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.2.1.3' nll='장갑보병장갑차' ncl='Armored infantry' />
+<wsi cd='S*G*EVAC--*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.2.1.4' nll='지휘통제장갑차' ncl='C2V/ACV' />
+<wsi cd='S*G*EVAS--*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.2.1.5' nll='전투근무지원차량' ncl='Combat service support vehicle' />
+<wsi cd='S*G*EVAL--*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.2.1.6' nll='경장갑화차량' ncl='Light armored vehicle' />
+<wsi cd='S*G*EVAP--*****' as='K' ss='O' st='1' sc='2' hl='1.3.2.2.1.7' nll='상륙용장갑차' ncl='Amphibious armored vehicle' />
+<wsi cd='S*G*EVAPP-*****' as='K' ss='O' st='1' sc='2' hl='1.3.2.2.1.7.1' nll='상륙용장갑차(병력수송)' ncl='Amphibious armored vehicle' />
+<wsi cd='S*G*EVAPH-*****' as='K' ss='O' st='1' sc='2' hl='1.3.2.2.1.7.2' nll='상륙용장갑차(곡사포)' ncl='Amphibious armored vehicle(Howitzer)' />
+<wsi cd='S*G*EVU---*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.2.2' nll='다목적차량' ncl='Utility vehicle' />
+<wsi cd='S*G*EVUB--*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.2.2.1' nll='버스' ncl='Bus' />
+<wsi cd='S*G*EVUS--*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.2.2.2' nll='승합' ncl='Semi' />
+<wsi cd='S*G*EVUSL-*****' as='U' ss='O' st='1' sc='2' hl='1.3.2.2.2.2.1' nll='승합(경)' ncl='Semi light' />
+<wsi cd='S*G*EVUSM-*****' as='U' ss='O' st='1' sc='2' hl='1.3.2.2.2.2.2' nll='승합(중)' ncl='Semi medium' />
+<wsi cd='S*G*EVUSH-*****' as='U' ss='O' st='1' sc='2' hl='1.3.2.2.2.2.3' nll='승합(대)' ncl='Semi heavy' />
+<wsi cd='S*G*EVUL--*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.2.2.3' nll='트럭' ncl='Limited cross-country truck' />
+<wsi cd='S*G*EVUX--*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.2.2.4' nll='야지횡단트럭' ncl='Cross-country truck' />
+<wsi cd='S*G*EVUR--*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.2.2.5' nll='야지횡단수상트럭' ncl='Water craft' />
+<wsi cd='S*G*EVUT--*****' as='U' ss='O' st='1' sc='2' hl='1.3.2.2.2.6' nll='견인트럭' ncl='Tow truck' />
+<wsi cd='S*G*EVUTL-*****' as='U' ss='O' st='1' sc='2' hl='1.3.2.2.2.6.1' nll='견인트럭(경)' ncl='Tow truck light' />
+<wsi cd='S*G*EVUTH-*****' as='U' ss='O' st='1' sc='2' hl='1.3.2.2.2.6.2' nll='견인트럭(대)' ncl='Tow truck heavy' />
+<wsi cd='S*G*EVUA--*****' as='U' ss='O' st='1' sc='2' hl='1.3.2.2.2.7' nll='구급차' ncl='Ambulance' />
+<wsi cd='S*G*EVUAA-*****' as='U' ss='O' st='1' sc='2' hl='1.3.2.2.2.7.1' nll='장갑구급차' ncl='Armored ambulance' />
+<wsi cd='S*G*EVE---*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.2.3' nll='공병차량' ncl='Engineer vehicle' />
+<wsi cd='S*G*EVEB--*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.2.3.1' nll='교량건설차량' ncl='Bridge' />
+<wsi cd='S*G*EVEE--*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.2.3.2' nll='도로건설차량' ncl='Earthmover' />
+<wsi cd='S*G*EVEC--*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.2.3.3' nll='공병차량' ncl='Construction vehicle' />
+<wsi cd='S*G*EVEM--*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.2.3.4' nll='지뢰매설차량' ncl='Mine laying vehicle' />
+<wsi cd='S*G*EVEMV-*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.2.3.4.1' nll='지뢰매설차량(장갑)' ncl='Armored carrier with volcano' />
+<wsi cd='S*G*EVEML-*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.2.3.4.2' nll='지뢰매설차량(트럭)' ncl='Truck mounted with volcano' />
+<wsi cd='S*G*EVEA--*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.2.3.5' nll='지뢰제거차량' ncl='Mine clearing vehicle' />
+<wsi cd='S*G*EVEAA-*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.2.3.5.1' nll='지뢰제거차량(장갑)' ncl='Armored mounted mine clearing vehicle' />
+<wsi cd='S*G*EVEAT-*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.2.3.5.2' nll='지뢰제거차량(트레일러)' ncl='Trailer mounted mine clearing vehicle' />
+<wsi cd='S*G*EVED--*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.2.3.6' nll='불도저' ncl='Dozer' />
+<wsi cd='S*G*EVEDA-*****' as='U' ss='O' st='1' sc='2' hl='1.3.2.2.3.6.1' nll='장갑화 불도저' ncl='Armored dozer' />
+<wsi cd='S*G*EVES--*****' as='U' ss='O' st='1' sc='2' hl='1.3.2.2.3.7' nll='장갑강습공병차량' ncl='Armored assault' />
+<wsi cd='S*G*EVER--*****' as='U' ss='O' st='1' sc='2' hl='1.3.2.2.3.8' nll='장갑정찰공병차량' ncl='Armored engineer recon vehicle (AERV)' />
+<wsi cd='S*G*EVEH--*****' as='U' ss='O' st='1' sc='2' hl='1.3.2.2.3.9' nll='굴착기' ncl='Backhoe' />
+<wsi cd='S*G*EVEF--*****' as='U' ss='O' st='1' sc='2' hl='1.3.2.2.3.10' nll='페리 수송차량' ncl='Ferry transporter' />
+<wsi cd='S*G*EVT---*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.2.4' nll='기관차' ncl='Train locomotive' />
+<wsi cd='S*G*EVC---*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.2.5' nll='민간 차량' ncl='Civilian vehicle' />
+<wsi cd='S*G*EVCA--*****' as='U' ss='O' st='1' sc='2' hl='1.3.2.2.5.1' nll='승용차' ncl='Automobile' />
+<wsi cd='S*G*EVCAL-*****' as='U' ss='O' st='1' sc='2' hl='1.3.2.2.5.1.1' nll='승용차(소형)' ncl='Compact automobile' />
+<wsi cd='S*G*EVCAM-*****' as='U' ss='O' st='1' sc='2' hl='1.3.2.2.5.1.2' nll='승용차(중형)' ncl='Midsize automobile' />
+<wsi cd='S*G*EVCAH-*****' as='U' ss='O' st='1' sc='2' hl='1.3.2.2.5.1.3' nll='승용차(세단)' ncl='Sedan automobile' />
+<wsi cd='S*G*EVCO--*****' as='U' ss='O' st='1' sc='2' hl='1.3.2.2.5.2' nll='트럭(개방적재함)' ncl='Open-bed truck' />
+<wsi cd='S*G*EVCOL-*****' as='U' ss='O' st='1' sc='2' hl='1.3.2.2.5.2.1' nll='픽업' ncl='Pickup open-bed truck' />
+<wsi cd='S*G*EVCOM-*****' as='U' ss='O' st='1' sc='2' hl='1.3.2.2.5.2.2' nll='트럭(개방적재함)(경)' ncl='Small open-bed truck' />
+<wsi cd='S*G*EVCOH-*****' as='U' ss='O' st='1' sc='2' hl='1.3.2.2.5.2.3' nll='트럭(개방적재함)(대)' ncl='Large open-bed truck' />
+<wsi cd='S*G*EVCM--*****' as='U' ss='O' st='1' sc='2' hl='1.3.2.2.5.3' nll='다인승 차량' ncl='Multiple passenger vehicle' />
+<wsi cd='S*G*EVCML-*****' as='U' ss='O' st='1' sc='2' hl='1.3.2.2.5.3.1' nll='다인승 밴' ncl='Van multiple passenger vehicle' />
+<wsi cd='S*G*EVCMM-*****' as='U' ss='O' st='1' sc='2' hl='1.3.2.2.5.3.2' nll='다인승 버스(경)' ncl='Small bus multiple passenger vehicle' />
+<wsi cd='S*G*EVCMH-*****' as='U' ss='O' st='1' sc='2' hl='1.3.2.2.5.3.3' nll='다인승 버스(대)' ncl='Large bus multiple passenger vehicle' />
+<wsi cd='S*G*EVCU--*****' as='U' ss='O' st='1' sc='2' hl='1.3.2.2.5.4' nll='다목적 차량' ncl='Utility vehicle' />
+<wsi cd='S*G*EVCUL-*****' as='U' ss='O' st='1' sc='2' hl='1.3.2.2.5.4.1' nll='스포트용 다목적 차량 (SUV)' ncl='Sport utility vehicle (SUV), utility vehicle' />
+<wsi cd='S*G*EVCUM-*****' as='U' ss='O' st='1' sc='2' hl='1.3.2.2.5.4.2' nll='다목적 차량(소형 적재함)' ncl='Small box truck, utility vehicle' />
+<wsi cd='S*G*EVCUH-*****' as='U' ss='O' st='1' sc='2' hl='1.3.2.2.5.4.3' nll='다목적 차량(대형 적재함)' ncl='Large box truck, utility vehicle' />
+<wsi cd='S*G*EVCJ--*****' as='U' ss='O' st='1' sc='2' hl='1.3.2.2.5.5' nll='지프형 차량' ncl='Jeep type vehicle' />
+<wsi cd='S*G*EVCJL-*****' as='U' ss='O' st='1' sc='2' hl='1.3.2.2.5.5.1' nll='지프형 차량(경)' ncl='Small/Light jeep type vehicle' />
+<wsi cd='S*G*EVCJM-*****' as='U' ss='O' st='1' sc='2' hl='1.3.2.2.5.5.2' nll='지프형 차량(중)' ncl='Medium jeep type vehicle' />
+<wsi cd='S*G*EVCJH-*****' as='U' ss='O' st='1' sc='2' hl='1.3.2.2.5.5.3' nll='지프형 차량(대)' ncl='Large/Heavy jeep type vehicle' />
+<wsi cd='S*G*EVCT--*****' as='U' ss='O' st='1' sc='2' hl='1.3.2.2.5.6' nll='트랙터 운반 트럭(트레일러 박스)' ncl='Tractor trailer truck with box trailer' />
+<wsi cd='S*G*EVCTL-*****' as='U' ss='O' st='1' sc='2' hl='1.3.2.2.5.6.1' nll='트랙터 운반 트럭(트레일러 박스)(경)' ncl='Small/Light box trailer, tractor trailer truck' />
+<wsi cd='S*G*EVCTM-*****' as='U' ss='O' st='1' sc='2' hl='1.3.2.2.5.6.2' nll='트랙터 운반 트럭(트레일러 박스)(중)' ncl='Medium box trailer, tractor trailer truck' />
+<wsi cd='S*G*EVCTH-*****' as='U' ss='O' st='1' sc='2' hl='1.3.2.2.5.6.3' nll='트랙터 운반 트럭(트레일러 박스)(대)' ncl='Large/Heavy box trailer, tractor trailer truck' />
+<wsi cd='S*G*EVCF--*****' as='U' ss='O' st='1' sc='2' hl='1.3.2.2.5.7' nll='트랙터 운반 트럭(평상형)' ncl='Tractor trailer truck with flatbed trailer' />
+<wsi cd='S*G*EVCFL-*****' as='U' ss='O' st='1' sc='2' hl='1.3.2.2.5.7.1' nll='트랙터 운반 트럭(평상형)(경)' ncl='Small/Light flatbed trailer, tractor trailer truck' />
+<wsi cd='S*G*EVCFM-*****' as='U' ss='O' st='1' sc='2' hl='1.3.2.2.5.7.2' nll='트랙터 운반 트럭(평상형)(중)' ncl='Medium flatbed trailer, tractor trailer truck' />
+<wsi cd='S*G*EVCFH-*****' as='U' ss='O' st='1' sc='2' hl='1.3.2.2.5.7.3' nll='트랙터 운반 트럭(평상형)(대)' ncl='Large/Heavy flatbed trailer, tractor trailer truck' />
+<wsi cd='S*G*EVM---*****' as='U' ss='O' st='1' sc='2' hl='1.3.2.2.5.8' nll='운반용 동물' ncl='Pack animal(s)' />
+<wsi cd='S*G*EVS---*****' as='U' ss='O' st='1' sc='2' hl='1.3.2.2.5.9' nll='유도탄 지원 차량' ncl='Missile support vehicle' />
+<wsi cd='S*G*EVST--*****' as='U' ss='O' st='1' sc='2' hl='1.3.2.2.5.9.1' nll='유도탄 지원 차량(적재)' ncl='Missile support vehicle transloader' />
+<wsi cd='S*G*EVSR--*****' as='U' ss='O' st='1' sc='2' hl='1.3.2.2.5.9.2' nll='유도탄 지원 차량(운송)' ncl='Missile support vehicle transporter' />
+<wsi cd='S*G*EVSC--*****' as='U' ss='O' st='1' sc='2' hl='1.3.2.2.5.9.3' nll='유도탄 지원 차량(크레인/적재장치)' ncl='Missile support vehicle crane/Loading device' />
+<wsi cd='S*G*EVSP--*****' as='U' ss='O' st='1' sc='2' hl='1.3.2.2.5.9.4' nll='유도탄 지원 차량(추진체 운송)' ncl='Missile support vehicle propellant transporter' />
+<wsi cd='S*G*EVSW--*****' as='U' ss='O' st='1' sc='2' hl='1.3.2.2.5.9.5' nll='유도탄 지원 차량(탄두 운송)' ncl='Missile support vehicle warhead transporter' />
+<wsi cd='S*G*ES----*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.3' nll='감지기' ncl='Sensor' />
+<wsi cd='S*G*ESR---*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.3.1' nll='레이다' ncl='Radar' />
+<wsi cd='S*G*ESE---*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.3.2' nll='감지기(고정)' ncl='Emplaced sensor' />
+<wsi cd='S*G*EX----*****' as='S' ss='-' st='0' sc='0' hl='1.3.2.4' nll='특수장비' ncl='Special equipment' />
+<wsi cd='S*G*EXI---*****' as='U' ss='O' st='1' sc='2' hl='1.3.2.4.1' nll='폭발물(IED)' ncl='Improvised explosive device' />
+<wsi cd='S*G*EXL---*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.4.2' nll='레이저' ncl='Laser' />
+<wsi cd='S*G*EXN---*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.4.3' nll='화생방장비' ncl='Cbrn equipment' />
+<wsi cd='S*G*EXF---*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.4.4' nll='화염방사기' ncl='Flame thrower' />
+<wsi cd='S*G*EXM---*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.4.5' nll='지뢰' ncl='Land mines' />
+<wsi cd='S*G*EXMC--*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.4.5.1' nll='크레모아' ncl='Claymore' />
+<wsi cd='S*G*EXML--*****' as='S' ss='O' st='1' sc='2' hl='1.3.2.4.5.2' nll='지뢰(상해)' ncl='Less than lethal' />
+<wsi cd='S*G*EXC---*****' as='K' ss='-' st='0' sc='0' hl='1.3.2.4.6' nll='통신장비' ncl='Communications equipment' />
+<wsi cd='S*G*EXCB--*****' as='K' ss='H' st='1' sc='2' hl='1.3.2.4.6.1' nll='교환기' ncl='Switchboard' />
+<wsi cd='S*G*EXCD--*****' as='K' ss='H' st='1' sc='2' hl='1.3.2.4.6.2' nll='다중집선기' ncl='Multiplex aggregator' />
+<wsi cd='S*G*EXCR--*****' as='K' ss='H' st='1' sc='2' hl='1.3.2.4.6.3' nll='라우터' ncl='Router' />
+<wsi cd='S*G*EXCE--*****' as='K' ss='H' st='1' sc='2' hl='1.3.2.4.6.4' nll='전술다중장비(단말)' ncl='Tactical multiplex equipment(Terminal)' />
+<wsi cd='S*G*EXCG--*****' as='K' ss='H' st='1' sc='2' hl='1.3.2.4.6.5' nll='전술다중장비(중계)' ncl='Tactical multiplex equipment(Repeater)' />
+<wsi cd='S*G*EXCA--*****' as='K' ss='H' st='1' sc='2' hl='1.3.2.4.6.6' nll='이동무선기지국' ncl='Mobile subscriber base station' />
+<wsi cd='S*G*EXCM--*****' as='K' ss='H' st='1' sc='2' hl='1.3.2.4.6.7' nll='전술용이동통신장비' ncl='Tactical moblie communication equipment' />
+<wsi cd='S*G*EXCH--*****' as='K' ss='H' st='1' sc='2' hl='1.3.2.4.6.8' nll='위성통신장비' ncl='Satellite communication equipment' />
+<wsi cd='S*G*EXCI--*****' as='K' ss='H' st='1' sc='2' hl='1.3.2.4.6.9' nll='전투무선장비(단말)' ncl='Combat radio equipment(Terminal)' />
+<wsi cd='S*G*EXCJ--*****' as='K' ss='H' st='1' sc='2' hl='1.3.2.4.6.10' nll='전투무선장비(중계)' ncl='Combat radio equipment(Repeater)' />
+<wsi cd='S*G*EXCK--*****' as='K' ss='H' st='1' sc='2' hl='1.3.2.4.6.11' nll='망관리장비' ncl='Network management equipment' />
+<wsi cd='S*G*EXCP--*****' as='K' ss='H' st='1' sc='2' hl='1.3.2.4.6.12' nll='전화기' ncl='Field phone' />
+<wsi cd='S*G*EXCF--*****' as='K' ss='H' st='1' sc='2' hl='1.3.2.4.6.13' nll='모사전송기' ncl='Facsimile equipment' />
+<wsi cd='S*G*EXCC--*****' as='K' ss='H' st='1' sc='2' hl='1.3.2.4.6.14' nll='컴퓨터' ncl='Computer' />
+<wsi cd='S*G*EXCL--*****' as='K' ss='H' st='1' sc='2' hl='1.3.2.4.6.15' nll='광 전송장비' ncl='Optical transmission equipment' />
+<wsi cd='S*G*EXCS--*****' as='K' ss='H' st='1' sc='2' hl='1.3.2.4.6.16' nll='스위치' ncl='Switch' />
+<wsi cd='S*G*I-----H****' as='U' ss='H' st='1' sc='3' hl='1.3.3' nll='시설' ncl='Installation' />
+<wsi cd='S*G*IR----H****' as='U' ss='H' st='1' sc='3' hl='1.3.3.1' nll='원료생산/저장' ncl='Raw material production/Storage' />
+<wsi cd='S*G*IRM---H****' as='U' ss='H' st='1' sc='3' hl='1.3.3.1.1' nll='광산' ncl='Mine' />
+<wsi cd='S*G*IRP---H****' as='U' ss='H' st='1' sc='3' hl='1.3.3.1.2' nll='석유/가스/기름' ncl='Petroleum/Gas/Oil' />
+<wsi cd='S*G*IRN---H****' as='U' ss='H' st='1' sc='3' hl='1.3.3.1.3' nll='화생방시설' ncl='CBRN' />
+<wsi cd='S*G*IRNB--H****' as='U' ss='H' st='1' sc='3' hl='1.3.3.1.3.1' nll='화생방시설(생물학전)' ncl='Biological' />
+<wsi cd='S*G*IRNC--H****' as='U' ss='H' st='1' sc='3' hl='1.3.3.1.3.2' nll='화생방시설(화학전)' ncl='Chemical' />
+<wsi cd='S*G*IRNN--H****' as='U' ss='H' st='1' sc='3' hl='1.3.3.1.3.3' nll='화생방시설(방사능전)' ncl='Nuclear' />
+<wsi cd='S*G*IP----H****' as='U' ss='H' st='1' sc='3' hl='1.3.3.2' nll='처리설비' ncl='Processing facility' />
+<wsi cd='S*G*IPD---H****' as='U' ss='H' st='1' sc='3' hl='1.3.3.2.1' nll='제독시설' ncl='Decontamination' />
+<wsi cd='S*G*IE----H****' as='U' ss='H' st='1' sc='3' hl='1.3.3.3' nll='장비제조' ncl='Equipment manufacture' />
+<wsi cd='S*G*IU----H****' as='U' ss='H' st='1' sc='3' hl='1.3.3.4' nll='다목적시설' ncl='Service, research, utility facility' />
+<wsi cd='S*G*IUR---H****' as='U' ss='H' st='1' sc='3' hl='1.3.3.4.1' nll='기술연구소' ncl='Technological research facility' />
+<wsi cd='S*G*IUT---H****' as='U' ss='H' st='1' sc='3' hl='1.3.3.4.2' nll='전화국' ncl='Telecommunications facility' />
+<wsi cd='S*G*IUTA--H****' as='K' ss='H' st='1' sc='3' hl='1.3.3.4.2.1' nll='방송시설' ncl='Broadcasting facility' />
+<wsi cd='S*G*IUE---H****' as='U' ss='H' st='1' sc='3' hl='1.3.3.4.3' nll='발전소' ncl='Electric power facility' />
+<wsi cd='S*G*IUEN--H****' as='U' ss='H' st='1' sc='3' hl='1.3.3.4.3.1' nll='핵발전소' ncl='Nuclear plant' />
+<wsi cd='S*G*IUED--H****' as='U' ss='H' st='1' sc='3' hl='1.3.3.4.3.2' nll='수력발전소' ncl='Dam' />
+<wsi cd='S*G*IUEF--H****' as='U' ss='H' st='1' sc='3' hl='1.3.3.4.3.3' nll='화력발전소' ncl='Fossil fuel' />
+<wsi cd='S*G*IUEW--H****' as='K' ss='H' st='1' sc='3' hl='1.3.3.4.3.4' nll='풍력/조력발전소' ncl='Wind/Tidal plant' />
+<wsi cd='S*G*IUEE--H****' as='K' ss='H' st='1' sc='3' hl='1.3.3.4.3.5' nll='열병합발전소' ncl='Cogeneration plant' />
+<wsi cd='S*G*IUP---H****' as='U' ss='H' st='1' sc='3' hl='1.3.3.4.4' nll='급수시설' ncl='Public water services' />
+<wsi cd='S*G*IUN---H****' as='K' ss='H' st='1' sc='3' hl='1.3.3.4.5' nll='전력시설' ncl='Power supply facility' />
+<wsi cd='S*G*IL----H****' as='K' ss='H' st='1' sc='3' hl='1.3.3.4.6' nll='재머' ncl='Jammer' />
+<wsi cd='S*G*IM----H****' as='U' ss='-' st='0' sc='0' hl='1.3.3.5' nll='군수공장' ncl='Military materiel facility' />
+<wsi cd='S*G*IMF---H****' as='U' ss='H' st='1' sc='3' hl='1.3.3.5.1' nll='핵시설' ncl='Nuclear energy' />
+<wsi cd='S*G*IMFA--H****' as='U' ss='H' st='1' sc='3' hl='1.3.3.5.1.1' nll='원자로' ncl='Atomic energy reactor' />
+<wsi cd='S*G*IMFP--H****' as='U' ss='H' st='1' sc='3' hl='1.3.3.5.1.2' nll='핵물질생산' ncl='Nuclear material production' />
+<wsi cd='S*G*IMFPW-H****' as='U' ss='H' st='1' sc='3' hl='1.3.3.5.1.2.1' nll='핵물질생산(무기등급)' ncl='Weapons grade' />
+<wsi cd='S*G*IMFS--H****' as='U' ss='H' st='1' sc='3' hl='1.3.3.5.1.3' nll='핵물질저장' ncl='Nuclear material storage' />
+<wsi cd='S*G*IMA---H****' as='U' ss='H' st='1' sc='3' hl='1.3.3.5.2' nll='군수공장(항공기)' ncl='Aircraft production and assembly' />
+<wsi cd='S*G*IME---H****' as='U' ss='H' st='1' sc='3' hl='1.3.3.5.3' nll='군수공장(탄약/폭약)' ncl='Ammunition and explosives production' />
+<wsi cd='S*G*IMG---H****' as='U' ss='H' st='1' sc='3' hl='1.3.3.5.4' nll='군수공장(병기)' ncl='Armament production' />
+<wsi cd='S*G*IMV---H****' as='U' ss='H' st='1' sc='3' hl='1.3.3.5.5' nll='군수공장(차량)' ncl='Military vehicle production' />
+<wsi cd='S*G*IMN---H****' as='U' ss='H' st='1' sc='3' hl='1.3.3.5.6' nll='군수공장(공병장비)' ncl='Engineering equipment production' />
+<wsi cd='S*G*IMNB--H****' as='U' ss='H' st='1' sc='3' hl='1.3.3.5.6.1' nll='군수공장(공병장비-교량)' ncl='Bridge' />
+<wsi cd='S*G*IMC---H****' as='U' ss='H' st='1' sc='3' hl='1.3.3.5.7' nll='군수공장(화생방전)' ncl='Chemical and biological warfare production' />
+<wsi cd='S*G*IMS---H****' as='U' ss='H' st='1' sc='3' hl='1.3.3.5.8' nll='군수공장(조선)' ncl='Ship construction' />
+<wsi cd='S*G*IMM---H****' as='U' ss='H' st='1' sc='3' hl='1.3.3.5.9' nll='군수공장(유도탄/우주장비)' ncl='Missile and space system production' />
+<wsi cd='S*G*IMD---H****' as='K' ss='H' st='1' sc='3' hl='1.3.3.5.10' nll='군수물자공장' ncl='War supplies factory' />
+<wsi cd='S*G*IG----H****' as='U' ss='H' st='1' sc='3' hl='1.3.3.6' nll='국가중요시설' ncl='Government leadership' />
+<wsi cd='S*G*IGA---H****' as='U' ss='H' st='1' sc='3' hl='1.3.3.6.1' nll='대사관 및 영사관' ncl='Embassy' />
+<wsi cd='S*G*IB----H****' as='U' ss='H' st='1' sc='3' hl='1.3.3.7' nll='군용기지' ncl='Military base/Facility' />
+<wsi cd='S*G*IBA---H****' as='U' ss='H' st='1' sc='3' hl='1.3.3.7.1' nll='공항/공군기지' ncl='Airport/Airbase' />
+<wsi cd='S*G*IBAP--H****' as='K' ss='H' st='1' sc='3' hl='1.3.3.7.1.1' nll='공항' ncl='Airport' />
+<wsi cd='S*G*IBAR--H****' as='K' ss='H' st='1' sc='3' hl='1.3.3.7.1.2' nll='비행장' ncl='Airfield' />
+<wsi cd='S*G*IBAE--H****' as='K' ss='H' st='1' sc='3' hl='1.3.3.7.1.3' nll='비상활주로' ncl='Emergency runway' />
+<wsi cd='S*G*IBAH--H****' as='K' ss='H' st='1' sc='3' hl='1.3.3.7.1.4' nll='헬기장' ncl='Heliport' />
+<wsi cd='S*G*IBN---H****' as='U' ss='H' st='1' sc='3' hl='1.3.3.7.2' nll='항구/해군기지' ncl='Seaport/Naval base' />
+<wsi cd='S*G*IBND--H****' as='K' ss='H' st='1' sc='3' hl='1.3.3.7.2.1' nll='해안방어유도탄기지' ncl='Coast defense missile station' />
+<wsi cd='S*G*IBG---H****' as='K' ss='-' st='0' sc='0' hl='1.3.3.7.3' nll='육군기지' ncl='Army base' />
+<wsi cd='S*G*IBGA--H****' as='K' ss='H' st='1' sc='3' hl='1.3.3.7.3.1' nll='갱도포병기지' ncl='Shaft artillery base' />
+<wsi cd='S*G*IT----H****' as='U' ss='H' st='1' sc='3' hl='1.3.3.8' nll='수송설비' ncl='Transport facility' />
+<wsi cd='S*G*ITA---H****' as='K' ss='H' st='1' sc='3' hl='1.3.3.8.1' nll='조차장' ncl='Switchyard' />
+<wsi cd='S*G*IX----H****' as='U' ss='H' st='1' sc='3' hl='1.3.3.9' nll='의료설비' ncl='Medical facility' />
+<wsi cd='S*G*IXH---H****' as='U' ss='H' st='1' sc='3' hl='1.3.3.9.1' nll='병원' ncl='Hospital' />
+<wsi cd='S*G*IC----H****' as='K' ss='H' st='1' sc='3' hl='1.3.3.10' nll='전산시설' ncl='Data center' />
+<wsi cd='S*G*IN----H****' as='K' ss='H' st='1' sc='3' hl='1.3.3.11' nll='인쇄창' ncl='Printing house' />
+<wsi cd='S*G*IA----H****' as='K' ss='H' st='1' sc='3' hl='1.3.3.12' nll='지도창' ncl='Mapping house' />
+<wsi cd='S*G*ID----H****' as='K' ss='H' st='1' sc='3' hl='1.3.3.13' nll='문화재' ncl='Cultural Properties' />
+<wsi cd='S*G*IDN---H****' as='K' ss='H' st='1' sc='3' hl='1.3.3.13.1' nll='국보' ncl='National Treasure' />
+<wsi cd='S*G*IDT---H****' as='K' ss='H' st='1' sc='3' hl='1.3.3.13.2' nll='보물' ncl='Treasure' />
+<wsi cd='S*S*------*****' as='S' ss='H' st='1' sc='2' hl='1.4' nll='수상항적' ncl='Sea surface track' />
+<wsi cd='S*S*C-----*****' as='S' ss='H' st='1' sc='2' hl='1.4.1' nll='전투함' ncl='Combatant' />
+<wsi cd='S*S*CL----*****' as='S' ss='H' st='1' sc='2' hl='1.4.1.1' nll='함정' ncl='Line' />
+<wsi cd='S*S*CLCV--*****' as='S' ss='H' st='1' sc='2' hl='1.4.1.1.1' nll='항공모함' ncl='Carrier' />
+<wsi cd='S*S*CLBB--*****' as='S' ss='H' st='1' sc='2' hl='1.4.1.1.2' nll='전함' ncl='Battleship' />
+<wsi cd='S*S*CLCC--*****' as='S' ss='H' st='1' sc='2' hl='1.4.1.1.3' nll='순양함' ncl='Cruiser' />
+<wsi cd='S*S*CLDD--*****' as='S' ss='H' st='1' sc='2' hl='1.4.1.1.4' nll='구축함' ncl='Destroyer' />
+<wsi cd='S*S*CLDDH-*****' as='K' ss='H' st='1' sc='2' hl='1.4.1.1.4.1' nll='헬기탑재구축함' ncl='Destroyer(Helicopter)' />
+<wsi cd='S*S*CLDDG-*****' as='K' ss='H' st='1' sc='2' hl='1.4.1.1.4.2' nll='유인유도탄구축함' ncl='Destroyer(Decoy)' />
+<wsi cd='S*S*CLDDX-*****' as='K' ss='H' st='1' sc='2' hl='1.4.1.1.4.3' nll='중차기구축함' ncl='Destroyer' />
+<wsi cd='S*S*CLFF--*****' as='S' ss='H' st='1' sc='2' hl='1.4.1.1.5' nll='호위함' ncl='Frigate/Corvette' />
+<wsi cd='S*S*CLFFX-*****' as='K' ss='H' st='1' sc='2' hl='1.4.1.1.5.1' nll='차기호위함' ncl='Frigate/Corvette' />
+<wsi cd='S*S*CLLL--*****' as='U' ss='H' st='1' sc='2' hl='1.4.1.1.6' nll='연안전투함' ncl='Littoral combatant' />
+<wsi cd='S*S*CLLLAS*****' as='U' ss='H' st='1' sc='2' hl='1.4.1.1.6.1' nll='대잠전 임무 패키지' ncl='Antisubmarine warfare mission package' />
+<wsi cd='S*S*CLLLMI*****' as='U' ss='H' st='1' sc='2' hl='1.4.1.1.6.2' nll='기뢰전 임무 패키지' ncl='Mine warfare mission package' />
+<wsi cd='S*S*CLLLSU*****' as='U' ss='H' st='1' sc='2' hl='1.4.1.1.6.3' nll='수상전 임무 패키지' ncl='Surface warfare (SUW) mission package' />
+<wsi cd='S*S*CA----*****' as='S' ss='H' st='1' sc='2' hl='1.4.1.2' nll='상륙전함' ncl='Amphibious warfare ship' />
+<wsi cd='S*S*CALA--*****' as='S' ss='H' st='1' sc='2' hl='1.4.1.2.1' nll='공격함' ncl='Assault vessel' />
+<wsi cd='S*S*CALS--*****' as='S' ss='H' st='1' sc='2' hl='1.4.1.2.2' nll='상륙함' ncl='Landing ship' />
+<wsi cd='S*S*CALSH-*****' as='K' ss='H' st='1' sc='2' hl='1.4.1.2.2.1' nll='대형수송함' ncl='Transport ship(Large)' />
+<wsi cd='S*S*CALST-*****' as='S' ss='H' st='1' sc='2' hl='1.4.1.2.2.2' nll='상륙함' ncl='Landing ship tank' />
+<wsi cd='S*S*CALSF-*****' as='K' ss='H' st='1' sc='2' hl='1.4.1.2.2.3' nll='고속상륙정' ncl='Landing ship(High speed)' />
+<wsi cd='S*S*CALSM-*****' as='U' ss='H' st='1' sc='2' hl='1.4.1.2.2.4' nll='상륙함(중)' ncl='Landing ship medium' />
+<wsi cd='S*S*CALC--*****' as='S' ss='H' st='1' sc='2' hl='1.4.1.2.3' nll='상륙정' ncl='Landing craft' />
+<wsi cd='S*S*CM----*****' as='S' ss='H' st='1' sc='2' hl='1.4.1.3' nll='기뢰전함' ncl='Mine warfare vessel' />
+<wsi cd='S*S*CMML--*****' as='S' ss='H' st='1' sc='2' hl='1.4.1.3.1' nll='기뢰부설함' ncl='Minelayer' />
+<wsi cd='S*S*CMMLS-*****' as='K' ss='H' st='1' sc='2' hl='1.4.1.3.1.1' nll='기뢰부설함' ncl='Minelayer' />
+<wsi cd='S*S*CMMLL-*****' as='K' ss='H' st='1' sc='2' hl='1.4.1.3.1.2' nll='기뢰부설정' ncl='Minelayer' />
+<wsi cd='S*S*CMMS--*****' as='S' ss='H' st='1' sc='2' hl='1.4.1.3.2' nll='소해함' ncl='Minesweeper' />
+<wsi cd='S*S*CMMSH-*****' as='K' ss='H' st='1' sc='2' hl='1.4.1.3.2.1' nll='소해함' ncl='Minesweeper' />
+<wsi cd='S*S*CMMH--*****' as='S' ss='H' st='1' sc='2' hl='1.4.1.3.3' nll='기뢰탐색함' ncl='Minehunter' />
+<wsi cd='S*S*CMMHC-*****' as='K' ss='H' st='1' sc='2' hl='1.4.1.3.3.1' nll='기뢰탐색함' ncl='Minehunter' />
+<wsi cd='S*S*CMMA--*****' as='S' ss='H' st='1' sc='2' hl='1.4.1.3.4' nll='대기뢰함지원함' ncl='Mcm support' />
+<wsi cd='S*S*CP----*****' as='S' ss='H' st='1' sc='2' hl='1.4.1.4' nll='초계함' ncl='Patrol' />
+<wsi cd='S*S*CPSB--*****' as='S' ss='H' st='1' sc='2' hl='1.4.1.4.1' nll='대잠전초계함' ncl='Antisubmarine warfare' />
+<wsi cd='S*S*CPSU--*****' as='S' ss='H' st='1' sc='2' hl='1.4.1.4.2' nll='대수상전초계함' ncl='Antisurface warfare' />
+<wsi cd='S*S*CPSUM-*****' as='U' ss='H' st='1' sc='2' hl='1.4.1.4.2.1' nll='초계함(대함유도탄)' ncl='Antiship missile patrol craft' />
+<wsi cd='S*S*CPSUT-*****' as='U' ss='H' st='1' sc='2' hl='1.4.1.4.2.2' nll='초계함(어뢰)' ncl='Torpedo patrol craft' />
+<wsi cd='S*S*CPSUG-*****' as='U' ss='H' st='1' sc='2' hl='1.4.1.4.2.3' nll='초계함(포)' ncl='Gun patrol craft' />
+<wsi cd='S*S*CPSP--*****' as='K' ss='H' st='1' sc='2' hl='1.4.1.4.3' nll='고속정' ncl='Patrol killer' />
+<wsi cd='S*S*CPSPX-*****' as='K' ss='H' st='1' sc='2' hl='1.4.1.4.3.1' nll='차기고속정' ncl='Patrol killer experimental' />
+<wsi cd='S*S*CH----*****' as='S' ss='H' st='1' sc='2' hl='1.4.1.5' nll='공기부양정' ncl='Hovercraft' />
+<wsi cd='S*S*S-----*****' as='K' ss='H' st='1' sc='2' hl='1.4.1.6' nll='위치' ncl='Station' />
+<wsi cd='S*S*SP----*****' as='K' ss='H' st='1' sc='2' hl='1.4.1.6.1' nll='전초함' ncl='Patrol ship' />
+<wsi cd='S*S*SA----*****' as='K' ss='H' st='1' sc='2' hl='1.4.1.6.2' nll='대잠함' ncl='Anti submarine ship' />
+<wsi cd='S*S*G-----*****' as='S' ss='H' st='1' sc='2' hl='1.4.1.7' nll='해군그룹' ncl='Navy group' />
+<wsi cd='S*S*GT----*****' as='S' ss='H' st='1' sc='2' hl='1.4.1.7.1' nll='기동함대(TF)' ncl='Navy task force' />
+<wsi cd='S*S*GG----*****' as='S' ss='H' st='1' sc='2' hl='1.4.1.7.2' nll='기동전단(TG)' ncl='Navy task group' />
+<wsi cd='S*S*GU----*****' as='S' ss='H' st='1' sc='2' hl='1.4.1.7.3' nll='기동전대(TU)' ncl='Navy task unit' />
+<wsi cd='S*S*GC----*****' as='S' ss='H' st='1' sc='2' hl='1.4.1.7.4' nll='호송단대' ncl='Convoy' />
+<wsi cd='S*S*CD----*****' as='U' ss='H' st='1' sc='2' hl='1.4.1.8' nll='수상유인' ncl='Surface decoy' />
+<wsi cd='S*S*CU----*****' as='U' ss='H' st='1' sc='2' hl='1.4.1.9' nll='무인수상선(USV)' ncl='Unmanned surface vehicle' />
+<wsi cd='S*S*CUM---*****' as='U' ss='H' st='1' sc='2' hl='1.4.1.9.1' nll='무인수상선(대기뢰초계)' ncl='Mine countermeasures surface drone' />
+<wsi cd='S*S*CUS---*****' as='U' ss='H' st='1' sc='2' hl='1.4.1.9.2' nll='무인수상선(대잠전)' ncl='Antisubmarine warfare surface drone' />
+<wsi cd='S*S*CUN---*****' as='U' ss='H' st='1' sc='2' hl='1.4.1.9.3' nll='무인수상선(대수상전)' ncl='Antisurface warfare surface drone' />
+<wsi cd='S*S*CUR---*****' as='U' ss='H' st='1' sc='2' hl='1.4.1.9.4' nll='원격 다중임무 무인 수상선' ncl='Remote multimission vehicle' />
+<wsi cd='S*S*N-----*****' as='S' ss='H' st='1' sc='2' hl='1.4.2' nll='지원함' ncl='Noncombatant' />
+<wsi cd='S*S*NR----*****' as='S' ss='H' st='1' sc='2' hl='1.4.2.1' nll='잠수함지원함' ncl='Underway replenishment' />
+<wsi cd='S*S*NF----*****' as='S' ss='H' st='1' sc='2' hl='1.4.2.2' nll='해상지원함' ncl='Fleet support' />
+<wsi cd='S*S*NFL---*****' as='K' ss='H' st='1' sc='2' hl='1.4.2.2.1' nll='보조함' ncl='Assistance ship' />
+<wsi cd='S*S*NFM---*****' as='K' ss='H' st='1' sc='2' hl='1.4.2.2.2' nll='동원선박' ncl='Mobilized ship' />
+<wsi cd='S*S*NFO---*****' as='K' ss='H' st='1' sc='2' hl='1.4.2.2.3' nll='유조함' ncl='Oil tanker' />
+<wsi cd='S*S*NFT---*****' as='K' ss='H' st='1' sc='2' hl='1.4.2.2.4' nll='수상구조함' ncl='Surface rescue ship' />
+<wsi cd='S*S*NFR---*****' as='K' ss='H' st='1' sc='2' hl='1.4.2.2.5' nll='잠수함구조함' ncl='Submarine rescue ship' />
+<wsi cd='S*S*NFS---*****' as='K' ss='H' st='1' sc='2' hl='1.4.2.2.6' nll='잠수정모함' ncl='Submarine tender' />
+<wsi cd='S*S*NFU---*****' as='K' ss='H' st='1' sc='2' hl='1.4.2.2.7' nll='군수지원정' ncl='Logistics support ship' />
+<wsi cd='S*S*NFP---*****' as='K' ss='H' st='1' sc='2' hl='1.4.2.2.8' nll='경비정' ncl='Patrol ship' />
+<wsi cd='S*S*NFPR--*****' as='K' ss='H' st='1' sc='2' hl='1.4.2.2.8.1' nll='RIB' ncl='RIB' />
+<wsi cd='S*S*NFPA--*****' as='K' ss='H' st='1' sc='2' hl='1.4.2.2.8.2' nll='육경정' ncl='Land patrol ship' />
+<wsi cd='S*S*NFPY--*****' as='K' ss='H' st='1' sc='2' hl='1.4.2.2.8.3' nll='연안경비정' ncl='Coast patrol ship' />
+<wsi cd='S*S*NFPS--*****' as='K' ss='H' st='1' sc='2' hl='1.4.2.2.8.4' nll='대동호' ncl='Accompaniment ship' />
+<wsi cd='S*S*NI----*****' as='S' ss='H' st='1' sc='2' hl='1.4.2.3' nll='정보함' ncl='Intelligence ship' />
+<wsi cd='S*S*NIN---*****' as='K' ss='H' st='1' sc='2' hl='1.4.2.3.1' nll='해양정보함' ncl='Maritime intelligence ship' />
+<wsi cd='S*S*NS----*****' as='S' ss='H' st='1' sc='2' hl='1.4.2.4' nll='지원항(전진기지 YPK)' ncl='Service and support harbor' />
+<wsi cd='S*S*NM----*****' as='S' ss='H' st='1' sc='2' hl='1.4.2.5' nll='병원선' ncl='Hospital ship' />
+<wsi cd='S*S*NH----*****' as='S' ss='H' st='1' sc='2' hl='1.4.2.6' nll='공기부양정(비전투)' ncl='Hovercraft' />
+<wsi cd='S*S*NN----*****' as='K' ss='H' st='1' sc='2' hl='1.4.2.7' nll='위치(비전투)' ncl='Station' />
+<wsi cd='S*S*NNR---*****' as='K' ss='H' st='1' sc='2' hl='1.4.2.7.1' nll='구조함' ncl='Rescue' />
+<wsi cd='S*S*X-----*****' as='S' ss='-' st='0' sc='0' hl='1.4.3' nll='민간선박' ncl='Non-military' />
+<wsi cd='S*S*XM----*****' as='S' ss='O' st='1' sc='2' hl='1.4.3.1' nll='상선' ncl='Merchant' />
+<wsi cd='S*S*XMC---*****' as='S' ss='O' st='1' sc='2' hl='1.4.3.1.1' nll='화물선' ncl='Cargo' />
+<wsi cd='S*S*XMR---*****' as='S' ss='O' st='1' sc='2' hl='1.4.3.1.2' nll='트레일러선' ncl='Roll on/Roll off' />
+<wsi cd='S*S*XMO---*****' as='S' ss='O' st='1' sc='2' hl='1.4.3.1.3' nll='유조선' ncl='Oiler/Tanker' />
+<wsi cd='S*S*XMTU--*****' as='S' ss='O' st='1' sc='2' hl='1.4.3.1.4' nll='예인선' ncl='Tug' />
+<wsi cd='S*S*XMF---*****' as='S' ss='O' st='1' sc='2' hl='1.4.3.1.5' nll='페리' ncl='Ferry' />
+<wsi cd='S*S*XMP---*****' as='S' ss='O' st='1' sc='2' hl='1.4.3.1.6' nll='여객선' ncl='Passenger' />
+<wsi cd='S*S*XMH---*****' as='S' ss='O' st='1' sc='2' hl='1.4.3.1.7' nll='위험물질운반선' ncl='Hazardous materials (HazMat)' />
+<wsi cd='S*S*XMTO--*****' as='S' ss='O' st='1' sc='2' hl='1.4.3.1.8' nll='견인선' ncl='Towing vessel' />
+<wsi cd='S*S*XF----*****' as='S' ss='O' st='1' sc='2' hl='1.4.3.2' nll='어선' ncl='Fishing' />
+<wsi cd='S*S*XFDF--*****' as='S' ss='O' st='1' sc='2' hl='1.4.3.2.1' nll='유망어선' ncl='Drifter' />
+<wsi cd='S*S*XFDR--*****' as='S' ss='O' st='1' sc='2' hl='1.4.3.2.2' nll='준설선' ncl='Dredge' />
+<wsi cd='S*S*XFTR--*****' as='S' ss='O' st='1' sc='2' hl='1.4.3.2.3' nll='저인망어선' ncl='Trawler' />
+<wsi cd='S*S*XR----*****' as='S' ss='O' st='1' sc='2' hl='1.4.3.3' nll='레저용 선박' ncl='Leisure craft' />
+<wsi cd='S*S*XL----*****' as='S' ss='O' st='1' sc='2' hl='1.4.3.4' nll='해경선' ncl='Law enforcement vessel' />
+<wsi cd='S*S*XH----*****' as='S' ss='O' st='1' sc='2' hl='1.4.3.5' nll='공기부양정' ncl='Hovercraft' />
+<wsi cd='S*S*XG----*****' as='K' ss='O' st='1' sc='2' hl='1.4.3.6' nll='관공선' ncl='Government ship' />
+<wsi cd='S*S*XA----*****' as='U' ss='O' st='1' sc='2' hl='1.4.3.7' nll='고속 레크리에이션 선박' ncl='Fast recreactional craft' />
+<wsi cd='S*S*XAR---*****' as='U' ss='O' st='1' sc='2' hl='1.4.3.7.1' nll='경장갑공기정(RHIB)' ncl='Rigid-hull inflatable boat' />
+<wsi cd='S*S*XAS---*****' as='U' ss='O' st='1' sc='2' hl='1.4.3.7.2' nll='쾌속정' ncl='Speed boat' />
+<wsi cd='S*S*XP----*****' as='U' ss='O' st='1' sc='2' hl='1.4.3.8' nll='개인용 선박' ncl='Personal watercraft' />
+<wsi cd='S*S*O-----*****' as='S' ss='U' st='1' sc='2' hl='1.4.4' nll='자함항적' ncl='Own track' />
+<wsi cd='S*U*------*****' as='S' ss='H' st='1' sc='2' hl='1.5' nll='수중항적' ncl='Subsurface track' />
+<wsi cd='S*U*S-----*****' as='S' ss='H' st='1' sc='2' hl='1.5.1' nll='잠수함' ncl='Submarine' />
+<wsi cd='S*U*SN----*****' as='S' ss='H' st='1' sc='2' hl='1.5.1.1' nll='핵잠수함' ncl='Nuclear propulsion' />
+<wsi cd='S*U*SC----*****' as='S' ss='H' st='1' sc='2' hl='1.5.1.2' nll='재래식잠수함' ncl='Conventional propulsion' />
+<wsi cd='S*U*SCF---*****' as='U' ss='H' st='1' sc='2' hl='1.5.1.2.1' nll='재래식잠수함(수상)' ncl='Surfaced conventional propulsion submarine' />
+<wsi cd='S*U*SCA---*****' as='U' ss='H' st='1' sc='2' hl='1.5.1.2.2' nll='재래식잠수함(공격)' ncl='Attack submarine (SS)' />
+<wsi cd='S*U*SCM---*****' as='U' ss='H' st='1' sc='2' hl='1.5.1.2.3' nll='재래식잠수함(유도탄)(종류미상)' ncl='Missile submarine (Type unknown)' />
+<wsi cd='S*U*SCG---*****' as='U' ss='H' st='1' sc='2' hl='1.5.1.2.4' nll='재래식잠수함(SSG)(유도미사일)' ncl='Guided missile submarine (SSG)' />
+<wsi cd='S*U*SCB---*****' as='U' ss='H' st='1' sc='2' hl='1.5.1.2.5' nll='재래식잠수함(SSB)(탄도미사일)' ncl='Ballistic missile submarine (SSB)' />
+<wsi cd='S*U*SO----*****' as='S' ss='H' st='1' sc='2' hl='1.5.1.3' nll='기타잠수함' ncl='Other submersible' />
+<wsi cd='S*U*SU----*****' as='S' ss='H' st='1' sc='2' hl='1.5.1.3.1' nll='무인잠수정' ncl='Unmanned underwater vehicle (UUV)' />
+<wsi cd='S*U*SUM---*****' as='U' ss='H' st='1' sc='2' hl='1.5.1.3.1.1' nll='대기뢰무인잠수정' ncl='Mine warfare subsurface drone' />
+<wsi cd='S*U*SUS---*****' as='U' ss='H' st='1' sc='2' hl='1.5.1.3.1.2' nll='대잠무인잠수정' ncl='Antisubmarine warfare subsurface drone' />
+<wsi cd='S*U*SUN---*****' as='U' ss='H' st='1' sc='2' hl='1.5.1.3.1.3' nll='대수상전무인잠수정' ncl='Antisurface warfare subsurface drone' />
+<wsi cd='S*U*SM----*****' as='K' ss='H' st='1' sc='2' hl='1.5.1.3.2' nll='잠수정' ncl='Midget submarine' />
+<wsi cd='S*U*SOF---*****' as='U' ss='H' st='1' sc='2' hl='1.5.1.3.3' nll='기타잠수함(수상)' ncl='Surfaced other submersible' />
+<wsi cd='S*U*SS----*****' as='K' ss='H' st='1' sc='2' hl='1.5.1.4' nll='위치' ncl='Station' />
+<wsi cd='S*U*SSA---*****' as='K' ss='H' st='1' sc='2' hl='1.5.1.4.1' nll='대잠전 잠수함' ncl='ASW submarine' />
+<wsi cd='S*U*SF----*****' as='U' ss='H' st='1' sc='2' hl='1.5.1.5' nll='잠수함(수상)' ncl='Surfaced submarine' />
+<wsi cd='S*U*SB----*****' as='U' ss='H' st='1' sc='2' hl='1.5.1.6' nll='잠수함(해저)' ncl='Bottomed submarine' />
+<wsi cd='S*U*SR----*****' as='U' ss='H' st='1' sc='2' hl='1.5.1.7' nll='잠수함(확실)' ncl='Certain submarine' />
+<wsi cd='S*U*SX----*****' as='U' ss='H' st='1' sc='2' hl='1.5.1.8' nll='비잠수함' ncl='Nonsubmarine' />
+<wsi cd='S*U*SNF---*****' as='U' ss='H' st='1' sc='2' hl='1.5.1.8.1' nll='핵잠수함(수상)' ncl='Surfaced nuclear propulsion submarine' />
+<wsi cd='S*U*SNA---*****' as='U' ss='H' st='1' sc='2' hl='1.5.1.8.2' nll='핵잠수함(SSN)(공격)' ncl='Attack submarine (SSN)' />
+<wsi cd='S*U*SNM---*****' as='U' ss='H' st='1' sc='2' hl='1.5.1.8.3' nll='핵잠수함(유도탄)(종류미상)' ncl='Missile submarine (Type unknown)' />
+<wsi cd='S*U*SNG---*****' as='U' ss='H' st='1' sc='2' hl='1.5.1.8.4' nll='핵잠수함(SSGN)(유도미사일)' ncl='Guided missile submarine (SSGN)' />
+<wsi cd='S*U*SNB---*****' as='U' ss='H' st='1' sc='2' hl='1.5.1.8.5' nll='핵잠수함(SSBN)(탄도미사일)' ncl='Ballistic missile submarine (SSBN)' />
+<wsi cd='S*U*S1----*****' as='U' ss='H' st='1' sc='2' hl='1.5.1.9' nll='잠수함 가능 1' ncl='Possible submarine 1' />
+<wsi cd='S*U*S2----*****' as='U' ss='H' st='1' sc='2' hl='1.5.1.10' nll='잠수함 가능 2' ncl='Possible submarine 2' />
+<wsi cd='S*U*S3----*****' as='U' ss='H' st='1' sc='2' hl='1.5.1.11' nll='잠수함 가능 3' ncl='Possible submarine 3' />
+<wsi cd='S*U*S4----*****' as='U' ss='H' st='1' sc='2' hl='1.5.1.12' nll='잠수함 가능 4' ncl='Possible submarine 4' />
+<wsi cd='S*U*SL----*****' as='U' ss='H' st='1' sc='2' hl='1.5.1.13' nll='잠수함 추정' ncl='Probable submarine' />
+<wsi cd='S*U*SK----*****' as='U' ss='H' st='1' sc='2' hl='1.5.1.14' nll='스노클링 잠수함' ncl='Snorkeling submarine' />
+<wsi cd='S*U*W-----*****' as='S' ss='H' st='1' sc='2' hl='1.5.2' nll='수중화기' ncl='Underwater weapon' />
+<wsi cd='S*U*WT----*****' as='S' ss='H' st='1' sc='2' hl='1.5.2.1' nll='어뢰' ncl='Torpedo' />
+<wsi cd='S*U*WB----*****' as='K' ss='H' st='1' sc='2' hl='1.5.2.1.1' nll='폭뢰' ncl='Depth bomb' />
+<wsi cd='S*U*WM----*****' as='S' ss='H' st='1' sc='2' hl='1.5.2.2' nll='기뢰' ncl='Sea mine' />
+<wsi cd='S*U*WMD---*****' as='S' ss='H' st='1' sc='2' hl='1.5.2.2.1' nll='기뢰(처리된)' ncl='Sea mine neutralized' />
+<wsi cd='S*U*WMG---*****' as='S' ss='H' st='1' sc='2' hl='1.5.2.2.2' nll='해저기뢰' ncl='Sea mine (Ground)' />
+<wsi cd='S*U*WMGD--*****' as='S' ss='H' st='1' sc='2' hl='1.5.2.2.2.1' nll='해저기뢰(처리된)' ncl='Sea mine (Ground) neutralized' />
+<wsi cd='S*U*WMGX--*****' as='U' ss='H' st='1' sc='2' hl='1.5.2.2.2.2' nll='해저기뢰(훈련용)' ncl='Ground (Bottom) exercise mine' />
+<wsi cd='S*U*WMGE--*****' as='U' ss='H' st='1' sc='2' hl='1.5.2.2.2.3' nll='해저기뢰 유사 에코(MILEC)' ncl='Ground (Bottom) mine-like echo (MILEC)' />
+<wsi cd='S*U*WMGC--*****' as='U' ss='H' st='1' sc='2' hl='1.5.2.2.2.4' nll='해저기뢰 유사 접촉(MILCO)' ncl='Ground (Bottom) mine-like contact (MILCO)' />
+<wsi cd='S*U*WMGR--*****' as='U' ss='H' st='1' sc='2' hl='1.5.2.2.2.5' nll='해저기뢰 재포착 불가' ncl='Ground (Bottom) negative reacquisition' />
+<wsi cd='S*U*WMGO--*****' as='U' ss='H' st='1' sc='2' hl='1.5.2.2.2.6' nll='해저기뢰 유사 접촉(비기뢰)' ncl='Ground (Bottom) non-mine mine-like contact' />
+<wsi cd='S*U*WMM---*****' as='S' ss='H' st='1' sc='2' hl='1.5.2.2.3' nll='계류기뢰' ncl='Sea mine (Moored)' />
+<wsi cd='S*U*WMMD--*****' as='S' ss='H' st='1' sc='2' hl='1.5.2.2.3.1' nll='계류기뢰(처리된)' ncl='Sea mine (Moored) neutralized' />
+<wsi cd='S*U*WMMX--*****' as='U' ss='H' st='1' sc='2' hl='1.5.2.2.3.2' nll='계류기뢰(훈련용)' ncl='Moored exercise mine' />
+<wsi cd='S*U*WMME--*****' as='U' ss='H' st='1' sc='2' hl='1.5.2.2.3.3' nll='계류기뢰 유사 에코(MILEC)' ncl='Moored mine-like echo' />
+<wsi cd='S*U*WMMC--*****' as='U' ss='H' st='1' sc='2' hl='1.5.2.2.3.4' nll='계류기뢰 유사 접촉(MILCO)' ncl='Moored mine-like contact' />
+<wsi cd='S*U*WMMR--*****' as='U' ss='H' st='1' sc='2' hl='1.5.2.2.3.5' nll='계류기뢰 재포착 불가' ncl='Moored negative reacquisition' />
+<wsi cd='S*U*WMMO--*****' as='U' ss='H' st='1' sc='2' hl='1.5.2.2.3.6' nll='계류기뢰 유사 접촉(비기뢰)' ncl='Moored non-mine mine-like object' />
+<wsi cd='S*U*WMF---*****' as='S' ss='H' st='1' sc='2' hl='1.5.2.2.4' nll='부유기뢰' ncl='Sea mine (Floating)' />
+<wsi cd='S*U*WMFD--*****' as='S' ss='H' st='1' sc='2' hl='1.5.2.2.4.1' nll='부유기뢰(처리된)' ncl='Sea mine (Floating) neutralized' />
+<wsi cd='S*U*WMFX--*****' as='U' ss='H' st='1' sc='2' hl='1.5.2.2.4.2' nll='부유기뢰(훈련용)' ncl='Floating exercise mine' />
+<wsi cd='S*U*WMFE--*****' as='U' ss='H' st='1' sc='2' hl='1.5.2.2.4.3' nll='부유기뢰 유사 에코(MILEC)' ncl='Floating mine-like echo (MILEC)' />
+<wsi cd='S*U*WMFC--*****' as='U' ss='H' st='1' sc='2' hl='1.5.2.2.4.4' nll='부유기뢰 유사 접촉(MILCO)' ncl='Floating mine-like contact (MILCO)' />
+<wsi cd='S*U*WMFR--*****' as='U' ss='H' st='1' sc='2' hl='1.5.2.2.4.5' nll='부유기뢰 재포착 불가' ncl='Floating negative reacquisition' />
+<wsi cd='S*U*WMFO--*****' as='U' ss='H' st='1' sc='2' hl='1.5.2.2.4.6' nll='부유기뢰 유사 접촉(비기뢰)' ncl='Floating non-mine mine-like contact' />
+<wsi cd='S*U*WMO---*****' as='S' ss='H' st='1' sc='2' hl='1.5.2.2.5' nll='기타기뢰' ncl='Sea mine (Other position)' />
+<wsi cd='S*U*WMOD--*****' as='S' ss='H' st='1' sc='2' hl='1.5.2.2.5.1' nll='기타기뢰(처리된)' ncl='Sea mine (Other position) neutralized' />
+<wsi cd='S*U*WMA---*****' as='S' ss='H' st='1' sc='2' hl='1.5.2.2.6' nll='안테나기뢰' ncl='General mine anchor' />
+<wsi cd='S*U*WMAD--*****' as='K' ss='H' st='1' sc='2' hl='1.5.2.2.6.1' nll='안테나기뢰(처리된)' ncl='General mine anchor neutralized' />
+<wsi cd='S*U*WMS---*****' as='S' ss='H' st='1' sc='2' hl='1.5.2.2.7' nll='부동색기뢰' ncl='Rising mine' />
+<wsi cd='S*U*WMSD--*****' as='S' ss='H' st='1' sc='2' hl='1.5.2.2.7.1' nll='부동색기뢰(처리된)' ncl='Rising neutralized mine' />
+<wsi cd='S*U*WMSX--*****' as='U' ss='H' st='1' sc='2' hl='1.5.2.2.7.2' nll='부동색기뢰(훈련용)' ncl='Rising exercise mine' />
+<wsi cd='S*U*WMX---*****' as='U' ss='H' st='1' sc='2' hl='1.5.2.2.8' nll='기타기뢰(훈련용)' ncl='General exercise mine' />
+<wsi cd='S*U*WME---*****' as='U' ss='H' st='1' sc='2' hl='1.5.2.2.9' nll='기타기뢰 유사 에코(MILEC)' ncl='General mine-like echo (MILEC)' />
+<wsi cd='S*U*WMC---*****' as='U' ss='H' st='1' sc='2' hl='1.5.2.2.10' nll='기타기뢰 유사 접촉(MILCO)' ncl='General mine-like contact (MILCO)' />
+<wsi cd='S*U*WMR---*****' as='U' ss='H' st='1' sc='2' hl='1.5.2.2.11' nll='기타기뢰 재포착 불가' ncl='General negative reacquisition' />
+<wsi cd='S*U*WMB---*****' as='U' ss='H' st='1' sc='2' hl='1.5.2.2.12' nll='기타기뢰 방해물' ncl='General obstructor' />
+<wsi cd='S*U*WMBD--*****' as='U' ss='H' st='1' sc='2' hl='1.5.2.2.12.1' nll='기타기뢰(처리된) 방해물' ncl='General neutralized obstructor' />
+<wsi cd='S*U*WMN---*****' as='U' ss='H' st='1' sc='2' hl='1.5.2.2.13' nll='기타기뢰 유사 접촉(비기뢰)' ncl='General non-mine mine-like object' />
+<wsi cd='S*U*WD----*****' as='S' ss='H' st='1' sc='2' hl='1.5.3' nll='수중유인(교란)' ncl='Underwater decoy' />
+<wsi cd='S*U*WDM---*****' as='S' ss='H' st='1' sc='2' hl='1.5.3.1' nll='기뢰유인' ncl='Sea mine decoy' />
+<wsi cd='S*U*WDMG--*****' as='U' ss='H' st='1' sc='2' hl='1.5.3.1.1' nll='해저기뢰유인' ncl='Ground (Bottom) decoy' />
+<wsi cd='S*U*WDMM--*****' as='U' ss='H' st='1' sc='2' hl='1.5.3.1.2' nll='계류기뢰유인' ncl='Moored decoy' />
+<wsi cd='S*U*N-----*****' as='S' ss='-' st='0' sc='0' hl='1.5.4' nll='비잠수함' ncl='Non-submarine' />
+<wsi cd='S*U*ND----*****' as='S' ss='U' st='1' sc='2' hl='1.5.4.1' nll='잠수부' ncl='Diver' />
+<wsi cd='S*U*E-----*****' as='U' ss='H' st='1' sc='2' hl='1.5.5' nll='환경보고지점' ncl='Environmental report location' />
+<wsi cd='S*U*V-----*****' as='U' ss='H' st='1' sc='2' hl='1.5.6' nll='잠수보고지점' ncl='Dive report location' />
+<wsi cd='S*U*X-----*****' as='U' ss='H' st='1' sc='2' hl='1.5.7' nll='불발탄지역' ncl='Unexploded ordnance area' />
+<wsi cd='S*F*------*****' as='S' ss='H' st='1' sc='1' hl='1.6' nll='기동부대' ncl='Special operations forces (SOF) unit' />
+<wsi cd='S*F*A-----*****' as='S' ss='H' st='1' sc='1' hl='1.6.1' nll='기동부대(항공)' ncl='SOF unit aviation' />
+<wsi cd='S*F*AF----*****' as='S' ss='H' st='1' sc='1' hl='1.6.1.1' nll='기동부대(고정익)' ncl='SOF unit fixed wing' />
+<wsi cd='S*F*AFA---*****' as='S' ss='H' st='1' sc='1' hl='1.6.1.1.1' nll='기동부대(공격고정익)' ncl='SOF unit attack' />
+<wsi cd='S*F*AFK---*****' as='S' ss='H' st='1' sc='1' hl='1.6.1.1.2' nll='기동부대(재급유고정익)' ncl='SOF unit refuel' />
+<wsi cd='S*F*AFU---*****' as='S' ss='H' st='1' sc='1' hl='1.6.1.1.3' nll='기동부대(다목적고정익)' ncl='SOF unit utility' />
+<wsi cd='S*F*AFUL--*****' as='S' ss='H' st='1' sc='1' hl='1.6.1.1.3.1' nll='기동부대(다목적고정익-경)' ncl='SOF unit utility (Light)' />
+<wsi cd='S*F*AFUM--*****' as='S' ss='H' st='1' sc='1' hl='1.6.1.1.3.2' nll='기동부대(다목적고정익-중)' ncl='SOF unit utility (Medium)' />
+<wsi cd='S*F*AFUH--*****' as='S' ss='H' st='1' sc='1' hl='1.6.1.1.3.3' nll='기동부대(다목적고정익-대)' ncl='SOF unit utility (Heavy)' />
+<wsi cd='S*F*AV----*****' as='S' ss='H' st='1' sc='1' hl='1.6.1.2' nll='기동부대(수직이착륙기)' ncl='SOF unit V/STOL' />
+<wsi cd='S*F*AH----*****' as='S' ss='H' st='1' sc='1' hl='1.6.1.3' nll='기동부대(회전익)' ncl='SOF unit rotary wing' />
+<wsi cd='S*F*AHH---*****' as='S' ss='H' st='1' sc='1' hl='1.6.1.3.1' nll='기동부대(탐색구조헬기)' ncl='SOF unit combat search and rescue' />
+<wsi cd='S*F*AHA---*****' as='S' ss='H' st='1' sc='1' hl='1.6.1.3.2' nll='기동부대(공격헬기)' ncl='SOF unit attack' />
+<wsi cd='S*F*AHU---*****' as='S' ss='H' st='1' sc='1' hl='1.6.1.3.3' nll='기동부대(다목적헬기)' ncl='SOF unit utility' />
+<wsi cd='S*F*AHUL--*****' as='S' ss='H' st='1' sc='1' hl='1.6.1.3.3.1' nll='기동부대(다목적헬기-경)' ncl='SOF unit utility (Light)' />
+<wsi cd='S*F*AHUM--*****' as='S' ss='H' st='1' sc='1' hl='1.6.1.3.3.2' nll='기동부대(다목적헬기-중)' ncl='SOF unit utility (Medium)' />
+<wsi cd='S*F*AHUH--*****' as='S' ss='H' st='1' sc='1' hl='1.6.1.3.3.3' nll='기동부대(다목적헬기-대)' ncl='SOF unit utility (Heavy)' />
+<wsi cd='S*F*N-----*****' as='S' ss='H' st='1' sc='1' hl='1.6.2' nll='해군특수작전' ncl='SOF unit SOF unit naval' />
+<wsi cd='S*F*NS----*****' as='S' ss='H' st='1' sc='1' hl='1.6.2.1' nll='특전작전팀' ncl='SOF unit seal' />
+<wsi cd='S*F*NU----*****' as='S' ss='H' st='1' sc='1' hl='1.6.2.2' nll='수중 폭파팀' ncl='SOF unit underwater demolition team' />
+<wsi cd='S*F*NB----*****' as='S' ss='H' st='1' sc='1' hl='1.6.2.3' nll='특수작전용 보트' ncl='SOF unit special boat' />
+<wsi cd='S*F*NN----*****' as='S' ss='H' st='1' sc='1' hl='1.6.2.4' nll='특수작전용 잠수함' ncl='SOF unit special SSNR' />
+<wsi cd='S*F*G-----*****' as='S' ss='H' st='1' sc='1' hl='1.6.3' nll='지상 특수작전용' ncl='SOF unit ground' />
+<wsi cd='S*F*GS----*****' as='S' ss='H' st='1' sc='1' hl='1.6.3.1' nll='특수전부대' ncl='SOF unit special forces' />
+<wsi cd='S*F*GR----*****' as='S' ss='H' st='1' sc='1' hl='1.6.3.2' nll='공수특전' ncl='SOF unit ranger' />
+<wsi cd='S*F*GP----*****' as='S' ss='H' st='1' sc='1' hl='1.6.3.3' nll='기동부대(심리작전)' ncl='SOF unit psychological operations (PSYOP)' />
+<wsi cd='S*F*GPA---*****' as='S' ss='H' st='1' sc='1' hl='1.6.3.3.1' nll='기동부대(심리작전-항공)' ncl='SOF unit fixed wing aviation' />
+<wsi cd='S*F*GC----*****' as='S' ss='H' st='1' sc='1' hl='1.6.3.4' nll='기동부대(민사)' ncl='SOF unit civil affairs' />
+<wsi cd='S*F*B-----*****' as='S' ss='H' st='1' sc='1' hl='1.6.4' nll='특수작전지원부대' ncl='SOF unit support' />
+<wsi cd='S*F*U-----*****' as='K' ss='H' st='1' sc='1' hl='1.6.5' nll='합동특수작전' ncl='SOF unit joint special operations' />
+</wssl>

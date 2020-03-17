@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<wssi_point date="2014.04.24, 09:45:00" ss="S" adp="0.6,0.7" ads="기준점">
+  <exmod X="6" X1="3"/>
+  <sh st="6" lc="1" fc="0" lw="0.04" l="-0.450" t="-0.500" r="0.0" b="0.100" ha="2" va="2" md="X"/>
+  <sh st="6" lc="1" fc="0" lw="0.04" l="0.05" t="-0.1" r="0.5" b="0.4" ha="0" va="0" md="X1"/>
+</wssi_point>

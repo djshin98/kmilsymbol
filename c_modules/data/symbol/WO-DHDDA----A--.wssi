@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wssi_gentg date="2014.04.10, 03:03:03" st="28" tc="1" pv="0.,75.,-80.,35.,-55.,-65.,50.,-65.,75.,35.,0.,75." adp="0.,0.,0.,0.,0.,0.,0.,0.,0.,0.,0.,0." ads=",,,,,">
+  <tgsh lc="#FF6BBAFD" lw="0" lpf="00" lpc="#FF6BBAFD" lpw="0.3" />
+  <tgsh lc="#FF0E61FA" lw="0" lpf="01" lpc="#FF0E61FA" lpw="0.3" />
+</wssi_gentg>

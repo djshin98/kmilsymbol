@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wspi xmlns="urn:icops.cngsol.co.kr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="urn:icops.cngsol.co.kr C:/ICOPS//warsym/schema/ICOPS_WSSI_Icon.xsd"
+	date="2014.04.10, 03:03:03" hw=" 5" len="32"
+	pt="4,-1, 4,0, 3,1, 2,1, 1,0, 1,-1,  11,-1, 11,0, 10,1, 9,1, 8,0, 8,-1,  22,-1, 22,0, 21,1, 20,1, 19,0, 19,-1,  29,-1, 29,0, 28,1, 27,1, 26,0, 26,-1,  19,3, 18,4, 16,5, 15,5, 14,5, 12,4, 11,3,  0,-1, 5,-1,  15,5, 15,-5,  12,-3, 18,-3,  7,-1, 12,-1,  18,-1, 23,-1,  25,-1, 30,-1">
+	<sh lw="1" dl="1" df="0" con="0" po="0" pc="6" />
+	<sh lw="1" dl="1" df="0" con="0" po="6" pc="6" />
+	<sh lw="1" dl="1" df="0" con="0" po="12" pc="6" />
+	<sh lw="1" dl="1" df="0" con="0" po="18" pc="6" />
+	<sh lw="1" dl="1" df="0" con="0" po="24" pc="7" />
+	<sh lw="1" dl="1" df="0" con="0" po="31" pc="2" />
+	<sh lw="1" dl="1" df="0" con="0" po="33" pc="2" />
+	<sh lw="1" dl="1" df="0" con="0" po="35" pc="2" />
+	<sh lw="1" dl="1" df="0" con="0" po="37" pc="2" />
+	<sh lw="1" dl="1" df="0" con="0" po="39" pc="2" />
+	<sh lw="1" dl="1" df="0" con="0" po="41" pc="2" />
+</wspi>

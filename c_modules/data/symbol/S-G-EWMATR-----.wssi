@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wssi_basic date="2011.04.12, 15:03:08" cd="S*G*EWMATR*****" bd="E">
+	<aff af="*">
+		<sh st="1" lc="1" lw='Normal' fc='0' pc="2" pt="0.000,-0.450,0.000,0.115"/>
+		<sh st="1" lc="1" lw='Normal' fc='0' pc="2" pt="-0.075,-0.400,-0.075,0.143"/>
+		<sh st="1" lc="1" lw='Normal' fc='0' pc="2" pt="0.075,-0.400,0.075,0.143"/>
+		<sh st="1" lc="1" lw='Normal' fc='0' pc="2" pt="-0.128,0.200,0.128,0.200"/>
+		<sh st="4" lc="1" lw='Normal' fc='0' l="-0.076" t="-0.453" r="0.074" b="-0.299" sa="191.429" wa="156.947" at="1" aft="3"/>
+		<sh st="4" lc="1" lw='Normal' fc='0' l="-0.129" t="0.116" r="0.125" b="0.366" sa="198.161" wa="143.660" at="1" aft="3"/>
+		<sh st="5" lc="1" lw='Normal' fc='0' l="-0.150" t="0.250" r="0.150" b="0.550" ha="1" va="1" tx="T"/>
+		<sh st="5" lc="1" lw='Normal' fc='0' l="0.100" t="-0.300" r="0.400" b="0.000" ha="1" va="1" tx="R"/>
+	</aff>
+</wssi_basic>
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wssi_basic date="2011.04.12, 15:03:08" cd="S*G*UUMRG-*****" bd="G">
+	<aff af="*"><sh st="3" lc="1" lw='Normal' fc='0' l="-0.150" t="-0.100" r="-0.150" b="-0.100"/><sh st="4" lc="1" lw='Normal' fc='0' l="-0.350" t="-0.800" r="0.550" b="0.150" sa="97.486" wa="75.752" at="1" aft="3"/><sh st="1" lc="1" lw='Normal' fc='0' pc="4" pt="-0.316,-0.143,-0.057,-0.339,-0.056,-0.143,0.193,-0.339"/><sh st="5" lc="1" lw='Normal' fc='0' l="0.000" t="0.000" r="0.000" b="0.000" ha="1" va="1" tx="CID"/><sh st="5" lc="1" lw='Normal' fc='0' l="-0.200" t="0.100" r="0.250" b="0.550" ha="1" va="1" tx="MI"/></aff></wssi_basic>
+

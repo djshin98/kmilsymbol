@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wssi_point date="2014.04.13, 20:50:00" ss="S" adp="0.6,0.7" ads="기준점">
+  <sh st="4" lc="1" lw="Normal" l="-0.5" t="-0.35" r="0.5" b="0.35" sa="55." wa="70." at="1" aft="3"/>
+  <sh st="4" lc="1" lw="Normal" l="-0.5" t="-0.35" r="0.5" b="0.35" sa="145." wa="70." at="1" aft="3"/>
+  <sh st="4" lc="1" lw="Normal" l="-0.5" t="-0.35" r="0.5" b="0.35" sa="235." wa="70." at="1" aft="3"/>
+  <sh st="4" lc="1" lw="Normal" l="-0.5" t="-0.35" r="0.5" b="0.35" sa="325." wa="70." at="1" aft="3"/>
+</wssi_point>
+

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wssi_gentg date="2014.04.10, 21:00:00" st="44" tc="1" pv="-75.,-10.,75.,-10." adp="40.,-10.,0.,0." ads=",">
+  <tgsh lc="-2" lw="0.100" fc="0" fd="0" lpc="0" lpw="0.000" fpc="0"/>
+  <label name="LBM" text="통제" icon="false" ts="0.4" ss="1." at="4" ha="1" va="1"/>
+  <label name="ATL" text="18,5.000,3.000" icon="false" ts="0.25" ss="1." at="4" ha="1" va="1"/>
+  <label name="ATR" text="18,5.000,3.000" icon="false" ts="0.25" ss="1." at="4" ha="1" va="1"/>
+</wssi_gentg>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wssi_gentg date="2014.04.10, 21:00:00" st="28" tc="1" pv="-95.,0.,-90.,10.,-80.,20.,-25.,25.,10.,30.,75.,20.,90.,10.,100.,0.,100.,-5.,90.,-15.,75.,-20.,-85.,-20.,-95.,0." adp="0.,0.,0.,0.,0.,0.,0.,0.,0.,0.,0.,0.,0.,0.,0.,0.,0.,0.,0.,0.,0.,0.,0.,0.,0.,0." ads=",,,,,,,,,,,,">
+  <tgsh lc="-2" lw="0.100" fc="0" fd="0" lpc="0" lpw="0.000" fpc="0"/>
+  <label name="VLC" text="%N" icon="false" ts="0.4" ss="12." at="4" ha="1" va="1"/>
+  <label name="VRC" text="%N" icon="false" ts="0.4" ss="12." at="4" ha="1" va="1"/>
+  <label name="ICO" text="G-G-GAZ-------X.wsci" icon="true" ts="0.3" ss="0.4" at="-1" ha="-1" va="-1"/>
+  <label name="ICP" text="1" icon="false" ts="0.25" ss="1." at="4" ha="1" va="1"/>
+</wssi_gentg>

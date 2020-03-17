@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wssi_basic date="2014.04.10, 03:03:03" bd="S" ss="F">
+  <aff af="*">
+    <sh st="5" lc="1" lw="Normal" fc="0" l="-0.4" t="-0.35" r="0.4" b="0.22" ha="1" va="1" tx="LCU"/>
+    <sh st="5" lc="1" lw="Normal" fc="0" l="-0.181" t="0.147" r="0.181" b="0.453" ha="1" va="1" tx="L"/>
+  </aff>
+</wssi_basic>
+

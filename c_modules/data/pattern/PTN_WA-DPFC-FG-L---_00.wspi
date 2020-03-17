@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wspi xmlns="urn:icops.cngsol.co.kr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="urn:icops.cngsol.co.kr C:/ICOPS//warsym/schema/ICOPS_WSSI_Icon.xsd"
+	date="2014.04.10, 03:03:03" hw=" 6" len="36"
+	pt="0,0, 4,0, 8,0, 4,6,  0,0, 4,0, 9,0, 14,0,  17,0, 21,0, 25,0,  20,-1, 21,-2, 22,-2, 23,-1, 23,1, 22,2, 21,2, 20,1,  28,0, 32,0, 36,0">
+	<sh lw="1" dl="0" df="1" con="0" po="0" pc="4" />
+	<sh lw="1" dl="1" df="0" con="0" po="4" pc="4" />
+	<sh lw="1" dl="1" df="0" con="0" po="8" pc="3" />
+	<sh lw="1" dl="0" df="1" con="0" po="11" pc="8" />
+	<sh lw="1" dl="1" df="0" con="0" po="19" pc="3" />
+</wspi>

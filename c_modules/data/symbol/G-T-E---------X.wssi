@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wssi_gentg date="2014.06.06, 18:52:20" st="5" tc="1" pv="0.,0.,-85.,25." adp="0.,-30.,-5.,50." ads="PT.1,PT.2">
+  <tgsh lc="-2" lw="0.100" fc="0" fd="0" lpf="00" lpc="-2" lpw="1.000" fpc="0"/>
+  <label name="LBL" text="I" icon="false" ts="0.4" ss="12." at="4" ha="1" va="1"/>
+  <label name="EAT" text="1,4,2" icon="false" ts="0.25" ss="12." at="-1" ha="-1" va="-1"/>
+  <label name="SWA" text="330" icon="false" ts="0.25" ss="12." at="-1" ha="-1" va="-1"/>
+</wssi_gentg>
