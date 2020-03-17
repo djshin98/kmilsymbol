@@ -37,7 +37,13 @@ var paths = {
         entries: ['./examples/sourcetrack/app.js'],
         src: './examples/sourcetrack/*.js',
         output: 'index.js',
-        dest: 'examples/sourcetrack/'
+        dest: 'examples/sourcetrack/dest/'
+    },
+    scripts2: {
+        entries: ['./examples/sourcetrack/appw.js'],
+        src: './examples/sourcetrack/*.js',
+        output: 'index_weather.js',
+        dest: 'examples/sourcetrack/dest/'
     },
     js: {
         src: 'src/**/*.js',
@@ -107,13 +113,29 @@ function js_src_w() {
 function js_src_b() {
     return browserify({
             entries: paths.scripts.entries
-        }).transform(babelify)
+        })
+        // .transform(babelify({
+        //     presets: ["es2015"]
+        // }))
         .bundle()
         .pipe(source(paths.scripts.output))
         .pipe(buffer())
         .pipe(sourcemaps.init({ loadMaps: true }))
         .pipe(dest(paths.scripts.dest));
+}
 
+function js_src2_b() {
+    return browserify({
+            entries: paths.scripts2.entries
+        })
+        // .transform(babelify({
+        //     presets: ["es2015"]
+        // }))
+        .bundle()
+        .pipe(source(paths.scripts2.output))
+        .pipe(buffer())
+        .pipe(sourcemaps.init({ loadMaps: true }))
+        .pipe(dest(paths.scripts2.dest));
 }
 
 
@@ -151,8 +173,10 @@ function watchFiles() {
     watch(paths.html.src, html);
     watch(paths.libs.src, libs);
     watch(paths.scripts.src, js_src_b);
+    watch(paths.scripts.src, js_src2_b);
+
 }
 
 exports.clean = series(clean);
 exports.scss = parallel(scss);
-exports.default = parallel(watchFiles, series(md, md_src, libs, scss, css, js_src_b, html));
+exports.default = parallel(watchFiles, series(md, md_src, libs, scss, css, js_src_b, js_src2_b, html));

@@ -242,11 +242,11 @@ var functionIdentifier_Safe = [{
     ]
 }];
 
-var { affilication, unit, status, mission } = require("./mil_basic");
+var { affiliation, unit, status, mission } = require("./mil_basic");
 
 module.exports = {
     code: "O",
-    affilication: affilication,
+    affiliation: affiliation,
     battlefield: battlefield_Safe,
     status: status,
     mission: mission,

@@ -1,19 +1,9 @@
 /* eslint-disable */
 
-var basic = require("./mil_basic");
-var emergency = require("./mil_emergency");
-var operAct = require("./mil_operAct");
-var safe = require("./mil_safe");
-var signal = require("./mil_signal");
 var weather = require("./mil_weather");
 
 var codeTypes = [
-    { code: "S", desc: "S:기본군대부호", standard: basic },
-    { code: "G", desc: "G:작전활동부호", standard: operAct },
-    //{ code: "W", desc: "W:기상 및 해양부호", standard: weather },
-    { code: "I", desc: "I:신호정보부호", standard: signal },
-    { code: "O", desc: "O:안정화작전부호", standard: safe },
-    { code: "E", desc: "E:비상관리부호", standard: emergency }
+    { code: "W", desc: "W:기상 및 해양부호", standard: weather }
 ]
 
 function makeSIDCSelect(id, field, obj) {
@@ -34,39 +24,29 @@ function makeSIDCSelect(id, field, obj) {
     }
 }
 
-
-global.changeMobility = function(code) {
-    let ele = document.getElementById("symbolCode");
-    let sidc = new SIDC(ele.value);
-    sidc.codeType = global.selectedCodeType;
-    sidc.echelon = code;
-    ele.value = sidc.toCode();
-    symbolTest.try();
-}
-
-global.changeModifier = function(code, type, affiliation, battlefield, status) {
+global.changeModifier = function(code, type, pos, fix, graphic) {
         let ele = document.getElementById("symbolCode");
         let val = ele.value;
         let sidc = new SIDC(val);
         sidc.codeType = type;
         if (type != '' && type != '*' && type != '-') document.getElementById("codetype").value = sidc.codeType;
-        sidc.affiliation = affiliation;
-        if (affiliation != '' && affiliation != '*' && affiliation != '-') {
-            document.getElementById("affiliation").value = sidc.affiliation;
+        sidc.pos = pos;
+        if (pos != '' && pos != '*' && pos != '-') {
+            document.getElementById("pos").value = sidc.pos;
         } else {
-            sidc.affiliation = document.getElementById("affiliation").value;
+            sidc.pos = document.getElementById("pos").value;
         }
-        sidc.battlefield = battlefield;
-        if (battlefield != '' && battlefield != '*' && battlefield != '-') {
-            document.getElementById("battlefield").value = sidc.battlefield;
+        sidc.fix = fix;
+        if (fix != '' && fix != '***' && fix != '---') {
+            document.getElementById("fix").value = sidc.fix;
         } else {
-            sidc.battlefield = document.getElementById("battlefield").value;
+            sidc.fix = document.getElementById("fix").value;
         }
-        sidc.status = status;
-        if (status != '' && status != '*' && status != '-') {
-            document.getElementById("status").value = sidc.status;
+        sidc.graphic = graphic;
+        if (graphic != '' && graphic != '*' && graphic != '-') {
+            document.getElementById("graphic").value = sidc.graphic;
         } else {
-            sidc.status = document.getElementById("status").value;
+            sidc.graphic = document.getElementById("graphic").value;
         }
         sidc.modifier = code;
         ele.value = sidc.toCode();
@@ -74,13 +54,13 @@ global.changeModifier = function(code, type, affiliation, battlefield, status) {
     }
     //{ id: "1.6.4", type: "S", affiliation: "*", battlefield: "F", status: "*", modifier: "B-----", desc_kor: "특수작전지원부대", desc_eng: "Sof,unit,support" },
 function tooltipModifier(d) {
-    return d.type + d.affiliation + d.battlefield + d.status;
+    return d.type + d.pos + d.fix + d.graphic;
 }
 
 function _makeModifierTree(id, arr) {
     let str = '<ul class="tree-wrapper">';
     arr.forEach(d => {
-        let param = '\'' + d.modifier + '\',\'' + d.type + '\',\'' + d.affiliation + '\',\'' + d.battlefield + '\',\'' + d.status + '\'';
+        let param = '\'' + d.modifier + '\',\'' + d.type + '\',\'' + d.pos + '\',\'' + d.fix + '\',\'' + d.graphic + '\'';
         if (d.children && d.children.length > 0) {
             str += '<li ><span class="caret"><div class="tooltip" onclick="changeModifier(' + param + ')">' + d.desc_kor + '<span class="tooltiptext">' + tooltipModifier(d) + '</span></div></span>';
             str += '<ul class="nested">';
@@ -100,22 +80,6 @@ function makeModifierTree(id, arr) {
     document.getElementById(id).innerHTML = _makeModifierTree(id, arr);
 }
 
-function makeUnitTree(id, arr) {
-
-    let str = '<ul class="tree-wrapper">';
-    Object.keys(arr).forEach(d => {
-        str += '<li><span class="caret">' + d + '</span>';
-        str += '<ul class="nested">';
-        arr[d].forEach(item => {
-            str += '<li onclick="changeMobility(\'' + item.code + '\')">' + item.desc + '</li>';
-        });
-        str += '</ul>';
-        str += '</li>';
-    });
-    str += "</ul>";
-
-    document.getElementById(id).innerHTML = str;
-}
 class CodeType {
     constructor(opt) {
         this.activeType;
@@ -131,12 +95,10 @@ class CodeType {
         ele.onchange = function() {
             let codeType = codeTypes.find(d => { return d.code == ele.value ? true : false; });
             if (codeType) {
-                makeSIDCSelect("affiliation", "affiliation", codeType.standard.affiliation);
-                makeSIDCSelect("battlefield", "battlefield", codeType.standard.battlefield);
-                makeSIDCSelect("status", "status", codeType.standard.status);
-                makeSIDCSelect("mission", "mission", codeType.standard.mission);
+                makeSIDCSelect("pos", "pos", codeType.standard.pos);
+                makeSIDCSelect("fix", "fix", codeType.standard.fix);
+                makeSIDCSelect("graphic", "graphic", codeType.standard.graphic);
                 makeModifierTree("treeModifier", codeType.standard.identifier);
-                makeUnitTree("treeMobility", codeType.standard.unit);
 
                 var toggler = document.getElementsByClassName("caret");
                 Array.from(toggler).forEach((d) => {
@@ -162,17 +124,14 @@ class SIDC {
             sidc = sidc.substring(0, 15);
         }
         this.codeType = sidc[0];
-        this.affiliation = sidc[1];
-        this.battlefield = sidc[2];
-        this.status = sidc[3];
+        this.pos = sidc[1];
+        this.fix = sidc.substring(2, 4);
         this.modifier = sidc.substring(4, 10); //6
-        this.echelon = sidc.substring(10, 12); //2
-        this.nation = sidc.substring(12, 14);
-        this.mission = sidc[14];
+        this.graphic = sidc.substring(10, 13); //2
+        this.last = "--";
     }
     toCode() {
-        return this.codeType + this.affiliation + this.battlefield +
-            this.status + this.modifier + this.echelon + this.nation + this.mission;
+        return this.codeType + this.pos + this.fix + this.modifier + this.graphic + this.last;
     }
 }
 

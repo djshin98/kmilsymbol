@@ -772,11 +772,11 @@ var functionIdentifier_Emergency = [{
 }];
 
 
-var { affilication, mission } = require("./mil_basic");
+var { affiliation, mission } = require("./mil_basic");
 
 module.exports = {
     code: "E",
-    affilication: affilication,
+    affiliation: affiliation,
     battlefield: battlefield_Emergency,
     status: status_Emergency,
     unit: unit_Emergency,

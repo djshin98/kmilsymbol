@@ -323,11 +323,11 @@ var functionIdentifier_Signal = [{
     ]
 }];
 
-var { affilication, battlefield, status, mission } = require("./mil_basic");
+var { affiliation, battlefield, status, mission } = require("./mil_basic");
 
 module.exports = {
     code: "I",
-    affilication: affilication,
+    affiliation: affiliation,
     battlefield: battlefield,
     status: status,
     mission: mission,

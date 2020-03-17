@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../../docs/style.css">
     <script src="../../dist/milsymbol.development.js"></script>
-    <script src="dest/index.js"></script>
+    <script src="dest/index_weather.js"></script>
 
     <style>
         #treeModifier,
@@ -75,48 +75,40 @@
                         <th>코드 INDEX</th>
                         <th>1</th>
                         <th>2</th>
-                        <th>3</th>
-                        <th>4</th>
+                        <th>3,4</th>
                         <th>5 ~ 10</th>
-                        <th>11 ~ 12</th>
-                        <th>13 ~ 14</th>
-                        <th>15</th>
+                        <th>11 ~ 13</th>
+                        <th>14 ~ 15</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td>식별부호</td>
                         <td>코드</td>
-                        <td>피아관계</td>
-                        <td>전장</td>
-                        <td>상태</td>
+                        <td>유형</td>
+                        <td>고정/가변</td>
                         <td>기능식별자</td>
-                        <td>크기/기동수단</td>
-                        <td>국가코드</td>
-                        <td>전투임무</td>
+                        <td>그래픽 타입</td>
+                        <td>--</td>
                     </tr>
                     <tr id="select-code">
                         <td id="select-result"></td>
-                        <td><select id="codetype"></select></td>
-                        <td data-tooltip="피아관계">
-                            <select id="affiliation">
+                        <td><select id="codetype">
+                        </select></td>
+                        <td data-tooltip="유형">
+                            <select id="pos">
                             </select>
                         </td>
-                        <td data-tooltip="전장">
-                            <select id="battlefield">
-                            </select>
-                        </td>
-                        <td data-tooltip="상태">
-                            <select id="status">
+                        <td data-tooltip="고정/가변">
+                            <select id="fix">
                             </select>
                         </td>
                         <td data-tooltip="기능식별자" data-length="6"> 아래 맨<br>우측 선택</td>
-                        <td data-tooltip="크기/기동수단" data-length="2"> 아래 우측에서<br>두번째 선택</td>
-                        <td data-tooltip="국가코드" data-length="2">KR</td>
-                        <td data-tooltip="전투임무">
-                            <select id="mission">
+                        <td data-tooltip="그래픽 타입" data-length="3">
+                            <select id="graphic">
                             </select>
                         </td>
+                        <td data-tooltip="--">--</td>
                     </tr>
                 </tbody>
             </table>
@@ -129,18 +121,13 @@
             <thead>
                 <tr>
                     <th>기능수정자</th>
-                    <th>크기/기동수단</th>
-                    <th style="width:170px;">직접입력</th>
-                    <th style="width:100px;">부호 이미지</th>
+                    <th style="width:270px;">직접입력</th>
+                    <th style="width:200px;">부호 이미지</th>
                 </tr>
             </thead>
             <tr>
                 <td style="text-align:left;">
                     <div id="treeModifier"></div>
-
-                </td>
-                <td style="text-align:left;">
-                    <div id="treeMobility"></div>
 
                 </td>
                 <td>

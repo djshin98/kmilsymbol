@@ -92,17 +92,49 @@ table.terms {
     color: #999;
 }
 
-ul.tree-wrapper{
-    li{
+ul.tree-wrapper {
+    li {
         font-size: 0.9em;
         background-color: #ddd;
         border: 1px solid #aaa;
         border-radius: 5px;
         padding: 0.3em;
-        cursor:pointer;
-        div{
+        cursor: pointer;
+        div {
             display: inline-block;
         }
-        
     }
+}
+
+
+/* Tooltip container */
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    /* If you want dots under the hoverable text */
+}
+
+
+/* Tooltip text */
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+
+/* Show the tooltip text when you mouse over the tooltip container */
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
 }

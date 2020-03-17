@@ -2,7 +2,7 @@
 
 
 
-var affilication_Basic = [
+var affiliation_Basic = [
     { code: "P", desc: "식별보류(P / 황색)" },
     { code: "U", desc: "미식별(U / 황색)" },
     { code: "F", desc: "아군(F / 청색)" },
@@ -4023,7 +4023,7 @@ var functionIdentifier_Basic = [
 
 module.exports = {
     code: "S",
-    affilication: affilication_Basic,
+    affiliation: affiliation_Basic,
     battlefield: battlefield_Basic,
     status: status_Basic,
     unit: unit_Basic,

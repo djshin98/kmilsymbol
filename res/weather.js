@@ -25,11 +25,10 @@ class ModifierItem extends Writable {
         this.parentId;
         this.id;
         this.codeType;
-        this.affiliation;
-        this.battlefield;
-        this.status;
+        this.pos; //1
+        this.fix; //2
         this.modifier;
-        this.echelon;
+        this.graphic; //3
         this.desc;
         this.children = [];
         this.parse();
@@ -42,11 +41,10 @@ class ModifierItem extends Writable {
             this.parendId = this.id.substring(0, this.id.lastIndexOf("."));
         }
         this.codeType = fields[1];
-        this.affiliation = fields[2];
-        this.battlefield = fields[3];
-        this.status = fields[4];
+        this.pos = fields[2];
+        this.fix = fields[3] + fields[4];
         this.modifier = fields[5];
-        this.echelon = fields[6];
+        this.graphic = (fields[6] + fields[7]).substring(0, 3);
         let desc = fields.splice(9);
         //desc.forEach();
         let engIndex = 0;
@@ -101,9 +99,9 @@ class ModifierItem extends Writable {
     }
     preString() {
         return this.tab() + '{ id:"' + this.id + '", type:"' + this.codeType +
-            '", affiliation:"' + this.affiliation +
-            '", battlefield:"' + this.battlefield +
-            '", status:"' + this.status +
+            '", pos:"' + this.pos +
+            '", fix:"' + this.fix +
+            '", graphic:"' + this.graphic +
             '", modifier:"' + this.modifier +
             '", desc_kor:"' + this.desc_kor +
             '", desc_eng:"' + this.desc_eng + '"';

@@ -2127,11 +2127,11 @@ var functionIdentifier_OperAct = [{
 }];
 
 
-var { affilication } = require("./mil_basic");
+var { affiliation } = require("./mil_basic");
 
 module.exports = {
     code: "G",
-    affilication: affilication,
+    affiliation: affiliation,
     battlefield: battlefield_OperAct,
     status: status_OperAct,
     unit: unit_OperAct,
