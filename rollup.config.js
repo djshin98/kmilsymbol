@@ -3,7 +3,7 @@ import copy from "rollup-plugin-copy";
 export default [{
     input: "index.js",
     output: {
-        file: "dist/milsymbol.development.js",
+        file: "dist/kmilsymbol.development.js",
         format: "umd",
         amd: {
             id: "milsymbol"
@@ -12,7 +12,7 @@ export default [{
             "* @license\n" +
             "* The MIT License (MIT)\n" +
             "* \n" +
-            "* Copyright (c) 2017 Måns Beckman - www.spatialillusions.com\n" +
+            "* Copyright (c) 2019 U3CNC - www.u3cnc.com\n" +
             "* \n" +
             "* Permission is hereby granted, free of charge, to any person obtaining a copy\n" +
             '* of this software and associated documentation files (the "Software"), to deal\n' +

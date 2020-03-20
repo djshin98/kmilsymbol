@@ -27,5 +27,5 @@ This draws the symbol octagon, can be good for debugging.
 *************************************************************************************** */
 //import debug from "./symbolfunctions/debug.js";
 //ms.addSymbolPart(debug);
-
+global.kms = ms;
 export default ms;
