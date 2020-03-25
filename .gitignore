@@ -29,3 +29,7 @@ docs/milstd.js
 docs/milstd-2525.js
 docs/stanag-app6.js
 *.tgz
+
+# kmilsymbol
+./src/css/
+./examples/sourcetrack/dest/
